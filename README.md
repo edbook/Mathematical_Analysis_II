@@ -1,5 +1,3 @@
-# Template
-A template for a web-based textbook/lecture notes for the University of Iceland's mathematics department
+# Mathematical Analysis II
 
-
-See [INSTRUCTIONS.TXT](https://github.com/edbook/Template/blob/master/INSTRUCTIONS.TXT) for more information.
+Lecture notes for the course [Mathematical Analysis II (STÆ205G)](https://ugla.hi.is/kennsluskra/index.php?tab=nam&chapter=namskeid&id=09102120160&kennsluar=2015) at the University of Iceland. 
