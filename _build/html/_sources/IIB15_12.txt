@@ -1,0 +1,167 @@
+Skiptingar
+----------
+
+Skilgreining .
+~~~~~~~~~~~~~~
+
+Látum :math:`R=[a,b]\times[c,d]` vera rétthyrning í planinu. *Skipting*
+:math:`P` á rétthyrningnum :math:`R` felst í því að taka skiptingar
+
+.. math::
+
+   a=x_0<x_1<\cdots<x_m=b\qquad\mbox{og}\qquad
+   c=y_0<y_1<\cdots<y_n=d
+
+á bilunum :math:`[a,b]` og :math:`[c,d]` og nota þær skiptingar til að
+skipta :math:`R` upp í rétthyrninga
+:math:`[x_i,x_{i+1}]\times [y_j,y_{j+1}]`. Ritum
+:math:`\Delta x_i=x_{i+1}-x_i` og :math:`\Delta y_j=y_{j+1}-y_j`. *Norm*
+skiptingarinnar :math:`P`, táknað með :math:`\|P\|`, er skilgreint sem
+lengd lengstu hornalínu í rétthyrningunum
+:math:`[x_i,x_{i+1}]\times [y_j,y_{j+1}]`.
+
+Skiptingar
+----------
+
+Skipting :math:`P` á rétthyrningi :math:`R= [a,b]\times [c,d]`.
+
+.. figure:: skipting.pdf
+   :alt: 
+
+Riemann-summa
+-------------
+
+Skilgreining .
+~~~~~~~~~~~~~~
+
+Látum :math:`f` vera fall skilgreint á rétthyrningi
+:math:`R=[a,b]\times[c,d]` og látum :math:`P` vera skiptingu á
+:math:`R`. Veljum úr hverjum rétthyrningi
+:math:`[x_i,x_{i+1}]\times [y_j,y_{j+1}]` punkt :math:`(x_i^*, y_j^*)`.
+Skilgreinum *Riemann-summuna*
+
+.. math::
+
+   \mathcal{R}(f,P)=\sum_{i=1}^m\sum_{j=1}^n f(x_i^*, y_j^*)\Delta x_i\Delta
+     y_j.
+
+.. figure:: skipting2.pdf
+   :alt: 
+
+.. figure:: double.pdf
+   :alt: 
+
+Tvöfalt heildi yfir rétthyrning
+-------------------------------
+
+Skilgreining .
+~~~~~~~~~~~~~~
+
+Sagt er að fall :math:`f` skilgreint á rétthyrningi
+:math:`R=[a,b]\times [c,d]` sé *heildanlegt yfir* :math:`R` með heildi
+:math:`I` (hér stendur :math:`I` fyrir tölu) ef fyrir sérhvert
+:math:`\epsilon>0` er til tala :math:`\delta>0` þannig að
+:math:`|\mathcal{R}(f,P)-I|<\epsilon` fyrir allar skiptingar :math:`P`
+með :math:`\|P\|<\delta` óháð vali á punktunum :math:`(x_i^*, y_j^*)`.
+
+Ritum þá
+
+.. math:: \tvint_R f(x,y)dA=I.
+
+Tvöfalt heildi yfir takmarkað svæði
+-----------------------------------
+
+Skilgreining .
+~~~~~~~~~~~~~~
+
+Látum :math:`D` vera takmarkað svæði í planinu. Fall :math:`f` er sagt
+heildanlegt yfir :math:`D` ef til er rétthyrningur :math:`R` sem
+inniheldur :math:`D` og fallið
+
+.. math::
+
+   \hat{f}(x,y)=\left\{\begin{array}{rcl}
+   f(x,y)& & \mbox{ef }(x,y)\in D,\\
+   0& & \mbox{ef }(x,y)\in R\setminus D
+   \end{array}\right.
+
+er heildanlegt yfir :math:`R`.
+
+Tvöfalt heildi yfir takmarkað svæði
+-----------------------------------
+
+Setning .
+~~~~~~~~~
+
+Látum :math:`f` vera samfellt fall skilgreint á lokuðu og takmörkuðu
+svæði :math:`D` í planinu :math:`\R^2`. Gerum ráð fyrir að jaðar
+:math:`D` samanstandi af endanlega mörgum ferlum sem hafa endanlega
+lengd. Þá er fallið :math:`f` heildanlegt yfir :math:`D`.
+
+Setning .
+~~~~~~~~~
+
+Látum :math:`D` vera svæði í planinu og :math:`f` takmarkað fall
+skilgreint á :math:`D` og heildanlegt yfir :math:`D`. Þá gildir:
+
+#. :math:`\tvint_D f(x,y)\,dA=0` ef flatarmál :math:`D` er 0.
+
+#. :math:`\tvint_D 1\,dA=` flatarmál :math:`D`.
+
+#. Ef :math:`f(x,y)\geq 0` fyrir alla punkta :math:`(x,y)` í :math:`D`
+   þá er :math:`\tvint_D f(x,y)\,dA` jafnt rúmmáli rúmskikans sem liggur
+   milli :math:`D` og grafsins :math:`z=f(x,y)`.
+
+#. Ef :math:`f(x,y)\leq 0` fyrir alla punkta :math:`(x,y)` í :math:`D`
+   þá er :math:`\tvint_D f(x,y)\,dA` jafnt mínus rúmmáli rúmskikans sem
+   liggur milli :math:`D` og grafsins :math:`z=f(x,y)`.
+
+Setning .
+~~~~~~~~~
+
+Ef :math:`D` er svæði í planinu og :math:`f` og :math:`g` heildanleg
+föll yfir :math:`D` þá gildir:
+
+#. Ef :math:`L` og :math:`M` eru fastar þá er
+
+   .. math::
+
+      \tvint_D Lf(x,y)+Mg(x,y)\,dA=L\!\tvint_D f(x,y)\,dA+M\!\tvint_D
+      g(x,y)\,dA.
+
+#. Ef :math:`f(x,y)\leq g(x,y)` þá er
+
+   .. math:: \tvint_D f(x,y)\,dA\leq \tvint_Dg(x,y)\,dA.
+
+#. Þríhyrningsójafna:
+
+#. Ritum :math:`D` sem sammengi af svæðum :math:`D_1,\ldots, D_k` sem
+   skarast ekki nema mögulega í jaðarpunktum þá er
+
+   .. math:: \tvint_D f(x,y)\,dA=\sum_{i=1}^k\tvint_{D_i}f(x,y)\,dA.
+
+Setning Fubinis .
+~~~~~~~~~~~~~~~~~
+
+Látum :math:`f` vera fall sem er heildanlegt yfir rétthyrning
+:math:`R=[a,b]\times
+[c,d]`. Setjum :math:``\ A(x)=\ :sub:`c`\ :sup:`d` f(x,y)dy.\ 
+
+.. math:: Þá gildir að
+
+\ :sub:`R` f(x,y)dA=\ :sub:`a`\ :sup:`b`
+A(x)dx=\ :sub:`a`\ :sup:`b`\ :sub:`c`\ :sup:`d` f(x,y)dydx.\ 
+
+.. math:: Sömuleiðis gildir þegar við setjum
+
+\ A(y)=\ :sub:`a`\ :sup:`b` f(x,y)dx
+
+.. math:: 
+
+\ :sub:`R` f(x,y)dA=\ :sub:`c`\ :sup:`d`
+A(y)dy=\ :sub:`c`\ :sup:`d`\ :sub:`a`\ :sup:`b` f(x,y)dxdy.\ :math:``
+
+.. figure:: ax1
+   :alt: 
+
+

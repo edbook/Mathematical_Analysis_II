@@ -1,0 +1,163 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LEIÐBEININGAR:
+% Skýrið þessa skrá tg14_dX-X.X.X.tex þar sem
+% fyrsta Xið er númer dæmatímans sem þið mætið í og hin Xin eru númer
+% dæmisins sem þið leysið, þ.e. kafli.undirkafli.númer
+% 
+% Leiðbeiningar fyrir LaTeX getið þið fundið í möppunni Kennsluáætlun
+% skráin latex_introduction.pdf inniheldur flest allt sem þið þurfið
+% að vita um LaTeX.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[14pt,a4paper]{article}
+\usepackage[utf8]{inputenc} 
+\usepackage[english,icelandic]{babel}
+\usepackage{t1enc}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{verbatim}
+\usepackage{amssymb}
+\usepackage{mdwlist} 
+\renewcommand{\epsilon}{\varepsilon}
+
+\voffset=-1.0in
+\hoffset=-0.3in
+\textwidth=6in
+\textheight=10.2in
+
+\begin{document}
+\noindent Háskóli Íslands \hfill vor 2014\\
+Töluleg greining STÆ405G \hfill kafli 3.1
+\rule[8pt]{\textwidth}{1pt}
+
+
+\bigskip
+
+\begin{center}
+{\large Sýnidæmi}
+\end{center}
+
+% Skrifið upp fyrirmælin í dæminu í slaufusviganna
+\emph{Þetta er dæmi um jöfnuhneppi þar sem nauðsynlegt er að nota vendingu til þess
+að fá nothæfa lausn. Við sjáum að það skiptir því miklu máli hvernig við útfærum 
+Gauss-eyðinguna.
+Jöfnuhneppið sem við ætlum að skoða er }
+$$\left[
+\begin{array}{ll}
+\epsilon & 1 \\
+1 & 1 
+\end{array}\right]
+\left[
+\begin{array}{l}
+x_1\\
+x_2
+\end{array}\right]
+= \left[\begin{array}{l}
+1\\
+2
+\end{array}\right]
+$$
+
+\medskip
+
+% Hér byrjar svo lausnin ykkar
+\subsection*{Nákvæm lausn}
+Byrjum á því að finna nákvæma lausn með Gauss-eyðingu.
+Margföldum fyrstu línuna með $\frac 1\epsilon$ og drögum frá
+annarri línunni.
+$$
+\left[
+\begin{array}{ll|l}
+\epsilon & 1 & 1\\
+1 & 1 & 2
+\end{array}\right]
+\sim
+\left[
+\begin{array}{ll|l}
+\epsilon & 1 & 1\\
+0 & 1-\frac 1\epsilon & 2 -\frac 1\epsilon
+\end{array}\right]
+$$
+Af þessu sjáum við að 
+$x_2 = \frac{2-\frac 1\epsilon}{1-\frac 1\epsilon} = 1 - \frac{\epsilon}{1-\epsilon}$,
+og þá er 
+$x_1 = \frac{1-1 x_2}{\epsilon} = 1+ \frac{\epsilon}{1-\epsilon}$.
+
+\subsection*{Lausn í tölvu, án vendingar}
+Athugum hvernig sömu reikningar eru framkvæmdir í tölvu, og gerum ráð 
+fyrir að $\epsilon$ sé minna heldur en nákvæmnin í tölvunni. Það þýðir að tölvan
+getur ekki gert greinarmun á tölunum $1-\frac 1\epsilon$ og $-\frac 1\epsilon$, og eins á 
+tölunum $2-\frac 1\epsilon$ og $-\frac 1\epsilon$, því $\frac 1\epsilon$ er svo miklu
+stærra en $1$ og $2$. Gauss-eyðing út frá fyrstu línu skilar eins og áður
+$$
+\left[
+\begin{array}{ll|l}
+\epsilon & 1 & 1\\
+1 & 1 & 2
+\end{array}\right]
+\sim
+\left[
+\begin{array}{ll|l}
+\epsilon & 1 & 1\\
+0 & 1-\frac 1\epsilon & 2 -\frac 1\epsilon
+\end{array}\right]
+$$
+En af ofangreindum ástæðum þá lítur tölvan á seinna hneppið sem
+$$
+\left[
+\begin{array}{ll|l}
+\epsilon & 1 & 1\\
+0 & -\frac 1\epsilon & -\frac 1\epsilon
+\end{array}\right]
+$$
+Þannig að $x_2 = \frac{-\frac 1\epsilon}{-\frac 1\epsilon} = 1$. 
+Þá er $x_1 = \frac{1-1x_2}{\epsilon} = \frac{1-1}{\epsilon} = 0$.
+Sem er langt frá réttu lausninni.
+
+\subsection*{Lausn í tölvu, með vendingu}
+Prófum að gera það sama, nema nú skulum við eyða út frá annarri línu.
+Margföldum línu 2 með $\epsilon$ og drögum frá fyrstu línunni.
+$$
+\left[
+\begin{array}{ll|l}
+\epsilon & 1 & 1\\
+1 & 1 & 2
+\end{array}\right]
+\sim
+\left[
+\begin{array}{ll|l}
+0 & 1-\epsilon & 1-2\epsilon\\
+1 & 1 & 2
+\end{array}\right]
+$$
+Tölvan sér ekki mun á $1-\epsilon$ og 1, og eins á $1-2\epsilon$ og 1 þannig
+að í hennar augum verður þetta að 
+$$\left[
+\begin{array}{ll|l}
+0 & 1 & 1\\
+1 & 1 & 2
+\end{array}\right]
+$$
+Þannig að $x_2 = 1$, og þá fæst 
+$x_1 = \frac{2-1x_2}{1} = 1$. Þetta er ekki hárrétt lausn, en mun betri en
+sú sem við fengum áður.
+
+\subsection*{Matlab}
+Þið getið prófað að framkvæma þessa reikninga í Matlab. Það má gera með eftirfarandi
+skipunum.
+\begin{verbatim}
+>>[ 1/5 1 ; 1 1 ]\[1 ; 2]
+>>[ 1e-20 1 ; 1 1 ]\[ 1 ; 2]
+\end{verbatim}
+Í fyrri skipuninni þá er $\epsilon = \frac 15$, þá sést greinilega nákvæma lausnin að ofan.
+En í seinni skipuninni þá er $\epsilon = 10^{-20}$ og þá lendum við í því að lausnin okkar
+er ekki alveg rétt. Matlab er hins vegar það skynsamt að það beita skalaðri hlutvendingu
+þannig að lausnin okkar verður ekki alveg út úr kú.
+
+\bigskip
+\begin{flushright}
+ Benedikt Magnússon\\
+ \today
+\end{flushright}
+\end{document}

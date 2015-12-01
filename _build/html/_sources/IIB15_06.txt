@@ -1,0 +1,205 @@
+Setning 6. (Keðjureglan í einni breytistærð.)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Gerum ráð fyrir að fallið :math:`f(u)` sé diffranlegt í punktinum
+:math:`u=g(x)` og að fallið :math:`g(x)` sé diffranlegt í punktinum
+:math:`x`. Þá er fallið :math:`(f\circ g)(x)=f(g(x))` diffranlegt í
+:math:`x` og
+
+.. math:: (f\circ g)'(x)=f'(g(x))g'(x).
+
+ Keðjuregla
+-----------
+
+Setning 6.
+~~~~~~~~~~
+
+Látum :math:`f(x,y)` vera fall þar sem :math:`x=x(t)` og :math:`y=y(t)`
+eru föll af breytu :math:`t`, Gerum ráð fyrir að á opinni skífu um
+punktinum :math:`(x(t),y(t))` séu báðar fyrsta stigs hlutafleiður
+:math:`f` skilgreindar og samfelldar. Gerum enn fremur ráð fyrir að
+föllin :math:`x(t)` og :math:`y(t)` séu bæði diffranleg í punktinum
+:math:`t`. Þá er fallið
+
+.. math:: g(t)=f(x(t),y(t))
+
+diffranlegt í :math:`t` og
+
+.. math:: g'(t)=f_1(x(t),y(t))x'(t)+f_2(x(t),y(t))y'(t).
+
+Keðjuregla
+----------
+
+Ritháttur 6.
+~~~~~~~~~~~~
+
+Ritum :math:`z=f(x,y)` þar sem :math:`x=x(t)` og :math:`y=y(t)` eru föll
+af breytu :math:`t`. Þá er
+
+.. math::
+
+   \frac{dz}{dt}=\frac{\partial z}{\partial x}\frac{dx}{dt}
+   +\frac{\partial z}{\partial y}\frac{dy}{dt}.
+
+|image|
+
+Keðjuregla
+----------
+
+Setning 6.
+~~~~~~~~~~
+
+Látum :math:`f(x,y)` vera fall af breytistærðum :math:`x` og :math:`y`
+sem aftur eru föll af breytum :math:`s` og :math:`t`, það er að segja
+:math:`x=x(s,t)` og :math:`y=y(s,t)`. Ritum svo
+
+.. math:: g(s,t)=f(x(s,t),y(s,t)).
+
+Þá gildir (að gefnum sambærilegum skilyrðum og í 6.2) að
+
+.. math:: g_1(s,t)=f_1(x(s,t),y(s,t))x_1(s,t)+f_2(x(s,t),y(s,t))y_1(s,t),
+
+ og
+
+.. math:: g_2(s,t)=f_1(x(s,t),y(s,t))x_2(s,t)+f_2(x(s,t),y(s,t))y_2(s,t).
+
+Keðjuregla
+----------
+
+Ritháttur 6.
+~~~~~~~~~~~~
+
+Ritum :math:`z=f(x,y)` þar sem :math:`x=x(s,t)` og :math:`y=y(s,t)` eru
+föll af breytum :math:`s` og :math:`t`. Þá er
+
+.. math::
+
+   \frac{\partial z}{\partial s}=
+   \frac{\partial z}{\partial x}\frac{\partial x}{\partial s}
+   +\frac{\partial z}{\partial y}\frac{\partial y}{\partial s}, \quad \text{og}\quad \frac{\partial z}{\partial t}=
+   \frac{\partial z}{\partial x}\frac{\partial x}{\partial t}
+   +\frac{\partial z}{\partial y}\frac{\partial y}{\partial t}.
+
+|image|
+
+Keðjuregla
+----------
+
+Ritháttur 6..
+~~~~~~~~~~~~~
+
+Ritum :math:`z=f(x,y)` þar sem :math:`x=x(s,t)` og :math:`y=y(s,t)` eru
+föll af breytum :math:`s` og :math:`t`. Þá er
+
+.. math::
+
+   \begin{bmatrix}\frac{\partial z}{\partial s} 
+   & \frac{\partial z}{\partial t}\end{bmatrix}
+   =\begin{bmatrix}\frac{\partial z}{\partial x} 
+   & \frac{\partial z}{\partial y}\end{bmatrix}
+   \begin{bmatrix}\frac{\partial x}{\partial s} 
+   & \frac{\partial x}{\partial t}\\
+   \frac{\partial y}{\partial s} 
+   & \frac{\partial y}{\partial t}
+   \end{bmatrix}
+
+Keðjuregla
+----------
+
+Setning 6.
+~~~~~~~~~~
+
+Látum :math:`u` vera fall af :math:`n` breytum
+:math:`x_1, x_2, \ldots, x_n` þannig að hvert :math:`x_i` má rita sem
+fall af :math:`m` breytum :math:`t_1, t_2, \ldots, t_m`. Gerum ráð fyrir
+að allar hlutafleiðurnar :math:`\frac{\partial u}{\partial x_i}` og
+:math:`\frac{\partial x_i}{\partial t_j}` séu til og samfelldar. Þegar
+:math:`u` er skoðað sem fall af breytunum :math:`t_1, t_2, \ldots, t_m`
+fæst að
+
+.. math::
+
+   \frac{\partial u}{\partial t_j}=
+   \frac{\partial u}{\partial x_1}\frac{\partial x_1}{\partial t_j}
+   +\frac{\partial u}{\partial x_2}\frac{\partial x_2}{\partial t_j}
+   +\cdots+
+   \frac{\partial u}{\partial x_n}\frac{\partial x_n}{\partial t_j}.
+
+|image|
+
+Keðjuregla
+----------
+
+Dæmi 6.
+~~~~~~~
+
+Látum :math:`T` vera fall af fall af :math:`x`, :math:`y` og :math:`t`,
+og :math:`x` og :math:`y` föll af :math:`t`. Finnum
+:math:`\frac{ dT}{dt}`.
+
+|image|
+
+.. math:: \frac{d T}{d t} = \frac{\partial T}{\partial x} \frac{d x}{d t} +\frac{\partial T}{\partial y} \frac{d y}{\partial t} + \frac{\partial T}{\partial t} .
+
+Keðjuregla
+----------
+
+Dæmi 6.
+~~~~~~~
+
+Látum :math:`T` vera fall af fall af :math:`x`, :math:`y`, :math:`s` og
+:math:`t`, og :math:`x` og :math:`y` föll af :math:`s` og :math:`t`.
+Finnum :math:`\frac{ \partial T}{\partial t}`.
+
+|image|
+
+.. math:: \frac{\partial T}{\partial t} = \frac{\partial T}{\partial x} \frac{\partial x}{\partial t} +\frac{\partial T}{\partial y} \frac{\partial y}{\partial t} + \left(\frac{\partial T}{\partial t}\right)_{x,y,s} .
+
+Keðjuregla
+----------
+
+Dæmi 6.
+~~~~~~~
+
+Látum :math:`z` vera fall af fall af :math:`u`, :math:`v` og :math:`r`,
+:math:`u` og :math:`v` vera föll af :math:`x`, :math:`y` og :math:`r` og
+:math:`r` vera fall af :math:`x` og :math:`y`. Skrifum niður
+:math:`\frac{\partial z}{\partial x}`.
+
+|image|
+
+.. math::
+
+   \frac{\partial z}{\partial x} = \frac{\partial z}{\partial u} \frac{\partial u}{\partial x} +\frac{\partial z}{\partial u} \frac{\partial u}{\partial r} \frac{\partial r}{\partial x} 
+   + \frac{\partial z}{\partial v} \frac{\partial v}{\partial x} + \frac{\partial z}{\partial v} \frac{\partial v}{\partial r} \frac{\partial r}{\partial x} +\frac{\partial z}{\partial r} \frac{\partial r}{\partial x}.
+
+Jákvætt einsleit föll
+---------------------
+
+Skilgreining 6.
+~~~~~~~~~~~~~~~
+
+Fall :math:`f(x_1, x_2, \ldots, x_n)` er sagt vera *jákvætt einsleitt af
+stigi :math:`k`* (e. positively homogeneous of degree :math:`k`) ef
+fyrir sérhvern punkt :math:`(x_1, x_2, \ldots, x_n)` og sérhverja tölu
+:math:`t>0` gildir að
+
+.. math:: f(tx_1, tx_2, \ldots, tx_n)=t^kf(x_1, x_2, \ldots, x_n).
+
+Jákvætt einsleit föll
+---------------------
+
+Setning 6.
+~~~~~~~~~~
+
+Ef fall :math:`f(x_1, x_2, \ldots, x_n)` hefur samfelldar fyrsta stigs
+hlutafleiður og er jákvætt einsleitt af stigi :math:`k` þá er
+
+.. math:: \sum_{i=1}^n x_if_i(x_1, x_2, \ldots, x_n)=kf(x_1, x_2, \ldots, x_n).
+
+.. |image| image:: chain1
+.. |image| image:: chain2
+.. |image| image:: chain3
+.. |image| image:: chain5
+.. |image| image:: chain6
+.. |image| image:: chain4

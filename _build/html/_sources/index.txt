@@ -8,8 +8,11 @@ Stærðfræðigreining II (STÆ205G), Háskóli Íslands, vor 2016
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
+   :glob:
 
-   chapter01
+   Kafli*
+   
 
 Indices and tables
 ==================

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+pdflatex tg14_$1glosur.tex 
+pdflatex tg14_$1glaerur.tex

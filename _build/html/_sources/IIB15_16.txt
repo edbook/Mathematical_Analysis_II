@@ -1,0 +1,153 @@
+Kúluhnit
+--------
+
+Skilgreining .
+~~~~~~~~~~~~~~
+
+Látum :math:`(x,y,z)` vera punkt í :math:`\R^3`. *Kúluhnit*
+:math:`(x,y,z)` eru þrennd talna :math:`\rho, \phi, \theta` þannig að
+
+.. math:: x=\rho\sin\phi\cos\theta\qquad\qquad y=\rho\sin\phi\sin\theta\qquad\qquad z=\rho\cos\phi.
+
+Punktur sem hefur kúluhnit :math:`\rho, \phi, \theta` er táknaður með
+:math:`[\rho, \phi, \theta]`.
+
+.. figure:: sphere
+   :alt: 
+
+Umræða .
+~~~~~~~~
+
+Eftirfarandi jöfnur gefa aðferð til að finna kúluhnit:
+
+-  er fjarlægðin frá :math:`(0,0,0)` til :math:`(x,y,z)`, það er að
+   segja
+
+   .. math:: \rho=\sqrt{x^2+y^2+z^2}.
+
+-  er hornið á milli jákvæða hluta :math:`z`-ássins og línustriksins frá
+   :math:`(0,0,0)` til :math:`(x,y,z)`. Hornið :math:`\phi` má ákvarða
+   út frá jöfnunni
+
+   .. math:: \tan\phi=\frac{\sqrt{x^2+y^2}}{z}.
+
+-  er hornið sem jákvæði hluti :math:`x`-ásins myndar við línustrikið
+   frá :math:`(0,0,0)` til :math:`(x,y,0)` (sama horn og notað í
+   sívalningshnitum (og pólhnitum)). Hornið :math:`\theta` má finna út
+   frá jöfnunni
+
+   .. math:: \tan\theta=\frac{y}{x}.
+
+Um kúluhnit :math:`[\rho, \phi, \theta]` fyrir punkt :math:`(x,y,z)`
+gildir að velja má :math:`\rho, \phi, \theta` þannig að
+:math:`0\leq \rho`, :math:`0\leq\phi\leq \pi` og
+:math:`0\leq\theta\leq 2\pi`.
+
+Breytuskipti í kúluhnit
+-----------------------
+
+Setning .
+~~~~~~~~~
+
+Látum :math:`R` vera rúmskika þannig að þegar notuð eru kúluhnit þá fæst
+eftirfarandi lýsing
+
+.. math::
+
+   R=\{[\rho,\phi,\theta]\mid \alpha\leq\theta\leq\beta, 
+   c\leq\phi\leq d, a\leq \rho\leq b\}.
+
+Ef :math:`f` er fall sem er heildanlegt yfir :math:`R` þá er
+
+.. math::
+
+   \begin{aligned}
+   &\thrint_R f(x,y,z)\,dV=\\ &\int_\alpha^\beta\!\int_c^d\!\int_a^b f(\rho\sin\phi\cos\theta, \rho\sin\phi\sin\theta,\rho\cos\phi)
+   \,\rho^2\sin\phi\,d\rho\,d\phi\,d\theta.\end{aligned}
+
+Massamiðja
+----------
+
+Regla .
+~~~~~~~
+
+Látum :math:`D` tákna svæði í plani. Hugsum :math:`D` sem plötu þ.a. í
+punkti :math:`(x,y)` er efnisþéttleikinn gefinn með falli
+:math:`\delta(x,y)`. Massi plötunnar er
+
+.. math:: m=\tvint_D \delta(x,y)\,dA.
+
+*Vægi* plötunnar um línuna :math:`x=0` (þ.e. :math:`y`-ás) og um línuna
+:math:`y=0` (þ.e. :math:`x`-ás) eru gefin með
+
+.. math:: M_{x=0}=\tvint_D x\delta(x,y)\,dA \quad \text{og} \quad M_{y=0}=\tvint_D y\delta(x,y)\,dA.
+
+ Hnit *massamiðju* plötunnar eru :math:`(\overline{x}, \overline{y})`
+þar sem
+
+.. math::
+
+   \overline{x}=\frac{M_{x=0}}{m}
+    \quad \text{og}\quad \overline{y}=\frac{M_{y=0}}{m}.
+
+Regla .
+~~~~~~~
+
+Látum :math:`R` tákna rúmskika. Hugsum :math:`R` sem hlut þannig að í
+punkti :math:`(x,y,z)` er efnisþéttleikinn gefinn með falli
+:math:`\delta(x,y,z)`. Massi hlutarins er
+
+.. math:: m=\thrint_R \delta(x,y,z)\,dV.
+
+*Vægi* hlutarins um planið :math:`x=0` (þ.e. :math:`yz`-planið) er
+
+.. math:: M_{x=0}=\thrint_R x\delta(x,y,z)\,dV.
+
+ Svipað skilgreinum við
+
+.. math::
+
+   M_{y=0}=\thrint_R y\delta(x,y,z)\,dV 
+    \quad \text{og}\quad
+    M_{z=0}=\thrint_R z\delta(x,y,z)\,dV.
+
+ Hnit *massamiðju* hlutarins eru
+:math:`(\overline{x}, \overline{y}, \overline{z})` þar sem
+
+.. math::
+
+   \overline{x}=\frac{M_{x=0}}{m}
+   \qquad\mbox{og}\qquad
+   \overline{y}=\frac{M_{y=0}}{m}
+   \qquad\mbox{og}\qquad
+   \overline{z}=\frac{M_{z=0}}{m}.
+
+Hverfitregða
+------------
+
+Regla .
+~~~~~~~
+
+Látum :math:`R` tákna rúmskika. Hugsum :math:`R` sem hlut þannig að í
+punkti :math:`(x,y,z)` er efnisþéttleikinn gefinn með falli
+:math:`\delta(x,y,z)`. Látum :math:`L` tákna línu (snúningsás) í rúminu.
+*Hverfitregða* hlutarins um :math:`L` er
+
+.. math:: I=\thrint_R D^2 \,\delta\,dV
+
+þar sem :math:`\delta=\delta(x,y,z)` og :math:`D=D(x,y,z)` er fjarlægð
+punktsins :math:`(x,y,z)` frá :math:`L`.
+
+Yfirborðsflatarmál
+------------------
+
+Regla .
+~~~~~~~
+
+Látum :math:`D` vera svæði í plani og :math:`f(x,y)` diffranlegt fall
+skilgreint á :math:`D`. Flatarmál grafsins :math:`z=f(x,y)` þar sem
+:math:`(x,y)\in D` er gefið með formúlunni
+
+.. math:: S=\tvint_D \sqrt{1+f_1(x,y)^2+f_2(x,y)^2}\,dA.
+
+

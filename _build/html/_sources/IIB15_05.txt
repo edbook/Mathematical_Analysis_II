@@ -1,0 +1,208 @@
+Hlutafleiður
+------------
+
+Skilgreining 5.
+~~~~~~~~~~~~~~~
+
+Látum :math:`f(x,y)` vera fall af tveimur breytum :math:`x` og :math:`y`
+sem er skilgreint á opinni skífu með miðju í punktinum :math:`(a,b)`.
+
+Skilgreinum *hlutafleiðu m.t.t.* :math:`x` í :math:`(a,b)` með
+
+.. math:: f_1(a,b)=\lim_{h\rightarrow 0}\frac{f(a+h,b)-f(a,b)}{h}
+
+og hlutafleiðu m.t.t. :math:`y` í :math:`(a,b)` með
+
+.. math:: f_2(a,b)=\lim_{k\rightarrow 0}\frac{f(a,b+k)-f(a,b)}{k}
+
+ ef markgildin eru til.
+
+Hlutafleiður
+------------
+
+.5 |Hlutafleiða m.t.t. \ :math:`x` fyrir :math:`y=1`.|
+
+.5 |Hlutafleiða m.t.t. \ :math:`y` fyrir :math:`x=1`.|
+
+Hlutafleiður
+------------
+
+Skilgreining 5.
+~~~~~~~~~~~~~~~
+
+Látum :math:`f(x,y,z)` vera fall af þremur breytum :math:`x`, :math:`y`
+og :math:`z` sem er skilgreint á opinni kúlu með miðju í punktinum
+:math:`(a, b,c)`.
+
+Skilgreinum *hlutafleiðu m.t.t.* :math:`x` í :math:`(a,b,c)` með
+
+.. math:: f_1(a,b,c)=\lim_{h\rightarrow 0}\frac{f(a+h,b,c)-f(a,b,c)}{h},
+
+*hlutafleiðu m.t.t.* :math:`y` í :math:`(a,b,c)` með
+
+.. math:: f_2(a,b,c)=\lim_{k\rightarrow 0}\frac{f(a,b+k,c)-f(a,b,c)}{k}
+
+ og *hlutafleiðu m.t.t.* :math:`z` í :math:`(a,b,c)` með
+
+.. math:: f_3(a,b,c)=\lim_{\ell\rightarrow 0}\frac{f(a,b,c+\ell)-f(a,b,c)}{\ell}
+
+ ef markgildin eru til.
+
+Hlutafleiður
+------------
+
+Skilgreining 5.
+~~~~~~~~~~~~~~~
+
+Látum :math:`f` vera fall af :math:`n` breytum
+:math:`x_1,x_2,\ldots,x_n` sem er skilgreint á opinni kúlu um punktinn
+:math:`\mathbf{a}=(a_1, a_2, \ldots, a_n).`
+
+:math:`f` með tilliti til breytunnar :math:`x_k` í punktinum
+:math:`\mathbf{a}` er skilgreind sem markgildið
+
+.. math:: f_k(\mathbf{a})=\lim_{h\rightarrow 0}\frac{f(\mathbf{a}+h\ev_k)-f(\mathbf{a})}{h}
+
+ef markgildið er til. (Hér stendur :math:`\ev_k` fyrir vigurinn sem er
+með 0 í öllum hnitum nema því :math:`k`-ta þar sem er 1.)
+
+Snertiplan
+----------
+
+Látum :math:`f(x,y)` vera fall af tveimur breytistærðum þannig að
+hlutafleiðurnar :math:`f_1(a,b)` og :math:`f_2(a,b)` séu skilgreindar.
+
+|image|
+
+Í punktinum :math:`(a,b,f(a,b))` er
+
+:math:`\Tv_1 = \iv + f_1(a,b)\kv\qquad` snertivigur við ferilinn
+:math:`f(x,b) = z` og
+
+:math:`\Tv_2 = \jv + f_2(a,b)\kv\qquad` snertivigur við ferilinn
+:math:`f(a,y) = z`.
+
+Snertiplan
+----------
+
+Táknum með :math:`S` planið sem hefur stikunina
+
+.. math:: (a,b,f(a,b))+s\Tv_1+t\Tv_2, \quad -\infty < s,t < \infty.
+
+Vigurinn
+
+.. math:: \nv=\Tv_2\times \Tv_1=f_1(a,b)\iv+f_2(a,b)\jv-\kv
+
+ er þvervigur á :math:`S` og jafna plansins :math:`S` er
+
+.. math:: z=f(a,b)+f_1(a,b)(x-a)+f_2(a,b)(y-b).
+
+*Þverlína* á :math:`S` hefur stikun
+
+.. math:: (a,b,f(a,b)) + u \nv, \quad -\infty < u < \infty.
+
+Ef :math:`f(x,y)` er ’nógu nálægt’ (skilgreint nánar síðar) planinu
+:math:`S` þegar :math:`(x,y)` er nálægt punktinum :math:`(a,b)` þá
+kallast :math:`S` *snertiplan* við grafið :math:`z=f(x,y)` í punktinum
+:math:`(a,b,f(a,b)`.
+
+Hlutafleiður af hærra stigi
+---------------------------
+
+Skilgreining 5.
+~~~~~~~~~~~~~~~
+
+Ritum :math:`z=f(x,y)`. *Annars stigs hlutafleiður* :math:`f` eru
+skilgreindar með formúlunum
+
+.. math::
+
+   \frac{\partial^2 z}{\partial x^2}=
+   \frac{\partial}{\partial x} \frac{\partial z}{\partial x}
+   =f_{11}(x,y)=f_{xx}(x,y),
+
+.. math::
+
+   \frac{\partial^2 z}{\partial y^2}=
+   \frac{\partial}{\partial y} \frac{\partial z}{\partial y}
+   =f_{22}(x,y)=f_{yy}(x,y),
+
+.. math::
+
+   \frac{\partial^2 z}{\partial x\partial y}=
+   \frac{\partial}{\partial x} \frac{\partial z}{\partial y}
+   =f_{21}(x,y)=f_{yx}(x,y),
+
+.. math::
+
+   \frac{\partial^2 z}{\partial y\partial x}=
+   \frac{\partial}{\partial y} \frac{\partial z}{\partial x}
+   =f_{12}(x,y)=f_{xy}(x,y).
+
+ Hlutafleiðurnar :math:`f_{11}(x,y)` og :math:`f_{22}(x,y)` kallast
+hreinar hlutafleiður og :math:`f_{12}(x,y)` og :math:`f_{21}(x,y)`
+kallast blandaðar hlutafleiður.
+
+Hlutafleiður af hærra stigi
+---------------------------
+
+Setning 5.
+~~~~~~~~~~
+
+Látum :math:`f(x,y)` vera fall sem er skilgreint á opinni skífu
+:math:`D` með miðju í :math:`P=(a,b)` . Gerum ráð fyrir að
+hlutafleiðurnar :math:`f_1(x,y)`, :math:`f_2(x,y)`, :math:`f_{12}(x,y)`
+og :math:`f_{21}(x,y)` séu allar skilgreindar á :math:`D` og að þær séu
+allar samfelldar á :math:`D`. Þá gildir að
+
+.. math:: f_{12}(a,b)=f_{21}(a,b).
+
+Hlutafleiður af hærra stigi
+---------------------------
+
+Hugmynd að skilgreiningu 5.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Skilgreiningu 5.6 má útvíkka á augljósan hátt til að skilgreina 2. stigs
+hlutafleiður fyrir föll af fleiri en tveimur breytum. Einnig er augljóst
+hvernig má skilgreina hlutafleiður af hærri stigum en 2, til dæmis ef
+:math:`w=f(x,y,z)` þá
+
+.. math::
+
+   \frac{\partial^3 w}{\partial x\partial y^2} \quad\quad\mbox{(diffra
+       fyrst tvisvar m.t.t. }y\mbox{, svo einu sinni m.t.t. } x\mbox{)}
+
+og
+
+.. math::
+
+   \frac{\partial^3 w}{\partial y\partial z\partial y} \quad\quad\mbox{(diffra
+       fyrst m.t.t. } y\mbox{, svo m.t.t. } z
+   \mbox{ og að lokum m.t.t. }y\mbox{)}.
+
+Setning 5. (Almenn útgáfa af Setningu 5.7)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Látum :math:`f` vera fall :math:`n` breytistærðum sem er skilgreint á
+opinni kúlu með miðju í :math:`P=(x_1, x_2,\ldots, x_n)`.
+
+Skoðum tvær hlutafleiður :math:`f` í punktum :math:`P` þar sem er
+diffrað með tilliti til sömu breytistærða og jafn oft með tilliti til
+hverrar breytistærðar. Ef þessar hlutafleiður eru samfelldar í punktinum
+:math:`P` og allar hlutafleiður af lægra stigi eru skilgreindar á
+:math:`D` og samfelldar á :math:`D` þá eru hlutafleiðurnar sem við erum
+að skoða jafnar í :math:`P`.
+
+Dæmi:
+~~~~~
+
+Ef :math:`w = f(x,y,z)` er fall af þremur breytistærðum þá er t.d. 
+
+.. math:: \frac{\partial^4 w}{\partial x^2\partial y \partial z} = \frac{\partial^4 w}{\partial x \partial y \partial x \partial z}
+
+ef skilyrðin í setningunni eru uppfyllt.
+
+.. |Hlutafleiða m.t.t. \ :math:`x` fyrir :math:`y=1`.| image:: xpart.png
+.. |Hlutafleiða m.t.t. \ :math:`y` fyrir :math:`x=1`.| image:: ypart.png
+.. |image| image:: bothpart.png

@@ -1,0 +1,47 @@
+Skilgreining 
+~~~~~~~~~~~~~
+
+Látum :math:`\cal S` vera áttanlegan flöt sem er reglulegur á köflum með
+jaðar :math:`\cal C` og einingarþvervigrasvið :math:`\Nv`. Áttun
+:math:`\cal C` út frá :math:`\Nv` finnst með að hugsa sér að gengið sé
+eftir :math:`\cal C` þannig að skrokkurinn vísi í stefnu :math:`\Nv` og
+göngustefnan sé valin þannig að flöturinn sé á vinstri hönd.
+
+Setning (Setning Stokes)
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Látum :math:`\cal S` vera áttanlegan flöt sem er reglulegur á köflum og
+látum :math:`\Nv` tákna einingarþvervigrasvið á :math:`\cal S`. Táknum
+með :math:`\cal C` jaðar :math:`\cal S` og áttum :math:`\cal C` með
+tilliti til :math:`\Nv`. Ef :math:`\Fv` er samfellt diffranlegt
+vigursvið skilgreint á opnu mengi sem inniheldur :math:`\cal S` þá er
+
+.. math:: \tvint_{\cal S} \curl\Fv\cdot\Nv\,dS=\oint_{\cal C}\Fv\cdot \Tv\,ds.
+
+Setning 
+~~~~~~~~
+
+Látum :math:`\Fv` vera samfellt diffranlegt vigursvið skilgreint á opnu
+mengi :math:`D` í :math:`\R^3`. Látum :math:`P` vera punkt á
+skilgreiningarsvæði :math:`\Fv` og :math:`C_\epsilon` vera hring með
+miðju í :math:`P` og geisla :math:`\epsilon`. Látum :math:`\Nv` vera
+einingarþvervigur á planið sem hringurinn liggur í. Áttum hringinn
+jákvætt. Þá er
+
+.. math::
+
+   \Nv\cdot\curl \Fv(P)=\lim_{\epsilon\rightarrow 0^+}
+   \frac{1}{\pi\epsilon^2}\oint_{C_\epsilon}\Fv\cdot d\rv.
+
+Setning 
+~~~~~~~~
+
+Látum :math:`\cal S` vera lokaðan flöt sem er reglulegur á köflum.
+Táknum með :math:`D` rúmskikann sem :math:`\cal S` umlykur. Látum
+:math:`\Nv` vera einingarþvervigrasvið á :math:`\cal S` sem vísar út úr
+:math:`D`. Ef :math:`\Fv` er samfellt diffranlegt vigursvið skilgreint á
+opnu mengi sem inniheldur :math:`D`, þá er
+
+.. math:: \oiint_{\cal S}\curl\Fv\cdot\Nv\,dS=0.
+
+

@@ -1,0 +1,238 @@
+Diffranleiki í einni breytistærð
+--------------------------------
+
+Skilgreining 7. 
+~~~~~~~~~~~~~~~~
+
+Látum :math:`f` vera fall af einni breytistærð og gerum ráð fyrir að
+:math:`f` sé skilgreint á opnu bili sem inniheldur punktinn :math:`a`.
+Fallið :math:`f` er sagt vera *diffranlegt* í punkti :math:`a` ef
+markgildið
+
+.. math:: f'(a)=\lim_{h\rightarrow 0}\frac{f(a+h)-f(a)}{h}
+
+er til.
+
+Diffranleiki í einni breytistærð - önnur lýsing
+-----------------------------------------------
+
+Skilgreining 7. 
+~~~~~~~~~~~~~~~~
+
+Látum :math:`f` vera fall af einni breytistærð og gerum ráð fyrir að
+:math:`f` sé skilgreint á opnu bili sem inniheldur punktinn :math:`a`.
+Fallið :math:`f` er sagt vera *diffranlegt* í punkti :math:`a` ef til er
+tala :math:`m` þannig að ef :math:`L(x)=f(a)+m(x-a)` þá er
+
+.. math:: \lim_{h\rightarrow 0}\frac{f(a+h)-L(a+h)}{h}=0.
+
+(Talan :math:`m` verður að vera jöfn :math:`f'(a)`.)
+
+Fallið :math:`f` er ’nálægt’ línunni :math:`L` nálægt punktinum
+:math:`a`.
+
+Diffranleiki
+------------
+
+Skilgreining 7.
+~~~~~~~~~~~~~~~
+
+Fall :math:`f(x,y)` sem er skilgreint á opinni skífu umhverfis
+:math:`(a,b)` er sagt vera diffranlegt í punktinum :math:`(a,b)` ef
+báðar fyrsta stigs hlutafleiður :math:`f` eru skilgreindar í
+:math:`(a,b)` og ef
+
+.. math::
+
+   \lim_{(h,k)\rightarrow (0,0)}
+   \frac{f(a+h, b+k)-S(a+h,b+k)}{\sqrt{h^2+k^2}}=0
+
+þar sem :math:`S(x,y) = f(a,b) + f_1(a,b)(x-a)+f_2(a,b)(y-b)`.
+
+Fallið :math:`f` er ’nálægt’ sléttunni :math:`S` nálægt punktinum
+:math:`(a,b)`.
+
+Snertiplan
+----------
+
+Ef :math:`f` er diffranlegt í :math:`(a,b)` þá kallast planið :math:`S`
+*snertiplan* við graf fallsins.
+
+|image|
+
+:math:`S(x,y) = f(a,b) + f_1(a,b)(x-a)+f_2(a,b)(y-b)`.
+
+Diffranleiki
+------------
+
+Setning 7. (Meðalgildissetningin)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Gerum ráð fyrir að fallið :math:`f` sé samfellt á lokaða bilinu
+:math:`[a,b]` og diffranlegt á opna bilinu :math:`(a,b)`. Þá er til
+punktur :math:`c` á opna bilinu :math:`(a,b)` þannig að
+
+.. math:: f(b)-f(a)=f'(c)(b-a).
+
+Diffranleiki
+------------
+
+Setning 7.
+~~~~~~~~~~
+
+Látum :math:`f(x,y)` vera fall sem er skilgreint á opinni skífu
+:math:`\cal D` með miðju í :math:`(a,b)` þannig að á þessari skífu eru
+báðar fyrsta stigs hlutafleiður :math:`f` skilgreindar og samfelldar.
+Gerum ráð fyrir að :math:`h` og :math:`k` séu tölur þannig að
+:math:`(x+h, y+k)\in{\cal D}`. Þá eru til tölur :math:`\theta_1` og
+:math:`\theta_2` á milli 0 og 1 þannig að
+
+.. math:: f(a+h,b+k)-f(a,b)=hf_1(a+\theta_1h,b+k)+kf_2(a,b+\theta_2k).
+
+Diffranleiki
+------------
+
+Setning 7.
+~~~~~~~~~~
+
+Látum :math:`f(x,y)` vera fall sem er skilgreint á opinni skífu
+:math:`\cal D` með miðju í :math:`(a,b)` þannig að á þessari skífu eru
+báðar fyrsta stigs hlutafleiður :math:`f` skilgreindar og samfelldar. Þá
+er fallið :math:`f` diffranlegt í :math:`(a,b)`.
+
+Diffranleiki
+------------
+
+Setning 7.
+~~~~~~~~~~
+
+Gerum ráð fyrir að :math:`f(x,y)` sé fall sem er diffranlegt í punktinum
+:math:`(a,b)`. Þá er :math:`f` samfellt í :math:`(a,b)`.
+
+Diffranleiki
+------------
+
+Keðjuregla 7.
+~~~~~~~~~~~~~
+
+Ritum :math:`z=f(x,y)` þar sem :math:`x=x(s,t)` og :math:`y=y(s,t)`.
+Gerum ráð fyrir að
+
+(i) :math:`x(a,b)=p` og :math:`y(a,b)=q`;
+
+(ii) fyrsta stigs hlutafleiður :math:`x(s,t)` og :math:`y(s,t)` eru
+skilgreindar í punktinum :math:`(a,b)`;
+
+(iii) fallið :math:`f` er diffranlegt í punktinum :math:`(p,q)`.
+
+Þá eru fyrsta stigs hlutafleiður :math:`z` með tilliti til breytanna
+:math:`s` og :math:`t` skilgreindar í punktinum :math:`(a,b)` og um þær
+gildir að
+
+.. math::
+
+   \frac{\partial z}{\partial s}=
+   \frac{\partial z}{\partial x}\frac{\partial x}{\partial s}
+   +\frac{\partial z}{\partial y}\frac{\partial y}{\partial s}
+
+og
+
+.. math::
+
+   \frac{\partial z}{\partial t}=
+   \frac{\partial z}{\partial x}\frac{\partial x}{\partial t}
+   +\frac{\partial z}{\partial y}\frac{\partial y}{\partial t}.
+
+Diffur
+------
+
+Skilgreining 7.
+~~~~~~~~~~~~~~~
+
+Ritum :math:`z=f(x_1, x_2, \ldots, x_n)`. *Diffrið* af :math:`z` er
+skilgreint sem
+
+.. math::
+
+   dz=df=\frac{\partial z}{\partial x_1}dx_1
+   +\frac{\partial z}{\partial x_2}dx_2
+   +\cdots+\frac{\partial z}{\partial x_n}dx_n.
+
+Diffrið er nálgun á
+
+.. math::
+
+   \Delta f=f(x_1+dx_1, x_2+dx_2,\ldots,
+   x_n+dx_n)-f(x_1,x_2,\ldots,x_n).
+
+Varpanir :math:`\Rn\rightarrow\Rm`
+----------------------------------
+
+Táknmál 7.
+~~~~~~~~~~
+
+Látum :math:`\fv:\Rn\rightarrow\Rm` tákna vörpun. Ritum
+:math:`\fv=(f_1,\ldots,f_m)` þar sem hvert :math:`f_i` er fall
+:math:`\Rn\rightarrow\R`. Fyrir punkt í :math:`\Rn` ritum við
+:math:`\xv=(x_1,x_2,\ldots,x_n)`. Síðan ritum við :math:`\yv=\fv(\xv)`
+þar sem :math:`\yv=(y_1,y_2,\ldots,y_m)` og
+
+Jacobi-fylki
+------------
+
+Skilgreining 7.
+~~~~~~~~~~~~~~~
+
+Notum táknmálið úr 7.8. Ef allar hlutafleiðurnar :math:`\partial
+y_i/\partial x_j` eru skilgreindar í punktinum :math:`\xv` þá
+skilgreinum við *Jacobi-fylki* :math:`f` í punktinum :math:`\xv` sem
+:math:`m\times n` fylkið
+
+.. math::
+
+   D\fv(\xv)=\begin{bmatrix}
+   \frac{\partial y_1}{\partial x_1}&\frac{\partial y_1}{\partial x_2}&
+   \cdots&\frac{\partial y_1}{\partial x_n}\\
+   \frac{\partial y_2}{\partial x_1}&\frac{\partial y_2}{\partial x_2}&
+   \cdots&\frac{\partial y_2}{\partial x_n}\\
+   \vdots&\vdots&\ddots&\vdots\\
+   \frac{\partial y_m}{\partial x_1}&\frac{\partial y_m}{\partial x_2}&
+   \cdots&\frac{\partial y_m}{\partial x_n}
+   \end{bmatrix}
+
+Diffranleiki varpana :math:`\Rn\rightarrow\Rm`
+----------------------------------------------
+
+Skilgreining 7.
+~~~~~~~~~~~~~~~
+
+Notum táknmálið úr 7.8 og 7.9. Látum :math:`\av=(a_1, a_2, \ldots, a_n)`
+vera fastan punkt í :math:`\Rn` og ritum
+:math:`\hv=(h_1,h_2,\ldots,h_n)`. Vörpunin :math:`\fv` er sögð
+diffranleg í punktinum :math:`\av` ef
+
+.. math::
+
+   \lim_{\hv\rightarrow
+     \ov}\frac{|\fv(\av+\hv)-\fv(\av)-D\fv(\av)\hv|}{|\hv|}=0.
+
+Vörpunin :math:`f` er ’nálægt’ línulegu vörpuninni :math:`D\fv` nálægt
+punktinum :math:`\av`.
+
+Línulega vörpunin :math:`D\fv` kallast afleiða :math:`\fv`.
+
+Keðjureglan
+-----------
+
+Setning 7.
+~~~~~~~~~~
+
+Látum :math:`\fv:\Rn\rightarrow \Rm` og :math:`\gv:\Rm\rightarrow \Rk`
+vera varpanir. Gerum ráð fyrir að vörpunin :math:`\fv` sé diffranleg í
+punkti :math:`\xv` og vörpunin :math:`\gv` sé diffranleg í punktinum
+:math:`\yv=\fv(\xv)`. Þá er samskeytta vörpunin
+:math:`\gv\circ\fv:\Rn\rightarrow\Rk` diffranleg í :math:`\xv` og
+
+.. math:: D(\gv\circ\fv)(\xv)=D\gv(\fv(\xv))D\fv(\xv).
+
+.. |image| image:: bothpart.png

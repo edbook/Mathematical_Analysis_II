@@ -1,0 +1,101 @@
+Upprifjun .
+~~~~~~~~~~~
+
+Látum :math:`P=(x,y)\neq \ov` vera punkt í plani. *Pólhnit* :math:`P` er
+talnapar :math:`[r,\theta]` þannig að :math:`r` er fjarlægð :math:`P`
+frá :math:`O=(0,0)` og :math:`\theta` er hornið á milli striksins
+:math:`\overline{OP}` og :math:`x`-ássins. (Hornið er mælt þannig að
+rangsælis stefna telst jákvæð, og leggja má við :math:`\theta` heil
+margfeldi af :math:`2\pi`.)
+
+Skilgreining .
+~~~~~~~~~~~~~~
+
+*Pólhnitarétthyrningur* í :math:`xy`-planinu er svæði sem afmarkast af
+tveimur hringbogum :math:`x^2+y^2=a^2` og :math:`x^2+y^2=b^2` og tveimur
+hálflínum sem byrja í :math:`(0,0)` og mynda hornin :math:`\alpha` og
+:math:`\beta` við :math:`x`-ásinn (Hornin eru mæld þannig að rangsælis
+stefna telst jákvæð.)
+
+|image|
+
+Gerum ráð fyrir að :math:`0\leq a\leq b` og að
+:math:`0\leq\beta-\alpha\leq
+2\pi`. Þá má lýsa pólhnitarétthyrningnum með því að nota pólhnit þannig
+að
+
+.. math:: D=\{[r,\theta]\mid 0\leq a\leq r\leq b, \alpha\leq \theta\leq\beta\}.
+
+Setning .
+~~~~~~~~~
+
+Ef :math:`f` er fall sem er heildanlegt yfir pólhnitarétthyrning
+:math:`D=\{[r,\theta]\mid 0\leq a\leq r\leq b, \alpha\leq \theta\leq\beta\}`
+þá er
+
+.. math::
+
+   \tvint_D f(x,y)\,dA=\int_\alpha^\beta\!\!\!\int_{a}^{b}
+   f(r\cos\theta,r\sin\theta)\,r\,dr\, d\theta.
+
+|image|
+
+Upprifjun .
+~~~~~~~~~~~
+
+Látum :math:`f` vera fall skilgreint á bili :math:`[\alpha,\beta]`.
+Jafnan :math:`r=f(\theta)` lýsir mengi allra punkta í planinu sem hafa
+pólhnit á forminu :math:`[f(\theta),\theta]` þar sem
+:math:`\alpha\leq\theta\leq\beta`. Þetta mengi kallast *pólhnitagraf*
+fallsins :math:`f`.
+
+Setning .
+~~~~~~~~~
+
+Látum :math:`D` vera svæði i :math:`xy`-plani sem afmarkast ef
+pólhnitalínum :math:`\theta=\alpha` og :math:`\theta=\beta` og tveimur
+pólhnitagröfum :math:`r=a(\theta)` og :math:`r=b(\theta)`. Gerum ráð
+fyrir að :math:`0\leq a(\theta)\leq
+r\leq b(\theta)` og :math:`0\leq \beta-\alpha\leq 2\pi`. Ef :math:`f` er
+heildanlegt fall yfir :math:`D` þá er
+
+.. math::
+
+   \tvint f(x,y)\,dA=\int_\alpha^\beta\!\!\!\int_{a(\theta)}^{b(\theta)}
+   f(r\cos\theta,r\sin\theta)\,r\,dr\, d\theta.
+
+|image|
+
+Regla .
+~~~~~~~
+
+Hugsum okkur að :math:`f(x,y)` sé fall og hægt sé að rita
+:math:`f(x,y)=g(x)h(y)`. Látum :math:`R=[a,b]\times [c,d]`. Þá er
+
+.. math::
+
+   \begin{aligned}
+   \tvint_R f(x,y)\,dA&=\int_a^b\!\!\!\int_{c}^{d}g(x)h(y)\,dy\, dx\\
+   &=\bigg(\int_a^b g(x)\,dx\bigg)\bigg(\int_c^d h(y)\,dy\bigg).\end{aligned}
+
+Setning . (Almenn breytuskiptaregla fyrir tvöföld heildi)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Látum :math:`x=x(u,v)`, :math:`y=y(u,v)` vera gagntæka vörpun milli
+svæðis :math:`S` í :math:`uv`-plani og svæðis :math:`D` í
+:math:`xy`-plani. Gerum ráð fyrir að föllin :math:`x(u,v)`,
+:math:`y(u,v)` hafi samfelldar fyrsta stigs hlutafleiður á :math:`S`. Ef
+:math:`f` er heildanlegt fall yfir :math:`D`, þá er fallið
+:math:`g(u,v)=f(x(u,v), y(u,v))` heildanlegt yfir :math:`S` og
+
+.. math::
+
+   \tvint_D f(x,y)\,dx\,dy=\tvint_S g(u,v)
+   \bigg|\frac{\partial(x,y)}{\partial(u,v)}\bigg|\,du\,dv.
+
+|image|
+
+.. |image| image:: polarrett
+.. |image| image:: polarelement
+.. |image| image:: polarsvaedi
+.. |image| image:: changevar

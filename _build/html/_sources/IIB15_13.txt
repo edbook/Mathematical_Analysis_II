@@ -1,0 +1,120 @@
+:math:`x`-einföld og :math:`y`-einföld svæði
+--------------------------------------------
+
+Skilgreining .
+~~~~~~~~~~~~~~
+
+Svæði :math:`D` í planinu er sagt vera *:math:`y`-einfalt* ef hægt er að
+finna tölur :math:`a` og :math:`b` og föll :math:`c(x)` og :math:`d(x)`
+þannig að
+
+.. math:: D=\{(x,y)\mid a\leq x\leq b, c(x)\leq y\leq d(x)\}.
+
+Svæði :math:`D` í planinu er sagt vera *:math:`x`-einfalt* ef hægt er að
+finna tölur :math:`c` og :math:`d` og föll :math:`a(y)` og :math:`b(y)`
+þannig að
+
+.. math:: D=\{(x,y)\mid c\leq y\leq d, a(y)\leq x\leq b(y)\}.
+
+.. figure:: einfalt
+   :alt: 
+
+:math:`x`-einföld og :math:`y`-einföld svæði
+--------------------------------------------
+
+Regla .
+~~~~~~~
+
+Lokað og takmarkað svæði :math:`D` í planinu er :math:`y`-einfalt ef og
+aðeins ef sérhver lína af gerðinni :math:`x=x_0` sker :math:`D` í
+línustriki.
+
+Lokað og takmarkað svæði :math:`D` er :math:`x`-einfalt ef og aðeins ef
+sérhver lína af gerðinni :math:`y=y_0` sker svæðið í línustriki.
+
+Heildi yfir :math:`x`-einföld og :math:`y`-einföld svæði
+--------------------------------------------------------
+
+Setning .
+~~~~~~~~~
+
+Látum :math:`D=\{(x,y)\mid a\leq x\leq b, c(x)\leq y\leq d(x)\}` vera
+:math:`y`-einfalt svæði og :math:`f(x,y)` fall sem er heildanlegt yfir
+:math:`D`. Þá er
+
+.. math:: \tvint_D f(x,y)\,dA=\int_a^b\!\!\!\int_{c(x)}^{d(x)}f(x,y)\,dy\, dx.
+
+Látum :math:`D=\{(x,y)\mid c\leq y\leq d, a(y)\leq x\leq b(y)\}` vera
+:math:`x`-einfalt svæði og :math:`f(x,y)` fall sem er heildanlegt yfir
+:math:`D`. Þá er
+
+.. math:: \tvint_D f(x,y)\,dA=\int_c^d\!\!\!\int_{a(y)}^{b(y)}f(x,y)\,dx\, dy.
+
+Heildi yfir :math:`x`-einföld og :math:`y`-einföld svæði
+--------------------------------------------------------
+
+.. figure:: einfalt2
+   :alt: Hér er svæðinu :math:`D` skipt í endanlega mörg
+   :math:`x`-einföld og :math:`y`-einföld svæði sem skarast eingöngu í
+   punktum á jaðrinum.
+
+   Hér er svæðinu :math:`D` skipt í endanlega mörg :math:`x`-einföld og
+   :math:`y`-einföld svæði sem skarast eingöngu í punktum á jaðrinum.
+Óeiginleg heildi
+----------------
+
+Umræða .
+~~~~~~~~
+
+Látum :math:`f(x,y)\geq 0` vera jákvætt fall sem er skilgreint á svæði
+:math:`D` í sléttunni. Ef
+
+#. :math:`D` er ótakmarkað svæði eða
+
+#. :math:`f(x,y)` er ótakmarkað á :math:`D`
+
+má í sumum tilfellum skilgreina tvöfalda heildið af :math:`f` yfir
+:math:`D`.
+
+Það er gert með því að finna fyrst runu af stækkandi lokuðum og
+takmörkuðum mengjum
+:math:`D_1 \subseteq D_2 \subseteq \cdots \subseteq D` sem ’stefnir á’
+:math:`D`. Ef
+
+.. math:: \tvint_{D_n} f(x,y)\,dA
+
+er vel skilgreint fyrir öll :math:`n` og hefur markgildi þegar
+:math:`n\to \infty` (fyrir allar ólíkar runur :math:`(D_n)_{n\geq 1}`)
+þá skilgreinum við *óeiginlega heildið*
+
+.. math:: \tvint_{D} f(x,y)\,dA := \lim_{n\to \infty} \tvint_{D_n} f(x,y)\,dA .
+
+Skilgreining .
+~~~~~~~~~~~~~~
+
+Látum :math:`f` vera fall sem er heildanlegt yfir svæði :math:`D` í
+:math:`\R^2`. *Meðalgildi* fallsins :math:`f` á :math:`D` er skilgreint
+sem talan
+
+.. math:: \bar{f}=\frac{1}{\mbox{flatarmál }D}\tvint_D f(x,y)\,dA.
+
+Skilgreining .
+~~~~~~~~~~~~~~
+
+Svæði :math:`D` í :math:`\R^2` er sagt vera *samanhangandi*
+(e. connected) ef um sérhverja tvo punkta :math:`P_1` og :math:`P_2` í
+:math:`D` gildir að til er ferill sem liggur í :math:`D`, byrjar í
+:math:`P_1` og endar í :math:`P_2`. (Hugtakið sem hér er skilgreint væri
+venjulega kallað *ferilsamanhangandi*.)
+
+Skilgreining .
+~~~~~~~~~~~~~~
+
+(Meðalgildissetning fyrir tvöföld heildi) Gerum ráð fyrir að :math:`f`
+sé samfellt fall sem er skilgreint á lokuðu, takmörkuð og samanhangandi
+svæði :math:`D` í :math:`\R^2`. Þá er til punktur :math:`(x_0,y_0)` í
+:math:`D` þannig að
+
+.. math:: \frac{1}{\mbox{flatarmál }D}\tvint_D f(x,y)\,dA=f(x_0,y_0).
+
+

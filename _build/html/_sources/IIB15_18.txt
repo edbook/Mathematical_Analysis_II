@@ -1,0 +1,97 @@
+Heildi falls yfir feril
+-----------------------
+
+Skilgreining .
+~~~~~~~~~~~~~~
+
+Látum :math:`\cal C` vera feril í :math:`\R^2` stikaðan af samfellt
+diffranlegum stikaferli :math:`\rv:[a,b]\rightarrow\R^2`. Ritum
+:math:`\rv(t)=(x(t),y(t))`. *Heildi falls :math:`f(x,y)` yfir ferilinn
+:math:`\cal C` með tilliti til bogalengdar* er skilgreint sem
+
+.. math::
+
+   \begin{aligned}
+   \int_{\cal C}f(x,y)\,ds&=\int_a^b f(\rv(t))\,|\rv'(t)|\,dt\\
+   &=\int_a^b f(x(t),y(t))\,\sqrt{x'(t)^2+y'(t)^2}\,dt.\end{aligned}
+
+Sama aðferð notuð til að skilgreina heildi falls yfir feril í
+:math:`\R^3`.
+
+Setning .
+~~~~~~~~~
+
+Látum :math:`\cal C` vera feril í :math:`\R^2`. Gerum ráð fyrir að
+:math:`\rv_1` og :math:`\rv_2` séu tveir samfellt diffranlegir
+stikaferlar sem báðir stika ferilinn :math:`\cal C`. Ef fall
+:math:`f(x,y)` er heildað yfir :math:`\cal C` þá fæst sama útkoma hvort
+sem stikunin :math:`\rv_1` eða stikunin :math:`\rv_2` er notuð við
+útreikningana.
+
+Skilgreining .
+~~~~~~~~~~~~~~
+
+Ferill :math:`\cal C` í plani er sagður *samfellt diffranlegur á köflum*
+ef til er stikun :math:`\rv:[a,b]\rightarrow \R^2` á :math:`\cal C`
+þannig að til eru punktar :math:`a=t_0<t_1<t_2<\cdots<t_n<t_{n+1}=b`
+þannig að á hverju bili :math:`(t_i,t_{i+1})` er :math:`\rv` samfellt
+diffranlegur ferill og markgildin
+
+.. math::
+
+   \lim_{t\rightarrow t_i^+}\rv'(t)\qquad\mbox{og}\qquad 
+   \lim_{t\rightarrow t_{i+1}^-}\rv'(t)
+
+eru bæði til.
+
+Líka sagt að stikaferillinn :math:`\rv` sé *samfellt diffranlegur á
+köflum.*
+
+Heildi vigursviðs eftir ferli
+-----------------------------
+
+Skilgreining .
+~~~~~~~~~~~~~~
+
+Látum :math:`\Fv(x,y)` vera vigursvið og
+:math:`\rv:[a,b]\rightarrow \R^2` stikun á ferli :math:`\cal C` og gerum
+ráð fyrir að stikaferillinn :math:`\rv` sé samfellt diffranlegur á
+köflum. *Heildi vigursviðsins :math:`\Fv(x,y)` eftir ferlinum*
+:math:`\cal C` er skilgreint sem
+
+.. math::
+
+   \int_{\cal C} \Fv\cdot d\rv= \int_{\cal C} \Fv\cdot \Tv\,ds
+   =\int_a^b \Fv(\rv(t))\cdot \rv'(t)\,dt.
+
+Skilgreining .
+~~~~~~~~~~~~~~
+
+Ritum :math:`\Fv(x,y)=F_1(x,y)\,\iv+F_2(x,y)\,\jv`. Ritum líka
+:math:`\rv(t)=x(t)\,\iv+y(t)\,\jv`. Þá má rita
+:math:`dx=x'(t)\,dt,\, dy=y'(t)\,dt`. Með því að nota þennan rithátt
+fæst að
+
+.. math::
+
+   \begin{aligned}
+   \int_{\cal C}\Fv\cdot d\rv&=\int_a^b
+   (F_1(x,y)\,\iv+F_2(x(t),y(t))\,\jv)\cdot(x'(t)\,\iv+y'(t)\,\jv)\,dt\\
+   &=\int_a^b F_1(x(t),y(t))x'(t)\,dt+F_2(x(t),y(t))y'(t)\,dt\\
+   &=\int_{\cal C} F_1(x,y)\,dx+F_2(x,y)\,dy.\end{aligned}
+
+Athugasemd .
+~~~~~~~~~~~~
+
+Látum :math:`\cal C` vera feril í :math:`\R^2`. Gerum ráð fyrir að
+:math:`\rv_1:[a,b]\rightarrow \R^2` og
+:math:`\rv_2:[a',b']\rightarrow \R^2` séu tveir samfellt diffranlegir á
+köflum stikaferlar sem stika :math:`\cal C`. Gerum ennfremur ráð fyrir
+að :math:`\rv_1(a)=\rv_2(b')` og :math:`\rv_1(b)=\rv_2(a')` (þ.e.a.s.
+stikaferlarnir fara í sitthvora áttina eftir :math:`\cal C`). Þá gildir
+ef :math:`\Fv(x,y)` er vigursvið að
+
+.. math:: \int_{\cal C} \Fv\cdot d\rv_1=-\int_{\cal C} \Fv\cdot d\rv_2.
+
+(Ef breytt er um stefnu á stikun á breytist formerki þegar vigursvið
+heildað eftir ferlinum.)
