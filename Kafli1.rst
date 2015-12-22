@@ -1,4 +1,5 @@
-Ferlar
+
+Kafli
 =====
 
 Inngangur
@@ -20,8 +21,8 @@ Inngangur
 Stikaferlar
 -----------
 
-Skilgreining
-~~~~~~~~~~~~~~~
+Skilgreining 
+~~~~~~~~~~~~~
 
 Vörpun :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}`
 þannig að :math:`\mbox{${\bf r}$}(t)=(r_1(t),\ldots,r_n(t))` kallast
@@ -30,8 +31,8 @@ Vörpun :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}`
 :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}` er oft
 kölluð *stikaferill*.
 
-Ritháttur
-~~~~~~~~~~~~
+Ritháttur 
+~~~~~~~~~~
 
 Þegar fjallað er um stikaferil
 :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow {\mathbb  R}^2` þá er oft
@@ -48,8 +49,8 @@ ritað
 Ferlar og stikanir á ferlum
 ---------------------------
 
-Skilgreining
-~~~~~~~~~~~~~~~
+Skilgreining 
+~~~~~~~~~~~~~
 
 *Ferill í plani* er mengi punkta :math:`(x,y)` í planinu þannig að
 skrifa má :math:`x=f(t)` og :math:`y=g(t)` fyrir :math:`t` á bili
@@ -62,7 +63,7 @@ Ferill í plani/rúmi er **ekki** það sama og stikaferill. Fyrir gefinn
 feril eru til (óendanlega) margar ólíkar stikanir.
 
 Dæmi - Eðlisfræðileg túlkun
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Líta má á veginn milli Reykjavíkur og Akureyrar sem feril.
 
@@ -70,8 +71,8 @@ Líta má á ferðalag eftir veginum frá Reykjavík til Akureyrar þar sem
 staðsetning er þekkt á hverjum tíma sem stikaferil þar sem tíminn er
 stikinn.
 
-Dæmi
-~~~~~~~
+Dæmi 
+~~~~~
 
 Jafnan
 
@@ -92,8 +93,8 @@ um ólíkar stikanir:
 Diffrun stikaferla
 ------------------
 
-Skilgreining
-~~~~~~~~~~~~~~~
+Skilgreining 
+~~~~~~~~~~~~~
 
 Stikaferill
 :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}` er
@@ -106,8 +107,8 @@ ef hann er diffranlegur í öllum punktum á bilinu :math:`[a,b]`. (Í
 endapunktum bilsins :math:`[a,b]` er þess krafist að einhliða afleiður
 séu skilgreindar.)
 
-Setning
-~~~~~~~~~~
+Setning 
+~~~~~~~~
 
 Stikaferill
 :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}` er
@@ -116,8 +117,8 @@ Stikaferill
 
 .. math:: \mbox{${\bf r}$}'(t)=(r'_1(t),\ldots,r'_n(t)).
 
-Ritháttur
-~~~~~~~~~~~~
+Ritháttur 
+~~~~~~~~~~
 
 Látum :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}`
 vera diffranlegan stikaferil. Venja er að rita
@@ -128,8 +129,8 @@ vera diffranlegan stikaferil. Venja er að rita
 og talað um :math:`\mbox{${\bf a}$}(t)` sem *hröðun* eða
 *hröðunarvigur*.
 
-Dæmi
-~~~~~~~
+Dæmi 
+~~~~~
 
 Lítum á eftirfarand stikaferla sem stika hring með miðju í (0,0) og
 geisla 1.
@@ -151,8 +152,8 @@ geisla 1.
 og ferðin :math:`|\mbox{${\bf v}$}_1(t)| = 1` og
 :math:`|\mbox{${\bf v}$}_2(t)| = 2t`.
 
-Setning
-~~~~~~~~~~
+Setning 
+~~~~~~~~
 
 Látum
 :math:`\mbox{${\bf u}$},\mbox{${\bf v}$}:[a,b]\rightarrow \mbox{${\bf R}^n$}`
@@ -185,8 +186,8 @@ Ef :math:`\mbox{${\bf u}$}(t)\neq\mbox{${\bf 0}$}` þá er
 **(f)**
 :math:`\frac{d}{dt}|\mbox{${\bf u}$}(t)|=\frac{\mbox{${\bf u}$}(t)\cdot\mbox{${\bf u}$}'(t)}{|\mbox{${\bf u}$}(t)|}`.
 
-Skilgreining
-~~~~~~~~~~~~~~~
+Skilgreining 
+~~~~~~~~~~~~~
 
 Látum
 :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}; \mbox{${\bf r}$}(t)=(r_1(t),\ldots,r_n(t))`
@@ -205,7 +206,7 @@ stikaferillinn er samfellt diffranlegur á hverju bili
 (e. piecewise smooth curve) er skilgreint á sambærilegan hátt.
 
 Setning
-~~~~~~~~~~
+~~~~~~~
 
 Látum :math:`\mbox{${\bf r}$}=f(t)\mbox{${\bf i}$}+g(t)\mbox{${\bf j}$}`
 vera samfellt diffranlegan stikaferil fyrir :math:`t` á bili :math:`I`.
@@ -223,7 +224,7 @@ Lengd stikaferils
 -----------------
 
 Regla 
-~~~~~~~~
+~~~~~~
 
 Látum :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}`
 vera samfellt diffranlegan stikaferil. *Lengd* eða *bogalengd*
@@ -231,8 +232,8 @@ stikaferilsins er skilgreind með formúlunni
 
 .. math:: s=\int_a^b |\mbox{${\bf v}$}(t)|\,dt.
 
-Skilgreining og umræða
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Skilgreining og umræða 
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`\mbox{${\bf r}$}: [a,b]\rightarrow \mbox{${\bf R}^n$}` vera
 samfellt diffranlegan stikaferil. Sagt er að stikaferillinn sé *stikaður
@@ -259,7 +260,7 @@ Pólhnit
 -------
 
 Skilgreining 
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
 Látum :math:`P=(x,y)\neq \mbox{${\bf 0}$}` vera punkt í plani. *Pólhnit*
 :math:`P` er talnapar :math:`[r,\theta]` þannig að :math:`r` er fjarlægð
@@ -268,9 +269,8 @@ striksins :math:`\overline{OP}` og :math:`x`-ássins. (Hornið er mælt
 þannig að rangsælis stefna telst jákvæð, og leggja má við :math:`\theta`
 heil margfeldi af :math:`2\pi`.)
 
-
-Regla
-~~~~~~~~
+Regla 
+~~~~~~
 
 Ef pólhnit punkts í plani eru :math:`[r, \theta]` þá má reikna
 :math:`xy`-hnit hans (e. *rectangular coordinates* eða *Cartesian
@@ -297,7 +297,7 @@ Pólhnitagraf
 ------------
 
 Skilgreining og umræða 
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`f` vera fall skilgreint fyrir :math:`\theta` þannig að
 :math:`\alpha\leq\theta\leq\beta`. Jafnan :math:`r=f(\theta)` lýsir
@@ -320,7 +320,7 @@ Snertill við pólhnitagraf
 -------------------------
 
 Setning 
-~~~~~~~~~~
+~~~~~~~~
 
 Látum :math:`r=f(\theta)` vera pólhnitagraf fallsins :math:`f` og gerum
 ráð fyrir að fallið :math:`f` sé samfellt diffranlegt. Látum
@@ -334,8 +334,8 @@ pólhnitagrafið.
 Flatarmál
 ---------
 
-Setning
-~~~~~~~~~~
+Setning 
+~~~~~~~~
 
 Flatarmál svæðisins sem afmarkast af geislunum :math:`\theta=\alpha` og
 :math:`\theta=\beta` (með :math:`\alpha\leq \beta` og
@@ -350,8 +350,8 @@ Flatarmál svæðisins sem afmarkast af geislunum :math:`\theta=\alpha` og
 Bogalengd
 ---------
 
-Setning
-~~~~~~~~~~
+Setning 
+~~~~~~~~
 
 Gerum ráð fyrir að fallið :math:`f(\theta)` sé diffranlegt. Bogalengd
 pólhnitagrafsins :math:`r=f(\theta)`, þegar
@@ -363,7 +363,7 @@ Einingarsnertivigur
 -------------------
 
 Skilgreining 
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
 Látum :math:`\cal C` vera feril í plani eða rúmi. Látum
 :math:`\mbox{${\bf r}$}` vera stikun á :math:`\cal C` og gerum ráð fyrir
@@ -379,8 +379,8 @@ skilgreindur með formúlunni
 Krappi
 ------
 
-Skilgreining
-~~~~~~~~~~~~~~~
+Skilgreining 
+~~~~~~~~~~~~~
 
 Látum :math:`\cal C` vera feril í plani eða rúmi og
 :math:`\mbox{${\bf r}$}` stikun á :math:`\cal C` með bogalengd. (Þegar
@@ -401,7 +401,7 @@ Meginþverill
 ------------
 
 Skilgreining 
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
 Látum :math:`\cal C` vera feril í plani eða rúmi og
 :math:`\mbox{${\bf r}$}` stikun á :math:`\cal C` með bogalengd.
@@ -411,7 +411,7 @@ Látum :math:`\cal C` vera feril í plani eða rúmi og
 .. math:: \mbox{${\bf N}$}(s)=\frac{\mbox{${\bf T}$}'(s)}{|\mbox{${\bf T}$}'(s)|}=\frac{1}{\kappa(s)}\mbox{${\bf T}$}'(s).
 
 Umræða
-~~~~~~~~~
+~~~~~~
 
 Táknum með :math:`\theta` hornið sem :math:`\mbox{${\bf T}$}` myndar við
 grunnvigurinn :math:`\mbox{${\bf i}$}`. Þá er
@@ -422,8 +422,8 @@ grunnvigurinn :math:`\mbox{${\bf i}$}`. Þá er
 Hjúfurplan
 ----------
 
-Skilgreining
-~~~~~~~~~~~~~~~
+Skilgreining 
+~~~~~~~~~~~~~
 
 Látum :math:`\cal C` vera feril í plani eða rúmi og
 :math:`\mbox{${\bf r}$}` stikun á :math:`\cal C` með bogalengd.
@@ -442,8 +442,8 @@ gegnum punktinn :math:`\mbox{${\bf r}$}(s)`, hefur geisla
 Tvíþverill
 ----------
 
-Skilgreining
-~~~~~~~~~~~~~~~
+Skilgreining 
+~~~~~~~~~~~~~
 
 Látum :math:`\cal C` vera feril í plani eða rúmi og
 :math:`\mbox{${\bf r}$}` stikun á :math:`\cal C` með bogalengd. Vigurinn
@@ -459,8 +459,8 @@ er þverstaðlaður grunnur og kallast **Frenet ramminn**.
 Vindingur
 ---------
 
-Setning og skilgreining
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Setning og skilgreining 
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`\cal C` vera feril í plani eða rúmi og
 :math:`\mbox{${\bf r}$}` stikun á :math:`\cal C` með bogalengd. Vigurinn
@@ -477,7 +477,7 @@ Frenet-Serret jöfnurnar
 -----------------------
 
 Jöfnur
-~~~~~~~~~
+~~~~~~
 
 Látum :math:`\cal C` vera feril í plani eða rúmi og
 :math:`\mbox{${\bf r}$}` stikun á :math:`\cal C` með bogalengd. Þá
@@ -491,7 +491,7 @@ gildir
    \mbox{${\bf B}$}'(s)&=-\tau\mbox{${\bf N}$}.\end{aligned}
 
 Setning
-~~~~~~~~~~
+~~~~~~~
 
 Látum :math:`\cal C` vera feril í plani eða rúmi. Gerum ráð fyrir að
 :math:`\mbox{${\bf r}$}` sé þjáll stikaferill sem stikar :math:`\cal C`.

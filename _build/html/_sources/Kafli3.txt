@@ -5,8 +5,8 @@ Hagnýting hlutafleiðujafna
 Útgildi
 -------
 
-Skilgreining .
-~~~~~~~~~~~~~~
+Skilgreining 
+~~~~~~~~~~~~~
 
 Látum :math:`f` vera fall af tveim breytum skilgreint á mengi
 :math:`{\cal D}(f)`.
@@ -36,8 +36,8 @@ taki * hæsta gildi* í :math:`(a,b)` (e. global maximum).
 Staðbundið útgildi
 ------------------
 
-Upprifjun .
-~~~~~~~~~~~
+Upprifjun 
+~~~~~~~~~~
 
 Látum :math:`f` vera fall af einni breytu skilgreint á mengi
 :math:`{\cal D}(f)\subseteq {\mathbb  R}`. Ef fallið :math:`f` hefur
@@ -51,8 +51,8 @@ staðbundið útgildi í punkti :math:`a` þá gildir eitt af þrennu um
 
 #. Punkturinn :math:`a` er jaðarpunktur :math:`{\cal D}(f)`.
 
-Setning .
-~~~~~~~~~
+Setning 
+~~~~~~~~
 
 Látum :math:`f` vera fall af tveim breytum skilgreint á mengi
 :math:`{\cal D}(f)\subseteq {\mathbb  R}^2`. Ef fallið :math:`f` hefur
@@ -78,8 +78,8 @@ Dæmi: Föll skilgreind á svæðinu :math:`-0.5 \leq x \leq 0.5`,
 Tilvist útgilda
 ---------------
 
-Setning .
-~~~~~~~~~
+Setning 
+~~~~~~~~
 
 Látum :math:`f` vera samfellt fall af tveim breytum skilgreint á lokuðu
 og takmörkuðu mengi :math:`{\cal D}(f)`. Fallið :math:`f` tekur þá bæði
@@ -88,8 +88,8 @@ hæsta og lægsta gildi.
 Söðulpunktur
 ------------
 
-Skilgreining .
-~~~~~~~~~~~~~~
+Skilgreining 
+~~~~~~~~~~~~~
 
 Punktur :math:`(x,y)\in  {\cal D}(f)` sem er ekki jaðarpunktur kallast *
 söðulpunktur* ef :math:`\nabla f(x,y)=\mbox{${\bf 0}$}` en :math:`f`
@@ -104,8 +104,8 @@ Dæmi um föll með söðulpunkta.
 Staðbundið útgildi
 ------------------
 
-Upprifjun .
-~~~~~~~~~~~
+Upprifjun 
+~~~~~~~~~~
 
 Látum :math:`f` vera fall af einni breytistærð og gerum ráð fyrir að
 :math:`f'` sé samfellt fall. Gerum einnig ráð fyrir að :math:`f'(a)=0`.
@@ -124,8 +124,8 @@ Látum :math:`f` vera fall af einni breytistærð og gerum ráð fyrir að
 Hesse-fylki
 -----------
 
-Skilgreining .
-~~~~~~~~~~~~~~
+Skilgreining 
+~~~~~~~~~~~~~
 
 Látum :math:`f` vera fall af :math:`n` breytum
 :math:`\mathbf{x} = (x_1,x_2,\ldots,x_n)` og gerum ráð fyrir að allar
@@ -143,8 +143,8 @@ Látum :math:`f` vera fall af :math:`n` breytum
 Ferningsform (sjá kafla 10.7 í Adams)
 -------------------------------------
 
-Upprifjun .
-~~~~~~~~~~~
+Upprifjun 
+~~~~~~~~~~
 
 * Ferningsform* :math:`Q` af :math:`n`-breytum
 :math:`x_1,x_2,\ldots, x_n` er einsleit margliða af stigi 2 gefin með
@@ -158,8 +158,8 @@ Upprifjun .
 Ferningsform
 ------------
 
-Skilgreining .
-~~~~~~~~~~~~~~
+Skilgreining 
+~~~~~~~~~~~~~
 
 Ferningsform :math:`Q` af :math:`n`-breytum er sagt vera * jákvætt
 ákvarðað*  (e. positive definite) ef :math:`Q(\mbox{${\bf x}$})>0` fyrir
@@ -176,8 +176,8 @@ Síðan er sagt að ferningsformið :math:`Q` sé * óákvarðað* 
 :math:`\mbox{${\bf x}$}` og :math:`Q(\mbox{${\bf y}$})>0` fyrir einhvern
 vigur :math:`\mbox{${\bf y}$}`.
 
-Setning .
-~~~~~~~~~
+Setning 
+~~~~~~~~
 
 Látum :math:`Q` vera fernings form af :math:`n` breytum og :math:`A`
 samhverft :math:`n\times n` fylki þannig að
@@ -196,8 +196,8 @@ alla vigra :math:`\mbox{${\bf x}$}`,
 Staðbundið útgildi
 ------------------
 
-Setning .
-~~~~~~~~~
+Setning 
+~~~~~~~~
 
 Látum :math:`f` vera fall af :math:`n` breytum
 :math:`\mathbf{x} = (x_1,x_2,\ldots,x_n)` þannig að allar 1. og 2. stigs
@@ -221,8 +221,8 @@ f(\mathbf{a})=\mbox{${\bf 0}$}`. Þá gildir: Ef
    til að segja til um hvers eðlis stöðupunkturinn :math:`\mathbf{a}`
    er.
 
-Fylgisetning .
-~~~~~~~~~~~~~~
+Fylgisetning 
+~~~~~~~~~~~~~
 
 Látum :math:`f` vera fall af tveim breytum þannig að 1. og 2. stigs
 hlutafleiður :math:`f` eru samfelldar. Látum :math:`(a,b)` vera innri
@@ -250,8 +250,8 @@ f(a,b)=\mbox{${\bf 0}$}`. Setjum
 Ferningsform
 ------------
 
-Regla .
-~~~~~~~
+Regla 
+~~~~~~
 
 Ef :math:`A` er samhverft :math:`n \times n` fylki með tölu
 :math:`a_{ij}` í sæti :math:`(i,j)` og
@@ -283,8 +283,8 @@ Ef :math:`A` er samhverft :math:`n \times n` fylki með tölu
 Útgildi falla þar sem breytur uppfylla skorðujöfnur
 ---------------------------------------------------
 
-Sértækar aðferðir .
-~~~~~~~~~~~~~~~~~~~
+Sértækar aðferðir 
+~~~~~~~~~~~~~~~~~~
 
 Finna skal útgildi falls :math:`f(x,y)` þegar skilgreiningarsvæði
 :math:`f` er mengi þeirra punkta :math:`(x,y)` sem uppfylla jöfnu
@@ -315,8 +315,8 @@ Dæmi
 Útgildi falla þar sem breytur uppfylla skorðujöfnur
 ---------------------------------------------------
 
-Setning .
-~~~~~~~~~
+Setning 
+~~~~~~~~
 
 Látum :math:`f` og :math:`g` vera föll sem eru bæði diffranleg í
 punktinum :math:`P_0=(x_0,y_0)` sem liggur á ferlinum :math:`g(x,y)=0`,
@@ -334,12 +334,11 @@ ef við einskorðum fallið :math:`f` við ferilinn :math:`g(x,y)=0` þá hafi
    Ef stiglarnir :math:`\nabla g(P_0)` og :math:`\nabla f(P_0)` eru ekki
    samsíða þá vex :math:`f` eða minnkar þegar farið er eftir
    :math:`\mathcal{C}` út frá punktinum :math:`P_0`.
-
 Lagrange-margfaldarar
 ---------------------
 
-Reikniaðferð .
-~~~~~~~~~~~~~~
+Reikniaðferð 
+~~~~~~~~~~~~~
 
 Finna skal útgildi falls :math:`f(x,y)` þegar skilgreiningarsvæði
 :math:`f` er mengi þeirra punkta :math:`(x,y)` sem uppfylla jöfnu
@@ -364,8 +363,8 @@ punkta :math:`(x_0,y_0)` þar sem :math:`f` tekur útgildi.
 
 Talan :math:`\lambda` nefnist *Lagrange-margfaldari*.
 
-Regla .
-~~~~~~~
+Regla 
+~~~~~~
 
 Finna skal útgildi falls :math:`f(x,y)` þegar skilgreiningarsvæði
 :math:`f` er mengi þeirra punkta :math:`(x,y)` sem uppfylla jöfnu
@@ -382,8 +381,8 @@ Athuga þarf punkta sem uppfylla eitt af eftirfarandi skilyrðum:
 
 #. ,,Endapunktar ferilsins :math:`g(x,y)=0`.
 
-Reikniaðferð .
-~~~~~~~~~~~~~~
+Reikniaðferð 
+~~~~~~~~~~~~~
 
 Finna skal útgildi falls :math:`f(x,y,z)` þegar skilgreiningarsvæði
 :math:`f` er mengi þeirra punkta :math:`(x,y,z)` sem uppfylla jöfnurnar

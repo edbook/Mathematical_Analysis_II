@@ -5,8 +5,8 @@ Hlutafleiðujöfnur
 Graf falls
 ----------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 4.
+~~~~~~~~~~~~~~~
 
 Látum :math:`f:{\mathbb  R}^2\rightarrow {\mathbb  R}` vera fall. *Graf*
 fallsins er skilgreint sem mengið
@@ -25,8 +25,8 @@ Dæmi: :math:`f(x,y) = \sqrt{1-x^2-y^2}`, :math:`-0.5\leq x,y\leq 0.5`.
 Jafnhæðarlínur
 --------------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 4.
+~~~~~~~~~~~~~~~
 
 Látum :math:`f:{\mathbb  R}^2\rightarrow {\mathbb  R}` vera fall. Ef
 :math:`c` er fasti þá er mengið
@@ -51,8 +51,8 @@ Dæmi: :math:`f(x,y) = \sqrt{1-x^2-y^2}`, :math:`-0.5\leq x,y\leq 0.5`.
 Fjarlægð milli punkta
 ---------------------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 4.
+~~~~~~~~~~~~~~~
 
 *Fjarlægðin* milli tveggja punkta
 :math:`\mbox{${\bf x}$}=(x_1,x_2, \ldots,x_n)` og
@@ -64,8 +64,8 @@ Skilgreining
 Opnar kúlur
 -----------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 4.
+~~~~~~~~~~~~~~~
 
 Látum :math:`P=(p_1,p_2,\ldots,p_n)` vera punkt í
 :math:`\mbox{${\bf R}^n$}`. Skilgreinum *opnu kúluna* með miðju í
@@ -80,8 +80,8 @@ bil.
 Opin mengi
 ----------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 4.
+~~~~~~~~~~~~~~~
 
 Látum :math:`U` vera hlutmengi í :math:`\mbox{${\bf R}^n$}`.
 
@@ -96,8 +96,8 @@ Mengið :math:`U` er sagt *lokað* ef fyllimengið er opið. (*Fyllimengi*
 Jaðarpunktur
 ------------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 4.
+~~~~~~~~~~~~~~~
 
 Látum :math:`U` vera mengi í :math:`\mbox{${\bf R}^n$}`. Punktur
 :math:`P` í :math:`\mbox{${\bf R}^n$}` er sagður *jaðarpunktur*
@@ -109,8 +109,8 @@ jaðarpunktur :math:`U` sé í :math:`U` og að hann sé ekki í :math:`U`.)
 Skilgreiningarmengi
 -------------------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 4.
+~~~~~~~~~~~~~~~
 
 Fyrir fall :math:`f(x_1,x_2,\ldots,x_n)` þá táknar :math:`{\cal D}(f)`
 skilgreiningarmengi fallsins :math:`f`. Ef fallið er gefið með formúlu
@@ -121,8 +121,8 @@ og ekkert sagt um :math:`{\cal D}(f)` þá lítum við svo á að
 Markgildi
 ---------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 4.
+~~~~~~~~~~~~~~~
 
 Látum :math:`f(x_1,x_2,\ldots,x_n)` vera fall af :math:`n` breytistærðum
 með skilgreiningarmengi :math:`{\cal D}(f)\subseteq \mbox{${\bf R}^n$}`.
@@ -134,8 +134,11 @@ Segjum að :math:`f(x_1,x_2,\ldots,x_n)` stefni á tölu :math:`L` þegar
 :math:`(x_1,x_2,\ldots,x_n)` stefnir á :math:`(p_1,p_2,\ldots,p_n)` ef
 eftirfarandi gildir:
 
-Ritháttur 
-~~~~~~~~~~
+Markgildi
+---------
+
+Ritháttur 4.
+~~~~~~~~~~~~
 
 Ef :math:`f(x_1,x_2,\ldots,x_n)` stefnir á tölu :math:`L` þegar
 :math:`(x_1,x_2,\ldots,x_n)` stefnir á :math:`(p_1,p_2,\ldots,p_n)` þá
@@ -146,8 +149,8 @@ er ritað
    \lim_{(x_1,x_2,\ldots,x_n)\rightarrow (p_1,p_2,\ldots,p_n)}
    f(x_1,x_2,\ldots,x_n)=L.
 
-Skilgreining (Skilgreining 4.8 sett fram fyrir föll af tveimur breytum.) 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Skilgreining 4. (Skilgreining 4.8 sett fram fyrir föll af tveimur breytum.) 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`f(x,y)` vera fall skilgreint á mengi
 :math:`{\cal D}(f)\subseteq {\mathbb  R}^2`. Látum :math:`(a,b)` vera
@@ -160,8 +163,8 @@ stefnir á :math:`(a,b)` ef eftirfarandi gildir:
 Reglur um markgildi
 -------------------
 
-Setning 
-~~~~~~~~
+Setning 4.
+~~~~~~~~~~
 
 Látum :math:`f` og :math:`g` vera föll af tveimur breytum. Gerum ráð
 fyrir að
@@ -187,12 +190,12 @@ er fall af einni breytistærð sem er samfellt í punktinum :math:`L`.
 Samfelldni
 ----------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 4.
+~~~~~~~~~~~~~~~
 
 Látum :math:`f` vera fall af :math:`n` breytistærðum skilgreint á mengi
 :math:`{\cal D}(f)` í :math:`\mbox{${\bf R}^n$}`. Fallið :math:`f` er
-sagt *samfellt í punkti* :math:`(p_1,p_2,\ldots,p_n)` í
+sagt *samfellt í punkti* :math:` (p_1,p_2,\ldots,p_n)` í
 :math:`{\cal D}(f)` ef
 
 .. math::
@@ -206,8 +209,8 @@ skilgreiningarmengis síns.
 Hlutafleiður
 ------------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 5.
+~~~~~~~~~~~~~~~
 
 Látum :math:`f(x,y)` vera fall af tveimur breytum :math:`x` og :math:`y`
 sem er skilgreint á opinni skífu með miðju í punktinum :math:`(a,b)`.
@@ -226,8 +229,8 @@ og hlutafleiðu m.t.t. :math:`y` í :math:`(a,b)` með
 
 .5 |Hlutafleiða m.t.t. \ :math:`y` fyrir :math:`x=1`.|
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 5.
+~~~~~~~~~~~~~~~
 
 Látum :math:`f(x,y,z)` vera fall af þremur breytum :math:`x`, :math:`y`
 og :math:`z` sem er skilgreint á opinni kúlu með miðju í punktinum
@@ -247,8 +250,8 @@ Skilgreinum *hlutafleiðu m.t.t.* :math:`x` í :math:`(a,b,c)` með
 
  ef markgildin eru til.
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 5.
+~~~~~~~~~~~~~~~
 
 Látum :math:`f` vera fall af :math:`n` breytum
 :math:`x_1,x_2,\ldots,x_n` sem er skilgreint á opinni kúlu um punktinn
@@ -303,8 +306,8 @@ kallast :math:`S` *snertiplan* við grafið :math:`z=f(x,y)` í punktinum
 Hlutafleiður af hærra stigi
 ---------------------------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 5.
+~~~~~~~~~~~~~~~
 
 Ritum :math:`z=f(x,y)`. *Annars stigs hlutafleiður* :math:`f` eru
 skilgreindar með formúlunum
@@ -337,8 +340,8 @@ skilgreindar með formúlunum
 hreinar hlutafleiður og :math:`f_{12}(x,y)` og :math:`f_{21}(x,y)`
 kallast blandaðar hlutafleiður.
 
-Setning 
-~~~~~~~~
+Setning 5.
+~~~~~~~~~~
 
 Látum :math:`f(x,y)` vera fall sem er skilgreint á opinni skífu
 :math:`D` með miðju í :math:`P=(a,b)` . Gerum ráð fyrir að
@@ -348,8 +351,8 @@ allar samfelldar á :math:`D`. Þá gildir að
 
 .. math:: f_{12}(a,b)=f_{21}(a,b).
 
-Hugmynd að skilgreiningu 
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Hugmynd að skilgreiningu 5.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Skilgreiningu 5.6 má útvíkka á augljósan hátt til að skilgreina 2. stigs
 hlutafleiður fyrir föll af fleiri en tveimur breytum. Einnig er augljóst
@@ -369,8 +372,8 @@ og
        fyrst m.t.t. } y\mbox{, svo m.t.t. } z
    \mbox{ og að lokum m.t.t. }y\mbox{)}.
 
-Setning (Almenn útgáfa af Setningu 5.7)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Setning 5. (Almenn útgáfa af Setningu 5.7)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`f` vera fall :math:`n` breytistærðum sem er skilgreint á
 opinni kúlu með miðju í :math:`P=(x_1, x_2,\ldots, x_n)`.
@@ -394,8 +397,8 @@ ef skilyrðin í setningunni eru uppfyllt.
 Keðjuregla
 ----------
 
-Setning (Keðjureglan í einni breytistærð.)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Setning 6. (Keðjureglan í einni breytistærð.)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Gerum ráð fyrir að fallið :math:`f(u)` sé diffranlegt í punktinum
 :math:`u=g(x)` og að fallið :math:`g(x)` sé diffranlegt í punktinum
@@ -404,8 +407,8 @@ Gerum ráð fyrir að fallið :math:`f(u)` sé diffranlegt í punktinum
 
 .. math:: (f\circ g)'(x)=f'(g(x))g'(x).
 
-Setning 
-~~~~~~~~
+Setning 6.
+~~~~~~~~~~
 
 Látum :math:`f(x,y)` vera fall þar sem :math:`x=x(t)` og :math:`y=y(t)`
 eru föll af breytu :math:`t`, Gerum ráð fyrir að á opinni skífu um
@@ -420,8 +423,8 @@ diffranlegt í :math:`t` og
 
 .. math:: g'(t)=f_1(x(t),y(t))x'(t)+f_2(x(t),y(t))y'(t).
 
-Ritháttur 
-~~~~~~~~~~
+Ritháttur 6.
+~~~~~~~~~~~~
 
 Ritum :math:`z=f(x,y)` þar sem :math:`x=x(t)` og :math:`y=y(t)` eru föll
 af breytu :math:`t`. Þá er
@@ -433,8 +436,8 @@ af breytu :math:`t`. Þá er
 
 |image|
 
-Setning 
-~~~~~~~~
+Setning 6.
+~~~~~~~~~~
 
 Látum :math:`f(x,y)` vera fall af breytistærðum :math:`x` og :math:`y`
 sem aftur eru föll af breytum :math:`s` og :math:`t`, það er að segja
@@ -450,8 +453,8 @@ sem aftur eru föll af breytum :math:`s` og :math:`t`, það er að segja
 
 .. math:: g_2(s,t)=f_1(x(s,t),y(s,t))x_2(s,t)+f_2(x(s,t),y(s,t))y_2(s,t).
 
-Ritháttur 
-~~~~~~~~~~
+Ritháttur 6.
+~~~~~~~~~~~~
 
 Ritum :math:`z=f(x,y)` þar sem :math:`x=x(s,t)` og :math:`y=y(s,t)` eru
 föll af breytum :math:`s` og :math:`t`. Þá er
@@ -466,8 +469,8 @@ föll af breytum :math:`s` og :math:`t`. Þá er
 
 |image|
 
-Ritháttur .
-~~~~~~~~~~~
+Ritháttur 6..
+~~~~~~~~~~~~~
 
 Ritum :math:`z=f(x,y)` þar sem :math:`x=x(s,t)` og :math:`y=y(s,t)` eru
 föll af breytum :math:`s` og :math:`t`. Þá er
@@ -484,8 +487,8 @@ föll af breytum :math:`s` og :math:`t`. Þá er
    & \frac{\partial y}{\partial t}
    \end{bmatrix}
 
-Setning 
-~~~~~~~~
+Setning 6.
+~~~~~~~~~~
 
 Látum :math:`u` vera fall af :math:`n` breytum
 :math:`x_1, x_2, \ldots, x_n` þannig að hvert :math:`x_i` má rita sem
@@ -505,8 +508,8 @@ fæst að
 
 |image|
 
-Dæmi 
-~~~~~
+Dæmi 6.
+~~~~~~~
 
 Látum :math:`T` vera fall af fall af :math:`x`, :math:`y` og :math:`t`,
 og :math:`x` og :math:`y` föll af :math:`t`. Finnum
@@ -516,8 +519,8 @@ og :math:`x` og :math:`y` föll af :math:`t`. Finnum
 
 .. math:: \frac{d T}{d t} = \frac{\partial T}{\partial x} \frac{d x}{d t} +\frac{\partial T}{\partial y} \frac{d y}{\partial t} + \frac{\partial T}{\partial t} .
 
-Dæmi 
-~~~~~
+Dæmi 6.
+~~~~~~~
 
 Látum :math:`T` vera fall af fall af :math:`x`, :math:`y`, :math:`s` og
 :math:`t`, og :math:`x` og :math:`y` föll af :math:`s` og :math:`t`.
@@ -527,8 +530,8 @@ Finnum :math:`\frac{ \partial T}{\partial t}`.
 
 .. math:: \frac{\partial T}{\partial t} = \frac{\partial T}{\partial x} \frac{\partial x}{\partial t} +\frac{\partial T}{\partial y} \frac{\partial y}{\partial t} + \left(\frac{\partial T}{\partial t}\right)_{x,y,s} .
 
-Dæmi 
-~~~~~
+Dæmi 6.
+~~~~~~~
 
 Látum :math:`z` vera fall af fall af :math:`u`, :math:`v` og :math:`r`,
 :math:`u` og :math:`v` vera föll af :math:`x`, :math:`y` og :math:`r` og
@@ -545,8 +548,8 @@ Látum :math:`z` vera fall af fall af :math:`u`, :math:`v` og :math:`r`,
 Jákvætt einsleit föll
 ---------------------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 6.
+~~~~~~~~~~~~~~~
 
 Fall :math:`f(x_1, x_2, \ldots, x_n)` er sagt vera *jákvætt einsleitt af
 stigi :math:`k`* (e. positively homogeneous of degree :math:`k`) ef
@@ -555,8 +558,8 @@ fyrir sérhvern punkt :math:`(x_1, x_2, \ldots, x_n)` og sérhverja tölu
 
 .. math:: f(tx_1, tx_2, \ldots, tx_n)=t^kf(x_1, x_2, \ldots, x_n).
 
-Setning 
-~~~~~~~~
+Setning 6.
+~~~~~~~~~~
 
 Ef fall :math:`f(x_1, x_2, \ldots, x_n)` hefur samfelldar fyrsta stigs
 hlutafleiður og er jákvætt einsleitt af stigi :math:`k` þá er
@@ -566,8 +569,8 @@ hlutafleiður og er jákvætt einsleitt af stigi :math:`k` þá er
 Diffranleiki í einni breytistærð
 --------------------------------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 7. 
+~~~~~~~~~~~~~~~~
 
 Látum :math:`f` vera fall af einni breytistærð og gerum ráð fyrir að
 :math:`f` sé skilgreint á opnu bili sem inniheldur punktinn :math:`a`.
@@ -581,8 +584,8 @@ er til.
 Diffranleiki í einni breytistærð - önnur lýsing
 -----------------------------------------------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 7. 
+~~~~~~~~~~~~~~~~
 
 Látum :math:`f` vera fall af einni breytistærð og gerum ráð fyrir að
 :math:`f` sé skilgreint á opnu bili sem inniheldur punktinn :math:`a`.
@@ -599,8 +602,8 @@ Fallið :math:`f` er ’nálægt’ línunni :math:`L` nálægt punktinum
 Diffranleiki
 ------------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 7.
+~~~~~~~~~~~~~~~
 
 Fall :math:`f(x,y)` sem er skilgreint á opinni skífu umhverfis
 :math:`(a,b)` er sagt vera diffranlegt í punktinum :math:`(a,b)` ef
@@ -630,8 +633,8 @@ Ef :math:`f` er diffranlegt í :math:`(a,b)` þá kallast planið :math:`S`
 Diffranleiki
 ------------
 
-Setning (Meðalgildissetningin)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Setning 7. (Meðalgildissetningin)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Gerum ráð fyrir að fallið :math:`f` sé samfellt á lokaða bilinu
 :math:`[a,b]` og diffranlegt á opna bilinu :math:`(a,b)`. Þá er til
@@ -639,8 +642,8 @@ punktur :math:`c` á opna bilinu :math:`(a,b)` þannig að
 
 .. math:: f(b)-f(a)=f'(c)(b-a).
 
-Setning 
-~~~~~~~~
+Setning 7.
+~~~~~~~~~~
 
 Látum :math:`f(x,y)` vera fall sem er skilgreint á opinni skífu
 :math:`\cal D` með miðju í :math:`(a,b)` þannig að á þessari skífu eru
@@ -651,22 +654,22 @@ Gerum ráð fyrir að :math:`h` og :math:`k` séu tölur þannig að
 
 .. math:: f(a+h,b+k)-f(a,b)=hf_1(a+\theta_1h,b+k)+kf_2(a,b+\theta_2k).
 
-Setning 
-~~~~~~~~
+Setning 7.
+~~~~~~~~~~
 
 Látum :math:`f(x,y)` vera fall sem er skilgreint á opinni skífu
 :math:`\cal D` með miðju í :math:`(a,b)` þannig að á þessari skífu eru
 báðar fyrsta stigs hlutafleiður :math:`f` skilgreindar og samfelldar. Þá
 er fallið :math:`f` diffranlegt í :math:`(a,b)`.
 
-Setning 
-~~~~~~~~
+Setning 7.
+~~~~~~~~~~
 
 Gerum ráð fyrir að :math:`f(x,y)` sé fall sem er diffranlegt í punktinum
 :math:`(a,b)`. Þá er :math:`f` samfellt í :math:`(a,b)`.
 
-Keðjuregla 
-~~~~~~~~~~~
+Keðjuregla 7.
+~~~~~~~~~~~~~
 
 Ritum :math:`z=f(x,y)` þar sem :math:`x=x(s,t)` og :math:`y=y(s,t)`.
 Gerum ráð fyrir að
@@ -699,8 +702,8 @@ og
 Diffur
 ------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 7.
+~~~~~~~~~~~~~~~
 
 Ritum :math:`z=f(x_1, x_2, \ldots, x_n)`. *Diffrið* af :math:`z` er
 skilgreint sem
@@ -721,8 +724,8 @@ Diffrið er nálgun á
 Varpanir :math:`\mbox{${\bf R}^n$}\rightarrow\mbox{${\bf R}^m$}`
 ----------------------------------------------------------------
 
-Táknmál 
-~~~~~~~~
+Táknmál 7.
+~~~~~~~~~~
 
 Látum
 :math:`\mbox{${\bf f}$}:\mbox{${\bf R}^n$}\rightarrow\mbox{${\bf R}^m$}`
@@ -737,8 +740,8 @@ hvert :math:`f_i` er fall
 Jacobi-fylki
 ------------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 7.
+~~~~~~~~~~~~~~~
 
 Notum táknmálið úr 7.8. Ef allar hlutafleiðurnar :math:`\partial
 y_i/\partial x_j` eru skilgreindar í punktinum :math:`\mbox{${\bf x}$}`
@@ -760,8 +763,8 @@ y_i/\partial x_j` eru skilgreindar í punktinum :math:`\mbox{${\bf x}$}`
 Diffranleiki varpana :math:`\mbox{${\bf R}^n$}\rightarrow\mbox{${\bf R}^m$}`
 ----------------------------------------------------------------------------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining 7.
+~~~~~~~~~~~~~~~
 
 Notum táknmálið úr 7.8 og 7.9. Látum
 :math:`\mbox{${\bf a}$}=(a_1, a_2, \ldots, a_n)` vera fastan punkt í
@@ -784,8 +787,8 @@ Línulega vörpunin :math:`D\mbox{${\bf f}$}` kallast afleiða
 Keðjureglan
 -----------
 
-Setning 
-~~~~~~~~
+Setning 7.
+~~~~~~~~~~
 
 Látum
 :math:`\mbox{${\bf f}$}:\mbox{${\bf R}^n$}\rightarrow \mbox{${\bf R}^m$}`
@@ -804,8 +807,8 @@ diffranleg í :math:`\mbox{${\bf x}$}` og
 Stigull
 -------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining .
+~~~~~~~~~~~~~~
 
 Látum :math:`f(x,y)` vera fall og :math:`(x,y)` punkt þar sem báðar
 fyrsta stigs hlutafleiður :math:`f` eru skilgreindar. Skilgreinum
@@ -815,8 +818,8 @@ fyrsta stigs hlutafleiður :math:`f` eru skilgreindar. Skilgreinum
 
 Stigull :math:`f` er stundum táknaður með **grad**\ :math:`\,f`.
 
-Ritháttur 
-~~~~~~~~~~
+Ritháttur .
+~~~~~~~~~~~
 
 Oft hentugt að rita
 
@@ -834,8 +837,8 @@ Dæmi
 .5 |Jafnhæðarlínur. Stigull og snertilína við jafnhæðarlínuna
 :math:`z=0.5` í :math:`(x,y) = (0.5,0.5)`.|
 
-Setning 
-~~~~~~~~
+Setning .
+~~~~~~~~~
 
 Gerum ráð fyrir að fallið :math:`f(x,y)` sé diffranlegt í punktinum
 :math:`(a,b)` og að :math:`\nabla f(a,b) \neq \mathbf{0}`. Þá er
@@ -845,8 +848,8 @@ sem liggur í gegnum punktinn :math:`(a,b)`.
 Snertilína við jafnhæðarferil
 -----------------------------
 
-Setning 
-~~~~~~~~
+Setning .
+~~~~~~~~~
 
 Gerum ráð fyrir að fallið :math:`f(x,y)` sé diffranlegt í punktinum
 :math:`(a,b)` og að :math:`\nabla f(a,b) \neq \mathbf{0}`. Jafna
@@ -862,19 +865,19 @@ eða
 Stefnuafleiða
 -------------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining .
+~~~~~~~~~~~~~~
 
 Látum :math:`\mbox{${\bf u}$}=u\mbox{${\bf i}$}+v\mbox{${\bf j}$}` vera
-einingarvigur. *Stefnuafleiða* :math:`f` í punktinum :math:`(a,b)` í
+einingarvigur. *Stefnuafleiða * :math:`f` í punktinum :math:`(a,b)` í
 stefnu :math:`\mbox{${\bf u}$}` er skilgreind sem
 
 .. math:: D_{\mbox{${\bf u}$}}f(a,b)=\lim_{h\rightarrow 0^+}\frac{f(a+hu, b+hv)-f(a,b)}{h}
 
 ef markgildið er skilgreint.
 
-Setning 
-~~~~~~~~
+Setning .
+~~~~~~~~~
 
 Gerum ráð fyrir að fallið :math:`f` sé diffranlegt í :math:`(a,b)` og
 :math:`\mbox{${\bf u}$}=u\mbox{${\bf i}$}+v\mbox{${\bf j}$}` sé
@@ -883,8 +886,8 @@ einingarvigur. Þá er stefnuafleiðan í punktinum :math:`(a,b)` í stefnu
 
 .. math:: D_{\mbox{${\bf u}$}}f(a,b)=\mbox{${\bf u}$}\cdot \nabla f(a,b).
 
-Setning 
-~~~~~~~~
+Setning .
+~~~~~~~~~
 
 Látum :math:`f` vera gefið fall og gerum ráð fyrir að :math:`f` sé
 diffranlegt í punktinum :math:`(a,b)`.
@@ -906,8 +909,8 @@ fæst þegar :math:`\mbox{${\bf u}$}` er einingarvigur í stefnu
 
 |image|
 
-Setning 
-~~~~~~~~
+Setning .
+~~~~~~~~~
 
 Látum :math:`f` vera gefið fall og gerum ráð fyrir að :math:`f` sé
 diffranlegt í punktinum :math:`(a,b)`.
@@ -926,8 +929,8 @@ stefnu :math:`\nabla f(a,b)`.
 Stigull
 -------
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining .
+~~~~~~~~~~~~~~
 
 Látum :math:`f` vera fall af þremur breytistærðum, þannig að allar þrjár
 fyrsta stigs hlutafleiður :math:`f` í punktinum :math:`(x,y,z)` séu
@@ -939,8 +942,8 @@ skilgreindur sem vigurinn
 Snertiplan við jafnhæðarflöt
 ----------------------------
 
-Setning 
-~~~~~~~~
+Setning .
+~~~~~~~~~
 
 Látum :math:`f` vera fall af þremur breytistærðum þannig að fallið
 :math:`f` er diffranlegt í punktinum :math:`(a,b,c)`. Látum
@@ -959,8 +962,8 @@ eða með umritun
 Fólgin föll og Taylor-nálganir
 ------------------------------
 
-Upprifjun 
-~~~~~~~~~~
+Upprifjun .
+~~~~~~~~~~~
 
 Skoðum feril sem gefinn er með jöfnu :math:`F(x,y)=0` og gerum ráð fyrir
 að báðar fyrsta stigs hlutafleiður :math:`F` séu samfelldar. Látum
@@ -974,8 +977,8 @@ að báðar fyrsta stigs hlutafleiður :math:`F` séu samfelldar. Látum
 Sagt að jafnan :math:`F(x,y)=0` skilgreini :math:`y` sem *fólgið fall*
 af :math:`x` í grennd við :math:`(x_0,y_0)`.
 
-Setning 
-~~~~~~~~
+Setning .
+~~~~~~~~~
 
 Látum :math:`F` vera fall af :math:`n`-breytum :math:`x_1, \ldots,
 x_n` og gerum ráð fyrir að allar fyrsta stigs hlutafleiður :math:`F` séu
@@ -1000,8 +1003,8 @@ Ennfremur gildir að
    \varphi_i(a_1,\ldots,a_{n-1})
    =-\frac{F_i(a_1,\ldots,a_n)}{F_n(a_1,\ldots,a_n)}.
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining .
+~~~~~~~~~~~~~~
 
 *Jacobi-ákveða* tveggja falla :math:`u=u(x,y)` og :math:`v=v(x,y)` með
 tilliti til breytanna :math:`x` og :math:`y` er skilgreind sem
@@ -1050,8 +1053,8 @@ skilgreinum við, til dæmis,
    &\frac{\partial H}{\partial y}
    \end{vmatrix}.
 
-Setning (Upprifjun á reglu Cramers.)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Setning . (Upprifjun á reglu Cramers.)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`A` vera andhverfanlegt :math:`n\times n` fylki og
 :math:`\mbox{${\bf b}$}` vigur í :math:`\mbox{${\bf R}^n$}`. Gerum ráð
@@ -1063,8 +1066,8 @@ er
 
 .. math:: x_i=\frac{\det B_i}{\det A}.
 
-Setning (Setningin um fólgin föll)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Setning . (Setningin um fólgin föll)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Skoðum jöfnuhneppi
 
@@ -1113,8 +1116,8 @@ að
    {\partial( y_1, \ldots,x_j,\ldots y_n)}}
    {\frac{\partial(F_{(1)}, \ldots, F_{(n)})}{\partial( y_1, \ldots, y_n)}}.
 
-Setning (Setningin um staðbundna andhverfu)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Setning . (Setningin um staðbundna andhverfu)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum
 
@@ -1140,8 +1143,8 @@ fyrir alla punkta :math:`\mbox{${\bf x}$}\in B_{\mbox{${\bf x}$}}` og
 :math:`\mbox{${\bf f}$}(\mbox{${\bf g}$}(\mbox{${\bf y}$}))=\mbox{${\bf y}$}`
 fyrir alla punkta :math:`\mbox{${\bf y}$}\in B_{\mbox{${\bf y}$}}`.
 
-Upprifjun (Taylor-regla í einni breytistærð.)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Upprifjun . (Taylor-regla í einni breytistærð.)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`f` vera :math:`n+1`-diffranlegt fall af einni breytistærð.
 Margliðan
@@ -1168,8 +1171,8 @@ kallast *:math:`n`-ta stigs Taylor-margliða :math:`f` með miðju í
 
 sem er kallað *:math:`n`-ta stigs Taylor-formúla.*
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining .
+~~~~~~~~~~~~~~
 
 Látum :math:`f(x,y)` vera fall þannig að fyrsta stigs hlutafleiður
 :math:`f` eru skilgreindar og samfelldar. Margliðan
@@ -1179,8 +1182,8 @@ Látum :math:`f(x,y)` vera fall þannig að fyrsta stigs hlutafleiður
 kallast *fyrsta stigs Taylor-margliða :math:`f` með miðju í
 :math:`(a,b)`*.
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining .
+~~~~~~~~~~~~~~
 
 Látum :math:`f(x,y)` vera fall þannig að fyrsta og annars stigs
 hlutafleiður :math:`f` eru skilgreindar og samfelldar. Margliðan
@@ -1195,8 +1198,8 @@ hlutafleiður :math:`f` eru skilgreindar og samfelldar. Margliðan
 kallast *annars stigs Taylor-margliða :math:`f` með miðju í
 :math:`(a,b)`*.
 
-Skilgreining og athugasemd 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Skilgreining og athugasemd .
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Skilgreinum tvo *diffurvirkja* :math:`D_1` og :math:`D_2` þannig að
 
@@ -1210,8 +1213,8 @@ skilgreindar og samfelldar þá er :math:`D_1D_2=D_2D_1`, þ.e.a.s. ekki
 skiptir máli í hvaða röð er diffrað, bara hve oft er diffrað með tilliti
 til hvorrar breytu.
 
-Upprifjun (Tvíliðuregla)
-~~~~~~~~~~~~~~~~~~~~~~~~
+Upprifjun .(Tvíliðuregla)
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Skilgreinum
 
@@ -1222,8 +1225,8 @@ Talan :math:`{n\choose j}` (lesið :math:`n` yfir :math:`j`) er
 
 .. math:: (x+y)^n=\sum_{j=0}^n \textstyle{n\choose j}x^jy^{n-j}.
 
-Regla 
-~~~~~~
+Regla .
+~~~~~~~
 
 Ef :math:`f(x,y)` er fall þannig að allar hlutafleiður af :math:`n`-ta
 og lægri stigum eru samfelldar þá gildir að
@@ -1233,8 +1236,8 @@ og lægri stigum eru samfelldar þá gildir að
    (hD_1+kD_2)^nf(a,b)=\sum_{j=0}^n \textstyle{n\choose j}
    h^jk^{n-j}D_1^jD_2^{n-j}f(a,b).
 
-Skilgreining 
-~~~~~~~~~~~~~
+Skilgreining .
+~~~~~~~~~~~~~~
 
 Fyrir fall :math:`f(x,y)` þannig að allar hlutafleiður af :math:`n`-ta
 og lægri stigum eru samfelldar þá er *:math:`n`-ta stigs Taylor-margliða
@@ -1249,8 +1252,8 @@ og lægri stigum eru samfelldar þá er *:math:`n`-ta stigs Taylor-margliða
    &=\sum_{m=0}^n\sum_{j=0}^m \frac{1}{j!(m-j)!}
    D_1^jD_2^{m-j}f(a,b)(x-a)^j(y-b)^{m-j}.\end{aligned}
 
-Setning 
-~~~~~~~~
+Setning .
+~~~~~~~~~
 
 Fyrir fall :math:`f(x,y)` þannig að allar hlutafleiður af :math:`n+1`-ta
 og lægri stigum eru samfelldar þá gildir um skekkjuna í :math:`n`-ta

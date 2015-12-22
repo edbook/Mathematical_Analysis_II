@@ -447,6 +447,8 @@ Setning
       D= f_1(a, b, c)a+f_2(a, b, c)b
       +f_3(a, b, c)c.
 
+Setning .[snertifletir], frh.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Látum :math:`\cal S` vera flöt sem er gefinn sem graf falls
    :math:`z=f(x,y)`. Ef :math:`(a, b, f(a,b))` er punktur á fletinum og
@@ -474,6 +476,8 @@ Setning
 í punktinum :math:`(a,b,f(a,b))` er
 :math:`\mathbf{T}_2 = (0,1,f_2(a,b))`.|
 
+Setning .[snertifletir], frh.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Látum
    :math:`\mbox{${\bf r}$}: D\subseteq {\mathbb  R}^2\rightarrow {\mathbb  R}^3`
@@ -614,6 +618,8 @@ Ritum :math:`dS` fyrir flatarmálselement á fleti :math:`\cal S`.
 
    .. math:: dS=\sqrt{1+g_1(x,y)^2+g_2(x,y)^2}\,dx\,dy.
 
+Formúlur .[form], frh
+~~~~~~~~~~~~~~~~~~~~~
 
 Ritum :math:`dS` fyrir flatarmálselement á fleti :math:`\cal S`.
 
