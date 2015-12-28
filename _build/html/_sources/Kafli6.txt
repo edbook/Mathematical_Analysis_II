@@ -1,4 +1,5 @@
 
+
 Vigurreikningur
 ===============
 
@@ -37,12 +38,7 @@ Skilgreinum *rót* vigursviðsins :math:`\mbox{${\bf F}$}` sem
 
    \begin{aligned}
     \mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}&=\nabla\times\mbox{${\bf F}$}=\begin{vmatrix} \mbox{${\bf i}$}&\mbox{${\bf j}$}&\mbox{${\bf k}$}\\
-    \frac{\partial} {\partial x}&\frac{\partial}{\partial y}&\frac{\partial}{\partial z}\\F_1&F_2&F_3\end{vmatrix} \\
-    \noalign{\smallskip}
-    &=\bigg(\frac{\partial F_3}{\partial y}-\frac{\partial F_2}{\partial
-    z}\bigg)\,\mbox{${\bf i}$}+\bigg(\frac{\partial F_1}{\partial z}-\frac{\partial
-    F_3}{\partial x}\bigg)\,\mbox{${\bf j}$}+\bigg(\frac{\partial F_2}{\partial
-    x}-\frac{\partial F_1}{\partial y}\bigg)\,\mbox{${\bf k}$}. 
+    \frac{\partial} {\partial x}&\frac{\partial}{\partial y}&\frac{\partial}{\partial z}\\F_1&F_2&F_3\end{vmatrix} \\ &=\bigg(\frac{\partial F_3}{\partial y}-\frac{\partial F_2}{\partial z}\bigg)\,\mbox{${\bf i}$}+\bigg(\frac{\partial F_1}{\partial z}-\frac{\partial F_3}{\partial x}\bigg)\,\mbox{${\bf j}$}+\bigg(\frac{\partial F_2}{\partial x}-\frac{\partial F_1}{\partial y}\bigg)\,\mbox{${\bf k}$}. 
     \end{aligned}
 
 Varúð 
@@ -105,10 +101,10 @@ samfelldar.
 :math:`\nabla(\mbox{${\bf F}$}\cdot\mbox{${\bf G}$})=\mbox{${\bf F}$}\times(\nabla\times \mbox{${\bf G}$})+\mbox{${\bf G}$}\times(\nabla\times \mbox{${\bf F}$})+(\mbox{${\bf F}$}\cdot\nabla)\mbox{${\bf G}$}+(\mbox{${\bf G}$}\cdot\nabla)\mbox{${\bf F}$}`.
 
 (g)
-:math:`\nabla\cdot(\nabla\times \mbox{${\bf F}$})=0`\ :math:`\mbox{${\rm\bf div\,}$}\mbox{${\rm\bf curl\,}$}=0`
+:math:`\nabla\cdot(\nabla\times \mbox{${\bf F}$})=0\qquad\qquad\mbox{${\rm\bf div\,}$}\mbox{${\rm\bf curl\,}$}=0`
 
 (h)
-:math:`\nabla\times(\nabla\varphi)=\mbox{${\bf 0}$}`\ :math:`\mbox{${\rm\bf curl\,}$}\mbox{${\rm\bf grad\,}$}=\mbox{${\bf 0}$}`
+:math:`\nabla\times(\nabla\varphi)=\mbox{${\bf 0}$}\qquad\qquad\mbox{${\rm\bf curl\,}$}\mbox{${\rm\bf grad\,}$}=\mbox{${\bf 0}$}`
 
 (i)
 :math:`\nabla\times(\nabla\times \mbox{${\bf F}$})=\nabla(\nabla\cdot\mbox{${\bf F}$})-\nabla^2\mbox{${\bf F}$}`.
@@ -365,7 +361,7 @@ og
 
 .. math:: \int\!\!\!\int\!\!\!\int_D\mbox{${\rm\bf grad\,}$}\varphi\,dV=\int\!\!\!\int_{\cal S}\varphi\mbox{${\bf N}$}\,dS.
 
- Athugið að útkomurnar úr heildunum eru vigrar.
+Athugið að útkomurnar úr heildunum eru vigrar.
 
 Setning Stokes
 --------------
@@ -418,7 +414,7 @@ vísar út úr :math:`D`. Ef :math:`\mbox{${\bf F}$}` er samfellt
 diffranlegt vigursvið skilgreint á opnu mengi sem inniheldur :math:`D`,
 þá er
 
-.. math:: \oiint_{\cal S}\mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS=0.
+.. math:: \oint_{\cal S}\mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS=0.
 
 Hagnýtingar í eðlisfræði
 ------------------------
@@ -467,7 +463,7 @@ Rafsvið - Lögmál Gauss (fyrsta jafna Maxwells)
 Látum :math:`\rho(\xi,\eta,\zeta)` vera hleðsludreifingu og
 :math:`\mbox{${\bf E}$}` rafsviðið vegna hennar. Þá gildir að
 
-.. math:: \boxed{\mbox{${\rm\bf div\,}$}\mbox{${\bf E}$}=\frac{\rho}{\varepsilon_0}.}
+.. math:: \mbox{${\rm\bf div\,}$}\mbox{${\bf E}$}=\frac{\rho}{\varepsilon_0}.
 
 Rafsvið 
 ~~~~~~~~
@@ -480,7 +476,7 @@ við setjum
 
 þá er :math:`\mbox{${\bf E}$}= \nabla \varphi` og þar með er
 
-.. math:: \boxed{\mbox{${\rm\bf curl\,}$}\mbox{${\bf E}$}= \mathbf{0}.}
+.. math:: \mbox{${\rm\bf curl\,}$}\mbox{${\bf E}$}= \mathbf{0}.
 
 Segulsvið - Lögmál Biot-Savart 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -522,7 +518,7 @@ einfaldur ferill sem fer rangsælis einu sinni umhverfis :math:`z`-ásinn
 Hugsum okkur að :math:`\mathbf{J}(\mbox{${\bf r}$})` sé straumþéttleiki
 í punkti :math:`\mbox{${\bf r}$}` (straumur á flatareiningu). Þá er
 
-.. math:: \boxed{\mbox{${\rm\bf curl\,}$}\mbox{${\bf H}$}= \mu_0 \mathbf{J}.}
+.. math:: \mbox{${\rm\bf curl\,}$}\mbox{${\bf H}$}= \mu_0 \mathbf{J}.
 
 Einnig gildir að ef við setjum
 
@@ -534,7 +530,7 @@ Einnig gildir að ef við setjum
 þá er :math:`\mbox{${\bf H}$}=\mbox{${\rm\bf curl\,}$}\mbox{${\bf A}$}`
 og því er
 
-.. math:: \boxed{\mbox{${\rm\bf div\,}$}\mbox{${\bf H}$}=0.}
+.. math:: \mbox{${\rm\bf div\,}$}\mbox{${\bf H}$}=0.
 
 Samantekt
 ~~~~~~~~~

@@ -1,3 +1,46 @@
+<presentation>
+
+[numbered]
+
+[1] [#1]
+
+<article>
+
+1.5em
+
+1.25em
+
+1.25em
+
+to2cm 1.25em to 2cm.
+
+1em
+
+empty 0.25em
+
+1em
+
+plus1filll plus1fill
+
+1em
+
+<article>
+
+listI 5@ plus3@ minus5@ listi=listI
+
+maketitle
+
+=startsection startsection#1#2#3#4#5#6
+
+<all>
+
+<presentation>
+
+[theorem]
+
+[1]
+
+[1]
 
 Vigursvið
 =========
@@ -5,8 +48,8 @@ Vigursvið
 Vigursvið
 ---------
 
-Skilgreining .
-~~~~~~~~~~~~~~
+Skilgreining 
+~~~~~~~~~~~~~
 
 *Vigursvið* á :math:`{\mathbb  R}^2` er vörpun
 
@@ -38,8 +81,8 @@ sé samfellt er eins og á samfeldni vigursvið í :math:`{\mathbb  R}^2` .
 Straumlína
 ----------
 
-Skilgreining .
-~~~~~~~~~~~~~~
+Skilgreining 
+~~~~~~~~~~~~~
 
 Ferill :math:`C` í planinu kallast *straumlína* (e. stream line, flow
 line) fyrir vigursvið :math:`\mbox{${\bf F}$}(x,y)` ef í hverjum punkti
@@ -57,8 +100,8 @@ snertivigur við ferilinn.
 Stigulsvið
 ----------
 
-Skilgreining .
-~~~~~~~~~~~~~~
+Skilgreining 
+~~~~~~~~~~~~~
 
 Vigursvið :math:`\mbox{${\bf F}$}(x,y)` kallast *stigulsvið* eða *geymið
 svið* (e. gradient field, conservative field) á mengi :math:`D` ef til
@@ -70,7 +113,7 @@ fyrir alla punkta :math:`(x,y)\in D`, það er að segja ef
 
 .. math:: \mbox{${\bf F}$}(x,y)=F_1(x,y)\,\mbox{${\bf i}$}+F_2(x,y)\,\mbox{${\bf j}$}
 
- þá er
+þá er
 
 .. math:: F_1(x,y)=\frac{\partial}{\partial x}\varphi(x,y) \quad \text{og}\quad  F_2(x,y)=\frac{\partial}{\partial y}\varphi(x,y).
 
@@ -81,8 +124,8 @@ Vigursvið :math:`\mbox{${\bf F}$}(x,y,z)` kallast *stigulsvið* eða
 Fallið :math:`\varphi` kallast *mætti* (e. potential) fyrir vigursviðið
 :math:`\mbox{${\bf F}$}`.
 
-Setning .
-~~~~~~~~~
+Setning 
+~~~~~~~~
 
 Látum
 :math:`\mbox{${\bf F}$}(x,y)=F_1(x,y)\,\mbox{${\bf i}$}+F_2(x,y)\,\mbox{${\bf j}$}`
@@ -99,8 +142,8 @@ stigulsvið þá er
 álykta að :math:`\mbox{${\bf F}$}` sé stigulsvið. Þetta atriði verður
 rætt síðar.
 
-Setning .
-~~~~~~~~~
+Setning 
+~~~~~~~~
 
 Látum
 :math:`\mbox{${\bf F}$}(x,y,z)=F_1(x,y,z)\,\mbox{${\bf i}$}+F_2(x,y,z)\,\mbox{${\bf j}$}+F_3(x,y,z)\,\mbox{${\bf k}$}`
@@ -118,8 +161,8 @@ vera vigursvið þannig að föllin :math:`F_1(x,y,z), F_2(x,y,z)` og
    \frac{\partial}{\partial z}F_2(x,y,z)&=
    \frac{\partial}{\partial y}F_3(x,y,z).\end{aligned}
 
-Reikniaðferð .
-~~~~~~~~~~~~~~
+Reikniaðferð 
+~~~~~~~~~~~~~
 
 Finna á mætti :math:`\varphi(x,y)` fyrir stigulsvið
 :math:`\mbox{${\bf F}$}(x,y)=F_1(x,y)\,\mbox{${\bf i}$}+F_2(x,y)\,\mbox{${\bf j}$}`.
@@ -138,7 +181,7 @@ Með því að heilda þessar jöfnur fæst að
 
 .. math:: \varphi(x,y)=\int F_2(x,y)\,dy+C_2(x).
 
- Þegar fyrra stofnfallið er reiknað þá er :math:`y` hugsað sem fasti og
+Þegar fyrra stofnfallið er reiknað þá er :math:`y` hugsað sem fasti og
 því fæst heildunarfasti sem getur verið fall af :math:`y`. Lokaskrefið
 er svo að horfa á jöfnurnar tvær hér að ofan og sjá hvort ekki er hægt
 að finna gildi fyrir heildunarfastanna :math:`C_1(x)` og :math:`C_2(y)`
@@ -147,15 +190,15 @@ að finna gildi fyrir heildunarfastanna :math:`C_1(x)` og :math:`C_2(y)`
 Heildi falls yfir feril
 -----------------------
 
-Skilgreining .
-~~~~~~~~~~~~~~
+Skilgreining 
+~~~~~~~~~~~~~
 
 Látum :math:`\cal C` vera feril í :math:`{\mathbb  R}^2` stikaðan af
 samfellt diffranlegum stikaferli
 :math:`\mbox{${\bf r}$}:[a,b]\rightarrow{\mathbb  R}^2`. Ritum
-:math:`\mbox{${\bf r}$}(t)=(x(t),y(t))`. *Heildi falls :math:`f(x,y)`
-yfir ferilinn :math:`\cal C` með tilliti til bogalengdar* er skilgreint
-sem
+:math:`\mbox{${\bf r}$}(t)=(x(t),y(t))`. *Heildi falls* :math:`f(x,y)`
+*yfir ferilinn* :math:`\cal C` *með tilliti til bogalengdar* er
+skilgreint sem
 
 .. math::
 
@@ -166,8 +209,8 @@ sem
 Sama aðferð notuð til að skilgreina heildi falls yfir feril í
 :math:`{\mathbb  R}^3`.
 
-Setning .
-~~~~~~~~~
+Setning 
+~~~~~~~~
 
 Látum :math:`\cal C` vera feril í :math:`{\mathbb  R}^2`. Gerum ráð
 fyrir að :math:`\mbox{${\bf r}$}_1` og :math:`\mbox{${\bf r}$}_2` séu
@@ -176,8 +219,8 @@ tveir samfellt diffranlegir stikaferlar sem báðir stika ferilinn
 fæst sama útkoma hvort sem stikunin :math:`\mbox{${\bf r}$}_1` eða
 stikunin :math:`\mbox{${\bf r}$}_2` er notuð við útreikningana.
 
-Skilgreining .
-~~~~~~~~~~~~~~
+Skilgreining 
+~~~~~~~~~~~~~
 
 Ferill :math:`\cal C` í plani er sagður *samfellt diffranlegur á köflum*
 ef til er stikun
@@ -200,14 +243,14 @@ diffranlegur á köflum.*
 Heildi vigursviðs eftir ferli
 -----------------------------
 
-Skilgreining .
-~~~~~~~~~~~~~~
+Skilgreining 
+~~~~~~~~~~~~~
 
 Látum :math:`\mbox{${\bf F}$}(x,y)` vera vigursvið og
 :math:`\mbox{${\bf r}$}:[a,b]\rightarrow {\mathbb  R}^2` stikun á ferli
 :math:`\cal C` og gerum ráð fyrir að stikaferillinn
 :math:`\mbox{${\bf r}$}` sé samfellt diffranlegur á köflum. *Heildi
-vigursviðsins :math:`\mbox{${\bf F}$}(x,y)` eftir ferlinum*
+vigursviðsins* :math:`\mbox{${\bf F}$}(x,y)` *eftir ferlinum*
 :math:`\cal C` er skilgreint sem
 
 .. math::
@@ -215,8 +258,8 @@ vigursviðsins :math:`\mbox{${\bf F}$}(x,y)` eftir ferlinum*
    \int_{\cal C} \mbox{${\bf F}$}\cdot d\mbox{${\bf r}$}= \int_{\cal C} \mbox{${\bf F}$}\cdot \mbox{${\bf T}$}\,ds
    =\int_a^b \mbox{${\bf F}$}(\mbox{${\bf r}$}(t))\cdot \mbox{${\bf r}$}'(t)\,dt.
 
-Skilgreining .
-~~~~~~~~~~~~~~
+Skilgreining 
+~~~~~~~~~~~~~
 
 Ritum
 :math:`\mbox{${\bf F}$}(x,y)=F_1(x,y)\,\mbox{${\bf i}$}+F_2(x,y)\,\mbox{${\bf j}$}`.
@@ -233,8 +276,8 @@ rithátt fæst að
    &=\int_a^b F_1(x(t),y(t))x'(t)\,dt+F_2(x(t),y(t))y'(t)\,dt\\
    &=\int_{\cal C} F_1(x,y)\,dx+F_2(x,y)\,dy.\end{aligned}
 
-Athugasemd .
-~~~~~~~~~~~~
+Athugasemd 
+~~~~~~~~~~~
 
 Látum :math:`\cal C` vera feril í :math:`{\mathbb  R}^2`. Gerum ráð
 fyrir að :math:`\mbox{${\bf r}$}_1:[a,b]\rightarrow {\mathbb  R}^2` og
@@ -270,15 +313,15 @@ vera stikaferill sem er samfellt diffranlegur á köflum og stikar feril
 (Samsvarandi gildir fyrir vigursvið skilgreint á svæði
 :math:`D\subseteq {\mathbb  R}^3`.)
 
-Fylgisetning [thm:atob]
-~~~~~~~~~~~~~~~~~~~~~~~
+Fylgisetning 
+~~~~~~~~~~~~~
 
 Látum :math:`\mbox{${\bf F}$}` vera samfellt stigulsvið skilgreint á
 mengi :math:`D\subseteq {\mathbb  R}^2`. Látum
 :math:`\mbox{${\bf r}$}:[a,b]\rightarrow D` vera stikaferil sem er
-samfellt diffranlegur á köflum og lokaður
-(þ.e.a.s.:math:`\mbox{${\bf r}$}(a)=\mbox{${\bf r}$}(b)`) og stikar
-feril :math:`\mathcal{C}`. Þá er
+samfellt diffranlegur á köflum og lokaður (þ.e.a.s.
+:math:`\mbox{${\bf r}$}(a)=\mbox{${\bf r}$}(b)`) og stikar feril
+:math:`\mathcal{C}`. Þá er
 
 .. math:: \oint_{\cal C}  \mbox{${\bf F}$}\cdot \,d\mbox{${\bf r}$}=0.
 
@@ -340,8 +383,8 @@ tvo punkta :math:`P, Q\in D` gildir að til er stikaferill
 *ferilsamanhangandi*. Venjulega er orðið *connected* notað yfir annað
 hugtak, skylt en samt ólíkt.)
 
- Setning 
-~~~~~~~~~
+Setning 
+~~~~~~~~
 
 Látum :math:`D` vera opið mengi í :math:`{\mathbb  R}^2` sem er
 ferilsamanhangandi. Ef :math:`\mbox{${\bf F}$}` er samfellt vigursvið
@@ -366,9 +409,9 @@ eftirfarandi jafngilt:
 Sönnun: 
 ~~~~~~~~
 
-| (a) :math:`\Rightarrow` (b). Fylgisetning .[thm:atob].
-| (b) :math:`\Leftrightarrow` (c). Setning .[thm:beqc].
-| (c) :math:`\Rightarrow` (a). Setning .[thm:ctoa].
+| (a) :math:`\Rightarrow` (b). Fylgisetning [thm:atob].
+| (b) :math:`\Leftrightarrow` (c). Setning [thm:beqc].
+| (c) :math:`\Rightarrow` (a). Setning [thm:ctoa].
 
 Fletir
 ------
@@ -434,9 +477,9 @@ Setning
    :math:`f(x,y,z)=C`. Ef :math:`(a, b, c)` er punktur á fletinum og
    fallið :math:`f` er diffranlegt í punktinum :math:`(a, b,c)` þá er
    vigurinn :math:`\mbox{${\bf n}$}=\nabla f(a, b, c)` hornréttur á
-   flötinn í punktinum :math:`(a,
-       b, c)` og ef :math:`\nabla f(a, b, c)\neq \mbox{${\bf 0}$}` þá
-   hefur flöturinn snertiplan í punktinum. Jafna snertiplansins er
+   flötinn í punktinum :math:`(a,b, c)` og ef
+   :math:`\nabla f(a, b, c)\neq \mbox{${\bf 0}$}` þá hefur flöturinn
+   snertiplan í punktinum. Jafna snertiplansins er
 
    .. math:: f_1(a, b, c)x+f_2(a, b, c)y+f_3(a, b, c)z=D
 
@@ -447,37 +490,38 @@ Setning
       D= f_1(a, b, c)a+f_2(a, b, c)b
       +f_3(a, b, c)c.
 
-Setning .[snertifletir], frh.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 #. Látum :math:`\cal S` vera flöt sem er gefinn sem graf falls
    :math:`z=f(x,y)`. Ef :math:`(a, b, f(a,b))` er punktur á fletinum og
    fallið :math:`f` er diffranlegt í punktinum :math:`(a, b)` þá er
    vigurinn
 
-   .. math::
+   .. math:: \mbox{${\bf n}$}=\big(0 ,1 ,f_2(a, b)\big)\times\big(1 ,0 ,f_1(a, b)\big)=\big(f_1(a, b), f_2(a, b), -1\big)
 
-      \mbox{${\bf n}$}=\big(0 ,1 ,f_2(a, b)\big)\times\big(1 ,0 ,f_1(a, b)\big)
-      =\big(f_1(a, b), f_2(a, b), -1\big)
-
-   hornréttur á flötinn í punktinum :math:`(a,
-        b, f(a,b))` og flöturinn hefur snertiplan í punktinum. Jafna
-   snertiplansins er
+   hornréttur á flötinn í punktinum :math:`(a,b, f(a,b))` og flöturinn
+   hefur snertiplan í punktinum. Jafna snertiplansins er
 
    .. math:: z=f(a, b)+f_1(a, b)(x-a)+f_2(a, b)(y-b).
 
-.5 |Snertivigur við skurðferil sléttunnar
-:math:`y=b` og yfirborðsins :math:`z = f(x,y)`
-í punktinum :math:`(a,b,f(a,b))` er
-:math:`\mathbf{T}_1 = (1,0,f_1(a,b))`.|
+.. figure:: xpart.png
+   :alt: Snertivigur við skurðferil sléttunnar
+   :math:`y=b` og yfirborðsins :math:`z = f(x,y)`
+   í punktinum :math:`(a,b,f(a,b))` er
+   :math:`\mathbf{T}_1 = (1,0,f_1(a,b))`.
 
-.5 |Snertivigur við skurðferil sléttunnar
-:math:`x=a` og yfirborðsins :math:`z = f(x,y)`
-í punktinum :math:`(a,b,f(a,b))` er
-:math:`\mathbf{T}_2 = (0,1,f_2(a,b))`.|
+   Snertivigur við skurðferil sléttunnar
+   :math:`y=b` og yfirborðsins :math:`z = f(x,y)`
+   í punktinum :math:`(a,b,f(a,b))` er
+   :math:`\mathbf{T}_1 = (1,0,f_1(a,b))`.
+.. figure:: ypart.png
+   :alt: Snertivigur við skurðferil sléttunnar
+   :math:`x=a` og yfirborðsins :math:`z = f(x,y)`
+   í punktinum :math:`(a,b,f(a,b))` er
+   :math:`\mathbf{T}_2 = (0,1,f_2(a,b))`.
 
-Setning .[snertifletir], frh.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Snertivigur við skurðferil sléttunnar
+   :math:`x=a` og yfirborðsins :math:`z = f(x,y)`
+   í punktinum :math:`(a,b,f(a,b))` er
+   :math:`\mathbf{T}_2 = (0,1,f_2(a,b))`.
 
 #. Látum
    :math:`\mbox{${\bf r}$}: D\subseteq {\mathbb  R}^2\rightarrow {\mathbb  R}^3`
@@ -499,20 +543,19 @@ Setning .[snertifletir], frh.
 Skilgreining 
 ~~~~~~~~~~~~~
 
-Ef vigrarnir :math:`\frac{\partial \mbox{${\bf r}$}}{\partial
-  u}(u,v)` og :math:`\frac{\partial \mbox{${\bf r}$}}{\partial v}(u,v)`
-eru óháðir fyrir alla punkta :math:`(u,v)\in D` þá er sagt að stikunin
-sé *regluleg*.
+Ef vigrarnir :math:`\frac{\partial \mbox{${\bf r}$}}{\partial u}(u,v)`
+og :math:`\frac{\partial \mbox{${\bf r}$}}{\partial v}(u,v)` eru óháðir
+fyrir alla punkta :math:`(u,v)\in D` þá er sagt að stikunin sé
+*regluleg*.
 
 Athugasemd 
 ~~~~~~~~~~~
 
 Ef vigrarnir
 :math:`\frac{\partial \mbox{${\bf r}$}}{\partial u}(u_0,v_0)` og
-:math:`\frac{\partial
-  \mbox{${\bf r}$}}{\partial v}(u_0,v_0)` eru óháðir þá spanna þeir
-snertiplan við flötinn í punktinum :math:`\mbox{${\bf r}$}(u_0,v_0)`.
-Snertiplanið hefur stikun
+:math:`\frac{\partial\mbox{${\bf r}$}}{\partial v}(u_0,v_0)` eru óháðir
+þá spanna þeir snertiplan við flötinn í punktinum
+:math:`\mbox{${\bf r}$}(u_0,v_0)`. Snertiplanið hefur stikun
 
 .. math::
 
@@ -617,9 +660,6 @@ Ritum :math:`dS` fyrir flatarmálselement á fleti :math:`\cal S`.
 -  Ef :math:`\cal S` er graf :math:`z=g(x,y)` þá er
 
    .. math:: dS=\sqrt{1+g_1(x,y)^2+g_2(x,y)^2}\,dx\,dy.
-
-Formúlur .[form], frh
-~~~~~~~~~~~~~~~~~~~~~
 
 Ritum :math:`dS` fyrir flatarmálselement á fleti :math:`\cal S`.
 
@@ -737,7 +777,7 @@ Látum :math:`\cal S` vera áttanlegan flöt stikaðan af reglulegum
 stikaferli
 :math:`\mbox{${\bf r}$}:D\subseteq{\mathbb  R}^2\rightarrow {\mathbb  R}^3`
 með samfelldar hlutafleiður. Látum :math:`\mbox{${\bf N}$}` tákna
-einingarþvervigrasviðið sem gefið er í .[attun]. Heildi vigursviðs
+einingarþvervigrasviðið sem gefið er í [attun]. Heildi vigursviðs
 :math:`\mbox{${\bf F}$}` yfir flötinn :math:`\cal S` er skilgreint sem
 
 .. math::
@@ -748,8 +788,8 @@ einingarþvervigrasviðið sem gefið er í .[attun]. Heildi vigursviðs
      v}\bigg)\,
    du\,dv.
 
-Slík heildi eru oft nefnd *flæði vigursviðsins :math:`\mbox{${\bf F}$}`
-gegnum flötinn :math:`\cal S`.*
+Slík heildi eru oft nefnd *flæði vigursviðsins* :math:`\mbox{${\bf F}$}`
+*gegnum flötinn* :math:`\cal S`.
 
 Ritum :math:`d\mbox{${\bf S}$}=\mbox{${\bf N}$}\,dS`. Þá er
 
@@ -803,11 +843,4 @@ gefið með heildinu
 .. figure:: flux.png
    :alt: 
 
-.. |Snertivigur við skurðferil sléttunnar
-:math:`y=b` og yfirborðsins :math:`z = f(x,y)`
-í punktinum :math:`(a,b,f(a,b))` er
-:math:`\mathbf{T}_1 = (1,0,f_1(a,b))`.| image:: xpart.png
-.. |Snertivigur við skurðferil sléttunnar
-:math:`x=a` og yfirborðsins :math:`z = f(x,y)`
-í punktinum :math:`(a,b,f(a,b))` er
-:math:`\mathbf{T}_2 = (0,1,f_2(a,b))`.| image:: ypart.png
+

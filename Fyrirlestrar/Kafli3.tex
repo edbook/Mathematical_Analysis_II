@@ -365,33 +365,31 @@
 
 \subsection{Útgildi} 
 
-\subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining }
  Látum $f$ vera fall af tveim breytum
 skilgreint á mengi ${\cal D}(f)$.  
 
 \medskip
-Sagt er að $f$ hafi {\em \color{red} staðbundið
+Sagt er að $f$ hafi {\em \color{red}staðbundið
   lággildi} (e.~local minimum) í punkti $(a,b)$ ef til er tala $r>0$ þannig að 
-$f(a,b)\leq f(x,y)$ fyrir alla punkta $(x,y)\in B_r(a,b)\cap{\cal
-  D}(f)$.
+$f(a,b)\leq f(x,y)$ fyrir alla punkta $(x,y)\in B_r(a,b)\cap{\cal D}(f)$.
 
 \medskip
-Sagt er að $f$ hafi {\em \color{red} staðbundið
+Sagt er að $f$ hafi {\em \color{red}staðbundið
   hágildi}  (e.~local maximum) í punkti $(a,b)$ ef til er tala $r>0$ þannig að 
-$f(a,b)\geq f(x,y)$ fyrir alla punkta $(x,y)\in B_r(a,b)\cap{\cal
-  D}(f)$.
+$f(a,b)\geq f(x,y)$ fyrir alla punkta $(x,y)\in B_r(a,b)\cap{\cal D}(f)$.
 
 \medskip
 Í þeim punktum þar sem $f$ tekur annað hvort staðbundið lággildi eða
-staðbundið hágildi er sagt að $f$ hafi {\em \color{red} staðbundið útgildi}
+staðbundið hágildi er sagt að $f$ hafi {\em \color{red}staðbundið útgildi}
 (e.~local extreme). 
 
 
 \medskip
 Ef $f(a,b)\leq f(x,y)$ fyrir alla punkta $(x,y)\in {\cal D}(f)$ þá er
-sagt að $f$ taki {\em \color{red} lægsta gildi} í $(a,b)$ (e.~global minimum).
+sagt að $f$ taki {\em \color{red}lægsta gildi} í $(a,b)$ (e.~global minimum).
 Ef $f(a,b)\geq f(x,y)$ fyrir alla punkta $(x,y)\in {\cal D}(f)$ þá er
-sagt að $f$ taki {\em \color{red} hæsta gildi} í $(a,b)$ (e.~global maximum).
+sagt að $f$ taki {\em \color{red}hæsta gildi} í $(a,b)$ (e.~global maximum).
 
 
 
@@ -401,29 +399,28 @@ sagt að $f$ taki {\em \color{red} hæsta gildi} í $(a,b)$ (e.~global maximum).
 
 \subsection{Staðbundið útgildi} 
 
-\subsubsection{Upprifjun  \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Upprifjun}
    Látum $f$ vera fall af einni breytu
 skilgreint á mengi ${\cal D}(f)\subseteq \R$.  Ef fallið $f$ hefur
 staðbundið útgildi í punkti $a$ þá gildir eitt af þrennu um $a$:
 
-\begin {enumerate}
- \item $f'(a)=0$. \qquad (punkturinn $a$ kallast {\em \color{red} stöðupunktur} $f$).
+\begin{enumerate}
+ \item $f'(a)=0$. \qquad (punkturinn $a$ kallast {\em \color{red}stöðupunktur} $f$).
  \item Afleiðan $f'(a)$ er ekki skilgreind.
  \item   Punkturinn $a$ er jaðarpunktur ${\cal D}(f)$.
-\end {enumerate}
+\end{enumerate}
 
 
 
 
 %x
 
-\subsubsection{Setning  \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning  }
  Látum $f$ vera fall af tveim breytum
 skilgreint á mengi ${\cal D}(f)\subseteq \R^2$.  Ef fallið $f$ hefur
 staðbundið útgildi í punkti $(a,b)$ þá gildir eitt af þrennu um $a$
 \begin {enumerate}
- \item  $\nabla f(a,b)=\ov$. \qquad (punkturinn $(a,b)$ kallast {\em \color{red}
-     stöðupunktur} $f$) 
+ \item  $\nabla f(a,b)=\ov$. \qquad (punkturinn $(a,b)$ kallast {\em \color{red}stöðupunktur} $f$) 
 \item Stigullinn $\nabla f(a,b)$ er ekki skilgreindur.
 \item Punkturinn $(a,b)$ er jaðarpunktur ${\cal D}(f)$.
 \end {enumerate}
@@ -436,72 +433,58 @@ staðbundið útgildi í punkti $(a,b)$ þá gildir eitt af þrennu um $a$
   Dæmi: Föll skilgreind á svæðinu $-0.5 \leq x \leq 0.5$,  $-0.5 \leq y \leq 0.5$. Hvar eru staðbundin hágildi?
   \begin{figure}[!h]
         \centering
-        \begin{minipage}{.5\textwidth}
+        \begin{minipage}{\textwidth}
             \centering
-            \includegraphics[width=.8\linewidth]{peak_smooth.png}
+            \includegraphics[width=.8 pt \linewidth]{peak_smooth.png}
             \caption*{$z = f(x,y) = 1-x^2-y^2$.}
         \end{minipage}%
-        \begin{minipage}{.5\textwidth}
+        \begin{minipage}{\textwidth}
             \centering
-            \includegraphics[width=.8\linewidth]{peak.png}
+            \includegraphics[width=.8 pt \linewidth]{peak.png}
             \caption*{$z = f(x,y) = 1-\sqrt{x^2+y^2}$.}
-        \end{minipage}
-        \begin{minipage}{.5\textwidth}
+        \end{minipage}%
+        \begin{minipage}{\textwidth}
             \centering
-            \includegraphics[width=.8\linewidth]{max_bound.png}
+            \includegraphics[width=.8 pt \linewidth]{max_bound.png}
             \caption*{$z= f(x,y) = x^2+y^2$.}
         \end{minipage}
-    \end{figure}
-
-
-
-
+  \end{figure}
 
 \subsection{Tilvist útgilda} 
 
-\subsubsection{Setning  \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning  }
 Látum $f$ vera samfellt fall af tveim breytum
 skilgreint á lokuðu og takmörkuðu mengi ${\cal D}(f)$.  Fallið $f$
   tekur þá bæði hæsta og lægsta gildi. 
 
-
-
-
-%x
-
-
 \subsection{Söðulpunktur} 
 
-\subsubsection{Skilgreining  \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining  }
  Punktur $(x,y)\in  {\cal D}(f)$ sem er ekki
-jaðarpunktur kallast {\em \color{red} söðulpunktur} ef $\nabla f(x,y)=\ov$ en $f$
+jaðarpunktur kallast {\em \color{red}söðulpunktur} ef $\nabla f(x,y)=\ov$ en $f$
 hefur ekki staðbundið útgildi í $(x,y)$.
 
-
-
-%x
 
 Dæmi um föll með söðulpunkta.
    \begin{figure}[!h]
         \centering
-        \begin{minipage}{.5\textwidth}
+        \begin{minipage}{\textwidth}
             \centering
-            \includegraphics[width=.9\linewidth]{sodull1.png}
+            \includegraphics[width=.9 pt \linewidth]{sodull1.png}
             \caption*{$z = f(x,y) = x^3$.}
         \end{minipage}%
-        \begin{minipage}{.5\textwidth}
+        \begin{minipage}{\textwidth}
             \centering
-            \includegraphics[width=.9\linewidth]{sodull2.png}
+            \includegraphics[width=.9 pt \linewidth]{sodull2.png}
             \caption*{$z = f(x,y) = x^3+y^3$.}
         \end{minipage}
-        
-    \end{figure}
+   \end{figure}
 
 
 
 \subsection{Staðbundið útgildi} 
 
-\subsubsection{Upprifjun  \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Upprifjun  }
  Látum $f$ vera fall af einni breytistærð og
 gerum ráð fyrir að $f'$ sé samfellt fall.  Gerum einnig ráð fyrir að
 $f'(a)=0$.  Þá gildir: 
@@ -522,10 +505,10 @@ $f'(a)=0$.  Þá gildir:
 
 \subsection{Hesse-fylki} 
 
-\subsubsection{Skilgreining  \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining  }
 Látum $f$ vera fall af $n$ breytum $\mathbf{x} = (x_1,x_2,\ldots,x_n)$ og
 gerum ráð fyrir að allar 2.~stigs hlutafleiður $f$ séu skilgreindar í
-punktinum $\mathbf{x}$.  Skilgreinum  {\em \color{red} Hesse-fylki} $f$ í punktinum
+punktinum $\mathbf{x}$.  Skilgreinum  {\em \color{red}Hesse-fylki} $f$ í punktinum
 $\mathbf{x}$ sem $n\times n$-fylkið
 $${\cal H}(\mathbf{x})=\begin{bmatrix} f_{11}(\mathbf{x})&f_{12}(\mathbf{x}) & \cdots & f_{1n}(\mathbf{x})\\
  f_{21}(\mathbf{x})&f_{22}(\mathbf{x}) & \cdots & f_{2n}(\mathbf{x}) \\
@@ -539,8 +522,8 @@ $${\cal H}(\mathbf{x})=\begin{bmatrix} f_{11}(\mathbf{x})&f_{12}(\mathbf{x}) & \
 
 \subsection{Ferningsform (sjá kafla 10.7 í Adams)} 
 
-\subsubsection{Upprifjun  \arabic{mycount}}\stepcounter{mycount}
-{\em \color{red} Ferningsform} $Q$ af $n$-breytum $x_1,x_2,\ldots, x_n$ er einsleit margliða af stigi 2 gefin með 
+\subsubsection{Upprifjun  }
+{\em \color{red}Ferningsform} $Q$ af $n$-breytum $x_1,x_2,\ldots, x_n$ er einsleit margliða af stigi 2 gefin með 
 \begin {equation*}
 Q(\mathbf{x}) = \mathbf{x}^T A \mathbf{x}
 \end {equation*}
@@ -548,25 +531,19 @@ Q(\mathbf{x}) = \mathbf{x}^T A \mathbf{x}
 
 
 
-
-
-
-
-\subsection{Ferningsform} 
-
-\subsubsection{Skilgreining  \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining  }
 Ferningsform $Q$ af $n$-breytum er sagt vera
-{\em \color{red} jákvætt ákvarðað}\  (e.~positive definite) ef $Q(\xv)>0$ fyrir
+{\em \color{red}jákvætt ákvarðað}  (e.~positive definite) ef $Q(\xv)>0$ fyrir
 alla vigra $\xv\neq \ov$ í $\Rn$.   
 
 \medskip
 Sagt að ferningsformið $Q$ sé
-{\em \color{red} neikvætt ákvarðað}\  (e.~negative definite) ef $Q(\xv)<0$ fyrir
+{\em \color{red}neikvætt ákvarðað} (e.~negative definite) ef $Q(\xv)<0$ fyrir
 alla vigra $\xv\neq \ov$ í $\Rn$.   
 
 \medskip
 Síðan er sagt að ferningsformið $Q$ sé
-{\em  \color{red} óákvarðað}\  (e.~indefinite) ef $Q(\xv)<0$ fyrir
+{\em  \color{red}óákvarðað}  (e.~indefinite) ef $Q(\xv)<0$ fyrir
 einhvern vigur $\xv$  og $Q(\yv)>0$ fyrir einhvern vigur
 $\yv$. 
 
@@ -574,7 +551,7 @@ $\yv$.
 
 %x
 
-\subsubsection{Setning  \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning  }
  Látum $Q$ vera fernings form  af $n$ breytum og
 $A$ samhverft $n\times n$ fylki þannig að $Q(\xv)=\xv^TA\xv$ fyrir
 alla vigra $\xv$,
@@ -595,7 +572,7 @@ alla vigra $\xv$,
 
 \subsection{Staðbundið útgildi} 
 
-\subsubsection{Setning  \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning  }
  Látum $f$ vera fall af $n$ breytum $\mathbf{x} = (x_1,x_2,\ldots,x_n)$ þannig að allar
 1.~og 2.~stigs hlutafleiður $f$ eru samfelldar.  Látum $\mathbf{a}$ vera
 innri punkt á skilgreiningarsvæði $f$ og gerum ráð fyrir að $\nabla
@@ -619,7 +596,7 @@ f(\mathbf{a})=\ov$.  Þá gildir: Ef ${\cal H}(\mathbf{a})$ er
 %x
 
 
-\subsubsection{Fylgisetning  \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Fylgisetning  }
 Látum $f$ vera fall af tveim breytum þannig að
 1.~og 2.~stigs hlutafleiður $f$ eru samfelldar.  Látum $(a,b)$ vera
 innri punkt á skilgreiningarsvæði $f$ og gerum ráð fyrir að $\nabla
@@ -644,7 +621,7 @@ hágildi í $(a,b)$.
  
 \subsection{Ferningsform}  
 
-\subsubsection{Regla  \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Regla  }
 Ef $A$ er samhverft $n \times n$ fylki með tölu $a_{ij}$ í sæti $(i,j)$ og
 \begin {equation*}
  D_i = \begin{vmatrix}
@@ -667,7 +644,7 @@ Ef $A$ er samhverft $n \times n$ fylki með tölu $a_{ij}$ í sæti $(i,j)$ og
 
 \subsection{Útgildi falla þar sem breytur uppfylla skorðujöfnur} 
 
-\subsubsection{Sértækar aðferðir  \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Sértækar aðferðir  }
 Finna skal útgildi falls $f(x,y)$ þegar skilgreiningarsvæði $f$ er mengi þeirra punkta $(x,y)$ sem uppfylla jöfnu $g(x,y)=0$.  
 
 
@@ -690,28 +667,15 @@ Finna skal útgildi falls $f(x,y)$ þegar skilgreiningarsvæði $f$ er mengi þe
 \end {enumerate}
 
 
-
-
-
-
-
-
 \subsubsection{Dæmi}
  \begin {figure}[h!]
  \centering
-            \includegraphics[width=.7\linewidth]{constraint.pdf}
+            \includegraphics[width=.7\linewidth]{constraint.png}
             \caption*{Hver eru hæstu og lægstu gildi fallsins $f(x,y) = x^2-y^2+4$ á menginu $\{(x,y)~|~x^2+y^2=1\}$?}
 \end {figure}
 
 
-
-
- 
-
-
-\subsection{Útgildi falla þar sem breytur uppfylla skorðujöfnur} 
-
-\subsubsection{Setning  \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning  }
 Látum $f$ og $g$ vera föll sem eru bæði
 diffranleg í punktinum $P_0=(x_0,y_0)$ sem liggur á ferlinum
 $g(x,y)=0$, og er ekki endapunktur ferilsins.  Gerum ráð fyrir að
@@ -720,7 +684,7 @@ $\nabla g(x_0,y_0)\neq \ov$.  Gerum líka ráð fyrir að ef við einskorðum fa
 
 \begin {figure}[h!]
  \centering
-            \includegraphics[width=.4\linewidth]{lagrange1}
+            \includegraphics[width=.4\linewidth]{lagrange1.pdf}
             \caption*{Ef stiglarnir $\nabla g(P_0)$ og $\nabla f(P_0)$ eru ekki samsíða þá vex $f$ eða minnkar þegar farið er eftir $\mathcal{C}$ út frá punktinum $P_0$.}
 \end {figure}
 
@@ -728,7 +692,7 @@ $\nabla g(x_0,y_0)\neq \ov$.  Gerum líka ráð fyrir að ef við einskorðum fa
 
 \subsection{Lagrange-margfaldarar} 
 
-\subsubsection{Reikniaðferð  \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Reikniaðferð  }
   Finna skal útgildi falls $f(x,y)$ þegar skilgreiningarsvæði $f$ er mengi þeirra punkta $(x,y)$ sem uppfylla jöfnu $g(x,y)=0$.  
 
 \medskip
@@ -748,24 +712,23 @@ Talan $\lambda$ nefnist \emph{Lagrange-margfaldari}.
 
 
 
-\subsubsection{Regla  \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Regla  }
 Finna skal útgildi falls $f(x,y)$ þegar skilgreiningarsvæði $f$ er mengi þeirra punkta $(x,y)$ sem uppfylla jöfnu $g(x,y)=0$.  
 
 Athuga þarf punkta sem uppfylla eitt af eftirfarandi skilyrðum:
 
 \begin {enumerate}
- \item Stöðupunktar $L(x,y,\lambda)$.
-\item Punktar $(x,y)$ þar sem $\nabla g(x,y)=\ov$.
-\item  Punktar $(x,y)$ þar sem annar eða báðir stiglanna $\nabla
-      g(x,y)$ og $\nabla f(x,y)$ eru ekki skilgreindir. 
-\item ,,Endapunktar\lq\lq\ ferilsins $g(x,y)=0$.
+\item Stöðupunktar $L(x,y,\lambda)$.
+\item Punktar $(x,y)$ þar sem $\nabla g(x,y)=\ov$
+\item Punktar $(x,y)$ þar sem annar eða báðir stiglanna $\nabla g(x,y)$ og $\nabla f(x,y)$ eru ekki skilgreindir. 
+\item ,,Endapunktar''\ ferilsins $g(x,y)=0$.
  \end {enumerate}
 
 
 
 
 
-\subsubsection{Reikniaðferð  \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Reikniaðferð  }
 Finna skal útgildi falls $f(x,y,z)$ þegar skilgreiningarsvæði $f$ er mengi þeirra punkta $(x,y,z)$ sem uppfylla jöfnurnar $g(x,y,z)=0$ og $h(x,y,z)=0$.  
 
 Búum til Lagrange-fallið

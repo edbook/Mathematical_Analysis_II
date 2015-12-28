@@ -1,4 +1,5 @@
 
+
 Hlutafleiðujöfnur
 =================
 
@@ -20,7 +21,8 @@ Ef :math:`f:{\mathbb  R}^3\rightarrow {\mathbb  R}` er fall, þá er
 
 Dæmi: :math:`f(x,y) = \sqrt{1-x^2-y^2}`, :math:`-0.5\leq x,y\leq 0.5`.
 
-[h]
+.. figure:: surface.png
+   :alt: 
 
 Jafnhæðarlínur
 --------------
@@ -46,7 +48,8 @@ fastann :math:`c`.
 
 Dæmi: :math:`f(x,y) = \sqrt{1-x^2-y^2}`, :math:`-0.5\leq x,y\leq 0.5`.
 
-[h]
+.. figure:: contour.png
+   :alt: 
 
 Fjarlægð milli punkta
 ---------------------
@@ -216,16 +219,20 @@ Skilgreinum *hlutafleiðu m.t.t.* :math:`x` í :math:`(a,b)` með
 
 .. math:: f_1(a,b)=\lim_{h\rightarrow 0}\frac{f(a+h,b)-f(a,b)}{h}
 
-og hlutafleiðu m.t.t. :math:`y` í :math:`(a,b)` með
+og *hlutafleiðu m.t.t.* :math:`y` í :math:`(a,b)` með
 
 .. math:: f_2(a,b)=\lim_{k\rightarrow 0}\frac{f(a,b+k)-f(a,b)}{k}
 
- ef markgildin eru til.
+ef markgildin eru til.
 
-.5 |Hlutafleiða m.t.t. \ :math:`x` fyrir :math:`y=1`.|
+.. figure:: xpart.png
+   :alt: Hlutafleiða m.t.t. \ :math:`x` fyrir :math:`y=1`.
 
-.5 |Hlutafleiða m.t.t. \ :math:`y` fyrir :math:`x=1`.|
+   Hlutafleiða m.t.t. \ :math:`x` fyrir :math:`y=1`.
+.. figure:: ypart.png
+   :alt: Hlutafleiða m.t.t. \ :math:`y` fyrir :math:`x=1`.
 
+   Hlutafleiða m.t.t. \ :math:`y` fyrir :math:`x=1`.
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -241,11 +248,11 @@ Skilgreinum *hlutafleiðu m.t.t.* :math:`x` í :math:`(a,b,c)` með
 
 .. math:: f_2(a,b,c)=\lim_{k\rightarrow 0}\frac{f(a,b+k,c)-f(a,b,c)}{k}
 
- og *hlutafleiðu m.t.t.* :math:`z` í :math:`(a,b,c)` með
+og *hlutafleiðu m.t.t.* :math:`z` í :math:`(a,b,c)` með
 
 .. math:: f_3(a,b,c)=\lim_{\ell\rightarrow 0}\frac{f(a,b,c+\ell)-f(a,b,c)}{\ell}
 
- ef markgildin eru til.
+ef markgildin eru til.
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -269,7 +276,8 @@ Snertiplan
 Látum :math:`f(x,y)` vera fall af tveimur breytistærðum þannig að
 hlutafleiðurnar :math:`f_1(a,b)` og :math:`f_2(a,b)` séu skilgreindar.
 
-|image|
+.. figure:: bothpart.png
+   :alt: 
 
 Í punktinum :math:`(a,b,f(a,b))` er
 
@@ -287,7 +295,7 @@ Vigurinn
 
 .. math:: \mbox{${\bf n}$}=\mbox{${\bf T}$}_2\times \mbox{${\bf T}$}_1=f_1(a,b)\mbox{${\bf i}$}+f_2(a,b)\mbox{${\bf j}$}-\mbox{${\bf k}$}
 
- er þvervigur á :math:`S` og jafna plansins :math:`S` er
+er þvervigur á :math:`S` og jafna plansins :math:`S` er
 
 .. math:: z=f(a,b)+f_1(a,b)(x-a)+f_2(a,b)(y-b).
 
@@ -333,7 +341,7 @@ skilgreindar með formúlunum
    \frac{\partial}{\partial y} \frac{\partial z}{\partial x}
    =f_{12}(x,y)=f_{xy}(x,y).
 
- Hlutafleiðurnar :math:`f_{11}(x,y)` og :math:`f_{22}(x,y)` kallast
+Hlutafleiðurnar :math:`f_{11}(x,y)` og :math:`f_{22}(x,y)` kallast
 hreinar hlutafleiður og :math:`f_{12}(x,y)` og :math:`f_{21}(x,y)`
 kallast blandaðar hlutafleiður.
 
@@ -431,7 +439,8 @@ af breytu :math:`t`. Þá er
    \frac{dz}{dt}=\frac{\partial z}{\partial x}\frac{dx}{dt}
    +\frac{\partial z}{\partial y}\frac{dy}{dt}.
 
-|image|
+.. figure:: chain1
+   :alt: 
 
 Setning 
 ~~~~~~~~
@@ -464,10 +473,11 @@ föll af breytum :math:`s` og :math:`t`. Þá er
    \frac{\partial z}{\partial x}\frac{\partial x}{\partial t}
    +\frac{\partial z}{\partial y}\frac{\partial y}{\partial t}.
 
-|image|
+.. figure:: chain2
+   :alt: 
 
-Ritháttur .
-~~~~~~~~~~~
+Ritháttur
+~~~~~~~~~
 
 Ritum :math:`z=f(x,y)` þar sem :math:`x=x(s,t)` og :math:`y=y(s,t)` eru
 föll af breytum :math:`s` og :math:`t`. Þá er
@@ -503,7 +513,8 @@ fæst að
    +\cdots+
    \frac{\partial u}{\partial x_n}\frac{\partial x_n}{\partial t_j}.
 
-|image|
+.. figure:: chain3
+   :alt: 
 
 Dæmi 
 ~~~~~
@@ -512,7 +523,8 @@ Látum :math:`T` vera fall af fall af :math:`x`, :math:`y` og :math:`t`,
 og :math:`x` og :math:`y` föll af :math:`t`. Finnum
 :math:`\frac{ dT}{dt}`.
 
-|image|
+.. figure:: chain5
+   :alt: 
 
 .. math:: \frac{d T}{d t} = \frac{\partial T}{\partial x} \frac{d x}{d t} +\frac{\partial T}{\partial y} \frac{d y}{\partial t} + \frac{\partial T}{\partial t} .
 
@@ -523,7 +535,8 @@ Látum :math:`T` vera fall af fall af :math:`x`, :math:`y`, :math:`s` og
 :math:`t`, og :math:`x` og :math:`y` föll af :math:`s` og :math:`t`.
 Finnum :math:`\frac{ \partial T}{\partial t}`.
 
-|image|
+.. figure:: chain6
+   :alt: 
 
 .. math:: \frac{\partial T}{\partial t} = \frac{\partial T}{\partial x} \frac{\partial x}{\partial t} +\frac{\partial T}{\partial y} \frac{\partial y}{\partial t} + \left(\frac{\partial T}{\partial t}\right)_{x,y,s} .
 
@@ -535,7 +548,8 @@ Látum :math:`z` vera fall af fall af :math:`u`, :math:`v` og :math:`r`,
 :math:`r` vera fall af :math:`x` og :math:`y`. Skrifum niður
 :math:`\frac{\partial z}{\partial x}`.
 
-|image|
+.. figure:: chain4
+   :alt: 
 
 .. math::
 
@@ -549,7 +563,7 @@ Skilgreining
 ~~~~~~~~~~~~~
 
 Fall :math:`f(x_1, x_2, \ldots, x_n)` er sagt vera *jákvætt einsleitt af
-stigi :math:`k`* (e. positively homogeneous of degree :math:`k`) ef
+stigi* :math:`k` (e. positively homogeneous of degree :math:`k`) ef
 fyrir sérhvern punkt :math:`(x_1, x_2, \ldots, x_n)` og sérhverja tölu
 :math:`t>0` gildir að
 
@@ -623,7 +637,8 @@ Snertiplan
 Ef :math:`f` er diffranlegt í :math:`(a,b)` þá kallast planið :math:`S`
 *snertiplan* við graf fallsins.
 
-|image|
+.. figure:: bothpart.png
+   :alt: 
 
 :math:`S(x,y) = f(a,b) + f_1(a,b)(x-a)+f_2(a,b)(y-b)`.
 
@@ -671,10 +686,10 @@ Keðjuregla
 Ritum :math:`z=f(x,y)` þar sem :math:`x=x(s,t)` og :math:`y=y(s,t)`.
 Gerum ráð fyrir að
 
-(i) :math:`x(a,b)=p` og :math:`y(a,b)=q`;
+(i)   :math:`x(a,b)=p` og :math:`y(a,b)=q`;
 
-(ii) fyrsta stigs hlutafleiður :math:`x(s,t)` og :math:`y(s,t)` eru
-skilgreindar í punktinum :math:`(a,b)`;
+(ii)  fyrsta stigs hlutafleiður :math:`x(s,t)` og :math:`y(s,t)` eru
+      skilgreindar í punktinum :math:`(a,b)`;
 
 (iii) fallið :math:`f` er diffranlegt í punktinum :math:`(p,q)`.
 
@@ -829,11 +844,16 @@ Oft hentugt að rita
 Dæmi
 ----
 
-.5 |Graf :math:`z=1-x^2-y^2`|
+.. figure:: gradfurf.png
+   :alt: Graf :math:`z=1-x^2-y^2`
 
-.5 |Jafnhæðarlínur. Stigull og snertilína við jafnhæðarlínuna
-:math:`z=0.5` í :math:`(x,y) = (0.5,0.5)`.|
+   Graf :math:`z=1-x^2-y^2`
+.. figure:: gradient.png
+   :alt: Jafnhæðarlínur. Stigull og snertilína við jafnhæðarlínuna
+   :math:`z=0.5` í :math:`(x,y) = (0.5,0.5)`.
 
+   Jafnhæðarlínur. Stigull og snertilína við jafnhæðarlínuna
+   :math:`z=0.5` í :math:`(x,y) = (0.5,0.5)`.
 Setning 
 ~~~~~~~~
 
@@ -891,20 +911,21 @@ diffranlegt í punktinum :math:`(a,b)`.
 
 (a) Hæsta gildið á stefnuafleiðunni :math:`D_{\mbox{${\bf u}$}}f(a,b)`
 fæst þegar :math:`\mbox{${\bf u}$}` er einingarvigur í stefnu
-:math:`\nabla f(a,b)`, þ.e.a.s. :math:`\mbox{${\bf u}$}=\frac{\nabla
-  f(a,b)}{|\nabla f(a,b)|}`.
+:math:`\nabla f(a,b)`, þ.e.a.s.
+:math:`\mbox{${\bf u}$}=\frac{\nabla f(a,b)}{|\nabla f(a,b)|}`.
 
 (b) Lægsta gildið á stefnuafleiðunni :math:`D_{\mbox{${\bf u}$}}f(a,b)`
 fæst þegar :math:`\mbox{${\bf u}$}` er einingarvigur í stefnu
-:math:`-\nabla f(a,b)`, þ.e.a.s. :math:`\mbox{${\bf u}$}=-\frac{\nabla
-  f(a,b)}{|\nabla f(a,b)|}`.
+:math:`-\nabla f(a,b)`, þ.e.a.s.
+:math:`\mbox{${\bf u}$}=-\frac{\nabla f(a,b)}{|\nabla f(a,b)|}`.
 
 (c) Ef :math:`\cal C` er sú hæðarlína :math:`f` sem liggur í gegnum
 :math:`(a,b)` og :math:`\mbox{${\bf u}$}` er einingarsnertivigur við
 :math:`\cal C` í punktinum :math:`(a,b)` þá er
 :math:`D_{\mbox{${\bf u}$}}f(a,b)=0`.
 
-|image|
+.. figure:: contours.pdf
+   :alt: 
 
 Setning 
 ~~~~~~~~
@@ -991,7 +1012,7 @@ og
 
 .. math:: F(x_1,\ldots, x_{n-1}, \varphi(x_1, \ldots, x_{n-1}))=0
 
- fyrir alla punkta :math:`(x_1, \ldots, x_{n-1})` í :math:`B`.
+fyrir alla punkta :math:`(x_1, \ldots, x_{n-1})` í :math:`B`.
 
 Ennfremur gildir að
 
@@ -1011,7 +1032,6 @@ tilliti til breytanna :math:`x` og :math:`y` er skilgreind sem
    \frac{\partial(u,v)}{\partial(x,y)}=
    \begin{vmatrix} 
    \frac{\partial u}{\partial x}&\frac{\partial u}{\partial y}\\
-   \noalign{\smallskip}
    \frac{\partial v}{\partial x}&\frac{\partial v}{\partial y}
    \end{vmatrix}.
 
@@ -1023,13 +1043,11 @@ skilgreinum við, til dæmis,
    \frac{\partial(F,G)}{\partial(x,y)}=
    \begin{vmatrix} 
    \frac{\partial F}{\partial x}&\frac{\partial F}{\partial y}\\
-   \noalign{\smallskip}
    \frac{\partial G}{\partial x}&\frac{\partial G}{\partial y}
    \end{vmatrix}\quad \mbox{og}\quad
    \frac{\partial(F,G)}{\partial(y,z)}=
    \begin{vmatrix} 
    \frac{\partial F}{\partial y}&\frac{\partial F}{\partial z}\\
-   \noalign{\smallskip}
    \frac{\partial G}{\partial y}&\frac{\partial G}{\partial z}
    \end{vmatrix}.
 
@@ -1042,10 +1060,8 @@ skilgreinum við, til dæmis,
    \begin{vmatrix} 
    \frac{\partial F}{\partial w}&\frac{\partial F}{\partial z}
    &\frac{\partial F}{\partial y}\\
-   \noalign{\smallskip}
    \frac{\partial G}{\partial w}&\frac{\partial G}{\partial z}
    &\frac{\partial G}{\partial y}\\
-   \noalign{\smallskip}
    \frac{\partial H}{\partial w}&\frac{\partial H}{\partial z}
    &\frac{\partial H}{\partial y}
    \end{vmatrix}.
@@ -1095,12 +1111,12 @@ umhverfis :math:`P_0` og að
 
    \begin{aligned}
    F_{(1)}(x_1,\ldots,x_m, \varphi_1(x_1,\ldots,x_m),\ldots,
-   \varphi_n(x_1,\ldots,x_m)&=0\\
+   \varphi_n(x_1,\ldots,x_m))&=0\\
    F_{(2)}(x_1,\ldots,x_m, \varphi_1(x_1,\ldots,x_m),\ldots,
-   \varphi_n(x_1,\ldots,x_m)&=0\\
+   \varphi_n(x_1,\ldots,x_m))&=0\\
    \vdots\\
    F_{(n)}(x_1,\ldots,x_m, \varphi_1(x_1,\ldots,x_m),\ldots,
-   \varphi_n(x_1,\ldots,x_m)&=0\end{aligned}
+   \varphi_n(x_1,\ldots,x_m))&=0\end{aligned}
 
 fyrir alla punkta :math:`(x_1,\ldots,x_m)` í :math:`B`. Enn fremur fæst
 að
@@ -1116,7 +1132,7 @@ að
 Setning (Setningin um staðbundna andhverfu)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Látum
+| Látum
 
 .. math::
 
@@ -1133,7 +1149,7 @@ andhverfanlegt í punkti :math:`\mbox{${\bf x}$}_0` á skilgreiningarsvæði
 :math:`B_{\mbox{${\bf x}$}}` utan um :math:`\mbox{${\bf x}$}_0` og opin
 kúla :math:`B_{\mbox{${\bf y}$}}` utan um
 :math:`\mbox{${\bf y}$}_0=f(\mbox{${\bf x}$}_0)` og vörpun
-:math:`\mbox{${\bf g}$}:B_{\mbox{${\bf y}$}}\rightarrow B_{\mbox{${\bf x}$}}`
+| :math:`\mbox{${\bf g}$}:B_{\mbox{${\bf y}$}}\rightarrow B_{\mbox{${\bf x}$}}`
 þannig að
 :math:`\mbox{${\bf g}$}(\mbox{${\bf f}$}(\mbox{${\bf x}$}))=\mbox{${\bf x}$}`
 fyrir alla punkta :math:`\mbox{${\bf x}$}\in B_{\mbox{${\bf x}$}}` og
@@ -1151,13 +1167,13 @@ Margliðan
    P_{(n)}(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2
    +\cdots+\frac{f^{(n)}(a)}{n!}(x-a)^n
 
-kallast *:math:`n`-ta stigs Taylor-margliða :math:`f` með miðju í
-:math:`a`*. Til er punktur :math:`s` á milli :math:`a` og :math:`x`
+kallast :math:`n`\ *-ta stigs Taylor-margliða* :math:`f` *með miðju í*
+:math:`a`. Til er punktur :math:`s` á milli :math:`a` og :math:`x`
 þannig að
 
 .. math:: E_{(n)}(x)=f(x)-P_{(n)}(x)=\frac{f^{(n+1)}(s)}{(n+1)!}(x-a)^{n+1}.
 
- Fáum svo að
+Fáum svo að
 
 .. math::
 
@@ -1166,7 +1182,7 @@ kallast *:math:`n`-ta stigs Taylor-margliða :math:`f` með miðju í
    &=f(a)+f'(a)(x-a)+\cdots+\frac{f^{(n)}(a)}{n!}(x-a)^n
    +\frac{f^{(n+1)}(s)}{(n+1)!}(x-a)^{n+1}, \end{aligned}
 
-sem er kallað *:math:`n`-ta stigs Taylor-formúla.*
+sem er kallað :math:`n`\ *-ta stigs Taylor-formúla.*
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -1176,8 +1192,8 @@ Látum :math:`f(x,y)` vera fall þannig að fyrsta stigs hlutafleiður
 
 .. math:: P_{(1)}(x,y)=f(a,b)+f_1(a,b)(x-a)+f_2(a,b)(y-b)
 
-kallast *fyrsta stigs Taylor-margliða :math:`f` með miðju í
-:math:`(a,b)`*.
+kallast *fyrsta stigs Taylor-margliða* :math:`f` *með miðju í*
+:math:`(a,b)`.
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -1192,8 +1208,8 @@ hlutafleiður :math:`f` eru skilgreindar og samfelldar. Margliðan
    &+\frac{1}{2}\big(f_{11}(a,b)(x-a)^2+
    2f_{12}(a,b)(x-a)(y-b)+f_{22}(a,b)(y-b)^2\big)\end{aligned}
 
-kallast *annars stigs Taylor-margliða :math:`f` með miðju í
-:math:`(a,b)`*.
+kallast *annars stigs Taylor-margliða* :math:`f` *með miðju í*
+:math:`(a,b)`.
 
 Skilgreining og athugasemd 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1237,8 +1253,9 @@ Skilgreining
 ~~~~~~~~~~~~~
 
 Fyrir fall :math:`f(x,y)` þannig að allar hlutafleiður af :math:`n`-ta
-og lægri stigum eru samfelldar þá er *:math:`n`-ta stigs Taylor-margliða
-:math:`f` með miðju í punktinum* :math:`(a,b)` skilgreind sem margliðan
+og lægri stigum eru samfelldar þá er :math:`n`\ *-ta stigs
+Taylor-margliða* :math:`f` *með miðju í punktinum* :math:`(a,b)`
+skilgreind sem margliðan
 
 .. math::
 
@@ -1262,16 +1279,4 @@ að ef :math:`h=x-a` og :math:`k=y-b` þá er
    f(x,y)-P_{(n)}(x,y)=\frac{1}{(n+1)!}(hD_1+kD_2)^{n+1}
    f(a+\theta h, b+\theta k).
 
-.. |Hlutafleiða m.t.t. \ :math:`x` fyrir :math:`y=1`.| image:: xpart.png
-.. |Hlutafleiða m.t.t. \ :math:`y` fyrir :math:`x=1`.| image:: ypart.png
-.. |image| image:: bothpart.png
-.. |image| image:: chain1
-.. |image| image:: chain2
-.. |image| image:: chain3
-.. |image| image:: chain5
-.. |image| image:: chain6
-.. |image| image:: chain4
-.. |image| image:: bothpart.png
-.. |Graf :math:`z=1-x^2-y^2`| image:: gradfurf.png
-.. |Jafnhæðarlínur. Stigull og snertilína við jafnhæðarlínuna :math:`z=0.5` í :math:`(x,y) = (0.5,0.5)`.| image:: gradient.png
-.. |image| image:: contours.pdf
+

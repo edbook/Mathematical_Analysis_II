@@ -366,7 +366,7 @@
 
 \subsection{Graf falls} 
 
-\subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining }
 Látum $f:\R^2\rightarrow \R$ vera fall.  {\em Graf} fallsins er skilgreint sem mengið 
 $$\{(x,y,f(x,y))\mid (x,y)\in\R^2\}\subseteq \R^3.$$
 
@@ -376,14 +376,18 @@ $$\{(x,y,z,f(x,y,z))\mid (x,y,z)\in\R^3\}\subseteq \R^4.$$
             
  Dæmi: $f(x,y) = \sqrt{1-x^2-y^2}$, $-0.5\leq x,y\leq 0.5$.         
 
-\begin{figure} [h]
-\begin {center} \scalebox{0.45 }{\includegraphics{surface.png}} \end {center}
-\end {figure}  
+\begin{figure}[h]
+\begin{center}
+%\scalebox{0.45 }
+\includegraphics{surface.png}
+\caption*{ } 
+\end{center}
+\end{figure}  
 
 
 
 \subsection{Jafnhæðarlínur}
- \subsubsection {Skilgreining \arabic{mycount}}\stepcounter{mycount}
+ \subsubsection {Skilgreining }
   Látum $f:\R^2\rightarrow \R$ vera fall.  Ef $c$ er fasti þá er mengið 
 $$\{(x,y)\mid f(x,y)=c\}\subseteq \R^2$$
 kallað {\em jafnhæðarlína} eða {\em jafnhæðarferill} (e.~level curve) fallsins $f$ fyrir fastann $c$.
@@ -397,13 +401,17 @@ fallsins $f$ fyrir fastann $c$.
 
  Dæmi: $f(x,y) = \sqrt{1-x^2-y^2}$, $-0.5\leq x,y\leq 0.5$.         
 
-\begin{figure} [h]
-\begin {center} \scalebox{0.45 }{\includegraphics{contour.png}} \end {center}
-\end {figure}  
+\begin{figure}[h]
+\begin{center} 
+%\scalebox{0.45 }
+\includegraphics{contour.png} 
+\caption*{ }
+\end{center}
+\end{figure}  
 
 
 \subsection{Fjarlægð milli punkta}
-\subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining }
  {\em Fjarlægðin} milli tveggja punkta 
 $\xv=(x_1,x_2, \ldots,x_n)$ og $\yv=(y_1,y_2, \ldots,y_n)$ í $\Rn$ er skilgreind sem talan
 $$|\xv-\yv|=\sqrt{(x_1-y_1)^2+(x_2-y_2)^2+\cdots+(x_n-y_n)^2}.$$
@@ -412,7 +420,7 @@ $$|\xv-\yv|=\sqrt{(x_1-y_1)^2+(x_2-y_2)^2+\cdots+(x_n-y_n)^2}.$$
 
 
 \subsection{Opnar kúlur}
- \subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+ \subsubsection{Skilgreining }
   Látum $P=(p_1,p_2,\ldots,p_n)$ vera punkt í
 $\Rn$.  Skilgreinum {\em opnu kúluna} með miðju í $P$ og geisla $r$ sem
 mengið  
@@ -425,7 +433,7 @@ $$B_r(P)=\{Q\in\Rn\mid |Q-P|<r\}.$$
 
 
 \subsection{Opin mengi}
- \subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+ \subsubsection{Skilgreining }
 Látum $U$ vera hlutmengi í $\Rn$.
 
 Sagt er að $U$ sé {\em opið mengi} ef um sérhvern punkt $P$ í $U$ gildir að til er tala $r>0$ þannig að $B_r(P)\subseteq U$.
@@ -437,13 +445,13 @@ $\Rn\setminus U=\{Q\in \Rn\mid Q\nin U\}$.)
 
 
 \subsection{Jaðarpunktur}
- \subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+ \subsubsection{Skilgreining }
 Látum $U$ vera mengi í $\Rn$.  Punktur $P$ í $\Rn$ er sagður {\em jaðarpunktur} $U$ ef sérhver opin kúla $B_r(P)$ með $r>0$ inniheldur bæði punkt úr $U$ og punkt úr $\Rn\setminus U$.   (Athugið að bæði er mögulegt að jaðarpunktur $U$ sé í $U$ og að hann sé ekki í $U$.)
 
 
 
 \subsection{Skilgreiningarmengi}
- \subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+ \subsubsection{Skilgreining }
 Fyrir fall $f(x_1,x_2,\ldots,x_n)$ þá táknar ${\cal D}(f)$ skilgreiningarmengi fallsins $f$.
 Ef fallið er gefið með formúlu og ekkert sagt um ${\cal D}(f)$ þá lítum við svo á að ${\cal D}(f)$ sé mengi allra punkta í $\Rn$ þannig að formúlan gefi vel skilgreinda tölu.
 
@@ -451,7 +459,7 @@ Ef fallið er gefið með formúlu og ekkert sagt um ${\cal D}(f)$ þá lítum v
 
 
 \subsection{Markgildi}
- \subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+ \subsubsection{Skilgreining }
 Látum $f(x_1,x_2,\ldots,x_n)$ vera fall af
 $n$ breytistærðum með skilgreiningarmengi ${\cal D}(f)\subseteq \Rn$.
 Látum $P=(p_1,p_2,\ldots,p_n)$ vera punkt í $\Rn$ þannig að sérhver
@@ -472,13 +480,13 @@ $$|(x_1,x_2,\ldots,x_n)-(p_1,p_2,\ldots,p_n)|<\delta$$
 $$|f(x_1,x_2,\ldots,x_n)-L|<\epsilon.$$}
 
 
-\subsubsection{Ritháttur \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Ritháttur }
 Ef $f(x_1,x_2,\ldots,x_n)$  stefnir á tölu $L$ þegar $(x_1,x_2,\ldots,x_n)$  stefnir á $(p_1,p_2,\ldots,p_n)$ þá er ritað 
 $$\lim_{(x_1,x_2,\ldots,x_n)\rightarrow (p_1,p_2,\ldots,p_n)}
 f(x_1,x_2,\ldots,x_n)=L.$$
  
 
- \subsubsection{Skilgreining \arabic{mycount} (Skilgreining 4.8 sett fram fyrir föll af tveimur breytum.)  }\stepcounter{mycount}
+ \subsubsection{Skilgreining  (Skilgreining 4.8 sett fram fyrir föll af tveimur breytum.)  }
  
   
 Látum $f(x,y)$ vera fall skilgreint á mengi  ${\cal D}(f)\subseteq \R^2$.  Látum $(a,b)$ vera punkt í $\R^2$ þannig að sérhver opin skífa um $(a,b)$ inniheldur meira en einn punkt úr ${\cal D}(f)$.
@@ -499,7 +507,7 @@ $$|f(x,y)-L|<\epsilon.$$}
 
 
 \subsection{Reglur um markgildi}
- \subsubsection{Setning \arabic{mycount}}\stepcounter{mycount}
+ \subsubsection{Setning }
   Látum $f$ og $g$ vera föll af tveimur breytum.  Gerum ráð  fyrir að 
 $$\lim_{(x,y)\rightarrow (a,b)}f(x,y)=L\quad\mbox{og}\quad
 \lim_{(x,y)\rightarrow (a,b)}g(x,y)=M,$$
@@ -520,8 +528,10 @@ og að sérhver grennd um $(a,b)$ innihaldi fleiri en einn punkt þar sem bæði
 
 
 \subsection{Samfelldni}
- \subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
-   Látum $f$ vera fall af $n$ breytistærðum skilgreint á mengi ${\cal D}(f)$ í $\Rn$.  Fallið $f$ er sagt {\em samfellt í punkti} $ (p_1,p_2,\ldots,p_n)$ í ${\cal D}(f)$  ef 
+ \subsubsection{Skilgreining }
+   Látum $f$ vera fall af $n$ breytistærðum skilgreint á mengi ${\cal D}(f)$ í $\Rn$.  Fallið $f$ er sagt {\em samfellt í punkti} 
+$(p_1,p_2,\ldots,p_n)$ í ${\cal D}(f)$
+ef 
 $$\lim_{(x_1,x_2,\ldots,x_n)\rightarrow (p_1,p_2,\ldots,p_n)}
 f(x_1,x_2,\ldots,x_n)=f(p_1,p_2,\ldots,p_n).$$
 
@@ -531,33 +541,35 @@ Sagt er að fallið sé {\em samfellt} ef það er samfellt í öllum punktum sk
 
 
 \subsection{Hlutafleiður}
-\subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining }
  Látum $f(x,y)$ vera fall af tveimur breytum $x$ og $y$ sem er skilgreint á opinni skífu með miðju í punktinum $(a,b)$. 
  
  \medskip
  Skilgreinum \emph{hlutafleiðu m.t.t.} $x$ í $(a,b)$ með
 $$f_1(a,b)=\lim_{h\rightarrow 0}\frac{f(a+h,b)-f(a,b)}{h}$$
-og {hlutafleiðu m.t.t.} $y$ í $(a,b)$ með
-$$f_2(a,b)=\lim_{k\rightarrow 0}\frac{f(a,b+k)-f(a,b)}{k}$$ ef markgildin eru til.
+og \emph{hlutafleiðu m.t.t.} $y$ í $(a,b)$ með
+$$f_2(a,b)=\lim_{k\rightarrow 0}\frac{f(a,b+k)-f(a,b)}{k}$$
+
+ef markgildin eru til.
 
 
  \begin{figure}[!h]
         \centering
-        \begin{minipage}{.5\textwidth}
+        \begin{minipage}{\textwidth}
             \centering
             \includegraphics[width=1\linewidth]{xpart.png}
             \caption*{Hlutafleiða m.t.t.~$x$ fyrir $y=1$.}
         \end{minipage}%
-        \begin{minipage}{.5\textwidth}
+        \begin{minipage}{\textwidth}
             \centering
             \includegraphics[width=1\linewidth]{ypart.png}
             \caption*{Hlutafleiða m.t.t.~$y$ fyrir $x=1$.}
         \end{minipage}
-    \end{figure}
+   \end{figure}
  
 
 
-\subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining }
   
 Látum $f(x,y,z)$ vera fall af þremur breytum $x$, $y$ og $z$ sem er skilgreint á opinni kúlu með miðju í punktinum $(a, b,c)$. 
 
@@ -566,13 +578,16 @@ Látum $f(x,y,z)$ vera fall af þremur breytum $x$, $y$ og $z$ sem er skilgreint
 Skilgreinum \emph{hlutafleiðu m.t.t.} $x$ í $(a,b,c)$ með
 $$f_1(a,b,c)=\lim_{h\rightarrow 0}\frac{f(a+h,b,c)-f(a,b,c)}{h},$$
  \emph{hlutafleiðu m.t.t.} $y$ í $(a,b,c)$ með
-$$f_2(a,b,c)=\lim_{k\rightarrow 0}\frac{f(a,b+k,c)-f(a,b,c)}{k}$$ og  \emph{hlutafleiðu m.t.t.} $z$ í $(a,b,c)$ með
+$$f_2(a,b,c)=\lim_{k\rightarrow 0}\frac{f(a,b+k,c)-f(a,b,c)}{k}$$
+
+og \emph{hlutafleiðu m.t.t.} $z$ í $(a,b,c)$ með
 $$f_3(a,b,c)=\lim_{\ell\rightarrow 0}\frac{f(a,b,c+\ell)-f(a,b,c)}{\ell}$$
+
 ef markgildin eru til.
  
 
 
-\subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining }
 Látum $f$ vera fall af
 $n$ breytum $x_1,x_2,\ldots,x_n$ sem er skilgreint á opinni kúlu um punktinn $\mathbf{a}=(a_1, a_2, \ldots, a_n).$ 
 
@@ -584,14 +599,7 @@ ef markgildið er til.  (Hér stendur $\ev_k$ fyrir vigurinn sem er með
 0 í öllum hnitum nema því $k$-ta þar sem er 1.)
 
 
-
-
-
-
-
-
-\subsection{}
-\Wider{\subsubsection{Ritháttur \arabic{mycount}}\stepcounter{mycount}
+\Wider{\subsubsection{Ritháttur }
    Ritum $z=f(x,y)$.  Ýmis konar ritháttur fyrir hlutafleiður, m.a.~
 $$f_1(x,y)=\frac{\partial z}{\partial x}=  \frac{\partial }{\partial x}f(x,y)
 =D_1f(x,y)=f_x(x,y)=D_xf(x,y)=\partial_xf(x,y)$$
@@ -616,6 +624,7 @@ $$\frac{\partial z}{\partial x}\bigg|_{(a,b)}=
   \begin{figure}
            \centering
             \includegraphics[width=0.6\linewidth]{bothpart.png}
+	\caption*{}
     \end{figure}
     Í punktinum $(a,b,f(a,b))$ er 
     
@@ -628,7 +637,9 @@ $$\frac{\partial z}{\partial x}\bigg|_{(a,b)}=
  Táknum með $S$ planið sem hefur stikunina
 $$(a,b,f(a,b))+s\Tv_1+t\Tv_2, \quad -\infty < s,t < \infty.$$
 Vigurinn 
-$$\nv=\Tv_2\times \Tv_1=f_1(a,b)\iv+f_2(a,b)\jv-\kv$$ er þvervigur á $S$ og jafna plansins $S$ er
+$$\nv=\Tv_2\times \Tv_1=f_1(a,b)\iv+f_2(a,b)\jv-\kv$$ 
+
+er þvervigur á $S$ og jafna plansins $S$ er
 $$z=f(a,b)+f_1(a,b)(x-a)+f_2(a,b)(y-b).$$
 
 \emph{Þverlína} á $S$ hefur stikun
@@ -638,7 +649,7 @@ Ef $f(x,y)$ er 'nógu nálægt' (skilgreint nánar síðar) planinu $S$ þegar $
 
 
 \subsection{Hlutafleiður af hærra stigi}
- \subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+ \subsubsection{Skilgreining }
   Ritum $z=f(x,y)$.  {\em Annars stigs
   hlutafleiður} $f$ eru skilgreindar með formúlunum
 $$\frac{\partial^2 z}{\partial x^2}=
@@ -653,12 +664,13 @@ $$\frac{\partial^2 z}{\partial x\partial y}=
 $$\frac{\partial^2 z}{\partial y\partial x}=
 \frac{\partial}{\partial y} \frac{\partial z}{\partial x}
 =f_{12}(x,y)=f_{xy}(x,y).$$
+
 Hlutafleiðurnar $f_{11}(x,y)$ og $f_{22}(x,y)$ kallast hreinar
 hlutafleiður og $f_{12}(x,y)$ og $f_{21}(x,y)$ kallast blandaðar
 hlutafleiður.  
  
 
- \subsubsection{Setning \arabic{mycount}}\stepcounter{mycount}
+ \subsubsection{Setning }
   Látum $f(x,y)$ vera fall sem er skilgreint á opinni
 skífu $D$ með miðju í $P=(a,b)$ .  Gerum ráð fyrir að
 hlutafleiðurnar $f_1(x,y)$, $f_2(x,y)$, $f_{12}(x,y)$ og $f_{21}(x,y)$
@@ -668,7 +680,7 @@ $$f_{12}(a,b)=f_{21}(a,b).$$
  
 
 
- \subsubsection{Hugmynd að skilgreiningu \arabic{mycount}}\stepcounter{mycount}
+ \subsubsection{Hugmynd að skilgreiningu }
   Skilgreiningu~5.6 má útvíkka á augljósan hátt
 til að skilgreina 2.~stigs hlutafleiður fyrir föll af fleiri en
 tveimur breytum.   Einnig er augljóst hvernig má skilgreina
@@ -681,11 +693,7 @@ $$\frac{\partial^3 w}{\partial y\partial z\partial y} \quad\quad\mbox{(diffra
 \mbox{ og að lokum m.t.t. }y\mbox{)}.$$
 
  
-
-
-
-\subsection{}
- \subsubsection{Setning \arabic{mycount} (Almenn útgáfa af Setningu~5.7)}\stepcounter{mycount}
+ \subsubsection{Setning  (Almenn útgáfa af Setningu~5.7)}
      Látum $f$ vera
 fall $n$ breytistærðum sem er skilgreint á opinni kúlu með miðju í 
 $P=(x_1, x_2,\ldots, x_n)$.  
@@ -698,7 +706,7 @@ samfelldar í punktinum $P$ og allar hlutafleiður af lægra stigi eru
 skilgreindar á $D$ og samfelldar á $D$ þá eru hlutafleiðurnar sem við
 erum að skoða jafnar í $P$.
  
-\pause
+
  \subsubsection {Dæmi:} 
  Ef $w = f(x,y,z)$ er fall af þremur breytistærðum þá er t.d.~
  \begin {equation*}
@@ -711,12 +719,12 @@ ef skilyrðin í setningunni eru uppfyllt.
 
 \subsection{Keðjuregla} 
 
-\subsubsection{Setning \arabic{mycount} (Keðjureglan í einni breytistærð.)}\stepcounter{mycount}
+\subsubsection{Setning  (Keðjureglan í einni breytistærð.)}
  Gerum ráð fyrir að fallið $f(u)$ sé diffranlegt í punktinum $u=g(x)$ og að fallið $g(x)$ sé diffranlegt í punktinum $x$.  Þá er fallið $(f\circ g)(x)=f(g(x))$ diffranlegt í $x$ og 
 $$(f\circ g)'(x)=f'(g(x))g'(x).$$
 
 
-\subsubsection{Setning \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning }
 Látum $f(x,y)$ vera fall þar sem $x=x(t)$ og $y=y(t)$ eru föll af breytu $t$,  Gerum ráð fyrir að á opinni skífu um  punktinum $(x(t),y(t))$ séu báðar fyrsta stigs hlutafleiður $f$ skilgreindar og samfelldar.   Gerum enn fremur ráð fyrir að föllin $x(t)$ og $y(t)$ séu bæði diffranleg í punktinum $t$.  Þá er fallið 
 $$g(t)=f(x(t),y(t))$$
 diffranlegt í $t$ og 
@@ -724,7 +732,7 @@ $$g'(t)=f_1(x(t),y(t))x'(t)+f_2(x(t),y(t))y'(t).$$
 
 
 
-\subsubsection{Ritháttur \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Ritháttur }
 
 Ritum $z=f(x,y)$ þar sem $x=x(t)$ og $y=y(t)$ eru föll af breytu $t$.  Þá er 
 $$\frac{dz}{dt}=\frac{\partial z}{\partial x}\frac{dx}{dt}
@@ -733,10 +741,11 @@ $$\frac{dz}{dt}=\frac{\partial z}{\partial x}\frac{dx}{dt}
  \begin{figure}[h!]
            \centering
             \includegraphics[width=0.3\linewidth]{chain1}
+	\caption*{}
     \end{figure}
 
 
-\subsubsection{Setning \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning }
  Látum $f(x,y)$ vera fall af breytistærðum $x$ og $y$ sem aftur eru föll af breytum $s$ og $t$, það er að segja 
 $x=x(s,t)$ og $y=y(s,t)$.  Ritum svo 
 $$g(s,t)=f(x(s,t),y(s,t)).$$
@@ -747,7 +756,7 @@ $$g_2(s,t)=f_1(x(s,t),y(s,t))x_2(s,t)+f_2(x(s,t),y(s,t))y_2(s,t).$$
 
 
 
-\subsubsection{Ritháttur \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Ritháttur }
 
 Ritum $z=f(x,y)$ þar sem $x=x(s,t)$ og $y=y(s,t)$ eru föll af breytum $s$ og  $t$.  Þá er 
 $$\frac{\partial z}{\partial s}=
@@ -759,10 +768,11 @@ $$\frac{\partial z}{\partial s}=
  \begin{figure}[h!]
            \centering
             \includegraphics[width=0.35\linewidth]{chain2}
+	\caption*{}
     \end{figure}
 
 
-\subsubsection{Ritháttur \arabic{mycount}.}\stepcounter{mycount}
+\subsubsection{Ritháttur}
  Ritum $z=f(x,y)$ þar sem $x=x(s,t)$ og $y=y(s,t)$ eru föll af breytum $s$ og  $t$.  Þá er 
 $$\begin{bmatrix}\frac{\partial z}{\partial s} 
 & \frac{\partial z}{\partial t}\end{bmatrix}
@@ -776,7 +786,7 @@ $$\begin{bmatrix}\frac{\partial z}{\partial s}
 
  
 
-\subsubsection{Setning \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning }
 Látum $u$ vera fall af $n$ breytum $x_1, x_2, \ldots, x_n$ þannig að hvert $x_i$ má rita sem fall af $m$ breytum $t_1, t_2, \ldots, t_m$.  Gerum ráð fyrir að allar hlutafleiðurnar $\frac{\partial u}{\partial x_i}$ og $\frac{\partial x_i}{\partial t_j}$ séu til og samfelldar.  Þegar $u$ er skoðað sem fall af breytunum $t_1, t_2, \ldots, t_m$ fæst að 
 $$\frac{\partial u}{\partial t_j}=
 \frac{\partial u}{\partial x_1}\frac{\partial x_1}{\partial t_j}
@@ -787,35 +797,39 @@ $$\frac{\partial u}{\partial t_j}=
 \begin{figure}[h!]
            \centering
             \includegraphics[width=0.45\linewidth]{chain3}
+	\caption*{}
     \end{figure}
 
 
-\subsubsection{Dæmi \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Dæmi }
 Látum $T$ vera fall af fall af $x$, $y$ og $t$, og $x$ og $y$ föll af $t$. Finnum $\frac{ dT}{dt}$.
 
 \begin{figure}[h!]
            \centering
             \includegraphics[width=0.35\linewidth]{chain5}
+	\caption*{}
     \end{figure}
 $$\frac{d T}{d t} = \frac{\partial T}{\partial x} \frac{d x}{d t} +\frac{\partial T}{\partial y} \frac{d y}{\partial t} + \frac{\partial T}{\partial t} .$$
 
 
-\subsubsection{Dæmi \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Dæmi }
 Látum $T$ vera fall af fall af $x$, $y$, $s$ og $t$, og $x$ og $y$ föll af $s$ og $t$. Finnum $\frac{ \partial T}{\partial t}$.
 
 \begin{figure}[h!]
            \centering
             \includegraphics[width=0.45\linewidth]{chain6}
+	\caption*{}
     \end{figure}
 $$\frac{\partial T}{\partial t} = \frac{\partial T}{\partial x} \frac{\partial x}{\partial t} +\frac{\partial T}{\partial y} \frac{\partial y}{\partial t} + \left(\frac{\partial T}{\partial t}\right)_{x,y,s} .$$
 
 
-\subsubsection{Dæmi \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Dæmi }
 Látum $z$ vera fall af fall af $u$, $v$ og $r$, $u$ og $v$ vera föll af $x$, $y$ og $r$ og $r$ vera fall af $x$ og $y$. Skrifum niður $\frac{\partial z}{\partial x}$.
 
 \begin{figure}[h!]
            \centering
             \includegraphics[width=0.45\linewidth]{chain4}
+	\caption*{}
     \end{figure}
 $$\frac{\partial z}{\partial x} = \frac{\partial z}{\partial u} \frac{\partial u}{\partial x} +\frac{\partial z}{\partial u} \frac{\partial u}{\partial r} \frac{\partial r}{\partial x} 
 + \frac{\partial z}{\partial v} \frac{\partial v}{\partial x} + \frac{\partial z}{\partial v} \frac{\partial v}{\partial r} \frac{\partial r}{\partial x} +\frac{\partial z}{\partial r} \frac{\partial r}{\partial x}.$$
@@ -825,13 +839,13 @@ $$\frac{\partial z}{\partial x} = \frac{\partial z}{\partial u} \frac{\partial u
 
 \subsection{Jákvætt einsleit föll} 
 
-\subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining }
 
-Fall $f(x_1, x_2, \ldots, x_n)$ er sagt vera {\em jákvætt einsleitt af stigi $k$} (e.~positively homogeneous of degree $k$) ef fyrir sérhvern punkt $(x_1, x_2, \ldots, x_n)$ og sérhverja tölu $t>0$ gildir að 
+Fall $f(x_1, x_2, \ldots, x_n)$ er sagt vera {\em jákvætt einsleitt af stigi} $k$ (e.~positively homogeneous of degree $k$) ef fyrir sérhvern punkt $(x_1, x_2, \ldots, x_n)$ og sérhverja tölu $t>0$ gildir að 
 $$f(tx_1, tx_2, \ldots, tx_n)=t^kf(x_1, x_2, \ldots, x_n).$$
 
 
-\subsubsection{Setning \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning }
  Ef fall $f(x_1, x_2, \ldots, x_n)$ hefur samfelldar fyrsta stigs hlutafleiður og er jákvætt einsleitt af stigi $k$ þá er 
 $$\sum_{i=1}^n x_if_i(x_1, x_2, \ldots, x_n)=kf(x_1, x_2, \ldots, x_n).$$ 
  
@@ -840,7 +854,7 @@ $$\sum_{i=1}^n x_if_i(x_1, x_2, \ldots, x_n)=kf(x_1, x_2, \ldots, x_n).$$
 
 \subsection{Diffranleiki í einni breytistærð} 
 
-\subsubsection{Skilgreining \arabic{mycount} }
+\subsubsection{Skilgreining  }
   Látum $f$ vera fall af einni breytistærð og gerum ráð fyrir að $f$ sé
 skilgreint á opnu bili sem inniheldur punktinn $a$.  Fallið $f$ er
 sagt vera {\em diffranlegt} í punkti $a$ ef markgildið
@@ -851,7 +865,7 @@ er til.
 
 \subsection{Diffranleiki í einni breytistærð - önnur lýsing} 
 
-\subsubsection{Skilgreining \arabic{mycount} }\stepcounter{mycount}
+\subsubsection{Skilgreining  }
 Látum $f$ vera fall af einni breytistærð og gerum ráð fyrir að $f$ sé
 skilgreint á opnu bili sem inniheldur punktinn $a$.  Fallið $f$ er
 sagt vera {\em diffranlegt} í punkti $a$ ef til er tala $m$ þannig að
@@ -866,7 +880,7 @@ Fallið $f$ er 'nálægt' línunni $L$ nálægt punktinum $a$.
 
 \subsection{Diffranleiki} 
 
-\subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining }
 Fall $f(x,y)$ sem er skilgreint á opinni
 skífu umhverfis $(a,b)$ er sagt vera diffranlegt í punktinum $(a,b)$
 ef báðar fyrsta stigs hlutafleiður $f$ eru skilgreindar í $(a,b)$ og ef 
@@ -883,6 +897,7 @@ Fallið $f$ er 'nálægt' sléttunni $S$ nálægt punktinum $(a,b)$.
   \begin{figure}
            \centering
             \includegraphics[width=0.6\linewidth]{bothpart.png}
+	\caption*{}
     \end{figure}
     $S(x,y) = f(a,b) + f_1(a,b)(x-a)+f_2(a,b)(y-b)$.
 
@@ -890,7 +905,7 @@ Fallið $f$ er 'nálægt' sléttunni $S$ nálægt punktinum $(a,b)$.
 
 \subsection{Diffranleiki} 
 
-\subsubsection{Setning \arabic{mycount} (Meðalgildissetningin)}\stepcounter{mycount}
+\subsubsection{Setning  (Meðalgildissetningin)}
 Gerum ráð fyrir að fallið $f$
 sé samfellt á lokaða bilinu $[a,b]$ og diffranlegt á opna bilinu
 $(a,b)$.  Þá er til punktur $c$ á opna bilinu $(a,b)$ þannig að 
@@ -899,7 +914,7 @@ $$f(b)-f(a)=f'(c)(b-a).$$
 
 
 
-\subsubsection{Setning \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning }
 
 Látum  $f(x,y)$ vera fall
 sem er skilgreint á opinni 
@@ -910,7 +925,7 @@ $\theta_1$ og $\theta_2$ á milli 0 og 1 þannig að
 $$f(a+h,b+k)-f(a,b)=hf_1(a+\theta_1h,b+k)+kf_2(a,b+\theta_2k).$$
 
 
-\subsubsection{Setning \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning }
   Látum  $f(x,y)$ vera fall
 sem er skilgreint á opinni 
 skífu $\cal D$ með miðju í $(a,b)$ þannig að á þessari skífu eru báðar
@@ -920,23 +935,23 @@ fyrsta stigs hlutafleiður $f$ skilgreindar og samfelldar.
 
 
 
-\subsubsection{Setning \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning }
   Gerum ráð fyrir að $f(x,y)$ sé fall sem er
 diffranlegt í punktinum $(a,b)$.  Þá er $f$ samfellt í $(a,b)$.
 
 
 
 
-\subsubsection{Keðjuregla \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Keðjuregla }
  Ritum $z=f(x,y)$ þar sem $x=x(s,t)$ og
 $y=y(s,t)$.  Gerum ráð fyrir að 
 
-(i) $x(a,b)=p$ og $y(a,b)=q$;
-
-(ii) fyrsta stigs hlutafleiður $x(s,t)$ og $y(s,t)$ eru skilgreindar í
+\begin{enumerate}[(i)]
+\item $x(a,b)=p$ og $y(a,b)=q$;
+\item fyrsta stigs hlutafleiður $x(s,t)$ og $y(s,t)$ eru skilgreindar í
 punktinum $(a,b)$;
-
-(iii)  fallið $f$ er diffranlegt í punktinum $(p,q)$.
+\item fallið $f$ er diffranlegt í punktinum $(p,q)$.
+\end{enumerate}
 
 Þá eru fyrsta stigs hlutafleiður $z$ með tilliti til breytanna $s$ og
 $t$ skilgreindar í punktinum $(a,b)$ og um þær gildir að 
@@ -953,7 +968,7 @@ $$\frac{\partial z}{\partial t}=
 
 \subsection{Diffur} 
 
-\subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining }
   Ritum $z=f(x_1, x_2, \ldots, x_n)$.  {\em
   Diffrið} af $z$ er skilgreint sem 
 $$dz=df=\frac{\partial z}{\partial x_1}dx_1
@@ -967,7 +982,7 @@ x_n+dx_n)-f(x_1,x_2,\ldots,x_n).$$
 
 
 \subsection{Varpanir $\Rn\rightarrow\Rm$} 
-\subsubsection{Táknmál \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Táknmál }
 Látum $\fv:\Rn\rightarrow\Rm$ tákna vörpun.
 Ritum $\fv=(f_1,\ldots,f_m)$ þar sem hvert $f_i$ er fall
 $\Rn\rightarrow\R$.  Fyrir punkt í $\Rn$ ritum við
@@ -980,7 +995,7 @@ $\yv=(y_1,y_2,\ldots,y_m)$ og
 
 
 \subsection{Jacobi-fylki} 
- \subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+ \subsubsection{Skilgreining }
  Notum táknmálið úr 7.8.
 Ef allar hlutafleiðurnar $\partial
 y_i/\partial x_j$ eru skilgreindar í punktinum $\xv$ þá skilgreinum
@@ -998,7 +1013,7 @@ $$D\fv(\xv)=\begin{bmatrix}
 
 
 \subsection{Diffranleiki varpana $\Rn\rightarrow\Rm$} 
- \subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+ \subsubsection{Skilgreining }
  Notum táknmálið úr 7.8 og 7.9. Látum $\av=(a_1, a_2, \ldots, a_n)$ vera fastan punkt í $\Rn$ og ritum 
 $\hv=(h_1,h_2,\ldots,h_n)$.  Vörpunin $\fv$ er
 sögð diffranleg í punktinum $\av$ ef
@@ -1014,7 +1029,7 @@ Línulega vörpunin $D\fv$ kallast afleiða $\fv$.
 
 
 \subsection{Keðjureglan} 
- \subsubsection{Setning \arabic{mycount}}\stepcounter{mycount}
+ \subsubsection{Setning }
 Látum $\fv:\Rn\rightarrow \Rm$ og 
 $\gv:\Rm\rightarrow \Rk$ vera varpanir.  Gerum ráð fyrir að vörpunin
 $\fv$ sé diffranleg í punkti $\xv$ og vörpunin $\gv$ sé diffranleg í
@@ -1024,11 +1039,9 @@ $$D(\gv\circ\fv)(\xv)=D\gv(\fv(\xv))D\fv(\xv).$$
 
 
 
-
-
 \subsection{Stigull} 
 
-\subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining }
 
  Látum $f(x,y)$ vera fall og $(x,y)$ punkt þar
 sem báðar fyrsta stigs hlutafleiður $f$ eru skilgreindar.  Skilgreinum
@@ -1038,7 +1051,7 @@ Stigull $f$ er stundum táknaður með {\bf grad}$\,f$.
 
 
 
-\subsubsection{Ritháttur \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Ritháttur }
 Oft hentugt að rita
 $$\nabla=\iv\frac{\partial}{\partial x}+ \jv\frac{\partial}{\partial y}.$$
 Þá er litið svo á að $\nabla$ sé {\em diffurvirki}, þ.e.a.s.\ $\nabla$
@@ -1050,12 +1063,12 @@ gefur fyrirmæli um hvað á að gera við $f$ til að fá $\nabla f(x,y)$.
 \subsection{Dæmi}
  \begin{figure}[!h]
         \centering
-        \begin{minipage}{.5\textwidth}
+        \begin{minipage}{\textwidth}
             \centering
             \includegraphics[width=1\linewidth]{gradfurf.png}
             \caption*{Graf $z=1-x^2-y^2$}
         \end{minipage}%
-        \begin{minipage}{.5\textwidth}
+        \begin{minipage}{\textwidth}
             \centering
             \includegraphics[width=1\linewidth]{gradient.png}
             \caption*{Jafnhæðarlínur.  Stigull og snertilína við jafnhæðarlínuna $z=0.5$ í $(x,y) = (0.5,0.5)$.}
@@ -1064,7 +1077,7 @@ gefur fyrirmæli um hvað á að gera við $f$ til að fá $\nabla f(x,y)$.
  
 
 
-\subsubsection{Setning \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning }
   Gerum ráð fyrir að fallið $f(x,y)$ sé
 diffranlegt í punktinum $(a,b)$ og að $\nabla f(a,b) \neq \mathbf{0}$.  Þá er vigurinn $\nabla f(a,b)$ 
 hornréttur á þá jafnhæðarlínu $f$ sem liggur í gegnum punktinn $(a,b)$.
@@ -1079,7 +1092,7 @@ hornréttur á þá jafnhæðarlínu $f$ sem liggur í gegnum punktinn $(a,b)$.
 
 \subsection{Snertilína við jafnhæðarferil} 
 
-\subsubsection{Setning \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning }
   Gerum ráð fyrir að fallið $f(x,y)$ sé
 diffranlegt í punktinum $(a,b)$ og að $\nabla f(a,b) \neq \mathbf{0}$.  Jafna snertilínu við jafnhæðarferil $f$ í punktinum $(a,b)$ er gefin
 með formúlunni 
@@ -1092,9 +1105,8 @@ $$f_1(a,b)(x-a)+f_2(a,b)(y-b)=0.$$
 
 \subsection{Stefnuafleiða} 
 
-\subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
- Látum $\uv=u\iv+v\jv$ vera einingarvigur.  {\em
-  Stefnuafleiða } $f$ í punktinum $(a,b)$ í stefnu $\uv$ er skilgreind
+\subsubsection{Skilgreining }
+ Látum $\uv=u\iv+v\jv$ vera einingarvigur.  {\em Stefnuafleiða} $f$ í punktinum $(a,b)$ í stefnu $\uv$ er skilgreind
   sem 
 $$D_{\uv}f(a,b)=\lim_{h\rightarrow 0^+}\frac{f(a+hu, b+hv)-f(a,b)}{h}$$
 ef markgildið er skilgreint.  
@@ -1102,7 +1114,7 @@ ef markgildið er skilgreint.
 
 
 
-\subsubsection{Setning \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning }
 Gerum ráð fyrir að fallið $f$ sé diffranlegt í
 $(a,b)$ og $\uv=u\iv+v\jv$ sé einingarvigur.  Þá er stefnuafleiðan í
 punktinum $(a,b)$ í stefnu $\uv$ skilgreind og gefin með formúlunni
@@ -1111,19 +1123,17 @@ $$D_{\uv}f(a,b)=\uv\cdot \nabla f(a,b).$$
 
 
 
-\subsubsection{Setning \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning }
  Látum $f$ vera gefið fall og gerum ráð fyrir að
 $f$ sé diffranlegt í punktinum $(a,b)$.
 
 \medskip
 (a)  Hæsta gildið á stefnuafleiðunni $D_{\uv}f(a,b)$ fæst þegar $\uv$
-er einingarvigur í stefnu $\nabla f(a,b)$, þ.e.a.s. $\uv=\frac{\nabla
-  f(a,b)}{|\nabla f(a,b)|}$.  
+er einingarvigur í stefnu $\nabla f(a,b)$, þ.e.a.s. $\uv=\frac{\nabla f(a,b)}{|\nabla f(a,b)|}$.  
 
 \medskip
 (b)  Lægsta gildið á stefnuafleiðunni $D_{\uv}f(a,b)$ fæst þegar $\uv$
-er einingarvigur í stefnu $-\nabla f(a,b)$, þ.e.a.s. $\uv=-\frac{\nabla
-  f(a,b)}{|\nabla f(a,b)|}$. 
+er einingarvigur í stefnu $-\nabla f(a,b)$, þ.e.a.s. $\uv=-\frac{\nabla f(a,b)}{|\nabla f(a,b)|}$. 
 
 \medskip
 (c)  Ef $\cal C$ er sú hæðarlína $f$ sem liggur í gegnum $(a,b)$ og
@@ -1135,9 +1145,10 @@ $D_{\uv}f(a,b)=0$.
 
    \centering
             \includegraphics[width=1\linewidth]{contours.pdf}
+	\caption*{ }
  
 
-\subsubsection{Setning \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning }
 Látum $f$ vera gefið fall og gerum ráð fyrir að
 $f$ sé diffranlegt í punktinum $(a,b)$.  
 
@@ -1159,7 +1170,7 @@ er vaxtarhraði $f$ í stefnu $\uv$ jafn 0.
 
 \subsection{Stigull} 
 
-\subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining }
  Látum $f$ vera fall af þremur
 breytistærðum, þannig að allar þrjár fyrsta stigs hlutafleiður $f$ í
 punktinum $(x,y,z)$ séu skilgreindar.  {\em Stigull} $f$ í punktinum
@@ -1172,7 +1183,7 @@ $$\nabla f(x,y,z)=f_1(x,y,z)\iv+f_2(x,y,z)\jv+f_3(x,y,z)\kv.$$
 
 \subsection{Snertiplan við jafnhæðarflöt} 
 
-\subsubsection{Setning \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning }
  Látum $f$ vera fall af þremur
 breytistærðum þannig að fallið $f$ er diffranlegt í punktinum $(a,b,c)$.  Látum $\cal F$ tákna þann jafnhæðarflöt $f$ sem liggur um $(a,b,c)$.  Stigullinn $\nabla f(a,b,c)$ er hornréttur á flötinn $\cal F$ í punktinum $(a,b,c)$ og snertiplan (ef $\nabla f(a,b,c)\neq\ov$) 
 við jafnhæðarflötinn í punktinum $(a,b,c)$ er gefið með jöfnunni 
@@ -1186,7 +1197,7 @@ $$f_1(a,b,c)(x-a)+f_2(a,b,c)(y-b)+f_3(a,b,c)(z-c)=0.$$
 
 \subsection{Fólgin föll og Taylor-nálganir} 
 
-\subsubsection{Upprifjun \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Upprifjun }
  Skoðum feril sem gefinn er með jöfnu $F(x,y)=0$
 og gerum ráð fyrir að báðar fyrsta stigs
 hlutafleiður $F$ séu samfelldar.  Látum $(x_0,y_0)$
@@ -1200,7 +1211,7 @@ Sagt að jafnan $F(x,y)=0$ skilgreini $y$ sem {\em fólgið fall} af $x$
 
 
 
-\subsubsection{Setning \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning }
 Látum $F$ vera fall af $n$-breytum $x_1, \ldots,
 x_n$ og gerum ráð fyrir að allar fyrsta stigs hlutafleiður  $F$ séu
 samfelldar.   Látum $(a_1,\ldots,a_n)$ vera punkt þannig að 
@@ -1211,6 +1222,7 @@ utan um $(a_1,\ldots,a_{n-1})$ þannig að
 $$\varphi(a_1,\ldots,a_{n-1})=a_n$$ 
 og 
 $$F(x_1,\ldots, x_{n-1}, \varphi(x_1, \ldots, x_{n-1}))=0$$
+
 fyrir alla punkta $(x_1, \ldots, x_{n-1})$ í $B$.
 
 Ennfremur gildir að 
@@ -1219,7 +1231,7 @@ $$\varphi_i(a_1,\ldots,a_{n-1})
 
 
 
-\subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining }
   
 {\em Jacobi-ákveða} tveggja falla $u=u(x,y)$ og $v=v(x,y)$ með
 tilliti til breytanna $x$ og $y$ er skilgreind sem 
@@ -1264,7 +1276,7 @@ $$\frac{\partial(F,G,H)}{\partial(w,z,y)}=
 
 
 
-\subsubsection{Setning \arabic{mycount}  (Upprifjun á reglu Cramers.)}\stepcounter{mycount}
+\subsubsection{Setning (Upprifjun á reglu Cramers.)}
 
  Látum $A$ vera andhverfanlegt
 $n\times n$ fylki og $\bv$ vigur í $\Rn$.  Gerum ráð fyrir að
@@ -1276,7 +1288,7 @@ $$x_i=\frac{\det B_i}{\det A}.$$
 
 
 
-\subsubsection{Setning \arabic{mycount} (Setningin um fólgin föll)}\stepcounter{mycount}
+\subsubsection{Setning (Setningin um fólgin föll)}
 Skoðum jöfnuhneppi
 \begin{align*}
 F_{(1)}(x_1,\ldots,x_m, y_1, \ldots, y_n)&=0\\
@@ -1298,12 +1310,12 @@ $\text{Þá eru til föll} \qquad \varphi_1(x_1,\ldots,x_m),\ldots,\varphi_n(x_1
 $$\varphi_1(a_1,\ldots,a_m)=b_1,\ldots,\varphi_n(a_1,\ldots,a_m)=b_n \qquad \text{og}$$
 \begin{align*}
 F_{(1)}(x_1,\ldots,x_m, \varphi_1(x_1,\ldots,x_m),\ldots,
-\varphi_n(x_1,\ldots,x_m)&=0\\
+\varphi_n(x_1,\ldots,x_m))&=0\\
 F_{(2)}(x_1,\ldots,x_m, \varphi_1(x_1,\ldots,x_m),\ldots,
-\varphi_n(x_1,\ldots,x_m)&=0\\
+\varphi_n(x_1,\ldots,x_m))&=0\\
 \vdots\\
 F_{(n)}(x_1,\ldots,x_m, \varphi_1(x_1,\ldots,x_m),\ldots,
-\varphi_n(x_1,\ldots,x_m)&=0
+\varphi_n(x_1,\ldots,x_m))&=0
 \end{align*}
 fyrir alla punkta $(x_1,\ldots,x_m)$ í $B$.
 Enn fremur fæst að %ATH x_j í sæti i
@@ -1315,30 +1327,28 @@ $$\frac{\partial \varphi_i}{\partial x_j}
 
 
 
-\subsubsection{Setning \arabic{mycount} (Setningin um staðbundna andhverfu)}\stepcounter{mycount}
+\subsubsection{Setning (Setningin um staðbundna andhverfu)}
 Látum $$\fv(x_1,\ldots,
-x_n)=(f_1(x_1,\ldots,x_n),\ldots,f_n(x_1,\ldots,x_n))$$ vera vörpun af
-$n$ breytistærðum sem tekur gildi í $\Rn$ og er skilgreind á opnu
-mengi í $\Rn$.   Gerum ráð fyrir að allar
-fyrsta stigs hlutafleiður fallanna $f_1, \ldots, f_n$ séu samfelld
-föll.  Ef Jacobi-fylkið $D\fv(\xv_0)$ er andhverfanlegt í punkti
+x_n)=(f_1(x_1,\ldots,x_n),\ldots,f_n(x_1,\ldots,x_n))$$ 
+vera vörpun af $n$ breytistærðum sem tekur gildi í $\Rn$ og er skilgreind á opnu
+mengi í $\Rn$. Gerum ráð fyrir að allar fyrsta stigs hlutafleiður fallanna $f_1, \ldots, f_n$ séu 
+samfelld föll. Ef Jacobi-fylkið $D\fv(\xv_0)$ er andhverfanlegt í punkti
 $\xv_0$ á skilgreiningarsvæði $\fv$ þá er til opin kúla $B_{\xv}$ utan
-um $\xv_0$ og opin kúla $B_{\yv}$ utan um $\yv_0=f(\xv_0)$ og vörpun
+um $\xv_0$ og opin kúla $B_{\yv}$ utan um $\yv_0=f(\xv_0)$ og vörpun 
+\\\\
 $\gv:B_{\yv}\rightarrow B_{\xv}$ þannig að 
-$\gv(\fv(\xv))=\xv$ fyrir alla punkta $\xv\in B_{\xv}$ og 
-$\fv(\gv(\yv))=\yv$ fyrir alla punkta $\yv\in B_{\yv}$.
+$\gv(\fv(\xv))=\xv$ fyrir alla punkta $\xv\in B_{\xv}$ og $\fv(\gv(\yv))=\yv$ fyrir alla punkta $\yv\in B_{\yv}$.\\
 
-
-
-
-\subsubsection{Upprifjun \arabic{mycount} (Taylor-regla í einni breytistærð.)}\stepcounter{mycount}
+\subsubsection{Upprifjun  (Taylor-regla í einni breytistærð.)}
   Látum 
 $f$ vera $n+1$-diffranlegt fall af einni breytistærð.  Margliðan 
 $$P_{(n)}(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2
 +\cdots+\frac{f^{(n)}(a)}{n!}(x-a)^n$$
-kallast {\em $n$-ta stigs Taylor-margliða $f$ með miðju í $a$}.
+
+kallast $n${\em-ta stigs Taylor-margliða} $f$ {\em með miðju í} $a$.
 Til er punktur $s$ á milli $a$ og $x$ þannig að 
 $$E_{(n)}(x)=f(x)-P_{(n)}(x)=\frac{f^{(n+1)}(s)}{(n+1)!}(x-a)^{n+1}.$$
+
 Fáum svo að 
 \begin {align*}
 &f(x)=P_{(n)}(x)+E_{(n)}(x) \\
@@ -1347,20 +1357,18 @@ Fáum svo að
 \end {align*}
 
  
-sem er kallað {\em $n$-ta stigs Taylor-formúla.}
+sem er kallað $n${\em-ta stigs Taylor-formúla.}
 
 
 
- 
-
-\subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining }
  Látum $f(x,y)$ vera fall þannig að fyrsta stigs hlutafleiður $f$ eru skilgreindar og samfelldar.  Margliðan
 $$P_{(1)}(x,y)=f(a,b)+f_1(a,b)(x-a)+f_2(a,b)(y-b)$$
-kallast {\em fyrsta stigs Taylor-margliða $f$ með miðju í $(a,b)$}. 
+kallast {\em fyrsta stigs Taylor-margliða} $f$ {\em með miðju í} $(a,b)$. 
 
 
 
-\subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining }
 
 Látum $f(x,y)$ vera fall þannig að fyrsta og annars
 stigs hlutafleiður $f$ eru skilgreindar og samfelldar.  Margliðan
@@ -1368,11 +1376,11 @@ stigs hlutafleiður $f$ eru skilgreindar og samfelldar.  Margliðan
 &+\frac{1}{2}\big(f_{11}(a,b)(x-a)^2+
 2f_{12}(a,b)(x-a)(y-b)+f_{22}(a,b)(y-b)^2\big)
 \end{align*}
-kallast {\em annars stigs Taylor-margliða $f$ með miðju í $(a,b)$}.  
+kallast {\em annars stigs Taylor-margliða} $f$ {\em með miðju í} $(a,b)$.  
 
 
 
-\subsubsection{Skilgreining og athugasemd \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining og athugasemd }
 Skilgreinum tvo {\em diffurvirkja} $D_1$ og $D_2$ þannig að 
 $$D_1f(a,b)=f_1(a,b)\qquad\mbox{og}\qquad
 D_2f(a,b)=f_2(a,b).$$
@@ -1381,7 +1389,7 @@ Athugið að ef hlutafleiður $f$ af nógu háum stigum eru allar skilgreindar o
 
 
 
-\subsubsection{Upprifjun \arabic{mycount}(Tvíliðuregla)}\stepcounter{mycount}
+\subsubsection{Upprifjun (Tvíliðuregla)}
 Skilgreinum 
 $${n\choose j}=\frac{n!}{j!(n-j)!}.$$
 Talan ${n\choose j}$ (lesið $n$ yfir $j$) er $j+1$ talan í $n+1$ línu Pascals-þríhyrningsins.
@@ -1391,7 +1399,7 @@ $$(x+y)^n=\sum_{j=0}^n \textstyle{n\choose j}x^jy^{n-j}.$$
 
 
 
-\subsubsection{Regla \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Regla }
 
 Ef $f(x,y)$ er fall þannig að allar hlutafleiður af $n$-ta og lægri stigum eru samfelldar þá gildir að 
 $$(hD_1+kD_2)^nf(a,b)=\sum_{j=0}^n \textstyle{n\choose j}
@@ -1399,10 +1407,10 @@ h^jk^{n-j}D_1^jD_2^{n-j}f(a,b).$$
 
 
 
-\subsubsection{Skilgreining \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Skilgreining }
 Fyrir fall $f(x,y)$ þannig að allar
-hlutafleiður af $n$-ta og lægri stigum eru samfelldar þá er {\em $n$-ta
-stigs Taylor-margliða $f$ með miðju í punktinum} $(a,b)$ skilgreind sem
+hlutafleiður af $n$-ta og lægri stigum eru samfelldar þá er $n${\em-ta
+stigs Taylor-margliða} $f$ {\em með miðju í punktinum} $(a,b)$ skilgreind sem
 margliðan  
 \begin{align*}
 P_{(n)}(x,y)&= \sum_{m=0}^n \frac{1}{m!}((x-a)D_1+(y-b)D_2)^m f(a,b)\\
@@ -1415,7 +1423,7 @@ D_1^jD_2^{m-j}f(a,b)(x-a)^j(y-b)^{m-j}.
 
 
 
-\subsubsection{Setning \arabic{mycount}}\stepcounter{mycount}
+\subsubsection{Setning }
  Fyrir fall $f(x,y)$ þannig að allar hlutafleiður af $n+1$-ta og lægri stigum eru samfelldar þá gildir um skekkjuna í  $n$-ta stigs Taylor-nálgun að til er tala $\theta$ á milli 0 og 1 þannig að ef $h=x-a$ og $k=y-b$ þá er 
 $$f(x,y)-P_{(n)}(x,y)=\frac{1}{(n+1)!}(hD_1+kD_2)^{n+1}
 f(a+\theta h, b+\theta k).$$

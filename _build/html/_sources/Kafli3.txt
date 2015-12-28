@@ -1,4 +1,5 @@
 
+
 Hagnýting hlutafleiðujafna
 ==========================
 
@@ -11,40 +12,38 @@ Skilgreining
 Látum :math:`f` vera fall af tveim breytum skilgreint á mengi
 :math:`{\cal D}(f)`.
 
-Sagt er að :math:`f` hafi * staðbundið lággildi* (e. local minimum) í
+Sagt er að :math:`f` hafi *staðbundið lággildi* (e. local minimum) í
 punkti :math:`(a,b)` ef til er tala :math:`r>0` þannig að
 :math:`f(a,b)\leq f(x,y)` fyrir alla punkta
-:math:`(x,y)\in B_r(a,b)\cap{\cal
-  D}(f)`.
+:math:`(x,y)\in B_r(a,b)\cap{\cal D}(f)`.
 
-Sagt er að :math:`f` hafi * staðbundið hágildi* (e. local maximum) í
+Sagt er að :math:`f` hafi *staðbundið hágildi* (e. local maximum) í
 punkti :math:`(a,b)` ef til er tala :math:`r>0` þannig að
 :math:`f(a,b)\geq f(x,y)` fyrir alla punkta
-:math:`(x,y)\in B_r(a,b)\cap{\cal
-  D}(f)`.
+:math:`(x,y)\in B_r(a,b)\cap{\cal D}(f)`.
 
 Í þeim punktum þar sem :math:`f` tekur annað hvort staðbundið lággildi
-eða staðbundið hágildi er sagt að :math:`f` hafi * staðbundið útgildi*
+eða staðbundið hágildi er sagt að :math:`f` hafi *staðbundið útgildi*
 (e. local extreme).
 
 Ef :math:`f(a,b)\leq f(x,y)` fyrir alla punkta
-:math:`(x,y)\in {\cal D}(f)` þá er sagt að :math:`f` taki * lægsta
-gildi* í :math:`(a,b)` (e. global minimum). Ef :math:`f(a,b)\geq f(x,y)`
-fyrir alla punkta :math:`(x,y)\in {\cal D}(f)` þá er sagt að :math:`f`
-taki * hæsta gildi* í :math:`(a,b)` (e. global maximum).
+:math:`(x,y)\in {\cal D}(f)` þá er sagt að :math:`f` taki *lægsta gildi*
+í :math:`(a,b)` (e. global minimum). Ef :math:`f(a,b)\geq f(x,y)` fyrir
+alla punkta :math:`(x,y)\in {\cal D}(f)` þá er sagt að :math:`f` taki
+*hæsta gildi* í :math:`(a,b)` (e. global maximum).
 
 Staðbundið útgildi
 ------------------
 
-Upprifjun 
-~~~~~~~~~~
+Upprifjun
+~~~~~~~~~
 
 Látum :math:`f` vera fall af einni breytu skilgreint á mengi
 :math:`{\cal D}(f)\subseteq {\mathbb  R}`. Ef fallið :math:`f` hefur
 staðbundið útgildi í punkti :math:`a` þá gildir eitt af þrennu um
 :math:`a`:
 
-#. :math:`f'(a)=0`. (punkturinn :math:`a` kallast * stöðupunktur*
+#. :math:`f'(a)=0`. (punkturinn :math:`a` kallast *stöðupunktur*
    :math:`f`).
 
 #. Afleiðan :math:`f'(a)` er ekki skilgreind.
@@ -60,7 +59,7 @@ staðbundið útgildi í punkti :math:`(a,b)` þá gildir eitt af þrennu um
 :math:`a`
 
 #. :math:`\nabla f(a,b)=\mbox{${\bf 0}$}`. (punkturinn :math:`(a,b)`
-   kallast * stöðupunktur* :math:`f`)
+   kallast *stöðupunktur* :math:`f`)
 
 #. Stigullinn :math:`\nabla f(a,b)` er ekki skilgreindur.
 
@@ -69,12 +68,18 @@ staðbundið útgildi í punkti :math:`(a,b)` þá gildir eitt af þrennu um
 Dæmi: Föll skilgreind á svæðinu :math:`-0.5 \leq x \leq 0.5`,
 :math:`-0.5 \leq y \leq 0.5`. Hvar eru staðbundin hágildi?
 
-.5 |:math:`z = f(x,y) = 1-x^2-y^2`.|
+.. figure:: peak_smooth.png
+   :alt: :math:`z = f(x,y) = 1-x^2-y^2`.
 
-.5 |:math:`z = f(x,y) = 1-\sqrt{x^2+y^2}`.|
+   :math:`z = f(x,y) = 1-x^2-y^2`.
+.. figure:: peak.png
+   :alt: :math:`z = f(x,y) = 1-\sqrt{x^2+y^2}`.
 
-.5 |:math:`z= f(x,y) = x^2+y^2`.|
+   :math:`z = f(x,y) = 1-\sqrt{x^2+y^2}`.
+.. figure:: max_bound.png
+   :alt: :math:`z= f(x,y) = x^2+y^2`.
 
+   :math:`z= f(x,y) = x^2+y^2`.
 Tilvist útgilda
 ---------------
 
@@ -91,16 +96,20 @@ Söðulpunktur
 Skilgreining 
 ~~~~~~~~~~~~~
 
-Punktur :math:`(x,y)\in  {\cal D}(f)` sem er ekki jaðarpunktur kallast *
-söðulpunktur* ef :math:`\nabla f(x,y)=\mbox{${\bf 0}$}` en :math:`f`
+Punktur :math:`(x,y)\in  {\cal D}(f)` sem er ekki jaðarpunktur kallast
+*söðulpunktur* ef :math:`\nabla f(x,y)=\mbox{${\bf 0}$}` en :math:`f`
 hefur ekki staðbundið útgildi í :math:`(x,y)`.
 
 Dæmi um föll með söðulpunkta.
 
-.5 |:math:`z = f(x,y) = x^3`.|
+.. figure:: sodull1.png
+   :alt: :math:`z = f(x,y) = x^3`.
 
-.5 |:math:`z = f(x,y) = x^3+y^3`.|
+   :math:`z = f(x,y) = x^3`.
+.. figure:: sodull2.png
+   :alt: :math:`z = f(x,y) = x^3+y^3`.
 
+   :math:`z = f(x,y) = x^3+y^3`.
 Staðbundið útgildi
 ------------------
 
@@ -130,7 +139,7 @@ Skilgreining
 Látum :math:`f` vera fall af :math:`n` breytum
 :math:`\mathbf{x} = (x_1,x_2,\ldots,x_n)` og gerum ráð fyrir að allar
 2. stigs hlutafleiður :math:`f` séu skilgreindar í punktinum
-:math:`\mathbf{x}`. Skilgreinum * Hesse-fylki* :math:`f` í punktinum
+:math:`\mathbf{x}`. Skilgreinum *Hesse-fylki* :math:`f` í punktinum
 :math:`\mathbf{x}` sem :math:`n\times n`-fylkið
 
 .. math::
@@ -146,7 +155,7 @@ Ferningsform (sjá kafla 10.7 í Adams)
 Upprifjun 
 ~~~~~~~~~~
 
-* Ferningsform* :math:`Q` af :math:`n`-breytum
+*Ferningsform* :math:`Q` af :math:`n`-breytum
 :math:`x_1,x_2,\ldots, x_n` er einsleit margliða af stigi 2 gefin með
 
 .. math:: Q(\mathbf{x}) = \mathbf{x}^T A \mathbf{x}
@@ -155,24 +164,21 @@ Upprifjun
 :math:`a_{ij}` í sæti :math:`(i,j)` og
 :math:`\mathbf{x} = [x_1,x_2,\ldots x_n]^T`.
 
-Ferningsform
-------------
-
 Skilgreining 
 ~~~~~~~~~~~~~
 
-Ferningsform :math:`Q` af :math:`n`-breytum er sagt vera * jákvætt
-ákvarðað*  (e. positive definite) ef :math:`Q(\mbox{${\bf x}$})>0` fyrir
+Ferningsform :math:`Q` af :math:`n`-breytum er sagt vera *jákvætt
+ákvarðað* (e. positive definite) ef :math:`Q(\mbox{${\bf x}$})>0` fyrir
 alla vigra :math:`\mbox{${\bf x}$}\neq \mbox{${\bf 0}$}` í
 :math:`\mbox{${\bf R}^n$}`.
 
-Sagt að ferningsformið :math:`Q` sé * neikvætt ákvarðað*  (e. negative
+Sagt að ferningsformið :math:`Q` sé *neikvætt ákvarðað* (e. negative
 definite) ef :math:`Q(\mbox{${\bf x}$})<0` fyrir alla vigra
 :math:`\mbox{${\bf x}$}\neq \mbox{${\bf 0}$}` í
 :math:`\mbox{${\bf R}^n$}`.
 
-Síðan er sagt að ferningsformið :math:`Q` sé * óákvarðað* 
-(e. indefinite) ef :math:`Q(\mbox{${\bf x}$})<0` fyrir einhvern vigur
+Síðan er sagt að ferningsformið :math:`Q` sé *óákvarðað* (e. indefinite)
+ef :math:`Q(\mbox{${\bf x}$})<0` fyrir einhvern vigur
 :math:`\mbox{${\bf x}$}` og :math:`Q(\mbox{${\bf y}$})>0` fyrir einhvern
 vigur :math:`\mbox{${\bf y}$}`.
 
@@ -306,15 +312,12 @@ Finna skal útgildi falls :math:`f(x,y)` þegar skilgreiningarsvæði
 Dæmi
 ~~~~
 
-.. figure:: constraint.pdf
+.. figure:: constraint.png
    :alt: Hver eru hæstu og lægstu gildi fallsins
    :math:`f(x,y) = x^2-y^2+4` á menginu :math:`\{(x,y)~|~x^2+y^2=1\}`?
 
    Hver eru hæstu og lægstu gildi fallsins :math:`f(x,y) = x^2-y^2+4` á
    menginu :math:`\{(x,y)~|~x^2+y^2=1\}`?
-Útgildi falla þar sem breytur uppfylla skorðujöfnur
----------------------------------------------------
-
 Setning 
 ~~~~~~~~
 
@@ -326,7 +329,7 @@ ef við einskorðum fallið :math:`f` við ferilinn :math:`g(x,y)=0` þá hafi
 :math:`f` staðbundið útgildi í :math:`P_0`. Þá eru stiglarnir
 :math:`\nabla f(x_0,y_0)` og :math:`\nabla g(x_0,y_0)` samsíða.
 
-.. figure:: lagrange1
+.. figure:: lagrange1.pdf
    :alt: Ef stiglarnir :math:`\nabla g(P_0)` og :math:`\nabla f(P_0)`
    eru ekki samsíða þá vex :math:`f` eða minnkar þegar farið er eftir
    :math:`\mathcal{C}` út frá punktinum :math:`P_0`.
@@ -374,12 +377,12 @@ Athuga þarf punkta sem uppfylla eitt af eftirfarandi skilyrðum:
 
 #. Stöðupunktar :math:`L(x,y,\lambda)`.
 
-#. Punktar :math:`(x,y)` þar sem :math:`\nabla g(x,y)=\mbox{${\bf 0}$}`.
+#. Punktar :math:`(x,y)` þar sem :math:`\nabla g(x,y)=\mbox{${\bf 0}$}`
 
-#. Punktar :math:`(x,y)` þar sem annar eða báðir stiglanna :math:`\nabla
-         g(x,y)` og :math:`\nabla f(x,y)` eru ekki skilgreindir.
+#. Punktar :math:`(x,y)` þar sem annar eða báðir stiglanna
+   :math:`\nabla g(x,y)` og :math:`\nabla f(x,y)` eru ekki skilgreindir.
 
-#. ,,Endapunktar ferilsins :math:`g(x,y)=0`.
+#. ,,Endapunktar” ferilsins :math:`g(x,y)=0`.
 
 Reikniaðferð 
 ~~~~~~~~~~~~~
@@ -408,8 +411,4 @@ mögulega punkta :math:`(x_0,y_0,z_0)` þar sem :math:`f` tekur útgildi.
    g(x,y,z)&=0\\
    h(x,y,z)&=0.\end{aligned}
 
-.. |:math:`z = f(x,y) = 1-x^2-y^2`.| image:: peak_smooth.png
-.. |:math:`z = f(x,y) = 1-\sqrt{x^2+y^2}`.| image:: peak.png
-.. |:math:`z= f(x,y) = x^2+y^2`.| image:: max_bound.png
-.. |:math:`z = f(x,y) = x^3`.| image:: sodull1.png
-.. |:math:`z = f(x,y) = x^3+y^3`.| image:: sodull2.png
+

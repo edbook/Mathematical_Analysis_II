@@ -296,7 +296,7 @@ ef :math:`x>0` en á milli :math:`\frac{\pi}{2}` og
 Pólhnitagraf
 ------------
 
-Skilgreining og umræða 
+Skilgreining og umræða
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`f` vera fall skilgreint fyrir :math:`\theta` þannig að
@@ -417,7 +417,8 @@ Táknum með :math:`\theta` hornið sem :math:`\mbox{${\bf T}$}` myndar við
 grunnvigurinn :math:`\mbox{${\bf i}$}`. Þá er
 :math:`\kappa = \frac{d\theta}{ds}`.
 
-[h]
+.. figure:: krappi.png
+   :alt: 
 
 Hjúfurplan
 ----------

@@ -376,9 +376,13 @@ $$\{(x,y,z,f(x,y,z))\mid (x,y,z)\in\R^3\}\subseteq \R^4.$$
             
  Dæmi: $f(x,y) = \sqrt{1-x^2-y^2}$, $-0.5\leq x,y\leq 0.5$.         
 
-\begin{figure} [h]
-\begin {center} \scalebox{0.45 }{\includegraphics{surface.png}} \end {center}
-\end {figure}  
+\begin{figure}[h]
+\begin{center}
+%\scalebox{0.45 }
+\includegraphics{surface.png}
+\caption*{ } 
+\end{center}
+\end{figure}  
 
 
 
@@ -397,9 +401,13 @@ fallsins $f$ fyrir fastann $c$.
 
  Dæmi: $f(x,y) = \sqrt{1-x^2-y^2}$, $-0.5\leq x,y\leq 0.5$.         
 
-\begin{figure} [h]
-\begin {center} \scalebox{0.45 }{\includegraphics{contour.png}} \end {center}
-\end {figure}  
+\begin{figure}[h]
+\begin{center} 
+%\scalebox{0.45 }
+\includegraphics{contour.png} 
+\caption*{ }
+\end{center}
+\end{figure}  
 
 
 \subsection{Fjarlægð milli punkta}
@@ -521,7 +529,9 @@ og að sérhver grennd um $(a,b)$ innihaldi fleiri en einn punkt þar sem bæði
 
 \subsection{Samfelldni}
  \subsubsection{Skilgreining }
-   Látum $f$ vera fall af $n$ breytistærðum skilgreint á mengi ${\cal D}(f)$ í $\Rn$.  Fallið $f$ er sagt {\em samfellt í punkti} $ (p_1,p_2,\ldots,p_n)$ í ${\cal D}(f)$  ef 
+   Látum $f$ vera fall af $n$ breytistærðum skilgreint á mengi ${\cal D}(f)$ í $\Rn$.  Fallið $f$ er sagt {\em samfellt í punkti} 
+$(p_1,p_2,\ldots,p_n)$ í ${\cal D}(f)$
+ef 
 $$\lim_{(x_1,x_2,\ldots,x_n)\rightarrow (p_1,p_2,\ldots,p_n)}
 f(x_1,x_2,\ldots,x_n)=f(p_1,p_2,\ldots,p_n).$$
 
@@ -537,23 +547,25 @@ Sagt er að fallið sé {\em samfellt} ef það er samfellt í öllum punktum sk
  \medskip
  Skilgreinum \emph{hlutafleiðu m.t.t.} $x$ í $(a,b)$ með
 $$f_1(a,b)=\lim_{h\rightarrow 0}\frac{f(a+h,b)-f(a,b)}{h}$$
-og {hlutafleiðu m.t.t.} $y$ í $(a,b)$ með
-$$f_2(a,b)=\lim_{k\rightarrow 0}\frac{f(a,b+k)-f(a,b)}{k}$$ ef markgildin eru til.
+og \emph{hlutafleiðu m.t.t.} $y$ í $(a,b)$ með
+$$f_2(a,b)=\lim_{k\rightarrow 0}\frac{f(a,b+k)-f(a,b)}{k}$$
+
+ef markgildin eru til.
 
 
  \begin{figure}[!h]
         \centering
-        \begin{minipage}{.5\textwidth}
+        \begin{minipage}{\textwidth}
             \centering
             \includegraphics[width=1\linewidth]{xpart.png}
             \caption*{Hlutafleiða m.t.t.~$x$ fyrir $y=1$.}
         \end{minipage}%
-        \begin{minipage}{.5\textwidth}
+        \begin{minipage}{\textwidth}
             \centering
             \includegraphics[width=1\linewidth]{ypart.png}
             \caption*{Hlutafleiða m.t.t.~$y$ fyrir $x=1$.}
         \end{minipage}
-    \end{figure}
+   \end{figure}
  
 
 
@@ -566,8 +578,11 @@ Látum $f(x,y,z)$ vera fall af þremur breytum $x$, $y$ og $z$ sem er skilgreint
 Skilgreinum \emph{hlutafleiðu m.t.t.} $x$ í $(a,b,c)$ með
 $$f_1(a,b,c)=\lim_{h\rightarrow 0}\frac{f(a+h,b,c)-f(a,b,c)}{h},$$
  \emph{hlutafleiðu m.t.t.} $y$ í $(a,b,c)$ með
-$$f_2(a,b,c)=\lim_{k\rightarrow 0}\frac{f(a,b+k,c)-f(a,b,c)}{k}$$ og  \emph{hlutafleiðu m.t.t.} $z$ í $(a,b,c)$ með
+$$f_2(a,b,c)=\lim_{k\rightarrow 0}\frac{f(a,b+k,c)-f(a,b,c)}{k}$$
+
+og \emph{hlutafleiðu m.t.t.} $z$ í $(a,b,c)$ með
 $$f_3(a,b,c)=\lim_{\ell\rightarrow 0}\frac{f(a,b,c+\ell)-f(a,b,c)}{\ell}$$
+
 ef markgildin eru til.
  
 
@@ -584,13 +599,6 @@ ef markgildið er til.  (Hér stendur $\ev_k$ fyrir vigurinn sem er með
 0 í öllum hnitum nema því $k$-ta þar sem er 1.)
 
 
-
-
-
-
-
-
-\subsection{}
 \Wider{\subsubsection{Ritháttur }
    Ritum $z=f(x,y)$.  Ýmis konar ritháttur fyrir hlutafleiður, m.a.~
 $$f_1(x,y)=\frac{\partial z}{\partial x}=  \frac{\partial }{\partial x}f(x,y)
@@ -616,6 +624,7 @@ $$\frac{\partial z}{\partial x}\bigg|_{(a,b)}=
   \begin{figure}
            \centering
             \includegraphics[width=0.6\linewidth]{bothpart.png}
+	\caption*{}
     \end{figure}
     Í punktinum $(a,b,f(a,b))$ er 
     
@@ -628,7 +637,9 @@ $$\frac{\partial z}{\partial x}\bigg|_{(a,b)}=
  Táknum með $S$ planið sem hefur stikunina
 $$(a,b,f(a,b))+s\Tv_1+t\Tv_2, \quad -\infty < s,t < \infty.$$
 Vigurinn 
-$$\nv=\Tv_2\times \Tv_1=f_1(a,b)\iv+f_2(a,b)\jv-\kv$$ er þvervigur á $S$ og jafna plansins $S$ er
+$$\nv=\Tv_2\times \Tv_1=f_1(a,b)\iv+f_2(a,b)\jv-\kv$$ 
+
+er þvervigur á $S$ og jafna plansins $S$ er
 $$z=f(a,b)+f_1(a,b)(x-a)+f_2(a,b)(y-b).$$
 
 \emph{Þverlína} á $S$ hefur stikun
@@ -653,6 +664,7 @@ $$\frac{\partial^2 z}{\partial x\partial y}=
 $$\frac{\partial^2 z}{\partial y\partial x}=
 \frac{\partial}{\partial y} \frac{\partial z}{\partial x}
 =f_{12}(x,y)=f_{xy}(x,y).$$
+
 Hlutafleiðurnar $f_{11}(x,y)$ og $f_{22}(x,y)$ kallast hreinar
 hlutafleiður og $f_{12}(x,y)$ og $f_{21}(x,y)$ kallast blandaðar
 hlutafleiður.  
@@ -681,10 +693,6 @@ $$\frac{\partial^3 w}{\partial y\partial z\partial y} \quad\quad\mbox{(diffra
 \mbox{ og að lokum m.t.t. }y\mbox{)}.$$
 
  
-
-
-
-\subsection{}
  \subsubsection{Setning  (Almenn útgáfa af Setningu~5.7)}
      Látum $f$ vera
 fall $n$ breytistærðum sem er skilgreint á opinni kúlu með miðju í 
@@ -698,7 +706,7 @@ samfelldar í punktinum $P$ og allar hlutafleiður af lægra stigi eru
 skilgreindar á $D$ og samfelldar á $D$ þá eru hlutafleiðurnar sem við
 erum að skoða jafnar í $P$.
  
-\pause
+
  \subsubsection {Dæmi:} 
  Ef $w = f(x,y,z)$ er fall af þremur breytistærðum þá er t.d.~
  \begin {equation*}
@@ -733,6 +741,7 @@ $$\frac{dz}{dt}=\frac{\partial z}{\partial x}\frac{dx}{dt}
  \begin{figure}[h!]
            \centering
             \includegraphics[width=0.3\linewidth]{chain1}
+	\caption*{}
     \end{figure}
 
 
@@ -759,10 +768,11 @@ $$\frac{\partial z}{\partial s}=
  \begin{figure}[h!]
            \centering
             \includegraphics[width=0.35\linewidth]{chain2}
+	\caption*{}
     \end{figure}
 
 
-\subsubsection{Ritháttur .}
+\subsubsection{Ritháttur}
  Ritum $z=f(x,y)$ þar sem $x=x(s,t)$ og $y=y(s,t)$ eru föll af breytum $s$ og  $t$.  Þá er 
 $$\begin{bmatrix}\frac{\partial z}{\partial s} 
 & \frac{\partial z}{\partial t}\end{bmatrix}
@@ -787,6 +797,7 @@ $$\frac{\partial u}{\partial t_j}=
 \begin{figure}[h!]
            \centering
             \includegraphics[width=0.45\linewidth]{chain3}
+	\caption*{}
     \end{figure}
 
 
@@ -796,6 +807,7 @@ Látum $T$ vera fall af fall af $x$, $y$ og $t$, og $x$ og $y$ föll af $t$. Fin
 \begin{figure}[h!]
            \centering
             \includegraphics[width=0.35\linewidth]{chain5}
+	\caption*{}
     \end{figure}
 $$\frac{d T}{d t} = \frac{\partial T}{\partial x} \frac{d x}{d t} +\frac{\partial T}{\partial y} \frac{d y}{\partial t} + \frac{\partial T}{\partial t} .$$
 
@@ -806,6 +818,7 @@ Látum $T$ vera fall af fall af $x$, $y$, $s$ og $t$, og $x$ og $y$ föll af $s$
 \begin{figure}[h!]
            \centering
             \includegraphics[width=0.45\linewidth]{chain6}
+	\caption*{}
     \end{figure}
 $$\frac{\partial T}{\partial t} = \frac{\partial T}{\partial x} \frac{\partial x}{\partial t} +\frac{\partial T}{\partial y} \frac{\partial y}{\partial t} + \left(\frac{\partial T}{\partial t}\right)_{x,y,s} .$$
 
@@ -816,6 +829,7 @@ Látum $z$ vera fall af fall af $u$, $v$ og $r$, $u$ og $v$ vera föll af $x$, $
 \begin{figure}[h!]
            \centering
             \includegraphics[width=0.45\linewidth]{chain4}
+	\caption*{}
     \end{figure}
 $$\frac{\partial z}{\partial x} = \frac{\partial z}{\partial u} \frac{\partial u}{\partial x} +\frac{\partial z}{\partial u} \frac{\partial u}{\partial r} \frac{\partial r}{\partial x} 
 + \frac{\partial z}{\partial v} \frac{\partial v}{\partial x} + \frac{\partial z}{\partial v} \frac{\partial v}{\partial r} \frac{\partial r}{\partial x} +\frac{\partial z}{\partial r} \frac{\partial r}{\partial x}.$$
@@ -827,7 +841,7 @@ $$\frac{\partial z}{\partial x} = \frac{\partial z}{\partial u} \frac{\partial u
 
 \subsubsection{Skilgreining }
 
-Fall $f(x_1, x_2, \ldots, x_n)$ er sagt vera {\em jákvætt einsleitt af stigi $k$} (e.~positively homogeneous of degree $k$) ef fyrir sérhvern punkt $(x_1, x_2, \ldots, x_n)$ og sérhverja tölu $t>0$ gildir að 
+Fall $f(x_1, x_2, \ldots, x_n)$ er sagt vera {\em jákvætt einsleitt af stigi} $k$ (e.~positively homogeneous of degree $k$) ef fyrir sérhvern punkt $(x_1, x_2, \ldots, x_n)$ og sérhverja tölu $t>0$ gildir að 
 $$f(tx_1, tx_2, \ldots, tx_n)=t^kf(x_1, x_2, \ldots, x_n).$$
 
 
@@ -883,6 +897,7 @@ Fallið $f$ er 'nálægt' sléttunni $S$ nálægt punktinum $(a,b)$.
   \begin{figure}
            \centering
             \includegraphics[width=0.6\linewidth]{bothpart.png}
+	\caption*{}
     \end{figure}
     $S(x,y) = f(a,b) + f_1(a,b)(x-a)+f_2(a,b)(y-b)$.
 
@@ -931,12 +946,12 @@ diffranlegt í punktinum $(a,b)$.  Þá er $f$ samfellt í $(a,b)$.
  Ritum $z=f(x,y)$ þar sem $x=x(s,t)$ og
 $y=y(s,t)$.  Gerum ráð fyrir að 
 
-(i) $x(a,b)=p$ og $y(a,b)=q$;
-
-(ii) fyrsta stigs hlutafleiður $x(s,t)$ og $y(s,t)$ eru skilgreindar í
+\begin{enumerate}[(i)]
+\item $x(a,b)=p$ og $y(a,b)=q$;
+\item fyrsta stigs hlutafleiður $x(s,t)$ og $y(s,t)$ eru skilgreindar í
 punktinum $(a,b)$;
-
-(iii)  fallið $f$ er diffranlegt í punktinum $(p,q)$.
+\item fallið $f$ er diffranlegt í punktinum $(p,q)$.
+\end{enumerate}
 
 Þá eru fyrsta stigs hlutafleiður $z$ með tilliti til breytanna $s$ og
 $t$ skilgreindar í punktinum $(a,b)$ og um þær gildir að 
@@ -1024,8 +1039,6 @@ $$D(\gv\circ\fv)(\xv)=D\gv(\fv(\xv))D\fv(\xv).$$
 
 
 
-
-
 \subsection{Stigull} 
 
 \subsubsection{Skilgreining }
@@ -1050,12 +1063,12 @@ gefur fyrirmæli um hvað á að gera við $f$ til að fá $\nabla f(x,y)$.
 \subsection{Dæmi}
  \begin{figure}[!h]
         \centering
-        \begin{minipage}{.5\textwidth}
+        \begin{minipage}{\textwidth}
             \centering
             \includegraphics[width=1\linewidth]{gradfurf.png}
             \caption*{Graf $z=1-x^2-y^2$}
         \end{minipage}%
-        \begin{minipage}{.5\textwidth}
+        \begin{minipage}{\textwidth}
             \centering
             \includegraphics[width=1\linewidth]{gradient.png}
             \caption*{Jafnhæðarlínur.  Stigull og snertilína við jafnhæðarlínuna $z=0.5$ í $(x,y) = (0.5,0.5)$.}
@@ -1116,13 +1129,11 @@ $f$ sé diffranlegt í punktinum $(a,b)$.
 
 \medskip
 (a)  Hæsta gildið á stefnuafleiðunni $D_{\uv}f(a,b)$ fæst þegar $\uv$
-er einingarvigur í stefnu $\nabla f(a,b)$, þ.e.a.s. $\uv=\frac{\nabla
-  f(a,b)}{|\nabla f(a,b)|}$.  
+er einingarvigur í stefnu $\nabla f(a,b)$, þ.e.a.s. $\uv=\frac{\nabla f(a,b)}{|\nabla f(a,b)|}$.  
 
 \medskip
 (b)  Lægsta gildið á stefnuafleiðunni $D_{\uv}f(a,b)$ fæst þegar $\uv$
-er einingarvigur í stefnu $-\nabla f(a,b)$, þ.e.a.s. $\uv=-\frac{\nabla
-  f(a,b)}{|\nabla f(a,b)|}$. 
+er einingarvigur í stefnu $-\nabla f(a,b)$, þ.e.a.s. $\uv=-\frac{\nabla f(a,b)}{|\nabla f(a,b)|}$. 
 
 \medskip
 (c)  Ef $\cal C$ er sú hæðarlína $f$ sem liggur í gegnum $(a,b)$ og
@@ -1134,6 +1145,7 @@ $D_{\uv}f(a,b)=0$.
 
    \centering
             \includegraphics[width=1\linewidth]{contours.pdf}
+	\caption*{ }
  
 
 \subsubsection{Setning }
@@ -1210,6 +1222,7 @@ utan um $(a_1,\ldots,a_{n-1})$ þannig að
 $$\varphi(a_1,\ldots,a_{n-1})=a_n$$ 
 og 
 $$F(x_1,\ldots, x_{n-1}, \varphi(x_1, \ldots, x_{n-1}))=0$$
+
 fyrir alla punkta $(x_1, \ldots, x_{n-1})$ í $B$.
 
 Ennfremur gildir að 
@@ -1225,7 +1238,7 @@ tilliti til breytanna $x$ og $y$ er skilgreind sem
 $$\frac{\partial(u,v)}{\partial(x,y)}=
 \begin{vmatrix} 
 \frac{\partial u}{\partial x}&\frac{\partial u}{\partial y}\\
-\noalign{\smallskip}
+%\noalign{\smallskip}
 \frac{\partial v}{\partial x}&\frac{\partial v}{\partial y}
 \end{vmatrix}.$$
 
@@ -1236,13 +1249,13 @@ til dæmis,
 $$\frac{\partial(F,G)}{\partial(x,y)}=
 \begin{vmatrix} 
 \frac{\partial F}{\partial x}&\frac{\partial F}{\partial y}\\
-\noalign{\smallskip}
+%\noalign{\smallskip}
 \frac{\partial G}{\partial x}&\frac{\partial G}{\partial y}
 \end{vmatrix}\quad \mbox{og}\quad
 \frac{\partial(F,G)}{\partial(y,z)}=
 \begin{vmatrix} 
 \frac{\partial F}{\partial y}&\frac{\partial F}{\partial z}\\
-\noalign{\smallskip}
+%\noalign{\smallskip}
 \frac{\partial G}{\partial y}&\frac{\partial G}{\partial z}
 \end{vmatrix}.$$
 
@@ -1252,10 +1265,10 @@ $$\frac{\partial(F,G,H)}{\partial(w,z,y)}=
 \begin{vmatrix} 
 \frac{\partial F}{\partial w}&\frac{\partial F}{\partial z}
 &\frac{\partial F}{\partial y}\\
-\noalign{\smallskip}
+%\noalign{\smallskip}
 \frac{\partial G}{\partial w}&\frac{\partial G}{\partial z}
 &\frac{\partial G}{\partial y}\\
-\noalign{\smallskip}
+%\noalign{\smallskip}
 \frac{\partial H}{\partial w}&\frac{\partial H}{\partial z}
 &\frac{\partial H}{\partial y}
 \end{vmatrix}.$$
@@ -1263,7 +1276,7 @@ $$\frac{\partial(F,G,H)}{\partial(w,z,y)}=
 
 
 
-\subsubsection{Setning   (Upprifjun á reglu Cramers.)}
+\subsubsection{Setning (Upprifjun á reglu Cramers.)}
 
  Látum $A$ vera andhverfanlegt
 $n\times n$ fylki og $\bv$ vigur í $\Rn$.  Gerum ráð fyrir að
@@ -1275,7 +1288,7 @@ $$x_i=\frac{\det B_i}{\det A}.$$
 
 
 
-\subsubsection{Setning  (Setningin um fólgin föll)}
+\subsubsection{Setning (Setningin um fólgin föll)}
 Skoðum jöfnuhneppi
 \begin{align*}
 F_{(1)}(x_1,\ldots,x_m, y_1, \ldots, y_n)&=0\\
@@ -1297,12 +1310,12 @@ $\text{Þá eru til föll} \qquad \varphi_1(x_1,\ldots,x_m),\ldots,\varphi_n(x_1
 $$\varphi_1(a_1,\ldots,a_m)=b_1,\ldots,\varphi_n(a_1,\ldots,a_m)=b_n \qquad \text{og}$$
 \begin{align*}
 F_{(1)}(x_1,\ldots,x_m, \varphi_1(x_1,\ldots,x_m),\ldots,
-\varphi_n(x_1,\ldots,x_m)&=0\\
+\varphi_n(x_1,\ldots,x_m))&=0\\
 F_{(2)}(x_1,\ldots,x_m, \varphi_1(x_1,\ldots,x_m),\ldots,
-\varphi_n(x_1,\ldots,x_m)&=0\\
+\varphi_n(x_1,\ldots,x_m))&=0\\
 \vdots\\
 F_{(n)}(x_1,\ldots,x_m, \varphi_1(x_1,\ldots,x_m),\ldots,
-\varphi_n(x_1,\ldots,x_m)&=0
+\varphi_n(x_1,\ldots,x_m))&=0
 \end{align*}
 fyrir alla punkta $(x_1,\ldots,x_m)$ í $B$.
 Enn fremur fæst að %ATH x_j í sæti i
@@ -1314,30 +1327,28 @@ $$\frac{\partial \varphi_i}{\partial x_j}
 
 
 
-\subsubsection{Setning  (Setningin um staðbundna andhverfu)}
+\subsubsection{Setning (Setningin um staðbundna andhverfu)}
 Látum $$\fv(x_1,\ldots,
-x_n)=(f_1(x_1,\ldots,x_n),\ldots,f_n(x_1,\ldots,x_n))$$ vera vörpun af
-$n$ breytistærðum sem tekur gildi í $\Rn$ og er skilgreind á opnu
-mengi í $\Rn$.   Gerum ráð fyrir að allar
-fyrsta stigs hlutafleiður fallanna $f_1, \ldots, f_n$ séu samfelld
-föll.  Ef Jacobi-fylkið $D\fv(\xv_0)$ er andhverfanlegt í punkti
+x_n)=(f_1(x_1,\ldots,x_n),\ldots,f_n(x_1,\ldots,x_n))$$ 
+vera vörpun af $n$ breytistærðum sem tekur gildi í $\Rn$ og er skilgreind á opnu
+mengi í $\Rn$. Gerum ráð fyrir að allar fyrsta stigs hlutafleiður fallanna $f_1, \ldots, f_n$ séu 
+samfelld föll. Ef Jacobi-fylkið $D\fv(\xv_0)$ er andhverfanlegt í punkti
 $\xv_0$ á skilgreiningarsvæði $\fv$ þá er til opin kúla $B_{\xv}$ utan
-um $\xv_0$ og opin kúla $B_{\yv}$ utan um $\yv_0=f(\xv_0)$ og vörpun
+um $\xv_0$ og opin kúla $B_{\yv}$ utan um $\yv_0=f(\xv_0)$ og vörpun 
+\\\\
 $\gv:B_{\yv}\rightarrow B_{\xv}$ þannig að 
-$\gv(\fv(\xv))=\xv$ fyrir alla punkta $\xv\in B_{\xv}$ og 
-$\fv(\gv(\yv))=\yv$ fyrir alla punkta $\yv\in B_{\yv}$.
-
-
-
+$\gv(\fv(\xv))=\xv$ fyrir alla punkta $\xv\in B_{\xv}$ og $\fv(\gv(\yv))=\yv$ fyrir alla punkta $\yv\in B_{\yv}$.\\
 
 \subsubsection{Upprifjun  (Taylor-regla í einni breytistærð.)}
   Látum 
 $f$ vera $n+1$-diffranlegt fall af einni breytistærð.  Margliðan 
 $$P_{(n)}(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2
 +\cdots+\frac{f^{(n)}(a)}{n!}(x-a)^n$$
-kallast {\em $n$-ta stigs Taylor-margliða $f$ með miðju í $a$}.
+
+kallast $n${\em-ta stigs Taylor-margliða} $f$ {\em með miðju í} $a$.
 Til er punktur $s$ á milli $a$ og $x$ þannig að 
 $$E_{(n)}(x)=f(x)-P_{(n)}(x)=\frac{f^{(n+1)}(s)}{(n+1)!}(x-a)^{n+1}.$$
+
 Fáum svo að 
 \begin {align*}
 &f(x)=P_{(n)}(x)+E_{(n)}(x) \\
@@ -1346,16 +1357,14 @@ Fáum svo að
 \end {align*}
 
  
-sem er kallað {\em $n$-ta stigs Taylor-formúla.}
+sem er kallað $n${\em-ta stigs Taylor-formúla.}
 
 
-
- 
 
 \subsubsection{Skilgreining }
  Látum $f(x,y)$ vera fall þannig að fyrsta stigs hlutafleiður $f$ eru skilgreindar og samfelldar.  Margliðan
 $$P_{(1)}(x,y)=f(a,b)+f_1(a,b)(x-a)+f_2(a,b)(y-b)$$
-kallast {\em fyrsta stigs Taylor-margliða $f$ með miðju í $(a,b)$}. 
+kallast {\em fyrsta stigs Taylor-margliða} $f$ {\em með miðju í} $(a,b)$. 
 
 
 
@@ -1367,7 +1376,7 @@ stigs hlutafleiður $f$ eru skilgreindar og samfelldar.  Margliðan
 &+\frac{1}{2}\big(f_{11}(a,b)(x-a)^2+
 2f_{12}(a,b)(x-a)(y-b)+f_{22}(a,b)(y-b)^2\big)
 \end{align*}
-kallast {\em annars stigs Taylor-margliða $f$ með miðju í $(a,b)$}.  
+kallast {\em annars stigs Taylor-margliða} $f$ {\em með miðju í} $(a,b)$.  
 
 
 
@@ -1400,8 +1409,8 @@ h^jk^{n-j}D_1^jD_2^{n-j}f(a,b).$$
 
 \subsubsection{Skilgreining }
 Fyrir fall $f(x,y)$ þannig að allar
-hlutafleiður af $n$-ta og lægri stigum eru samfelldar þá er {\em $n$-ta
-stigs Taylor-margliða $f$ með miðju í punktinum} $(a,b)$ skilgreind sem
+hlutafleiður af $n$-ta og lægri stigum eru samfelldar þá er $n${\em-ta
+stigs Taylor-margliða} $f$ {\em með miðju í punktinum} $(a,b)$ skilgreind sem
 margliðan  
 \begin{align*}
 P_{(n)}(x,y)&= \sum_{m=0}^n \frac{1}{m!}((x-a)D_1+(y-b)D_2)^m f(a,b)\\
