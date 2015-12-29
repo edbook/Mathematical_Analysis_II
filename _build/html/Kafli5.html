@@ -703,6 +703,9 @@ samfelld.</p>
 <p>Við hugsum <span class="math">\(\mbox{${\bf F}$}(x,y,z)\)</span> sem vigur með <span class="math">\((x,y,z)\)</span>
 sem fótpunkt. Skilgreiningin á því að vigursvið í <span class="math">\({\mathbb  R}^3\)</span>
 sé samfellt er eins og á samfeldni vigursvið í <span class="math">\({\mathbb  R}^2\)</span> .</p>
+<div class="figure">
+<img alt="Vigursviðið :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`." src="_images/vfield.png" />
+</div>
 </div>
 </div>
 <div class="section" id="straumlina">
@@ -713,6 +716,12 @@ sé samfellt er eins og á samfeldni vigursvið í <span class="math">\({\mathbb
 line) fyrir vigursvið <span class="math">\(\mbox{${\bf F}$}(x,y)\)</span> ef í hverjum punkti
 <span class="math">\((x,y)\)</span> á ferlinum er vigurinn <span class="math">\(\mbox{${\bf F}$}(x,y)\)</span>
 snertivigur við ferilinn.</p>
+<div class="figure" id="id30">
+<img alt="Vigursviðið :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}` ásamt nokkrum straumlínum." src="_images/flowlines.png" />
+<p class="caption"><span class="caption-text">Vigursviðið
+<span class="math">\(\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}\)</span>
+ásamt nokkrum straumlínum.</span></p>
+</div>
 </div>
 </div>
 <div class="section" id="stigulsvi">
@@ -1061,7 +1070,21 @@ hefur snertiplan í punktinum. Jafna snertiplansins er</p>
 \[z=f(a, b)+f_1(a, b)(x-a)+f_2(a, b)(y-b).\]</div>
 </li>
 </ol>
-<ol class="arabic">
+<div class="figure" id="id31">
+<img alt="Snertivigur við skurðferil sléttunnar :math:`y=b` og yfirborðsins :math:`z = f(x,y)` í punktinum :math:`(a,b,f(a,b))` er :math:`\mathbf{T}_1 = (1,0,f_1(a,b))`." src="_images/xpart.png" />
+<p class="caption"><span class="caption-text">Snertivigur við skurðferil sléttunnar
+<span class="math">\(y=b\)</span> og yfirborðsins <span class="math">\(z = f(x,y)\)</span>
+í punktinum <span class="math">\((a,b,f(a,b))\)</span> er
+<span class="math">\(\mathbf{T}_1 = (1,0,f_1(a,b))\)</span>.</span></p>
+</div>
+<div class="figure" id="id32">
+<img alt="Snertivigur við skurðferil sléttunnar :math:`x=a` og yfirborðsins :math:`z = f(x,y)` í punktinum :math:`(a,b,f(a,b))` er :math:`\mathbf{T}_2 = (0,1,f_2(a,b))`." src="_images/ypart.png" />
+<p class="caption"><span class="caption-text">Snertivigur við skurðferil sléttunnar
+<span class="math">\(x=a\)</span> og yfirborðsins <span class="math">\(z = f(x,y)\)</span>
+í punktinum <span class="math">\((a,b,f(a,b))\)</span> er
+<span class="math">\(\mathbf{T}_2 = (0,1,f_2(a,b))\)</span>.</span></p>
+</div>
+<ol class="arabic" start="3">
 <li><p class="first">Látum
 <span class="math">\(\mbox{${\bf r}$}: D\subseteq {\mathbb  R}^2\rightarrow {\mathbb  R}^3\)</span>
 vera stikaflöt. Ef <span class="math">\((x_0, y_0, z_0)=\mbox{${\bf r}$}(u_0, v_0)\)</span>
@@ -1234,7 +1257,7 @@ snertiplan við flötinn í punktinum <span class="math">\((x,y,z)\)</span>.</p>
 einingarþvervigrasvið <span class="math">\(\mbox{${\bf N}$}\)</span> á <span class="math">\(\cal S\)</span>.</p>
 <p>á áttanlegum fleti felst í því að velja annað af tveimur mögulegum
 einingaþvervigrasviðum.</p>
-<div class="figure" id="id30">
+<div class="figure" id="id33">
 <img alt="Möbiusarborði er ekki áttanlegur." src="_images/mobius.png" />
 <p class="caption"><span class="caption-text">Möbiusarborði er ekki áttanlegur.</span></p>
 </div>
@@ -1249,7 +1272,7 @@ vinstri hönd (hægri handar regla).</p>
 flöt með því að líma þá saman á (hluta af) jöðrunum og gæta þess að
 jaðrarnir hafi andstæða stefnu á samskeytunum.</p>
 <div class="figure">
-<img alt="" src="joinsurf.png" />
+<img alt="" src="_images/joinsurf.png" />
 </div>
 </div>
 <div class="section" id="id29">

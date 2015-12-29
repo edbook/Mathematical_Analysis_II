@@ -30,9 +30,8 @@ Við hugsum :math:`\mbox{${\bf F}$}(x,y,z)` sem vigur með :math:`(x,y,z)`
 sem fótpunkt. Skilgreiningin á því að vigursvið í :math:`{\mathbb  R}^3`
 sé samfellt er eins og á samfeldni vigursvið í :math:`{\mathbb  R}^2` .
 
-.. figure:: vfield
-   :alt:  Vigursviðið
-   :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`.
+.. figure:: vfield.png
+   :alt:  Vigursviðið :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`.
 
     Vigursviðið
    :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`.
@@ -47,12 +46,10 @@ line) fyrir vigursvið :math:`\mbox{${\bf F}$}(x,y)` ef í hverjum punkti
 :math:`(x,y)` á ferlinum er vigurinn :math:`\mbox{${\bf F}$}(x,y)`
 snertivigur við ferilinn.
 
-.. figure:: flowlines
-   :alt:  Vigursviðið
-   :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`
-   ásamt nokkrum straumlínum.
+.. figure:: flowlines.png
+   :alt: Vigursviðið :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}` ásamt nokkrum straumlínum.
 
-    Vigursviðið
+   Vigursviðið
    :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`
    ásamt nokkrum straumlínum.
 Stigulsvið
@@ -461,27 +458,21 @@ Setning
    .. math:: z=f(a, b)+f_1(a, b)(x-a)+f_2(a, b)(y-b).
 
 .. figure:: xpart.png
-   :alt: Snertivigur við skurðferil sléttunnar
-   :math:`y=b` og yfirborðsins :math:`z = f(x,y)`
-   í punktinum :math:`(a,b,f(a,b))` er
-   :math:`\mathbf{T}_1 = (1,0,f_1(a,b))`.
+   :alt: Snertivigur við skurðferil sléttunnar :math:`y=b` og yfirborðsins :math:`z = f(x,y)` í punktinum :math:`(a,b,f(a,b))` er :math:`\mathbf{T}_1 = (1,0,f_1(a,b))`.
 
    Snertivigur við skurðferil sléttunnar
    :math:`y=b` og yfirborðsins :math:`z = f(x,y)`
    í punktinum :math:`(a,b,f(a,b))` er
    :math:`\mathbf{T}_1 = (1,0,f_1(a,b))`.
 .. figure:: ypart.png
-   :alt: Snertivigur við skurðferil sléttunnar
-   :math:`x=a` og yfirborðsins :math:`z = f(x,y)`
-   í punktinum :math:`(a,b,f(a,b))` er
-   :math:`\mathbf{T}_2 = (0,1,f_2(a,b))`.
+   :alt: Snertivigur við skurðferil sléttunnar :math:`x=a` og yfirborðsins :math:`z = f(x,y)` í punktinum :math:`(a,b,f(a,b))` er :math:`\mathbf{T}_2 = (0,1,f_2(a,b))`.
 
    Snertivigur við skurðferil sléttunnar
    :math:`x=a` og yfirborðsins :math:`z = f(x,y)`
    í punktinum :math:`(a,b,f(a,b))` er
    :math:`\mathbf{T}_2 = (0,1,f_2(a,b))`.
 
-#. Látum
+3. Látum
    :math:`\mbox{${\bf r}$}: D\subseteq {\mathbb  R}^2\rightarrow {\mathbb  R}^3`
    vera stikaflöt. Ef :math:`(x_0, y_0, z_0)=\mbox{${\bf r}$}(u_0, v_0)`
    er punktur á fletinum sem

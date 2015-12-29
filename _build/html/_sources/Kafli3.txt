@@ -313,8 +313,7 @@ Dæmi
 ~~~~
 
 .. figure:: constraint.png
-   :alt: Hver eru hæstu og lægstu gildi fallsins
-   :math:`f(x,y) = x^2-y^2+4` á menginu :math:`\{(x,y)~|~x^2+y^2=1\}`?
+   :alt: Hver eru hæstu og lægstu gildi fallsins :math:`f(x,y) = x^2-y^2+4` á menginu :math:`\{(x,y)~|~x^2+y^2=1\}`?
 
    Hver eru hæstu og lægstu gildi fallsins :math:`f(x,y) = x^2-y^2+4` á
    menginu :math:`\{(x,y)~|~x^2+y^2=1\}`?
@@ -329,10 +328,8 @@ ef við einskorðum fallið :math:`f` við ferilinn :math:`g(x,y)=0` þá hafi
 :math:`f` staðbundið útgildi í :math:`P_0`. Þá eru stiglarnir
 :math:`\nabla f(x_0,y_0)` og :math:`\nabla g(x_0,y_0)` samsíða.
 
-.. figure:: lagrange1.pdf
-   :alt: Ef stiglarnir :math:`\nabla g(P_0)` og :math:`\nabla f(P_0)`
-   eru ekki samsíða þá vex :math:`f` eða minnkar þegar farið er eftir
-   :math:`\mathcal{C}` út frá punktinum :math:`P_0`.
+.. figure:: lagrange1.png
+   :alt: Ef stiglarnir :math:`\nabla g(P_0)` og :math:`\nabla f(P_0)` eru ekki samsíða þá vex :math:`f` eða minnkar þegar farið er eftir :math:`\mathcal{C}` út frá punktinum :math:`P_0`.
 
    Ef stiglarnir :math:`\nabla g(P_0)` og :math:`\nabla f(P_0)` eru ekki
    samsíða þá vex :math:`f` eða minnkar þegar farið er eftir

@@ -1,5 +1,4 @@
 
-
 Hlutafleiðujöfnur
 =================
 
@@ -228,7 +227,10 @@ ef markgildin eru til.
 .. figure:: xpart.png
    :alt: Hlutafleiða m.t.t. \ :math:`x` fyrir :math:`y=1`.
 
-   Hlutafleiða m.t.t. \ :math:`x` fyrir :math:`y=1`.
+   ..
+
+   *Hlutafleiða m.t.t.* \ :math:`x` *fyrir* :math:`y=1`.
+
 .. figure:: ypart.png
    :alt: Hlutafleiða m.t.t. \ :math:`y` fyrir :math:`x=1`.
 
@@ -439,7 +441,7 @@ af breytu :math:`t`. Þá er
    \frac{dz}{dt}=\frac{\partial z}{\partial x}\frac{dx}{dt}
    +\frac{\partial z}{\partial y}\frac{dy}{dt}.
 
-.. figure:: chain1
+.. figure:: chain1.png
    :alt: 
 
 Setning 
@@ -473,7 +475,7 @@ föll af breytum :math:`s` og :math:`t`. Þá er
    \frac{\partial z}{\partial x}\frac{\partial x}{\partial t}
    +\frac{\partial z}{\partial y}\frac{\partial y}{\partial t}.
 
-.. figure:: chain2
+.. figure:: chain2.png
    :alt: 
 
 Ritháttur
@@ -513,7 +515,7 @@ fæst að
    +\cdots+
    \frac{\partial u}{\partial x_n}\frac{\partial x_n}{\partial t_j}.
 
-.. figure:: chain3
+.. figure:: chain3.png
    :alt: 
 
 Dæmi 
@@ -523,7 +525,7 @@ Látum :math:`T` vera fall af fall af :math:`x`, :math:`y` og :math:`t`,
 og :math:`x` og :math:`y` föll af :math:`t`. Finnum
 :math:`\frac{ dT}{dt}`.
 
-.. figure:: chain5
+.. figure:: chain5.png
    :alt: 
 
 .. math:: \frac{d T}{d t} = \frac{\partial T}{\partial x} \frac{d x}{d t} +\frac{\partial T}{\partial y} \frac{d y}{\partial t} + \frac{\partial T}{\partial t} .
@@ -535,7 +537,7 @@ Látum :math:`T` vera fall af fall af :math:`x`, :math:`y`, :math:`s` og
 :math:`t`, og :math:`x` og :math:`y` föll af :math:`s` og :math:`t`.
 Finnum :math:`\frac{ \partial T}{\partial t}`.
 
-.. figure:: chain6
+.. figure:: chain6.png
    :alt: 
 
 .. math:: \frac{\partial T}{\partial t} = \frac{\partial T}{\partial x} \frac{\partial x}{\partial t} +\frac{\partial T}{\partial y} \frac{\partial y}{\partial t} + \left(\frac{\partial T}{\partial t}\right)_{x,y,s} .
@@ -548,7 +550,7 @@ Látum :math:`z` vera fall af fall af :math:`u`, :math:`v` og :math:`r`,
 :math:`r` vera fall af :math:`x` og :math:`y`. Skrifum niður
 :math:`\frac{\partial z}{\partial x}`.
 
-.. figure:: chain4
+.. figure:: chain4.png
    :alt: 
 
 .. math::
@@ -849,11 +851,12 @@ Dæmi
 
    Graf :math:`z=1-x^2-y^2`
 .. figure:: gradient.png
-   :alt: Jafnhæðarlínur. Stigull og snertilína við jafnhæðarlínuna
-   :math:`z=0.5` í :math:`(x,y) = (0.5,0.5)`.
+   :alt: Jafnhæðarlínur. Stigull og snertilína við jafnhæðarlínuna :math:`z=0.5` í :math:`(x,y) = (0.5,0.5)`.
 
-   Jafnhæðarlínur. Stigull og snertilína við jafnhæðarlínuna
-   :math:`z=0.5` í :math:`(x,y) = (0.5,0.5)`.
+   ..
+
+   *Jafnhæðarlínur. Stigull og snertilína við jafnhæðarlínuna* :math:`z=0.5` í :math:`(x,y) = (0.5,0.5)`.
+
 Setning 
 ~~~~~~~~
 
@@ -924,7 +927,7 @@ fæst þegar :math:`\mbox{${\bf u}$}` er einingarvigur í stefnu
 :math:`\cal C` í punktinum :math:`(a,b)` þá er
 :math:`D_{\mbox{${\bf u}$}}f(a,b)=0`.
 
-.. figure:: contours.pdf
+.. figure:: contours.png
    :alt: 
 
 Setning 

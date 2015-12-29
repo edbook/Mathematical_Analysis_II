@@ -1,4 +1,5 @@
 
+
 Margföld heildi
 ===============
 
@@ -46,10 +47,10 @@ Skilgreinum *Riemann-summuna*
    \mathcal{R}(f,P)=\sum_{i=1}^m\sum_{j=1}^n f(x_i^*, y_j^*)\Delta x_i\Delta
      y_j.
 
-.. figure:: skipting2.pdf
+.. figure:: skipting2.png
    :alt: 
 
-.. figure:: double.pdf
+.. figure:: double.png
    :alt: 
 
 Tvöfalt heildi yfir rétthyrning
@@ -164,7 +165,7 @@ Sömuleiðis gildir þegar við setjum
    \int\!\!\!\int_R f(x,y)\,dA=\int_c^d A(y)\,dy=\int_c^d\!\!\int_a^b
    f(x,y)\,dx\,dy.
 
-.. figure:: ax1
+.. figure:: ax1.png
    :alt: 
 
 :math:`x`-einföld og :math:`y`-einföld svæði
@@ -185,7 +186,7 @@ að finna tölur :math:`c` og :math:`d` og föll :math:`a(y)` og
 
 .. math:: D=\{(x,y)\mid c\leq y\leq d, a(y)\leq x\leq b(y)\}.
 
-.. figure:: einfalt
+.. figure:: einfalt.png
    :alt: 
 
 Regla 
@@ -216,13 +217,10 @@ Látum :math:`D=\{(x,y)\mid c\leq y\leq d, a(y)\leq x\leq b(y)\}` vera
 
 .. math:: \int\!\!\!\int_D f(x,y)\,dA=\int_c^d\!\!\!\int_{a(y)}^{b(y)}f(x,y)\,dx\, dy.
 
-.. figure:: einfalt2
-   :alt: Hér er svæðinu :math:`D` skipt í endanlega mörg
-   :math:`x`-einföld og :math:`y`-einföld svæði sem skarast eingöngu í
-   punktum á jaðrinum.
+.. figure:: einfalt2.png
+   :alt: Hér er svæðinu :math:`D` skipt í endanlega mörg :math:`x`-einföld og :math:`y`-einföld svæði sem skarast eingöngu í punktum á jaðrinum.
 
-   Hér er svæðinu :math:`D` skipt í endanlega mörg :math:`x`-einföld og
-   :math:`y`-einföld svæði sem skarast eingöngu í punktum á jaðrinum.
+   Hér er svæðinu :math:`D` skipt í endanlega mörg :math:`x`-einföld og :math:`y`-einföld svæði sem skarast eingöngu í punktum á jaðrinum.
 Óeiginleg heildi
 ----------------
 
@@ -302,7 +300,7 @@ hálflínum sem byrja í :math:`(0,0)` og mynda hornin :math:`\alpha` og
 :math:`\beta` við :math:`x`-ásinn (Hornin eru mæld þannig að rangsælis
 stefna telst jákvæð.)
 
-.. figure:: polarrett
+.. figure:: polarrett.png
    :alt: 
 
 Gerum ráð fyrir að :math:`0\leq a\leq b` og að
@@ -324,7 +322,7 @@ Ef :math:`f` er fall sem er heildanlegt yfir pólhnitarétthyrning
    \int\!\!\!\int_D f(x,y)\,dA=\int_\alpha^\beta\!\!\!\int_{a}^{b}
    f(r\cos\theta,r\sin\theta)\,r\,dr\, d\theta.
 
-.. figure:: polarelement
+.. figure:: polarelement.png
    :alt: 
 
 Upprifjun 
@@ -351,7 +349,7 @@ heildanlegt fall yfir :math:`D` þá er
    \int\!\!\!\int\,f(x,y)\,dA=\int_\alpha^\beta\!\!\!\int_{a(\theta)}^{b(\theta)}
    f(r\cos\theta,r\sin\theta)\,r\,dr\, d\theta.
 
-.. figure:: polarsvaedi
+.. figure:: polarsvaedi.png
    :alt: 
 
 Regla 
@@ -381,7 +379,7 @@ svæðis :math:`S` í :math:`uv`-plani og svæðis :math:`D` í
    \int\!\!\!\int_D f(x,y)\,dx\,dy=\int\!\!\!\int_S g(u,v)
    \bigg|\frac{\partial(x,y)}{\partial(u,v)}\bigg|\,du\,dv.
 
-.. figure:: changevar
+.. figure:: changevar.png
    :alt: 
 
 Þreföld heildi
@@ -501,7 +499,7 @@ Látum :math:`(x,y,z)` vera punkt í :math:`{\mathbb  R}^3`. *Kúluhnit*
 Punktur sem hefur kúluhnit :math:`\rho, \varphi, \theta` er táknaður með
 :math:`[\rho, \varphi, \theta]`.
 
-.. figure:: sphere
+.. figure:: sphere.png
    :alt: 
 
 Umræða 

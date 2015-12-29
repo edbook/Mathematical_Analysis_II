@@ -418,6 +418,7 @@ grunnvigurinn :math:`\mbox{${\bf i}$}`. Þá er
 :math:`\kappa = \frac{d\theta}{ds}`.
 
 .. figure:: krappi.png
+   :scale: 60 %
    :alt: 
 
 Hjúfurplan
