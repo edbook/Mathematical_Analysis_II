@@ -220,7 +220,10 @@ Látum :math:`D=\{(x,y)\mid c\leq y\leq d, a(y)\leq x\leq b(y)\}` vera
 .. figure:: einfalt2.png
    :alt: Hér er svæðinu :math:`D` skipt í endanlega mörg :math:`x`-einföld og :math:`y`-einföld svæði sem skarast eingöngu í punktum á jaðrinum.
 
-   Hér er svæðinu :math:`D` skipt í endanlega mörg :math:`x`-einföld og :math:`y`-einföld svæði sem skarast eingöngu í punktum á jaðrinum.
+   ..
+
+   *Hér er svæðinu* :math:`D` *skipt í endanlega mörg* :math:`x`-*einföld* og :math:`y`-*einföld svæði sem skarast eingöngu í punktum á jaðrinum.*
+
 Óeiginleg heildi
 ----------------
 
@@ -464,7 +467,9 @@ Látum :math:`(x,y,z)` vera punkt í :math:`{\mathbb  R}^3`.
 
 .. math:: x=r\cos\theta\qquad\qquad y=r\sin\theta\qquad\qquad z=z.
 
-Athugið að :math:`[r,\theta]` eru pólhnit punktsins :math:`(x,y)`.
+.. note:: 
+   Athugið að :math:`[r,\theta]` eru pólhnit punktsins :math:`(x,y)`.
+  
 
 Setning (Breytuskipti yfir í sívalningshnit.)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

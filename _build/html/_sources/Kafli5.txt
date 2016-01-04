@@ -33,8 +33,10 @@ sé samfellt er eins og á samfeldni vigursvið í :math:`{\mathbb  R}^2` .
 .. figure:: vfield.png
    :alt:  Vigursviðið :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`.
 
-    Vigursviðið
-   :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`.
+    ..
+
+    *Vigursviðið* :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`.
+
 Straumlína
 ----------
 
@@ -49,9 +51,11 @@ snertivigur við ferilinn.
 .. figure:: flowlines.png
    :alt: Vigursviðið :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}` ásamt nokkrum straumlínum.
 
-   Vigursviðið
-   :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`
-   ásamt nokkrum straumlínum.
+   ..
+
+   *Vigursviðið* :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`
+   *ásamt nokkrum straumlínum*.
+
 Stigulsvið
 ----------
 
@@ -353,20 +357,23 @@ Fyrir samfellt vigursvið :math:`\mbox{${\bf F}$}` skilgreint á opnu
 ferilsamanhangandi mengi :math:`D\subseteq {\mathbb  R}^2` er
 eftirfarandi jafngilt:
 
--  :math:`\mbox{${\bf F}$}` er stigulsvið,
+(a)  :math:`\mbox{${\bf F}$}` er stigulsvið,
 
--  :math:`\oint_{\cal C} \mbox{${\bf F}$}\cdot\,d\mbox{${\bf r}$}=0`
-   fyrir alla samfellt diffranlega á köflum lokaða stikaferla
-   :math:`\mbox{${\bf r}$}` í :math:`D`,
+(b)  :math:`\oint_{\cal C} \mbox{${\bf F}$}\cdot\,d\mbox{${\bf r}$}=0` fyrir alla samfellt diffranlega á köflum lokaða stikaferla :math:`\mbox{${\bf r}$}` í :math:`D`,
 
--  ferilheildi :math:`\mbox{${\bf F}$}` er óháð vegi.
+(c)  ferilheildi :math:`\mbox{${\bf F}$}` er óháð vegi.
 
-Sönnun: 
-~~~~~~~~
+.. begin-toggle:: 
+    :label: Fela/Sýna sönnun
 
-| (a) :math:`\Rightarrow` (b). Fylgisetning [thm:atob].
-| (b) :math:`\Leftrightarrow` (c). Setning [thm:beqc].
-| (c) :math:`\Rightarrow` (a). Setning [thm:ctoa].
+**Sönnun**
+
+(a) :math:`\Rightarrow` (b). Fylgisetning 5.6.2.
+(b) :math:`\Leftrightarrow` (c). Setning 5.6.5.
+(c) :math:`\Rightarrow` (a). Setning 5.6.7.
+
+.. end-toggle::
+
 
 Fletir
 ------
@@ -460,17 +467,16 @@ Setning
 .. figure:: xpart.png
    :alt: Snertivigur við skurðferil sléttunnar :math:`y=b` og yfirborðsins :math:`z = f(x,y)` í punktinum :math:`(a,b,f(a,b))` er :math:`\mathbf{T}_1 = (1,0,f_1(a,b))`.
 
-   Snertivigur við skurðferil sléttunnar
-   :math:`y=b` og yfirborðsins :math:`z = f(x,y)`
-   í punktinum :math:`(a,b,f(a,b))` er
-   :math:`\mathbf{T}_1 = (1,0,f_1(a,b))`.
+   ..
+
+   *Snertivigur við skurðferil sléttunnar* :math:`y=b` *og yfirborðsins* :math:`z = f(x,y)` *í punktinum* :math:`(a,b,f(a,b))` *er* :math:`\mathbf{T}_1 = (1,0,f_1(a,b))`.
+
 .. figure:: ypart.png
    :alt: Snertivigur við skurðferil sléttunnar :math:`x=a` og yfirborðsins :math:`z = f(x,y)` í punktinum :math:`(a,b,f(a,b))` er :math:`\mathbf{T}_2 = (0,1,f_2(a,b))`.
 
-   Snertivigur við skurðferil sléttunnar
-   :math:`x=a` og yfirborðsins :math:`z = f(x,y)`
-   í punktinum :math:`(a,b,f(a,b))` er
-   :math:`\mathbf{T}_2 = (0,1,f_2(a,b))`.
+   ..
+
+   *Snertivigur við skurðferil sléttunnar* :math:`x=a` *og yfirborðsins* :math:`z = f(x,y)` *í punktinum* :math:`(a,b,f(a,b))` *er* :math:`\mathbf{T}_2 = (0,1,f_2(a,b))`.
 
 3. Látum
    :math:`\mbox{${\bf r}$}: D\subseteq {\mathbb  R}^2\rightarrow {\mathbb  R}^3`
@@ -677,7 +683,10 @@ einingaþvervigrasviðum.
 .. figure:: mobius.png
    :alt: Möbiusarborði er ekki áttanlegur.
 
-   Möbiusarborði er ekki áttanlegur.
+   ..
+
+   *Möbiusarborði er ekki áttanlegur.*
+
 Umræða 
 ~~~~~~~
 

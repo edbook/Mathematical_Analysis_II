@@ -372,14 +372,12 @@ skilgreint á mengi ${\cal D}(f)$.
 \medskip
 Sagt er að $f$ hafi {\em \color{red}staðbundið
   lággildi} (e.~local minimum) í punkti $(a,b)$ ef til er tala $r>0$ þannig að 
-$f(a,b)\leq f(x,y)$ fyrir alla punkta $(x,y)\in B_r(a,b)\cap{\cal
-  D}(f)$.
+$f(a,b)\leq f(x,y)$ fyrir alla punkta $(x,y)\in B_r(a,b)\cap{\cal D}(f)$.
 
 \medskip
 Sagt er að $f$ hafi {\em \color{red}staðbundið
   hágildi}  (e.~local maximum) í punkti $(a,b)$ ef til er tala $r>0$ þannig að 
-$f(a,b)\geq f(x,y)$ fyrir alla punkta $(x,y)\in B_r(a,b)\cap{\cal
-  D}(f)$.
+$f(a,b)\geq f(x,y)$ fyrir alla punkta $(x,y)\in B_r(a,b)\cap{\cal D}(f)$.
 
 \medskip
 Í þeim punktum þar sem $f$ tekur annað hvort staðbundið lággildi eða
@@ -686,7 +684,7 @@ $\nabla g(x_0,y_0)\neq \ov$.  Gerum líka ráð fyrir að ef við einskorðum fa
 
 \begin {figure}[h!]
  \centering
-            \includegraphics[width=.4\linewidth]{lagrange1.pdf}
+            \includegraphics[width=.4\linewidth]{lagrange1.png}
             \caption*{Ef stiglarnir $\nabla g(P_0)$ og $\nabla f(P_0)$ eru ekki samsíða þá vex $f$ eða minnkar þegar farið er eftir $\mathcal{C}$ út frá punktinum $P_0$.}
 \end {figure}
 
@@ -721,10 +719,9 @@ Athuga þarf punkta sem uppfylla eitt af eftirfarandi skilyrðum:
 
 \begin {enumerate}
 \item Stöðupunktar $L(x,y,\lambda)$.
-\item Punktar $(x,y)$ þar sem $\nabla g(x,y)=\ov$.
-\item Punktar $(x,y)$ þar sem annar eða báðir stiglanna $\nabla
-      g(x,y)$ og $\nabla f(x,y)$ eru ekki skilgreindir. 
-\item ,,Endapunktar\lq\lq\ ferilsins $g(x,y)=0$.
+\item Punktar $(x,y)$ þar sem $\nabla g(x,y)=\ov$
+\item Punktar $(x,y)$ þar sem annar eða báðir stiglanna $\nabla g(x,y)$ og $\nabla f(x,y)$ eru ekki skilgreindir. 
+\item ,,Endapunktar''\ ferilsins $g(x,y)=0$.
  \end {enumerate}
 
 

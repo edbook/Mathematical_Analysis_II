@@ -1,7 +1,7 @@
 
 
-Hagnýting hlutafleiðujafna
-==========================
+Útgildisverkefni
+===============
 
 Útgildi
 -------
@@ -71,15 +71,24 @@ Dæmi: Föll skilgreind á svæðinu :math:`-0.5 \leq x \leq 0.5`,
 .. figure:: peak_smooth.png
    :alt: :math:`z = f(x,y) = 1-x^2-y^2`.
 
+   ..
+
    :math:`z = f(x,y) = 1-x^2-y^2`.
+
 .. figure:: peak.png
    :alt: :math:`z = f(x,y) = 1-\sqrt{x^2+y^2}`.
 
+   ..
+
    :math:`z = f(x,y) = 1-\sqrt{x^2+y^2}`.
+
 .. figure:: max_bound.png
    :alt: :math:`z= f(x,y) = x^2+y^2`.
 
+   ..
+
    :math:`z= f(x,y) = x^2+y^2`.
+
 Tilvist útgilda
 ---------------
 
@@ -105,11 +114,17 @@ Dæmi um föll með söðulpunkta.
 .. figure:: sodull1.png
    :alt: :math:`z = f(x,y) = x^3`.
 
+   ..
+
    :math:`z = f(x,y) = x^3`.
+
 .. figure:: sodull2.png
    :alt: :math:`z = f(x,y) = x^3+y^3`.
 
+   ..
+
    :math:`z = f(x,y) = x^3+y^3`.
+
 Staðbundið útgildi
 ------------------
 
@@ -315,8 +330,11 @@ Dæmi
 .. figure:: constraint.png
    :alt: Hver eru hæstu og lægstu gildi fallsins :math:`f(x,y) = x^2-y^2+4` á menginu :math:`\{(x,y)~|~x^2+y^2=1\}`?
 
-   Hver eru hæstu og lægstu gildi fallsins :math:`f(x,y) = x^2-y^2+4` á
-   menginu :math:`\{(x,y)~|~x^2+y^2=1\}`?
+   .. 
+
+   *Hver eru hæstu og lægstu gildi fallsins* :math:`f(x,y) = x^2-y^2+4` *á
+   menginu* :math:`\{(x,y)~|~x^2+y^2=1\}`?
+
 Setning 
 ~~~~~~~~
 
@@ -331,9 +349,12 @@ ef við einskorðum fallið :math:`f` við ferilinn :math:`g(x,y)=0` þá hafi
 .. figure:: lagrange1.png
    :alt: Ef stiglarnir :math:`\nabla g(P_0)` og :math:`\nabla f(P_0)` eru ekki samsíða þá vex :math:`f` eða minnkar þegar farið er eftir :math:`\mathcal{C}` út frá punktinum :math:`P_0`.
 
-   Ef stiglarnir :math:`\nabla g(P_0)` og :math:`\nabla f(P_0)` eru ekki
-   samsíða þá vex :math:`f` eða minnkar þegar farið er eftir
-   :math:`\mathcal{C}` út frá punktinum :math:`P_0`.
+   ..
+
+   *Ef stiglarnir* :math:`\nabla g(P_0)` *og* :math:`\nabla f(P_0)` *eru ekki
+   samsíða þá vex* :math:`f` *eða minnkar þegar farið er eftir*
+   :math:`\mathcal{C}` *út frá punktinum* :math:`P_0`.
+
 Lagrange-margfaldarar
 ---------------------
 

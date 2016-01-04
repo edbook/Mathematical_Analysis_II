@@ -1,5 +1,5 @@
 
-Hlutafleiðujöfnur
+Hlutafleiður
 =================
 
 Graf falls
@@ -234,7 +234,9 @@ ef markgildin eru til.
 .. figure:: ypart.png
    :alt: Hlutafleiða m.t.t. \ :math:`y` fyrir :math:`x=1`.
 
-   Hlutafleiða m.t.t. \ :math:`y` fyrir :math:`x=1`.
+   ..
+
+   *Hlutafleiða m.t.t.* \ :math:`y` *fyrir* :math:`x=1`.
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -849,13 +851,16 @@ Dæmi
 .. figure:: gradfurf.png
    :alt: Graf :math:`z=1-x^2-y^2`
 
-   Graf :math:`z=1-x^2-y^2`
+   ..
+
+   *Graf* :math:`z=1-x^2-y^2`
+
 .. figure:: gradient.png
    :alt: Jafnhæðarlínur. Stigull og snertilína við jafnhæðarlínuna :math:`z=0.5` í :math:`(x,y) = (0.5,0.5)`.
 
    ..
 
-   *Jafnhæðarlínur. Stigull og snertilína við jafnhæðarlínuna* :math:`z=0.5` í :math:`(x,y) = (0.5,0.5)`.
+   *Jafnhæðarlínur. Stigull og snertilína við jafnhæðarlínuna* :math:`z=0.5` *í* :math:`(x,y) = (0.5,0.5)`.
 
 Setning 
 ~~~~~~~~

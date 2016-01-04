@@ -1,6 +1,6 @@
 
 
-Vigurreikningur
+Diffur- og heildareikningur vigursviða
 ===============
 
 grad, div og curl

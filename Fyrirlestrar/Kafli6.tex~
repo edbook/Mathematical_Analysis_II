@@ -711,13 +711,13 @@ $$\Ev(\rv)=\frac{q}{4\pi\epsilon_0}\frac{\rv-\sv}{|\rv-\sv|^3}$$
 
 \subsubsection{Rafsvið  \rtask{} - Lögmál Gauss (fyrsta jafna Maxwells)}
  Látum $\rho(\xi,\eta,\zeta)$ vera hleðsludreifingu og $\Ev$ rafsviðið vegna hennar.  Þá gildir að 
-$$\boxed{\dive\Ev=\frac{\rho}{\epsilon_0}.}$$
+$$\dive\Ev=\frac{\rho}{\epsilon_0}.$$
 
 \subsubsection{Rafsvið \rtask{}}
  Látum $\rho(\xi,\eta,\zeta)$ vera hleðsludreifingu á takmörkuðu svæði $R$ og $\Ev$ rafsviðið vegna hennar.  Ef við setjum
  $$ \phi(\rv) = -\frac{1}{4 \pi \epsilon_0} \iiint_R \frac{\rho(\sv)}{|\rv-\sv|} dV$$
  þá er $\Ev = \nabla \phi$ og þar með er 
-$$\boxed{\curl \Ev= \mathbf{0}.}$$
+$$\curl \Ev= \mathbf{0}.$$
 
 
  
@@ -742,12 +742,12 @@ og sýna má að ef $\rv \notin \mathcal{F}$ þá er $$\curl \Hv = \mathbf{0}.$$
 $$\oint_{\cal C} \Hv\cdot d\rv=\mu_0 I.$$
 
  Hugsum okkur að $\mathbf{J}(\rv)$ sé straumþéttleiki í punkti $\rv$ (straumur á flatareiningu).  Þá er 
-$$ \boxed{\curl \Hv = \mu_0 \mathbf{J}.}$$
+$$\curl \Hv = \mu_0 \mathbf{J}.$$
 
 Einnig gildir að ef við setjum 
 $$\Av(\rv)=\frac{\mu_0}{4\pi}\iiint_{R}
 \frac{\mathbf{J}(\mathbf{s})}{|\rv-\sv|}dV,$$
-þá er $\Hv=\curl \Av$  og því er $$\boxed{\dive \Hv=0.}$$
+þá er $\Hv=\curl \Av$  og því er $$\dive \Hv=0.$$
 
 
 \subsubsection{Samantekt}
