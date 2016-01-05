@@ -237,6 +237,7 @@ ef markgildin eru til.
    ..
 
    *Hlutafleiða m.t.t.* \ :math:`y` *fyrir* :math:`x=1`.
+
 Skilgreining 
 ~~~~~~~~~~~~~
 

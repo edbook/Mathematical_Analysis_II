@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Stærðfræðigreining II (STÆ205G), Háskóli Íslands, vor 2016
-=========================================================
+===================================================================
 
 .. toctree::
    :maxdepth: 2

@@ -1,7 +1,5 @@
-
-
 Diffur- og heildareikningur vigursviða
-===============
+==================================================
 
 grad, div og curl
 -----------------
@@ -125,21 +123,16 @@ Látum :math:`\mbox{${\bf F}$}` vera vigursvið skilgreint á svæði
 :math:`\mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}=\mbox{${\bf 0}$}` á öllu
 :math:`D`.
 
-Athugasemd 
-~~~~~~~~~~~
+.. note::
+   Vigursvið :math:`\mbox{${\bf F}$}(x,y,z)=F_1(x,y,z)\,\mbox{${\bf i}$}+F_2(x,y,z)\,\mbox{${\bf j}$}+F_3(x,y,z)\,\mbox{${\bf k}$}` er rótlaust ef og aðeins ef
 
-Vigursvið
-:math:`\mbox{${\bf F}$}(x,y,z)=F_1(x,y,z)\,\mbox{${\bf i}$}+F_2(x,y,z)\,\mbox{${\bf j}$}+F_3(x,y,z)\,\mbox{${\bf k}$}`
-er rótlaust ef og aðeins ef
-
-.. math::
-
-   \frac{\partial F_1}{\partial y}=
-   \frac{\partial F_2}{\partial x},\quad
-   \frac{\partial F_1}{\partial z}=
-   \frac{\partial F_3}{\partial x},\quad
-   \frac{\partial F_2}{\partial z}=
-   \frac{\partial F_3}{\partial y}.
+   .. math::
+      \frac{\partial F_1}{\partial y}=
+      \frac{\partial F_2}{\partial x},\quad
+      \frac{\partial F_1}{\partial z}=
+      \frac{\partial F_3}{\partial x},\quad
+      \frac{\partial F_2}{\partial z}=
+      \frac{\partial F_3}{\partial y}.
 
 Setning 
 ~~~~~~~~
@@ -253,12 +246,8 @@ Skilgreining
 ~~~~~~~~~~~~~
 
 Látum :math:`R` vera svæði í :math:`{\mathbb  R}^2` og :math:`\cal C`
-jaðar :math:`R`. Gerum ráð fyrir að :math:`\cal C` samanstandi af
-endanlega mörgum ferlum :math:`{\cal C}_1, \ldots, {\cal C}_n`. Jákvæð
-áttun á ferlunum felst í því að velja fyrir hvert :math:`i` stikun
-:math:`\mbox{${\bf r}$}_i` á :math:`{\cal
-  C}_i` þannig að ef labbað eftir :math:`{\cal C}_i` í stefnu stikunar
-þá er :math:`R` á vinstri hönd.
+jaðar :math:`R`. Gerum ráð fyrir að :math:`\cal C` samanstandi af endanlega mörgum ferlum :math:`{\cal C}_1, \ldots, {\cal C}_n`. Jákvæð
+áttun á ferlunum felst í því að velja fyrir hvert :math:`i` stikun :math:`\mbox{${\bf r}$}_i` á :math:`{\cal C}_i` þannig að ef labbað eftir :math:`{\cal C}_i` í stefnu stikunar þá er :math:`R` á vinstri hönd.
 
 Setning Green 
 ~~~~~~~~~~~~~~

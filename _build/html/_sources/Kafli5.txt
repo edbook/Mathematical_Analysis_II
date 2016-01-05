@@ -1,5 +1,3 @@
-
-
 Vigursvið
 =========
 
@@ -31,11 +29,11 @@ sem fótpunkt. Skilgreiningin á því að vigursvið í :math:`{\mathbb  R}^3`
 sé samfellt er eins og á samfeldni vigursvið í :math:`{\mathbb  R}^2` .
 
 .. figure:: vfield.png
-   :alt:  Vigursviðið :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`.
+   :alt: Vigursviðið :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`.
 
-    ..
+   ..
 
-    *Vigursviðið* :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`.
+   *Vigursviðið* :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`.
 
 Straumlína
 ----------
@@ -97,9 +95,8 @@ stigulsvið þá er
    \frac{\partial}{\partial y}F_1(x,y)=
    \frac{\partial}{\partial x}F_2(x,y).
 
-**Athugasemd.** Þó að hlutafleiðurnar séu jafnar þá er **ekki** hægt að
-álykta að :math:`\mbox{${\bf F}$}` sé stigulsvið. Þetta atriði verður
-rætt síðar.
+.. note::
+   Þó að hlutafleiðurnar séu jafnar þá er **ekki** hægt að álykta að :math:`\mbox{${\bf F}$}` sé stigulsvið. Þetta atriði verður rætt síðar.
 
 Setning 
 ~~~~~~~~
@@ -235,23 +232,12 @@ rithátt fæst að
    &=\int_a^b F_1(x(t),y(t))x'(t)\,dt+F_2(x(t),y(t))y'(t)\,dt\\
    &=\int_{\cal C} F_1(x,y)\,dx+F_2(x,y)\,dy.\end{aligned}
 
-Athugasemd 
-~~~~~~~~~~~
+.. note::
+   Látum :math:`\cal C` vera feril í :math:`{\mathbb  R}^2`. Gerum ráð fyrir að :math:`\mbox{${\bf r}$}_1:[a,b]\rightarrow {\mathbb  R}^2` og :math:`\mbox{${\bf r}$}_2:[a',b']\rightarrow {\mathbb  R}^2` séu tveir samfellt diffranlegir á köflum stikaferlar sem stika :math:`\cal C`. Gerum ennfremur ráð fyrir að :math:`\mbox{${\bf r}$}_1(a)=\mbox{${\bf r}$}_2(b')` og :math:`\mbox{${\bf r}$}_1(b)=\mbox{${\bf r}$}_2(a')` (þ.e.a.s. stikaferlarnir fara í sitthvora áttina eftir :math:`\cal C`). Þá gildir ef :math:`\mbox{${\bf F}$}(x,y)` er vigursvið að
 
-Látum :math:`\cal C` vera feril í :math:`{\mathbb  R}^2`. Gerum ráð
-fyrir að :math:`\mbox{${\bf r}$}_1:[a,b]\rightarrow {\mathbb  R}^2` og
-:math:`\mbox{${\bf r}$}_2:[a',b']\rightarrow {\mathbb  R}^2` séu tveir
-samfellt diffranlegir á köflum stikaferlar sem stika :math:`\cal C`.
-Gerum ennfremur ráð fyrir að
-:math:`\mbox{${\bf r}$}_1(a)=\mbox{${\bf r}$}_2(b')` og
-:math:`\mbox{${\bf r}$}_1(b)=\mbox{${\bf r}$}_2(a')` (þ.e.a.s.
-stikaferlarnir fara í sitthvora áttina eftir :math:`\cal C`). Þá gildir
-ef :math:`\mbox{${\bf F}$}(x,y)` er vigursvið að
+   .. math:: \int_{\cal C} \mbox{${\bf F}$}\cdot d\mbox{${\bf r}$}_1=-\int_{\cal C} \mbox{${\bf F}$}\cdot d\mbox{${\bf r}$}_2.
 
-.. math:: \int_{\cal C} \mbox{${\bf F}$}\cdot d\mbox{${\bf r}$}_1=-\int_{\cal C} \mbox{${\bf F}$}\cdot d\mbox{${\bf r}$}_2.
-
-(Ef breytt er um stefnu á stikun á breytist formerki þegar vigursvið
-heildað eftir ferlinum.)
+   (Ef breytt er um stefnu á stikun á breytist formerki þegar vigursvið heildað eftir ferlinum.)
 
 Ferilheildi og stigulsvið
 -------------------------
@@ -338,9 +324,8 @@ tvo punkta :math:`P, Q\in D` gildir að til er stikaferill
 :math:`\mbox{${\bf r}$}:[0,1]\rightarrow D` þannig að
 :math:`\mbox{${\bf r}$}(0)=P` og :math:`\mbox{${\bf r}$}(1)=Q`.
 
-(Athugasemd: Í bók er orðið *connected* notað fyrir hugtakið
-*ferilsamanhangandi*. Venjulega er orðið *connected* notað yfir annað
-hugtak, skylt en samt ólíkt.)
+.. warning:: 
+   Í bók er orðið *connected* notað fyrir hugtakið *ferilsamanhangandi*. Venjulega er orðið *connected* notað yfir annað hugtak, skylt en samt ólíkt.
 
 Setning 
 ~~~~~~~~
@@ -363,8 +348,8 @@ eftirfarandi jafngilt:
 
 (c)  ferilheildi :math:`\mbox{${\bf F}$}` er óháð vegi.
 
-.. begin-toggle:: 
-    :label: Fela/Sýna sönnun
+.. begin-toggle::
+    :label: Fela/sýna sönnun
 
 **Sönnun**
 
@@ -503,19 +488,11 @@ og :math:`\frac{\partial \mbox{${\bf r}$}}{\partial v}(u,v)` eru óháðir
 fyrir alla punkta :math:`(u,v)\in D` þá er sagt að stikunin sé
 *regluleg*.
 
-Athugasemd 
-~~~~~~~~~~~
+.. note::
+   Ef vigrarnir :math:`\frac{\partial \mbox{${\bf r}$}}{\partial u}(u_0,v_0)` og :math:`\frac{\partial\mbox{${\bf r}$}}{\partial v}(u_0,v_0)` eru óháðir þá spanna þeir snertiplan við flötinn í punktinum :math:`\mbox{${\bf r}$}(u_0,v_0)`. Snertiplanið hefur stikun
 
-Ef vigrarnir
-:math:`\frac{\partial \mbox{${\bf r}$}}{\partial u}(u_0,v_0)` og
-:math:`\frac{\partial\mbox{${\bf r}$}}{\partial v}(u_0,v_0)` eru óháðir
-þá spanna þeir snertiplan við flötinn í punktinum
-:math:`\mbox{${\bf r}$}(u_0,v_0)`. Snertiplanið hefur stikun
-
-.. math::
-
-   \Pi(u,v) = \mbox{${\bf r}$}(u_0,v_0)+u\frac{\partial \mbox{${\bf r}$}}{\partial u}(u_0,v_0)
-   +v\frac{\partial \mbox{${\bf r}$}}{\partial v}(u_0,v_0).
+   .. math::
+      \Pi(u,v) = \mbox{${\bf r}$}(u_0,v_0)+u\frac{\partial \mbox{${\bf r}$}}{\partial u}(u_0,v_0)+v\frac{\partial \mbox{${\bf r}$}}{\partial v}(u_0,v_0).
 
 Flatarheildi
 ------------
