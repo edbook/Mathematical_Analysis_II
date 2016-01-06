@@ -12,12 +12,6 @@ Stærðfræðigreining II (STÆ205G), Háskóli Íslands, vor 2016
    :glob:
 
    Kafli*
-   
-
-Indices and tables
-==================
 
 * :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 

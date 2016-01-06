@@ -351,6 +351,8 @@ eftirfarandi jafngilt:
 .. begin-toggle::
     :label: Fela/sýna sönnun
 
+|
+
 **Sönnun**
 
 (a) :math:`\Rightarrow` (b). Fylgisetning 5.6.2.
@@ -359,6 +361,8 @@ eftirfarandi jafngilt:
 
 .. end-toggle::
 
+|
+|
 
 Fletir
 ------

@@ -32,7 +32,8 @@ import shlex
 # ones.
 extensions = [
     'sphinx.ext.todo',
-    'sphinx.ext.mathjax',
+    #'sphinx.ext.mathjax',
+    'sphinx.ext.pngmath',
     #'hieroglyph',
     #  hieroglyph is used to generate html slides, needs to be installed for use,
     #  see https://github.com/nyergler/hieroglyph
