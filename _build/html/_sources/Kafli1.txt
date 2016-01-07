@@ -38,13 +38,13 @@ Ritháttur
 :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow {\mathbb  R}^2` þá er oft
 ritað
 
-.. math:: \mbox{${\bf r}$}=\mbox{${\bf r}$}(t)=(x(t),y(t))=x(t)\mbox{${\bf i}$}+y(t)\mbox{${\bf j}$},
+.. math:: \displaystyle \mbox{${\bf r}$}=\mbox{${\bf r}$}(t)=(x(t),y(t))=x(t)\mbox{${\bf i}$}+y(t)\mbox{${\bf j}$},
 
 og þegar fjallað er um stikaferil
 :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow {\mathbb  R}^3` þá er oft
 ritað
 
-.. math:: \mbox{${\bf r}$}=\mbox{${\bf r}$}(t)=(x(t),y(t),z(t))=x(t)\mbox{${\bf i}$}+y(t)\mbox{${\bf j}$}+z(t)\mbox{${\bf k}$}.
+.. math:: \displaystyle \mbox{${\bf r}$}=\mbox{${\bf r}$}(t)=(x(t),y(t),z(t))=x(t)\mbox{${\bf i}$}+y(t)\mbox{${\bf j}$}+z(t)\mbox{${\bf k}$}.
 
 Ferlar og stikanir á ferlum
 ---------------------------
@@ -76,12 +76,12 @@ Dæmi
 
 Jafnan
 
-.. math:: x^2+y^2 = 1
+.. math:: \displaystyle x^2+y^2 = 1
 
 lýsir ferli í planinu sem er hringur með miðju í (0,0) og geisla 1. Dæmi
 um ólíkar stikanir:
 
-.. math::
+.. math:: \displaystyle
 
    \begin{aligned}
    \mbox{${\bf r}$}_1(t) &= (\cos(t),\sin(t)), \quad \text{fyrir $t$ á bilinu $[0,2\pi].$} \\
@@ -100,7 +100,7 @@ Stikaferill
 :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}` er
 *diffranlegur í punkti* :math:`t` ef markgildið
 
-.. math:: \mbox{${\bf r}$}'(t)=\lim_{\Delta t\rightarrow 0}\frac{\mbox{${\bf r}$}(t+\Delta t)-\mbox{${\bf r}$}(t)}{\Delta t}
+.. math:: \displaystyle \mbox{${\bf r}$}'(t)=\lim_{\Delta t\rightarrow 0}\frac{\mbox{${\bf r}$}(t+\Delta t)-\mbox{${\bf r}$}(t)}{\Delta t}
 
 er til. Stikaferillinn :math:`\mbox{${\bf r}$}` er sagður *diffranlegur*
 ef hann er diffranlegur í öllum punktum á bilinu :math:`[a,b]`. (Í
@@ -115,7 +115,7 @@ Stikaferill
 *diffranlegur í punkti* :math:`t` ef og aðeins ef föllin
 :math:`r_1,\ldots,r_n` eru öll diffranleg í :math:`t`. Þá gildir að
 
-.. math:: \mbox{${\bf r}$}'(t)=(r'_1(t),\ldots,r'_n(t)).
+.. math:: \displaystyle \mbox{${\bf r}$}'(t)=(r'_1(t),\ldots,r'_n(t)).
 
 Ritháttur 
 ~~~~~~~~~~
@@ -135,7 +135,7 @@ Dæmi
 Lítum á eftirfarand stikaferla sem stika hring með miðju í (0,0) og
 geisla 1.
 
-.. math::
+.. math:: \displaystyle
 
    \begin{aligned}
    \mbox{${\bf r}$}_1(t) &= (\cos(t),\sin(t)), \quad \text{fyrir $t$ á bilinu $[0,2\pi].$} \\
@@ -143,7 +143,7 @@ geisla 1.
 
 Þá er tilsvarandi hraði
 
-.. math::
+.. math:: \displaystyle
 
    \begin{aligned}
    \mbox{${\bf v}$}_1(t) = \mbox{${\bf r}$}_1'(t) &= (-\sin(t),\cos(t)), \quad \text{fyrir $t$ á bilinu $[0,2\pi].$} \\
@@ -213,12 +213,12 @@ vera samfellt diffranlegan stikaferil fyrir :math:`t` á bili :math:`I`.
 Ef :math:`f'(t) \neq 0` á :math:`I` þá hefur ferilinn snertilínu fyrir
 hvert gildi á :math:`t` og hallatala hennar er
 
-.. math:: \frac{dy}{dx} = \frac{g'(t)}{f'(t)}.
+.. math:: \displaystyle \frac{dy}{dx} = \frac{g'(t)}{f'(t)}.
 
 Ef :math:`g'(t) \neq 0` á :math:`I` þá hefur ferilinn snertilínu fyrir
 hvert gildi á :math:`t` og hallatala hennar er
 
-.. math:: -\frac{dx}{dy} = -\frac{f'(t)}{g'(t)}.
+.. math:: \displaystyle -\frac{dx}{dy} = -\frac{f'(t)}{g'(t)}.
 
 Lengd stikaferils
 -----------------
@@ -230,7 +230,7 @@ Látum :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}`
 vera samfellt diffranlegan stikaferil. *Lengd* eða *bogalengd*
 stikaferilsins er skilgreind með formúlunni
 
-.. math:: s=\int_a^b |\mbox{${\bf v}$}(t)|\,dt.
+.. math:: \displaystyle s=\int_a^b |\mbox{${\bf v}$}(t)|\,dt.
 
 Skilgreining og umræða 
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -240,7 +240,7 @@ samfellt diffranlegan stikaferil. Sagt er að stikaferillinn sé *stikaður
 með bogalengd* ef fyrir allar tölur :math:`t_1,
 t_2` þannig að :math:`a\leq t_1<t_2\leq b` þá gildir
 
-.. math:: t_2-t_1= \int_{t_1}^{t_2} |\mbox{${\bf v}$}(t)|\,dt.
+.. math:: \displaystyle t_2-t_1= \int_{t_1}^{t_2} |\mbox{${\bf v}$}(t)|\,dt.
 
 (Skilyrðið segir að lengd stikaferilsins á milli punkta
 :math:`\mbox{${\bf r}$}(t_1)` og :math:`\mbox{${\bf r}$}(t_2)` sé jöfn
@@ -276,12 +276,12 @@ Ef pólhnit punkts í plani eru :math:`[r, \theta]` þá má reikna
 :math:`xy`-hnit hans (e. *rectangular coordinates* eða *Cartesian
 coordinates*) með formúlunum
 
-.. math:: x=r\cos\theta \qquad\mbox{og}\qquad y=r\sin\theta.
+.. math:: \displaystyle x=r\cos\theta \qquad\mbox{og}\qquad y=r\sin\theta.
 
 Ef við þekkjum :math:`xy`-hnit punkts þá má finna pólhnitin út frá
 jöfnunum
 
-.. math::
+.. math:: \displaystyle
 
    r=\sqrt{x^2+y^2}\qquad\mbox{og}
    \qquad \tan\theta=\frac{y}{x}.
@@ -307,11 +307,11 @@ mengi allra punkta í planinu sem hafa pólhnit á forminu
 
 Pólhnitagraf er ferill í planinu sem má stika með stikaferlinum
 
-.. math:: \mbox{${\bf r}$}:[\alpha,\beta]\rightarrow{\mathbb  R}^2
+.. math:: \displaystyle \mbox{${\bf r}$}:[\alpha,\beta]\rightarrow{\mathbb  R}^2
 
 með formúlu
 
-.. math::
+.. math:: \displaystyle
 
    \mbox{${\bf r}$}(\theta)=[f(\theta),\theta]=
    (f(\theta)\cos\theta, f(\theta)\sin\theta).
@@ -342,7 +342,7 @@ Flatarmál svæðisins sem afmarkast af geislunum :math:`\theta=\alpha` og
 :math:`\beta-\alpha\leq 2\pi`) og pólhnitagrafi :math:`r=f(\theta)`
 (:math:`f` samfellt) er
 
-.. math::
+.. math:: \displaystyle
 
    A=\frac{1}{2}\int_\alpha^\beta r^2\,d\theta
    =\frac{1}{2}\int_\alpha^\beta f(\theta)^2\,d\theta.
@@ -357,7 +357,7 @@ Gerum ráð fyrir að fallið :math:`f(\theta)` sé diffranlegt. Bogalengd
 pólhnitagrafsins :math:`r=f(\theta)`, þegar
 :math:`\alpha\leq\theta\leq\beta`, er gefin með formúlunni
 
-.. math:: s=\int_\alpha^\beta \sqrt{f'(\theta)^2+f(\theta)^2}\,d\theta.
+.. math:: \displaystyle s=\int_\alpha^\beta \sqrt{f'(\theta)^2+f(\theta)^2}\,d\theta.
 
 Einingarsnertivigur
 -------------------
@@ -374,7 +374,7 @@ og :math:`\mbox{${\bf r}$}'(t)\neq \mbox{${\bf 0}$}` fyrir öll
 ferilinn :math:`\cal C` í punktinum :math:`\mbox{${\bf r}$}(t)` er
 skilgreindur með formúlunni
 
-.. math:: \mbox{${\bf T}$}=\frac{\mbox{${\bf r}$}'(t)}{|\mbox{${\bf r}$}'(t)|}=\frac{\mbox{${\bf v}$}(t)}{|\mbox{${\bf v}$}(t)|}.
+.. math:: \displaystyle \mbox{${\bf T}$}=\frac{\mbox{${\bf r}$}'(t)}{|\mbox{${\bf r}$}'(t)|}=\frac{\mbox{${\bf v}$}(t)}{|\mbox{${\bf v}$}(t)|}.
 
 Krappi
 ------
@@ -390,12 +390,12 @@ fjallað er um stikanir með bogalengd er venja að tákna stikann með
 ferilsins :math:`\cal
 C` í punktinum :math:`\mbox{${\bf r}$}(s)` er skilgreindur sem talan
 
-.. math:: \kappa(s)=\left|\frac{d\mbox{${\bf T}$}}{ds}\right|.
+.. math:: \displaystyle \kappa(s)=\left|\frac{d\mbox{${\bf T}$}}{ds}\right|.
 
 *Krappageisli* (e. radius of curvature) í punktinum
 :math:`\mbox{${\bf r}$}(s)` er skilgreindur sem
 
-.. math:: \rho(s)=\frac{1}{\kappa(s)}.
+.. math:: \displaystyle \rho(s)=\frac{1}{\kappa(s)}.
 
 Meginþverill
 ------------
@@ -408,7 +408,7 @@ Látum :math:`\cal C` vera feril í plani eða rúmi og
 *Meginþverill* (e. unit principal normal) í punkti
 :math:`\mbox{${\bf r}$}(s)` er skilgreindur sem vigurinn
 
-.. math:: \mbox{${\bf N}$}(s)=\frac{\mbox{${\bf T}$}'(s)}{|\mbox{${\bf T}$}'(s)|}=\frac{1}{\kappa(s)}\mbox{${\bf T}$}'(s).
+.. math:: \displaystyle \mbox{${\bf N}$}(s)=\frac{\mbox{${\bf T}$}'(s)}{|\mbox{${\bf T}$}'(s)|}=\frac{1}{\kappa(s)}\mbox{${\bf T}$}'(s).
 
 Umræða
 ~~~~~~
@@ -449,7 +449,7 @@ Skilgreining
 Látum :math:`\cal C` vera feril í plani eða rúmi og
 :math:`\mbox{${\bf r}$}` stikun á :math:`\cal C` með bogalengd. Vigurinn
 
-.. math:: \mbox{${\bf B}$}(s)=\mbox{${\bf T}$}(s)\times \mbox{${\bf N}$}(s)
+.. math:: \displaystyle \mbox{${\bf B}$}(s)=\mbox{${\bf T}$}(s)\times \mbox{${\bf N}$}(s)
 
 kallas *tvíþverill* (e. binormal) við ferilinn í
 :math:`\mbox{${\bf r}$}(s)`.
@@ -470,7 +470,7 @@ Látum :math:`\cal C` vera feril í plani eða rúmi og
 margfeldi af :math:`\mbox{${\bf N}$}(s)`. Talan :math:`\tau(s)` þannig
 að
 
-.. math:: \mbox{${\bf B}$}'(s)=-\tau(s)\mbox{${\bf N}$}(s)
+.. math:: \displaystyle \mbox{${\bf B}$}'(s)=-\tau(s)\mbox{${\bf N}$}(s)
 
 kallast *vindingur* ferilsins í punktinum :math:`\mbox{${\bf r}$}(s)`.
 
@@ -484,7 +484,7 @@ Látum :math:`\cal C` vera feril í plani eða rúmi og
 :math:`\mbox{${\bf r}$}` stikun á :math:`\cal C` með bogalengd. Þá
 gildir
 
-.. math::
+.. math:: \displaystyle
 
    \begin{aligned}
    \mbox{${\bf T}$}'(s)&=\kappa\mbox{${\bf N}$}\\
@@ -500,7 +500,7 @@ Ritum :math:`\mbox{${\bf v}$}=\mbox{${\bf r}$}'(t)` og
 :math:`\mbox{${\bf a}$}=\mbox{${\bf r}$}''(t)`. Þá gildir í punktinum
 :math:`\mbox{${\bf r}$}(t)` að
 
-.. math::
+.. math:: \displaystyle
 
    \mbox{${\bf T}$}=\frac{\mbox{${\bf v}$}}{|\mbox{${\bf v}$}|},\qquad 
    \mbox{${\bf B}$}=\frac{\mbox{${\bf v}$}\times\mbox{${\bf a}$}}{|\mbox{${\bf v}$}\times\mbox{${\bf a}$}|},\qquad
@@ -508,7 +508,7 @@ Ritum :math:`\mbox{${\bf v}$}=\mbox{${\bf r}$}'(t)` og
 
 einnig er
 
-.. math::
+.. math:: \displaystyle
 
    \kappa=\frac{|\mbox{${\bf v}$}\times\mbox{${\bf a}$}|}{|\mbox{${\bf v}$}|^3},\qquad\qquad
    \tau=\frac{(\mbox{${\bf v}$}\times\mbox{${\bf a}$})\cdot \frac{d}{dt}\mbox{${\bf a}$}}{|\mbox{${\bf v}$}\times\mbox{${\bf a}$}|^2}.

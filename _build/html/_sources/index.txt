@@ -13,5 +13,8 @@ Stærðfræðigreining II (STÆ205G), Háskóli Íslands, vor 2016
 
    Kafli*
 
+.. toctree::
+	vidauki
+
 * :ref:`genindex`
 

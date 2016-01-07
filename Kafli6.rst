@@ -9,7 +9,7 @@ Skilgreining
 
 Skilgreinum *nabla*-virkjann sem diffurvirkja
 
-.. math:: \nabla=\mbox{${\bf i}$}\,\frac{\partial}{\partial x}+\mbox{${\bf j}$}\,\frac{\partial}{\partial y}+\mbox{${\bf k}$}\,\frac{\partial}{\partial z}.
+.. math:: \displaystyle \nabla=\mbox{${\bf i}$}\,\frac{\partial}{\partial x}+\mbox{${\bf j}$}\,\frac{\partial}{\partial y}+\mbox{${\bf k}$}\,\frac{\partial}{\partial z}.
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -20,7 +20,7 @@ vera vigursvið og :math:`\varphi(x,y,z)` vera fall.
 
 Skilgreinum *stigul* :math:`\varphi` sem vigursviðið
 
-.. math::
+.. math:: \displaystyle
 
    \mbox{${\rm\bf grad\,}$}\varphi=\nabla\varphi=\frac{\partial \varphi}{\partial x}\,\mbox{${\bf i}$}+
    \frac{\partial \varphi}{\partial y}\,\mbox{${\bf j}$}+\frac{\partial \varphi}{\partial z}\,\mbox{${\bf k}$}.
@@ -28,31 +28,24 @@ Skilgreinum *stigul* :math:`\varphi` sem vigursviðið
 Skilgreinum *sundurleitni* (e. divergens) vigursviðsins
 :math:`\mbox{${\bf F}$}` sem
 
-.. math:: \mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}=\nabla\cdot\mbox{${\bf F}$}=\frac{\partial F_1}{\partial x}+\frac{\partial F_2}{\partial y}+\frac{\partial F_3}{\partial z}.
+.. math:: \displaystyle \mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}=\nabla\cdot\mbox{${\bf F}$}=\frac{\partial F_1}{\partial x}+\frac{\partial F_2}{\partial y}+\frac{\partial F_3}{\partial z}.
 
 Skilgreinum *rót* vigursviðsins :math:`\mbox{${\bf F}$}` sem
 
-.. math::
+.. math:: \displaystyle
 
    \begin{aligned}
     \mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}&=\nabla\times\mbox{${\bf F}$}=\begin{vmatrix} \mbox{${\bf i}$}&\mbox{${\bf j}$}&\mbox{${\bf k}$}\\
     \frac{\partial} {\partial x}&\frac{\partial}{\partial y}&\frac{\partial}{\partial z}\\F_1&F_2&F_3\end{vmatrix} \\ &=\bigg(\frac{\partial F_3}{\partial y}-\frac{\partial F_2}{\partial z}\bigg)\,\mbox{${\bf i}$}+\bigg(\frac{\partial F_1}{\partial z}-\frac{\partial F_3}{\partial x}\bigg)\,\mbox{${\bf j}$}+\bigg(\frac{\partial F_2}{\partial x}-\frac{\partial F_1}{\partial y}\bigg)\,\mbox{${\bf k}$}. 
     \end{aligned}
 
-Varúð 
-~~~~~~
+.. warning::
 
-Ef :math:`\varphi(x,y,z)` er fall þá er :math:`\nabla \varphi(x,y,z)`
-stigullinn af :math:`\varphi(x,y,z)` en :math:`\varphi(x,y,z)\nabla` er
-diffurvirki.
+   Ef :math:`\varphi(x,y,z)` er fall þá er :math:`\nabla \varphi(x,y,z)` stigullinn af :math:`\varphi(x,y,z)` en :math:`\varphi(x,y,z)\nabla` er diffurvirki.
 
-Varúð 
-~~~~~~
+.. warning::
 
-Sundurleitnin :math:`\mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}` er fall
-:math:`{\mathbb  R}^3\rightarrow{\mathbb  R}` en rótið
-:math:`\mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}` er vigursvið
-:math:`{\mathbb  R}^3\rightarrow{\mathbb  R}^3`.
+   Sundurleitnin :math:`\mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}` er fall :math:`{\mathbb  R}^3\rightarrow{\mathbb  R}` en rótið :math:`\mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}` er vigursvið :math:`{\mathbb  R}^3\rightarrow{\mathbb  R}^3`.
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -61,14 +54,14 @@ Látum
 :math:`\mbox{${\bf F}$}(x,y)=F_1(x,y)\,\mbox{${\bf i}$}+F_2(x,y)\,\mbox{${\bf j}$}`
 vera vigursvið. Skilgreinum *sundurleitni* :math:`\mbox{${\bf F}$}` sem
 
-.. math::
+.. math:: \displaystyle
 
    \mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}=\nabla\cdot\mbox{${\bf F}$}=\frac{\partial F_1}{\partial
      x}+\frac{\partial F_2}{\partial y}.
 
 og *rót* :math:`\mbox{${\bf F}$}` skilgreinum við sem
 
-.. math::
+.. math:: \displaystyle
 
    \mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}=\bigg(\frac{\partial F_2}{\partial x}-\frac{\partial
      F_1}{\partial y}\bigg)\,\mbox{${\bf k}$}.
@@ -126,7 +119,7 @@ Látum :math:`\mbox{${\bf F}$}` vera vigursvið skilgreint á svæði
 .. note::
    Vigursvið :math:`\mbox{${\bf F}$}(x,y,z)=F_1(x,y,z)\,\mbox{${\bf i}$}+F_2(x,y,z)\,\mbox{${\bf j}$}+F_3(x,y,z)\,\mbox{${\bf k}$}` er rótlaust ef og aðeins ef
 
-   .. math::
+   .. math:: \displaystyle
       \frac{\partial F_1}{\partial y}=
       \frac{\partial F_2}{\partial x},\quad
       \frac{\partial F_1}{\partial z}=
@@ -158,7 +151,7 @@ rótlaust þá er :math:`\mbox{${\bf F}$}` stigulsvið. Með öðrum orðum, ef
 vigursviðið :math:`\mbox{${\bf F}$}` er samfellt diffranlegt og
 skilgreint á stjörnusvæði :math:`D` og uppfyllir jöfnurnar
 
-.. math::
+.. math:: \displaystyle
 
    \frac{\partial F_1}{\partial y}=
    \frac{\partial F_2}{\partial x},\quad
@@ -193,7 +186,7 @@ skilgreint á opnu mengi :math:`D` í :math:`{\mathbb  R}^3`. Látum
 einingarþvervigrasvið á :math:`{\cal S}_\varepsilon` þannig að
 :math:`\mbox{${\bf N}$}` vísar út á við. Þá er
 
-.. math::
+.. math:: \displaystyle
 
    \mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}(P)=\lim_{\varepsilon\rightarrow 0^+}
    \frac{1}{V_\varepsilon}\int\!\!\!\int_{{\cal S}_\varepsilon}\mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS.
@@ -212,7 +205,7 @@ skilgreint á opnu mengi :math:`D` í :math:`{\mathbb  R}^3`. Látum
 einingarþvervigur á planið sem hringurinn liggur í. Áttum hringinn
 jákvætt. Þá er
 
-.. math::
+.. math:: \displaystyle
 
    \mbox{${\bf N}$}\cdot\mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}(P)=\lim_{\varepsilon\rightarrow 0^+}
    \frac{1}{A_\varepsilon}\oint_{C_\varepsilon}\mbox{${\bf F}$}\cdot d\mbox{${\bf r}$}.
@@ -232,7 +225,7 @@ Sundurleitnisetningin (næsti fyrirlestur) segir að samanlögð útþensla á
 rúmskika :math:`R` er jöfn streymi út um jaðar svæðisins
 :math:`\mathcal{S}`, eða
 
-.. math:: \int\!\!\!\int\!\!\!\int_R\mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}\,dV=\int\!\!\!\int_{\mathcal{S}} \mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS.
+.. math:: \displaystyle \int\!\!\!\int\!\!\!\int_R\mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}\,dV=\int\!\!\!\int_{\mathcal{S}} \mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS.
 
 :math:`\mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}(P)` lýsir hringstreymi í
 kringum punktinn :math:`P`. Setning Stokes (þar næsti fyrirlestur) segir
@@ -240,7 +233,7 @@ að samanlagt hringstreymi á fleti :math:`\mathcal{S}` er jafnt
 hringstreymi á jaðri flatarins, sem við táknum með :math:`\mathcal{C}`,
 eða
 
-.. math:: \int\!\!\!\int_{\cal S} \mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS=\oint_\mathcal{C} \mbox{${\bf F}$}\cdot d\mbox{${\bf r}$}.
+.. math:: \displaystyle \int\!\!\!\int_{\cal S} \mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS=\oint_\mathcal{C} \mbox{${\bf F}$}\cdot d\mbox{${\bf r}$}.
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -258,7 +251,7 @@ diffranlegum ferlum. Áttum :math:`\cal C` jákvætt. Látum
 :math:`\mbox{${\bf F}$}(x,y)=F_1(x,y)\,\mbox{${\bf i}$}+F_2(x,y)\,\mbox{${\bf j}$}`
 vera samfellt diffranlegt vigursvið skilgreint á :math:`R`. Þá er
 
-.. math::
+.. math:: \displaystyle
 
    \oint_{\cal C}F_1(x,y)\,dx+F_2(x,y)\,dy=\int\!\!\!\int_R
    \frac{\partial  F_2}{\partial x}- 
@@ -271,7 +264,7 @@ Látum :math:`R` vera svæði í planinu þannig að jaðar :math:`R` táknaður
 með :math:`\cal C`, samanstendur af endanlega mörgum samfellt
 diffranlegum ferlum. Áttum :math:`\cal C` jákvætt. Þá er
 
-.. math::
+.. math:: \displaystyle
 
    \mbox{Flatarmál } R=\oint_{\cal C}x\,dy= 
    -\oint_{\cal C}y\,dx=\frac{1}{2}\oint_{\cal C}x\,dy-y\,dx.
@@ -287,7 +280,7 @@ einingarþvervigrasvið á :math:`\cal C` þannig að
 :math:`\mbox{${\bf F}$}(x,y)=F_1(x,y)\,\mbox{${\bf i}$}+F_2(x,y)\,\mbox{${\bf j}$}`
 vera samfellt diffranlegt vigursvið skilgreint á :math:`R`. Þá er
 
-.. math:: \int\!\!\!\int_R\mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}\,dA=\oint_{\cal C} \mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,ds.
+.. math:: \displaystyle \int\!\!\!\int_R\mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}\,dA=\oint_{\cal C} \mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,ds.
 
 Sundurleitnisetningin II
 ------------------------
@@ -319,7 +312,7 @@ Táknum með :math:`D` rúmskikann sem :math:`\cal S` umlykur. Látum
 vísar út úr :math:`D`. Ef :math:`\mbox{${\bf F}$}` er samfellt
 diffranlegt vigursvið skilgreint á :math:`D` þá er
 
-.. math:: \int\!\!\!\int\!\!\!\int_D \mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}\,dV=\int\!\!\!\int_{\cal S} \mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS.
+.. math:: \displaystyle \int\!\!\!\int\!\!\!\int_D \mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}\,dV=\int\!\!\!\int_{\cal S} \mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS.
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -329,7 +322,7 @@ rúmskikinn :math:`D` sé :math:`z`-*einfaldur* ef til er svæði
 :math:`D_z` í planinu og samfelld föll :math:`f` og :math:`g` skilgreind
 á :math:`D_z` þannig að
 
-.. math:: D=\{(x,y,z)\mid (x,y)\in D_z\mbox{ og }f(x,y)\leq z\leq g(x,y)\}.
+.. math:: \displaystyle D=\{(x,y,z)\mid (x,y)\in D_z\mbox{ og }f(x,y)\leq z\leq g(x,y)\}.
 
 Það að rúmskiki sé :math:`x`- eða :math:`y`-einfaldur er skilgreint á
 sama hátt.
@@ -344,11 +337,11 @@ vísar út úr :math:`D`. Ef :math:`\mbox{${\bf F}$}` er samfellt
 diffranlegt vigursvið skilgreint á :math:`D` og :math:`\varphi`
 diffranlegt fall skilgreint á :math:`D` þá er
 
-.. math:: \int\!\!\!\int\!\!\!\int_D\mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}\,dV=-\int\!\!\!\int_{\cal S}\mbox{${\bf F}$}\times\mbox{${\bf N}$}\,dS,
+.. math:: \displaystyle \int\!\!\!\int\!\!\!\int_D\mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}\,dV=-\int\!\!\!\int_{\cal S}\mbox{${\bf F}$}\times\mbox{${\bf N}$}\,dS,
 
 og
 
-.. math:: \int\!\!\!\int\!\!\!\int_D\mbox{${\rm\bf grad\,}$}\varphi\,dV=\int\!\!\!\int_{\cal S}\varphi\mbox{${\bf N}$}\,dS.
+.. math:: \displaystyle \int\!\!\!\int\!\!\!\int_D\mbox{${\rm\bf grad\,}$}\varphi\,dV=\int\!\!\!\int_{\cal S}\varphi\mbox{${\bf N}$}\,dS.
 
 Athugið að útkomurnar úr heildunum eru vigrar.
 
@@ -375,7 +368,7 @@ látum :math:`\mbox{${\bf N}$}` tákna einingarþvervigrasvið á
 :math:`\mbox{${\bf F}$}` er samfellt diffranlegt vigursvið skilgreint á
 opnu mengi sem inniheldur :math:`\cal S` þá er
 
-.. math:: \int\!\!\!\int_{\cal S} \mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS=\oint_{\cal C}\mbox{${\bf F}$}\cdot \mbox{${\bf T}$}\,ds.
+.. math:: \displaystyle \int\!\!\!\int_{\cal S} \mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS=\oint_{\cal C}\mbox{${\bf F}$}\cdot \mbox{${\bf T}$}\,ds.
 
 Setning 
 ~~~~~~~~
@@ -388,7 +381,7 @@ skilgreint á opnu mengi :math:`D` í :math:`{\mathbb  R}^3`. Látum
 einingarþvervigur á planið sem hringurinn liggur í. Áttum hringinn
 jákvætt. Þá er
 
-.. math::
+.. math:: \displaystyle
 
    \mbox{${\bf N}$}\cdot\mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}(P)=\lim_{\varepsilon\rightarrow 0^+}
    \frac{1}{\pi\varepsilon^2}\oint_{C_\varepsilon}\mbox{${\bf F}$}\cdot d\mbox{${\bf r}$}.
@@ -403,7 +396,7 @@ vísar út úr :math:`D`. Ef :math:`\mbox{${\bf F}$}` er samfellt
 diffranlegt vigursvið skilgreint á opnu mengi sem inniheldur :math:`D`,
 þá er
 
-.. math:: \oint_{\cal S}\mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS=0.
+.. math:: \displaystyle \oint_{\cal S}\mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS=0.
 
 Hagnýtingar í eðlisfræði
 ------------------------
@@ -417,7 +410,7 @@ punktinum :math:`(x,y,z)` á tíma :math:`t`. Látum
 :math:`\delta(x,y,z,t)` tákna efnisþéttleika (massi per rúmmálseiningu)
 í punktum :math:`(x,y,z)` á tíma :math:`t`. Þá gildir að
 
-.. math:: \frac{\partial \delta}{\partial t}+\mbox{${\rm\bf div\,}$}(\delta\mbox{${\bf v}$})=0.
+.. math:: \displaystyle \frac{\partial \delta}{\partial t}+\mbox{${\rm\bf div\,}$}(\delta\mbox{${\bf v}$})=0.
 
 (Þessi jafna kallast samfelldnijafnan um vökvaflæðið.)
 
@@ -429,7 +422,7 @@ skilgreinum við :math:`p(x,y,z,t)` sem þrýsting og
 :math:`\mbox{${\bf F}$}` sem utanaðkomandi kraft, gefinn sem kraftur per
 massaeiningu. Þá gildir að
 
-.. math:: \delta\frac{\partial \mbox{${\bf v}$}}{\partial t}+\delta(\mbox{${\bf v}$}\cdot\nabla)\mbox{${\bf v}$}=-\nabla p+\delta\mbox{${\bf F}$}.
+.. math:: \displaystyle \delta\frac{\partial \mbox{${\bf v}$}}{\partial t}+\delta(\mbox{${\bf v}$}\cdot\nabla)\mbox{${\bf v}$}=-\nabla p+\delta\mbox{${\bf F}$}.
 
 (Þessi jafna er kölluð hreyfijafna flæðisins.)
 
@@ -442,7 +435,7 @@ Látum punkthleðslu :math:`q` vera í punktinum
 :math:`\mbox{${\bf r}$}=x\,\mbox{${\bf i}$}+y\,\mbox{${\bf j}$}+z\,\mbox{${\bf k}$}`
 er rafsviðið vegna þessarar hleðslu
 
-.. math:: \mbox{${\bf E}$}(\mbox{${\bf r}$})=\frac{q}{4\pi\varepsilon_0}\frac{\mbox{${\bf r}$}-\mbox{${\bf s}$}}{|\mbox{${\bf r}$}-\mbox{${\bf s}$}|^3}
+.. math:: \displaystyle \mbox{${\bf E}$}(\mbox{${\bf r}$})=\frac{q}{4\pi\varepsilon_0}\frac{\mbox{${\bf r}$}-\mbox{${\bf s}$}}{|\mbox{${\bf r}$}-\mbox{${\bf s}$}|^3}
 
 þar sem :math:`\varepsilon_0` er *r*\ afsvörunarstuðull tómarúms.
 
@@ -452,7 +445,7 @@ Rafsvið - Lögmál Gauss (fyrsta jafna Maxwells)
 Látum :math:`\rho(\xi,\eta,\zeta)` vera hleðsludreifingu og
 :math:`\mbox{${\bf E}$}` rafsviðið vegna hennar. Þá gildir að
 
-.. math:: \mbox{${\rm\bf div\,}$}\mbox{${\bf E}$}=\frac{\rho}{\varepsilon_0}.
+.. math:: \displaystyle \mbox{${\rm\bf div\,}$}\mbox{${\bf E}$}=\frac{\rho}{\varepsilon_0}.
 
 Rafsvið 
 ~~~~~~~~
@@ -461,11 +454,11 @@ Látum :math:`\rho(\xi,\eta,\zeta)` vera hleðsludreifingu á takmörkuðu
 svæði :math:`R` og :math:`\mbox{${\bf E}$}` rafsviðið vegna hennar. Ef
 við setjum
 
-.. math:: \varphi(\mbox{${\bf r}$}) = -\frac{1}{4 \pi \varepsilon_0} \iiint_R \frac{\rho(\mbox{${\bf s}$})}{|\mbox{${\bf r}$}-\mbox{${\bf s}$}|} dV
+.. math:: \displaystyle \varphi(\mbox{${\bf r}$}) = -\frac{1}{4 \pi \varepsilon_0} \iiint_R \frac{\rho(\mbox{${\bf s}$})}{|\mbox{${\bf r}$}-\mbox{${\bf s}$}|} dV
 
 þá er :math:`\mbox{${\bf E}$}= \nabla \varphi` og þar með er
 
-.. math:: \mbox{${\rm\bf curl\,}$}\mbox{${\bf E}$}= \mathbf{0}.
+.. math:: \displaystyle \mbox{${\rm\bf curl\,}$}\mbox{${\bf E}$}= \mathbf{0}.
 
 Segulsvið - Lögmál Biot-Savart 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -476,19 +469,19 @@ segulsviðið með :math:`\mbox{${\bf H}$}` og látum
 vera punkt á ferlinum :math:`\cal F`. Þá gefur örbútur
 :math:`d\mbox{${\bf s}$}` úr :math:`\cal F` af sér segulsvið
 
-.. math:: d\mbox{${\bf H}$}(\mbox{${\bf r}$})=\frac{\mu_0 I}{4\pi}\frac{d\mbox{${\bf s}$}\times(\mbox{${\bf r}$}-\mbox{${\bf s}$})}{|\mbox{${\bf r}$}-\mbox{${\bf s}$}|^3}
+.. math:: \displaystyle d\mbox{${\bf H}$}(\mbox{${\bf r}$})=\frac{\mu_0 I}{4\pi}\frac{d\mbox{${\bf s}$}\times(\mbox{${\bf r}$}-\mbox{${\bf s}$})}{|\mbox{${\bf r}$}-\mbox{${\bf s}$}|^3}
 
 þar sem :math:`\mu_0` er *s*\ egulsvörunarstuðull tómarúms. Af þessu
 sést að
 
-.. math::
+.. math:: \displaystyle
 
    \mbox{${\bf H}$}=\frac{\mu_0 I}{4\pi}\oint_{\cal F}
    \frac{d\mbox{${\bf s}$}\times(\mbox{${\bf r}$}-\mbox{${\bf s}$})}{|\mbox{${\bf r}$}-\mbox{${\bf s}$}|^3}
 
 og sýna má að ef :math:`\mbox{${\bf r}$}\notin \mathcal{F}` þá er
 
-.. math:: \mbox{${\rm\bf curl\,}$}\mbox{${\bf H}$}= \mathbf{0}.
+.. math:: \displaystyle \mbox{${\rm\bf curl\,}$}\mbox{${\bf H}$}= \mathbf{0}.
 
 Segulsvið - Lögmál Ampére
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -502,16 +495,16 @@ með :math:`\mbox{${\bf H}$}` segulsviðið og
 einfaldur ferill sem fer rangsælis einu sinni umhverfis :math:`z`-ásinn
 þá er
 
-.. math:: \oint_{\cal C} \mbox{${\bf H}$}\cdot d\mbox{${\bf r}$}=\mu_0 I.
+.. math:: \displaystyle \oint_{\cal C} \mbox{${\bf H}$}\cdot d\mbox{${\bf r}$}=\mu_0 I.
 
 Hugsum okkur að :math:`\mathbf{J}(\mbox{${\bf r}$})` sé straumþéttleiki
 í punkti :math:`\mbox{${\bf r}$}` (straumur á flatareiningu). Þá er
 
-.. math:: \mbox{${\rm\bf curl\,}$}\mbox{${\bf H}$}= \mu_0 \mathbf{J}.
+.. math:: \displaystyle \mbox{${\rm\bf curl\,}$}\mbox{${\bf H}$}= \mu_0 \mathbf{J}.
 
 Einnig gildir að ef við setjum
 
-.. math::
+.. math:: \displaystyle
 
    \mbox{${\bf A}$}(\mbox{${\bf r}$})=\frac{\mu_0}{4\pi}\iiint_{R}
    \frac{\mathbf{J}(\mathbf{s})}{|\mbox{${\bf r}$}-\mbox{${\bf s}$}|}dV,
@@ -519,12 +512,12 @@ Einnig gildir að ef við setjum
 þá er :math:`\mbox{${\bf H}$}=\mbox{${\rm\bf curl\,}$}\mbox{${\bf A}$}`
 og því er
 
-.. math:: \mbox{${\rm\bf div\,}$}\mbox{${\bf H}$}=0.
+.. math:: \displaystyle \mbox{${\rm\bf div\,}$}\mbox{${\bf H}$}=0.
 
 Samantekt
 ~~~~~~~~~
 
-.. math::
+.. math:: \displaystyle
 
    \begin{aligned}
      \mbox{${\rm\bf div\,}$}\mbox{${\bf E}$}&= \frac{\rho}{\varepsilon_0} \quad~ \mbox{${\rm\bf div\,}$}\mbox{${\bf H}$}= 0 \\
@@ -533,7 +526,7 @@ Samantekt
 
 Jöfnur Maxwells
 
-.. math::
+.. math:: \displaystyle
 
    \begin{aligned}
      \mbox{${\rm\bf div\,}$}\mbox{${\bf E}$}&= \frac{\rho}{\varepsilon_0} \qquad ~ \mbox{${\rm\bf div\,}$}\mbox{${\bf H}$}= 0 \\

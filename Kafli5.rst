@@ -9,7 +9,7 @@ Skilgreining
 
 *Vigursvið* á :math:`{\mathbb  R}^2` er vörpun
 
-.. math:: \mbox{${\bf F}$}(x,y)=F_1(x,y)\,\mbox{${\bf i}$}+F_2(x,y)\,\mbox{${\bf j}$}.
+.. math:: \displaystyle \mbox{${\bf F}$}(x,y)=F_1(x,y)\,\mbox{${\bf i}$}+F_2(x,y)\,\mbox{${\bf j}$}.
 
 Þegar talað er um vigursvið þá hugsum við vigurinn
 :math:`\mbox{${\bf F}$}(x,y)` sem vigur í :math:`{\mathbb  R}^2` sem
@@ -22,7 +22,7 @@ samfelld.
 
 Vigursvið á :math:`{\mathbb  R}^3` er vörpun
 
-.. math:: \mbox{${\bf F}$}(x,y,z)=F_1(x,y,z)\,\mbox{${\bf i}$}+F_2(x,y,z)\,\mbox{${\bf j}$}+F_3(x,y,z)\,\mbox{${\bf k}$}.
+.. math:: \displaystyle \mbox{${\bf F}$}(x,y,z)=F_1(x,y,z)\,\mbox{${\bf i}$}+F_2(x,y,z)\,\mbox{${\bf j}$}+F_3(x,y,z)\,\mbox{${\bf k}$}.
 
 Við hugsum :math:`\mbox{${\bf F}$}(x,y,z)` sem vigur með :math:`(x,y,z)`
 sem fótpunkt. Skilgreiningin á því að vigursvið í :math:`{\mathbb  R}^3`
@@ -64,15 +64,15 @@ Vigursvið :math:`\mbox{${\bf F}$}(x,y)` kallast *stigulsvið* eða *geymið
 svið* (e. gradient field, conservative field) á mengi :math:`D` ef til
 er fall :math:`\varphi(x,y)` þannig að
 
-.. math:: \mbox{${\bf F}$}(x,y)=\nabla\varphi(x,y)
+.. math:: \displaystyle \mbox{${\bf F}$}(x,y)=\nabla\varphi(x,y)
 
 fyrir alla punkta :math:`(x,y)\in D`, það er að segja ef
 
-.. math:: \mbox{${\bf F}$}(x,y)=F_1(x,y)\,\mbox{${\bf i}$}+F_2(x,y)\,\mbox{${\bf j}$}
+.. math:: \displaystyle \mbox{${\bf F}$}(x,y)=F_1(x,y)\,\mbox{${\bf i}$}+F_2(x,y)\,\mbox{${\bf j}$}
 
 þá er
 
-.. math:: F_1(x,y)=\frac{\partial}{\partial x}\varphi(x,y) \quad \text{og}\quad  F_2(x,y)=\frac{\partial}{\partial y}\varphi(x,y).
+.. math:: \displaystyle F_1(x,y)=\frac{\partial}{\partial x}\varphi(x,y) \quad \text{og}\quad  F_2(x,y)=\frac{\partial}{\partial y}\varphi(x,y).
 
 Vigursvið :math:`\mbox{${\bf F}$}(x,y,z)` kallast *stigulsvið* eða
 *geymið svið* ef til er fall :math:`\varphi(x,y,z)` þannig að
@@ -90,7 +90,7 @@ vera vigursvið þannig að föllin :math:`F_1(x,y)` og :math:`F_2(x,y)`
 hafi samfelldar hlutafleiður. Ef :math:`\mbox{${\bf F}$}(x,y)` er
 stigulsvið þá er
 
-.. math::
+.. math:: \displaystyle
 
    \frac{\partial}{\partial y}F_1(x,y)=
    \frac{\partial}{\partial x}F_2(x,y).
@@ -107,7 +107,7 @@ vera vigursvið þannig að föllin :math:`F_1(x,y,z), F_2(x,y,z)` og
 :math:`F_3(x,y,3)` hafi samfelldar hlutafleiður. Ef
 :math:`\mbox{${\bf F}$}(x,y,z)` er stigulsvið þá er
 
-.. math::
+.. math:: \displaystyle
 
    \begin{aligned}
    \frac{\partial}{\partial y}F_1(x,y,z) &=
@@ -124,18 +124,18 @@ Finna á mætti :math:`\varphi(x,y)` fyrir stigulsvið
 :math:`\mbox{${\bf F}$}(x,y)=F_1(x,y)\,\mbox{${\bf i}$}+F_2(x,y)\,\mbox{${\bf j}$}`.
 Viljum finna fall :math:`\varphi(x,y)` þannig að
 
-.. math::
+.. math:: \displaystyle
 
    \frac{\partial}{\partial x}\varphi(x,y)=F_1(x,y)\qquad
    \mbox{og}\qquad \frac{\partial}{\partial y}\varphi(x,y)=F_2(x,y).
 
 Með því að heilda þessar jöfnur fæst að
 
-.. math:: \varphi(x,y)=\int F_1(x,y)\,dx+C_1(y)
+.. math:: \displaystyle \varphi(x,y)=\int F_1(x,y)\,dx+C_1(y)
 
  og
 
-.. math:: \varphi(x,y)=\int F_2(x,y)\,dy+C_2(x).
+.. math:: \displaystyle \varphi(x,y)=\int F_2(x,y)\,dy+C_2(x).
 
 Þegar fyrra stofnfallið er reiknað þá er :math:`y` hugsað sem fasti og
 því fæst heildunarfasti sem getur verið fall af :math:`y`. Lokaskrefið
@@ -156,7 +156,7 @@ samfellt diffranlegum stikaferli
 *yfir ferilinn* :math:`\cal C` *með tilliti til bogalengdar* er
 skilgreint sem
 
-.. math::
+.. math:: \displaystyle
 
    \begin{aligned}
    \int_{\cal C}f(x,y)\,ds&=\int_a^b f(\mbox{${\bf r}$}(t))\,|\mbox{${\bf r}$}'(t)|\,dt\\
@@ -186,7 +186,7 @@ ef til er stikun
 :math:`(t_i,t_{i+1})` er :math:`\mbox{${\bf r}$}` samfellt diffranlegur
 ferill og markgildin
 
-.. math::
+.. math:: \displaystyle
 
    \lim_{t\rightarrow t_i^+}\mbox{${\bf r}$}'(t)\qquad\mbox{og}\qquad 
    \lim_{t\rightarrow t_{i+1}^-}\mbox{${\bf r}$}'(t)
@@ -209,7 +209,7 @@ Látum :math:`\mbox{${\bf F}$}(x,y)` vera vigursvið og
 vigursviðsins* :math:`\mbox{${\bf F}$}(x,y)` *eftir ferlinum*
 :math:`\cal C` er skilgreint sem
 
-.. math::
+.. math:: \displaystyle
 
    \int_{\cal C} \mbox{${\bf F}$}\cdot d\mbox{${\bf r}$}= \int_{\cal C} \mbox{${\bf F}$}\cdot \mbox{${\bf T}$}\,ds
    =\int_a^b \mbox{${\bf F}$}(\mbox{${\bf r}$}(t))\cdot \mbox{${\bf r}$}'(t)\,dt.
@@ -224,7 +224,7 @@ Ritum líka
 Þá má rita :math:`dx=x'(t)\,dt,\, dy=y'(t)\,dt`. Með því að nota þennan
 rithátt fæst að
 
-.. math::
+.. math:: \displaystyle
 
    \begin{aligned}
    \int_{\cal C}\mbox{${\bf F}$}\cdot d\mbox{${\bf r}$}&=\int_a^b
@@ -235,7 +235,7 @@ rithátt fæst að
 .. note::
    Látum :math:`\cal C` vera feril í :math:`{\mathbb  R}^2`. Gerum ráð fyrir að :math:`\mbox{${\bf r}$}_1:[a,b]\rightarrow {\mathbb  R}^2` og :math:`\mbox{${\bf r}$}_2:[a',b']\rightarrow {\mathbb  R}^2` séu tveir samfellt diffranlegir á köflum stikaferlar sem stika :math:`\cal C`. Gerum ennfremur ráð fyrir að :math:`\mbox{${\bf r}$}_1(a)=\mbox{${\bf r}$}_2(b')` og :math:`\mbox{${\bf r}$}_1(b)=\mbox{${\bf r}$}_2(a')` (þ.e.a.s. stikaferlarnir fara í sitthvora áttina eftir :math:`\cal C`). Þá gildir ef :math:`\mbox{${\bf F}$}(x,y)` er vigursvið að
 
-   .. math:: \int_{\cal C} \mbox{${\bf F}$}\cdot d\mbox{${\bf r}$}_1=-\int_{\cal C} \mbox{${\bf F}$}\cdot d\mbox{${\bf r}$}_2.
+   .. math:: \displaystyle \int_{\cal C} \mbox{${\bf F}$}\cdot d\mbox{${\bf r}$}_1=-\int_{\cal C} \mbox{${\bf F}$}\cdot d\mbox{${\bf r}$}_2.
 
    (Ef breytt er um stefnu á stikun á breytist formerki þegar vigursvið heildað eftir ferlinum.)
 
@@ -253,7 +253,7 @@ fall skilgreint á :math:`D` þannig að
 vera stikaferill sem er samfellt diffranlegur á köflum og stikar feril
 :math:`\cal C` í :math:`D`. Þá er
 
-.. math:: \int_{\cal C} \mbox{${\bf F}$}\cdot \,d\mbox{${\bf r}$}=\varphi(\mbox{${\bf r}$}(b))-\varphi(\mbox{${\bf r}$}(a)).
+.. math:: \displaystyle \int_{\cal C} \mbox{${\bf F}$}\cdot \,d\mbox{${\bf r}$}=\varphi(\mbox{${\bf r}$}(b))-\varphi(\mbox{${\bf r}$}(a)).
 
 (Samsvarandi gildir fyrir vigursvið skilgreint á svæði
 :math:`D\subseteq {\mathbb  R}^3`.)
@@ -268,11 +268,11 @@ samfellt diffranlegur á köflum og lokaður (þ.e.a.s.
 :math:`\mbox{${\bf r}$}(a)=\mbox{${\bf r}$}(b)`) og stikar feril
 :math:`\mathcal{C}`. Þá er
 
-.. math:: \oint_{\cal C}  \mbox{${\bf F}$}\cdot \,d\mbox{${\bf r}$}=0.
+.. math:: \displaystyle \oint_{\cal C}  \mbox{${\bf F}$}\cdot \,d\mbox{${\bf r}$}=0.
 
 (Ath. að rithátturinn
 
-.. math:: \oint_{\cal C}
+.. math:: \displaystyle \oint_{\cal C}
 
 er gjarnan notaður þegar heildað er yfir lokaðan feril :math:`\cal C`.)
 
@@ -291,7 +291,7 @@ eru samfellt diffranlegir á köflum og stika ferlana
 :math:`\mbox{${\bf r}$}_2` hafa sameiginlega upphafs- og endapunkta. Þá
 er
 
-.. math:: \int_{{\cal C}_1} \mbox{${\bf F}$}\cdot\,d\mbox{${\bf r}$}_1=\int_{{\cal C}_2} \mbox{${\bf F}$}\cdot\,d\mbox{${\bf r}$}_2.
+.. math:: \displaystyle \int_{{\cal C}_1} \mbox{${\bf F}$}\cdot\,d\mbox{${\bf r}$}_1=\int_{{\cal C}_2} \mbox{${\bf F}$}\cdot\,d\mbox{${\bf r}$}_2.
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -302,7 +302,7 @@ stikaferla :math:`\mbox{${\bf r}$}_1` og :math:`\mbox{${\bf r}$}_2` með
 sameiginlega upphafs- og endapunkta sem stika ferlana
 :math:`\mathcal{C}_1` og :math:`\mathcal{C}_2` gildir að
 
-.. math::
+.. math:: \displaystyle
 
    \int_{{\cal C}_1} \mbox{${\bf F}$}\cdot\,d\mbox{${\bf r}$}_1=
    \int_{{\cal C}_2} \mbox{${\bf F}$}\cdot\,d\mbox{${\bf r}$}_2.
@@ -349,9 +349,7 @@ eftirfarandi jafngilt:
 (c)  ferilheildi :math:`\mbox{${\bf F}$}` er óháð vegi.
 
 .. begin-toggle::
-    :label: Fela/sýna sönnun
-
-|
+    :label: Sýna sönnun
 
 **Sönnun**
 
@@ -361,8 +359,6 @@ eftirfarandi jafngilt:
 
 .. end-toggle::
 
-|
-|
 
 Fletir
 ------
@@ -382,13 +378,13 @@ Flötum er aðallega lýst með formúlum á þrjá vegu:
    jöfnu :math:`f(x,y,z)=C` (þ.e.a.s. :math:`\cal S` er jafnhæðarflötur
    fallsins :math:`f`). Þá er
 
-   .. math:: {\cal S}=\{(x,y,z)\mid f(x,y,z)=C\}.
+   .. math:: \displaystyle {\cal S}=\{(x,y,z)\mid f(x,y,z)=C\}.
 
 #. Gefið er fall skilgreint á ferilsamanhangandi svæði :math:`D` í
    :math:`{\mathbb  R}^2`. Fletinum :math:`\cal S` er lýst sem grafi
    fallsins :math:`f`. Þá er
 
-   .. math:: {\cal S}=\{(x,y,z)\mid (x,y)\in D\mbox{ og } z=f(x,y)\}.
+   .. math:: \displaystyle {\cal S}=\{(x,y,z)\mid (x,y)\in D\mbox{ og } z=f(x,y)\}.
 
 #. Með stikafleti (sjá næstu glæru).
 
@@ -403,13 +399,13 @@ Látum :math:`D` vera ferilsamanhangandi hlutmengi í
 :math:`\mbox{${\bf r}$}:D\rightarrow {\mathbb  R}^3; \mbox{${\bf r}$}(u,v)=\big(x(u,v), y(u,v), z(u,v)\big)`
 þannig að
 
-.. math:: {\cal S}=\{\mbox{${\bf r}$}(u,v)\mid (u,v)\in D\}
+.. math:: \displaystyle {\cal S}=\{\mbox{${\bf r}$}(u,v)\mid (u,v)\in D\}
 
 er flötur kallast *stikaflötur*. Segjum að :math:`\mbox{${\bf r}$}` sé
 *stikun á fletinum* :math:`\cal S`. Viljum að :math:`\mbox{${\bf r}$}`
 sé eintæk vörpun, nema hugsanlega á jaðri :math:`D`. Ritum einnig
 
-.. math::
+.. math:: \displaystyle
 
    \frac{\partial \mbox{${\bf r}$}}{\partial u}=
    \bigg(\frac{\partial x}{\partial u}, \frac{\partial y}{\partial u},
@@ -432,11 +428,11 @@ Setning
    :math:`\nabla f(a, b, c)\neq \mbox{${\bf 0}$}` þá hefur flöturinn
    snertiplan í punktinum. Jafna snertiplansins er
 
-   .. math:: f_1(a, b, c)x+f_2(a, b, c)y+f_3(a, b, c)z=D
+   .. math:: \displaystyle f_1(a, b, c)x+f_2(a, b, c)y+f_3(a, b, c)z=D
 
    þar sem
 
-   .. math::
+   .. math:: \displaystyle
 
       D= f_1(a, b, c)a+f_2(a, b, c)b
       +f_3(a, b, c)c.
@@ -446,12 +442,12 @@ Setning
    fallið :math:`f` er diffranlegt í punktinum :math:`(a, b)` þá er
    vigurinn
 
-   .. math:: \mbox{${\bf n}$}=\big(0 ,1 ,f_2(a, b)\big)\times\big(1 ,0 ,f_1(a, b)\big)=\big(f_1(a, b), f_2(a, b), -1\big)
+   .. math:: \displaystyle \mbox{${\bf n}$}=\big(0 ,1 ,f_2(a, b)\big)\times\big(1 ,0 ,f_1(a, b)\big)=\big(f_1(a, b), f_2(a, b), -1\big)
 
    hornréttur á flötinn í punktinum :math:`(a,b, f(a,b))` og flöturinn
    hefur snertiplan í punktinum. Jafna snertiplansins er
 
-   .. math:: z=f(a, b)+f_1(a, b)(x-a)+f_2(a, b)(y-b).
+   .. math:: \displaystyle z=f(a, b)+f_1(a, b)(x-a)+f_2(a, b)(y-b).
 
 .. figure:: xpart.png
    :alt: Snertivigur við skurðferil sléttunnar :math:`y=b` og yfirborðsins :math:`z = f(x,y)` í punktinum :math:`(a,b,f(a,b))` er :math:`\mathbf{T}_1 = (1,0,f_1(a,b))`.
@@ -476,7 +472,7 @@ Setning
    :math:`(x_0,
    y_0)` þá er vigurinn
 
-   .. math::
+   .. math:: \displaystyle
 
       \mbox{${\bf n}$}=\frac{\partial \mbox{${\bf r}$}}{\partial u}\times 
       \frac{\partial \mbox{${\bf r}$}}{\partial v}
@@ -495,7 +491,7 @@ fyrir alla punkta :math:`(u,v)\in D` þá er sagt að stikunin sé
 .. note::
    Ef vigrarnir :math:`\frac{\partial \mbox{${\bf r}$}}{\partial u}(u_0,v_0)` og :math:`\frac{\partial\mbox{${\bf r}$}}{\partial v}(u_0,v_0)` eru óháðir þá spanna þeir snertiplan við flötinn í punktinum :math:`\mbox{${\bf r}$}(u_0,v_0)`. Snertiplanið hefur stikun
 
-   .. math::
+   .. math:: \displaystyle
       \Pi(u,v) = \mbox{${\bf r}$}(u_0,v_0)+u\frac{\partial \mbox{${\bf r}$}}{\partial u}(u_0,v_0)+v\frac{\partial \mbox{${\bf r}$}}{\partial v}(u_0,v_0).
 
 Flatarheildi
@@ -522,7 +518,7 @@ Látum :math:`\mbox{${\bf r}$}:D\rightarrow {\mathbb  R}^2` vera
 reglulegan stikaflöt sem stikar flöt :math:`\cal S`. Flatarmál
 :math:`\cal S` er
 
-.. math::
+.. math:: \displaystyle
 
    A=\int\!\!\!\int_D\,dS=\int\!\!\!\int_D \big|{\textstyle\frac{\partial \mbox{${\bf r}$}}{\partial u}
    \times\frac{\partial \mbox{${\bf r}$}}{\partial v}}\big|\,dudv.
@@ -534,7 +530,7 @@ Látum :math:`f(x,y)` vera diffranlegt fall skilgreint á mengi :math:`D`
 í :math:`{\mathbb  R}^2`. Flatarmál grafsins :math:`z=f(x,y)` er gefið
 með formúlunni
 
-.. math::
+.. math:: \displaystyle
 
    A=\int\!\!\!\int_D dS=\int\!\!\!\int_D {\textstyle\sqrt{1+
    \big(\frac{\partial f}{\partial x}\big)^2+
@@ -561,7 +557,7 @@ Látum :math:`\mbox{${\bf r}$}:D\rightarrow {\mathbb  R}^3` vera
 reglulegan stikaflöt sem stikar flöt :math:`\cal S`. Flatarmál
 :math:`\cal S` er
 
-.. math::
+.. math:: \displaystyle
 
    A=\int\!\!\!\int_D\,dS=\int\!\!\!\int_D \big|{\textstyle\frac{\partial \mbox{${\bf r}$}}{\partial u}
    \times\frac{\partial \mbox{${\bf r}$}}{\partial v}}\big|\,dudv.
@@ -573,7 +569,7 @@ Látum :math:`f(x,y)` vera diffranlegt fall skilgreint á mengi :math:`D`
 í :math:`{\mathbb  R}^2`. Flatarmál grafsins :math:`z=f(x,y)` er gefið
 með formúlunni
 
-.. math::
+.. math:: \displaystyle
 
    A=\int\!\!\!\int_D dS=\int\!\!\!\int_D {\textstyle\sqrt{1+
    \big(\frac{\partial f}{\partial x}\big)^2+
@@ -588,14 +584,14 @@ Ritum :math:`dS` fyrir flatarmálselement á fleti :math:`\cal S`.
    :math:`\mbox{${\bf r}$}:D\subseteq{\mathbb  R}^2\rightarrow {\mathbb  R}^3`
    er stikun á :math:`\cal S` þá er
 
-   .. math::
+   .. math:: \displaystyle
 
       dS=\bigg|\frac{\partial \mbox{${\bf r}$}}{\partial u}\times\frac{\partial
         \mbox{${\bf r}$}}{\partial v}\bigg|\,du\,dv.
 
 -  Ef :math:`\cal S` er graf :math:`z=g(x,y)` þá er
 
-   .. math:: dS=\sqrt{1+g_1(x,y)^2+g_2(x,y)^2}\,dx\,dy.
+   .. math:: \displaystyle dS=\sqrt{1+g_1(x,y)^2+g_2(x,y)^2}\,dx\,dy.
 
 Ritum :math:`dS` fyrir flatarmálselement á fleti :math:`\cal S`.
 
@@ -606,7 +602,7 @@ Ritum :math:`dS` fyrir flatarmálselement á fleti :math:`\cal S`.
    og :math:`\gamma` er hornið sem þvervigurinn :math:`\mbox{${\bf n}$}`
    myndar við jákvæða hluta :math:`z`-ássins þá er
 
-   .. math::
+   .. math:: \displaystyle
 
       dS=\bigg|\frac{1}{\cos\gamma}\bigg|\,dx\,dy
       =\frac{|\mbox{${\bf n}$}|}{|\mbox{${\bf n}$}\cdot\mbox{${\bf k}$}|}\,dx\,dy.
@@ -614,7 +610,7 @@ Ritum :math:`dS` fyrir flatarmálselement á fleti :math:`\cal S`.
    Í þessu tilviki gildir einnig að ef :math:`\cal S` er lýst sem
    hæðarfleti :math:`G(x,y,z)=C` þá er
 
-   .. math:: dS=\bigg|\frac{\nabla G(x,y,z)}{G_3(x,y,z)}\bigg|\,dx\,dy.
+   .. math:: \displaystyle dS=\bigg|\frac{\nabla G(x,y,z)}{G_3(x,y,z)}\bigg|\,dx\,dy.
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -623,7 +619,7 @@ Látum :math:`\mbox{${\bf r}$}: D\rightarrow {\mathbb  R}^3` vera
 reglulega stikun á fleti :math:`\cal S`. Heildi falls :math:`f(x,y,z)`
 yfir flötinn :math:`\cal S` með tilliti til flatarmáls er
 
-.. math::
+.. math:: \displaystyle
 
    \int\!\!\!\int_{\cal S} f\,dS=\int\!\!\!\int_D f(\mbox{${\bf r}$}(u,v)) \big|{\textstyle\frac{\partial
        \mbox{${\bf r}$}}{\partial u} 
@@ -696,7 +692,7 @@ af :math:`u` og :math:`v` og vigrarnir
 :math:`\frac{\partial \mbox{${\bf r}$}}{\partial v}` eru línulega
 óháðir). Þá er
 
-.. math::
+.. math:: \displaystyle
 
    \mbox{${\bf N}$}=
    \frac{\frac{\partial \mbox{${\bf r}$}}{\partial u}\times\frac{\partial
@@ -719,7 +715,7 @@ með samfelldar hlutafleiður. Látum :math:`\mbox{${\bf N}$}` tákna
 einingarþvervigrasviðið sem gefið er í [attun]. Heildi vigursviðs
 :math:`\mbox{${\bf F}$}` yfir flötinn :math:`\cal S` er skilgreint sem
 
-.. math::
+.. math:: \displaystyle
 
    \int\!\!\!\int_{\cal S} \mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS
    =\int\!\!\!\int_D \mbox{${\bf F}$}(\mbox{${\bf r}$}(u,v))\cdot \bigg(
@@ -732,7 +728,7 @@ Slík heildi eru oft nefnd *flæði vigursviðsins* :math:`\mbox{${\bf F}$}`
 
 Ritum :math:`d\mbox{${\bf S}$}=\mbox{${\bf N}$}\,dS`. Þá er
 
-.. math:: \int\!\!\!\int_{\cal S} \mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS=\int\!\!\!\int_{\cal S} \mbox{${\bf F}$}\cdot\,d\mbox{${\bf S}$}.
+.. math:: \displaystyle \int\!\!\!\int_{\cal S} \mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS=\int\!\!\!\int_{\cal S} \mbox{${\bf F}$}\cdot\,d\mbox{${\bf S}$}.
 
 Samantekt 
 ~~~~~~~~~~
@@ -741,14 +737,14 @@ Samantekt
    :math:`\mbox{${\bf r}$}:D\subseteq{\mathbb  R}^2\rightarrow {\mathbb  R}^3`
    er stikun á :math:`\cal S` þá er
 
-   .. math::
+   .. math:: \displaystyle
 
       d\mbox{${\bf S}$}=\pm \bigg(\frac{\partial \mbox{${\bf r}$}}{\partial u}\times\frac{\partial
         \mbox{${\bf r}$}}{\partial v}\bigg)\,du\,dv.
 
 #. Ef :math:`\cal S` er graf :math:`z=f(x,y)` þá er
 
-   .. math::
+   .. math:: \displaystyle
 
       d\mbox{${\bf S}$}=\pm\bigg(-\frac{\partial f}{\partial x},-\frac{\partial
         f}{\partial y},1\bigg)\,dx\,dy.
@@ -759,7 +755,7 @@ Samantekt
    :math:`z=f(x,y)`. Ef fletinum :math:`\cal S` er lýst sem hæðarfleti
    :math:`G(x,y,z)=C` þá er
 
-   .. math::
+   .. math:: \displaystyle
 
       d\mbox{${\bf S}$}=\pm\frac{\nabla G(x,y,z)}{|\nabla G(x,y,z)|}\,dS=
       \pm\frac{\nabla G(x,y,z)}{G_3(x,y,z)}\,dx\,dy.
