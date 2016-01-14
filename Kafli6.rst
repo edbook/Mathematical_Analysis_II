@@ -1,6 +1,11 @@
 Diffur- og heildareikningur vigursviða
 ==================================================
 
+*A reader lives a thousand lives before he dies. The man who never reads lives only one.*
+
+\- George R.R. Martin, A Dance with Dragons 
+
+
 grad, div og curl
 -----------------
 
@@ -533,4 +538,7 @@ Jöfnur Maxwells
      \mbox{${\rm\bf curl\,}$}\mbox{${\bf E}$}&= -\frac{\partial \mbox{${\bf H}$}}{\partial t} \quad \mbox{${\rm\bf curl\,}$}\mbox{${\bf H}$}= \mu_0 \mathbf{J} + \mu_0 \varepsilon_0  \frac{\partial\mbox{${\bf E}$}}{\partial t}
     \end{aligned}
 
+*My old grandmother always used to say, Summer friends will melt away like summer snows, but winter friends are friends forever.*
+
+\- George R.R. Martin, A Feast for Crows 
 

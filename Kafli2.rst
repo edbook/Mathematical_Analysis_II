@@ -2,6 +2,13 @@
 Hlutafleiður
 =================
 
+
+
+*“If you need help bark like a dog." - Gendry. "That's stupid. If I need help I'll shout help." - Arya”*
+
+\- George R.R. Martin, A Clash of Kings 
+
+
 Graf falls
 ----------
 
@@ -18,10 +25,13 @@ Ef :math:`f:{\mathbb  R}^3\rightarrow {\mathbb  R}` er fall, þá er
 
 .. math:: \displaystyle \{(x,y,z,f(x,y,z))\mid (x,y,z)\in{\mathbb  R}^3\}\subseteq {\mathbb  R}^4.
 
-Dæmi: :math:`f(x,y) = \sqrt{1-x^2-y^2}`, :math:`-0.5\leq x,y\leq 0.5`.
 
 .. figure:: surface.png
-   :alt: 
+   :alt: :math:`f(x,y) = \sqrt{1-x^2-y^2}`, :math:`-0.5\leq x,y\leq 0.5`.
+   
+   ..
+   
+   *Graf fallsins* :math:`f(x,y) = \sqrt{1-x^2-y^2}`, :math:`-0.5\leq x,y\leq 0.5`.
 
 Jafnhæðarlínur
 --------------
@@ -45,10 +55,13 @@ Látum :math:`f:{\mathbb  R}^3\rightarrow {\mathbb  R}` vera fall. Ef
 kallað *jafnhæðarflötur* (e. level surface) fallsins :math:`f` fyrir
 fastann :math:`c`.
 
-Dæmi: :math:`f(x,y) = \sqrt{1-x^2-y^2}`, :math:`-0.5\leq x,y\leq 0.5`.
 
 .. figure:: contour.png
-   :alt: 
+   :alt: :math:`f(x,y) = \sqrt{1-x^2-y^2}`, :math:`-0.5\leq x,y\leq 0.5`.
+   
+   ..
+   
+   *Nokkrar jafnæðarlínur fallsins* :math:`f(x,y) = \sqrt{1-x^2-y^2}`, :math:`-0.5\leq x,y\leq 0.5`.
 
 Fjarlægð milli punkta
 ---------------------
@@ -136,6 +149,18 @@ Segjum að :math:`f(x_1,x_2,\ldots,x_n)` stefni á tölu :math:`L` þegar
 :math:`(x_1,x_2,\ldots,x_n)` stefnir á :math:`(p_1,p_2,\ldots,p_n)` ef
 eftirfarandi gildir:
 
+Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`\delta>0`
+þannig að ef :math:`(x_1,x_2,\ldots,x_n)\in{\cal D}(f)` og  
+
+.. math:: \displaystyle
+
+  |(x_1,x_2,\ldots,x_n)-(p_1,p_2,\ldots,p_n)|<\delta 
+
+þá er 
+
+.. math:: \displaystyle
+  |f(x_1,x_2,\ldots,x_n)-L|<\epsilon.
+
 Ritháttur 
 ~~~~~~~~~~
 
@@ -148,7 +173,10 @@ er ritað
    \lim_{(x_1,x_2,\ldots,x_n)\rightarrow (p_1,p_2,\ldots,p_n)}
    f(x_1,x_2,\ldots,x_n)=L.
 
-Skilgreining (Skilgreining 4.8 sett fram fyrir föll af tveimur breytum.) 
+..
+  XXX reference
+   
+Skilgreining (Skilgreining 2.8.1 sett fram fyrir föll af tveimur breytum.) 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`f(x,y)` vera fall skilgreint á mengi
@@ -158,6 +186,18 @@ punkt í :math:`{\mathbb  R}^2` þannig að sérhver opin skífa um
 
 Segjum að :math:`f(x,y)` stefni á tölu :math:`L` þegar :math:`(x,y)`
 stefnir á :math:`(a,b)` ef eftirfarandi gildir:
+
+Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`\delta>0`
+þannig að ef :math:`(x,y)\in{\cal D}(f)` og  
+
+.. math:: \displaystyle
+
+  \delta > |(x,y)-(a,b)| = \sqrt{(x-a)^2+(y-b)^2}
+
+þá er 
+
+.. math:: \displaystyle
+  |f(x,y)-L|<\epsilon.
 
 Reglur um markgildi
 -------------------
@@ -193,7 +233,7 @@ Skilgreining
 ~~~~~~~~~~~~~
 
 Látum :math:`f` vera fall af :math:`n` breytistærðum skilgreint á mengi
-:math:`{\cal D}(f)` í :math:`\mbox{${\bf R}^n$}`. Fallið :math:`f` er
+:math:`{\cal Dalt}(f)` í :math:`\mbox{${\bf R}^n$}`. Fallið :math:`f` er
 sagt *samfellt í punkti* :math:`(p_1,p_2,\ldots,p_n)` í
 :math:`{\cal D}(f)` ef
 
@@ -350,6 +390,8 @@ Hlutafleiðurnar :math:`f_{11}(x,y)` og :math:`f_{22}(x,y)` kallast
 hreinar hlutafleiður og :math:`f_{12}(x,y)` og :math:`f_{21}(x,y)`
 kallast blandaðar hlutafleiður.
 
+.. _setning_vixla
+
 Setning 
 ~~~~~~~~
 
@@ -381,9 +423,12 @@ og
    \frac{\partial^3 w}{\partial y\partial z\partial y} \quad\quad\mbox{(diffra
        fyrst m.t.t. } y\mbox{, svo m.t.t. } z
    \mbox{ og að lokum m.t.t. }y\mbox{)}.
+   
+..
+  XXX reference
 
-Setning (Almenn útgáfa af Setningu 5.7)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Setning (Almenn útgáfa af Setningu 2.13.2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`f` vera fall :math:`n` breytistærðum sem er skilgreint á
 opinni kúlu með miðju í :math:`P=(x_1, x_2,\ldots, x_n)`.
@@ -456,7 +501,10 @@ sem aftur eru föll af breytum :math:`s` og :math:`t`, það er að segja
 
 .. math:: \displaystyle g(s,t)=f(x(s,t),y(s,t)).
 
-Þá gildir (að gefnum sambærilegum skilyrðum og í 6.2) að
+..
+  XXX reference
+  
+Þá gildir (að gefnum sambærilegum skilyrðum og í 2.14.2) að
 
 .. math:: \displaystyle g_1(s,t)=f_1(x(s,t),y(s,t))x_1(s,t)+f_2(x(s,t),y(s,t))y_1(s,t),
 
@@ -760,7 +808,10 @@ Jacobi-fylki
 Skilgreining 
 ~~~~~~~~~~~~~
 
-Notum táknmálið úr 7.8. Ef allar hlutafleiðurnar :math:`\partial
+..
+  XXX reference
+
+Notum táknmálið úr 2.22.1. Ef allar hlutafleiðurnar :math:`\partial
 y_i/\partial x_j` eru skilgreindar í punktinum :math:`\mbox{${\bf x}$}`
 þá skilgreinum við *Jacobi-fylki* :math:`f` í punktinum
 :math:`\mbox{${\bf x}$}` sem :math:`m\times n` fylkið
@@ -783,7 +834,10 @@ Diffranleiki varpana :math:`\mbox{${\bf R}^n$}\rightarrow\mbox{${\bf R}^m$}`
 Skilgreining 
 ~~~~~~~~~~~~~
 
-Notum táknmálið úr 7.8 og 7.9. Látum
+..
+  XXX reference
+
+Notum táknmálið úr 2.22.1 og 2.23.1. Látum
 :math:`\mbox{${\bf a}$}=(a_1, a_2, \ldots, a_n)` vera fastan punkt í
 :math:`\mbox{${\bf R}^n$}` og ritum
 :math:`\mbox{${\bf h}$}=(h_1,h_2,\ldots,h_n)`. Vörpunin

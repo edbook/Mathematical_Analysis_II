@@ -1,6 +1,10 @@
 Vigursvið
 =========
 
+*Different roads sometimes lead to the same castle.*
+
+\-George R.R. Martin, A Game of Thrones
+
 Vigursvið
 ---------
 

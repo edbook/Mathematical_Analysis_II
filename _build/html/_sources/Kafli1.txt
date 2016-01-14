@@ -2,8 +2,13 @@
 Ferlar
 ======
 
+*Winter is coming.* 
+
+\- George R.R. Martin, A Game of Thrones
+
 Inngangur
 ---------
+
 
 -  Viðfangsefni námskeiðsins er varpanir sem skilgreindar eru á
    hlutmengi í :math:`\mbox{${\bf R}^n$}` og taka gildi í
@@ -59,8 +64,10 @@ Bilið :math:`I` ásamt föllunum :math:`(f,g)` kallast *s*\ tikun á
 ferlinum. Ferill í rúmi og stikun á ferli í rúmi eru skilgreind á
 sambærilegan hátt.
 
-Ferill í plani/rúmi er **ekki** það sama og stikaferill. Fyrir gefinn
-feril eru til (óendanlega) margar ólíkar stikanir.
+.. warning::
+
+  Ferill í plani/rúmi er **ekki** það sama og stikaferill. Fyrir gefinn
+  feril eru til (óendanlega) margar ólíkar stikanir.
 
 Dæmi - Eðlisfræðileg túlkun
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -128,6 +135,14 @@ vera diffranlegan stikaferil. Venja er að rita
 :math:`\mbox{${\bf a}$}(t)=\mbox{${\bf v}$}'(t)=\mbox{${\bf r}$}''(t)`
 og talað um :math:`\mbox{${\bf a}$}(t)` sem *hröðun* eða
 *hröðunarvigur*.
+
+.. ggb:: 2384599
+  :width: 700
+  :height: 364
+  :img: ../../_static/hi_logo.jpg
+  :imgwidth: 4cm
+  :zoom_drag: true 
+
 
 Dæmi 
 ~~~~~
@@ -248,16 +263,15 @@ muninum á :math:`t_2` og :math:`t_1`.) Stikun með bogalengd má líka
 þekkja á þeim eiginleika að :math:`|\mbox{${\bf v}$}(t)|=1` fyrir öll
 gildi á :math:`t`.
 
-Inngangur
----------
+
+Pólhnit
+-------
 
 -  Þegar við fáumst við verkefni í mörgum víddum höfum við frelsi til að
    velja hnitakerfi.
 
 -  Heppilegt val á hnitakerfi getur skipt sköpum við lausn verkefnis.
 
-Pólhnit
--------
 
 Skilgreining 
 ~~~~~~~~~~~~~

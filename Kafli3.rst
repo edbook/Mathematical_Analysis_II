@@ -3,6 +3,10 @@
 Útgildisverkefni
 ================
 
+*Old stories are like old friends, she used to say. You have to visit them from time to time.*
+
+\-George R.R. Martin, A Storm of Swords 
+
 Útgildi
 -------
 

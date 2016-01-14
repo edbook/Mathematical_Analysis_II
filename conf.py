@@ -32,12 +32,12 @@ import shlex
 # ones.
 extensions = [
     'sphinx.ext.todo',
-    #'sphinx.ext.mathjax',
-    'sphinx.ext.pngmath',
+    'sphinx.ext.mathjax',
+    #'sphinx.ext.pngmath',
     #'hieroglyph',
     #  hieroglyph is used to generate html slides, needs to be installed for use,
     #  see https://github.com/nyergler/hieroglyph
-    #'ggbextension.ggb',
+    'ggbextension.ggb',
     #  Extension for embedding geogebra applets, see README.txt in ggbextension folder
     'toggleblock.toggleBlock',
     # Extension for toggleable blocks of text (click to show/hide).

@@ -3,6 +3,11 @@
 Margföld heildi
 ===============
 
+*A bruise is a lesson... and each lesson makes us better.*
+
+\- George R.R. Martin, A Game of Thrones
+
+
 Skiptingar
 ----------
 
