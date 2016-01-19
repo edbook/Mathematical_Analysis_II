@@ -2,6 +2,7 @@ Viðauki
 =======
 
 * :ref:`genindex`
+* `Pdf-útgáfa <stae205.pdf>`_
 
 -------------
 
@@ -78,12 +79,11 @@ Kennsluáætlun
 | 20.04.16. | 28\. Langur dæmatími.               | \-         | Gömul próf.                              |   
 +-----------+-------------------------------------+------------+------------------------------------------+
 
-Kaflanúmer í Adam’s Calculus miðast við 8. útgáfu kennslubókarinnar. Megináhersla er á efni þeirra kafla sem eru feitletraðir.
+Kaflanúmer í Adams Calculus miðast við 8. útgáfu kennslubókarinnar. Megináhersla er á efni þeirra kafla sem eru feitletraðir.
 
 *Með fyrirvara um breyttar dagsetningar.
 
 .. todo::
-	* pdf-útgafa
 	* aðrar upplýsingar
 	
 
