@@ -353,9 +353,7 @@ eftirfarandi jafngilt:
 (c)  ferilheildi :math:`\mbox{${\bf F}$}` er óháð vegi.
 
 .. begin-toggle::
-    :label: Sýna sönnun
-
-**Sönnun**
+  :label: Sýna sönnun
 
 (a) :math:`\Rightarrow` (b). Fylgisetning 5.6.2.
 (b) :math:`\Leftrightarrow` (c). Setning 5.6.5.

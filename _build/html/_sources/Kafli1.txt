@@ -26,6 +26,10 @@ Inngangur
 Stikaferlar
 -----------
 
+.. index::
+  vigurgild vörpun
+  stikaferill
+
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -53,6 +57,10 @@ ritað
 
 Ferlar og stikanir á ferlum
 ---------------------------
+
+.. index::
+  ferill
+  stikun
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -100,6 +108,9 @@ um ólíkar stikanir:
 Diffrun stikaferla
 ------------------
 
+.. index::
+  stikaferill;diffrun
+
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -123,6 +134,12 @@ Stikaferill
 :math:`r_1,\ldots,r_n` eru öll diffranleg í :math:`t`. Þá gildir að
 
 .. math:: \displaystyle \mbox{${\bf r}$}'(t)=(r'_1(t),\ldots,r'_n(t)).
+
+.. index::
+  hraðavigur
+  hraði
+  hröðunarvigur
+  ferð
 
 Ritháttur 
 ~~~~~~~~~~
@@ -201,6 +218,10 @@ Ef :math:`\mbox{${\bf u}$}(t)\neq\mbox{${\bf 0}$}` þá er
 **(f)**
 :math:`\frac{d}{dt}|\mbox{${\bf u}$}(t)|=\frac{\mbox{${\bf u}$}(t)\cdot\mbox{${\bf u}$}'(t)}{|\mbox{${\bf u}$}(t)|}`.
 
+.. index::
+  stikaferill;samfellt diffranlegur
+  stikaferill;þjáll
+
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -220,6 +241,9 @@ stikaferillinn er samfellt diffranlegur á hverju bili
 :math:`[b_{i-1}, b_i]`. Það að stikaferill sé *þjáll á köflum*
 (e. piecewise smooth curve) er skilgreint á sambærilegan hátt.
 
+.. index::
+  stikaferill;snertilína
+
 Setning
 ~~~~~~~
 
@@ -230,11 +254,15 @@ hvert gildi á :math:`t` og hallatala hennar er
 
 .. math:: \displaystyle \frac{dy}{dx} = \frac{g'(t)}{f'(t)}.
 
-Ef :math:`g'(t) \neq 0` á :math:`I` þá hefur ferilinn snertilínu fyrir
+Ef :math:`g'(t) \neq 0` á :math:`I` þá hefur ferilinn þverlínu fyrir
 hvert gildi á :math:`t` og hallatala hennar er
 
 .. math:: \displaystyle -\frac{dx}{dy} = -\frac{f'(t)}{g'(t)}.
 
+.. index::
+  stikaferill;lengd
+  stikaferill;bogalengd
+  
 Lengd stikaferils
 -----------------
 
@@ -246,6 +274,9 @@ vera samfellt diffranlegan stikaferil. *Lengd* eða *bogalengd*
 stikaferilsins er skilgreind með formúlunni
 
 .. math:: \displaystyle s=\int_a^b |\mbox{${\bf v}$}(t)|\,dt.
+
+.. index::
+  stikun með bogalengd
 
 Skilgreining og umræða 
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -271,6 +302,9 @@ Pólhnit
    velja hnitakerfi.
 
 -  Heppilegt val á hnitakerfi getur skipt sköpum við lausn verkefnis.
+
+.. index::
+  pólhnit
 
 
 Skilgreining 
@@ -310,6 +344,9 @@ ef :math:`x>0` en á milli :math:`\frac{\pi}{2}` og
 Pólhnitagraf
 ------------
 
+.. index::
+  pólhnitagraf
+
 Skilgreining og umræða
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -330,20 +367,31 @@ með formúlu
    \mbox{${\bf r}$}(\theta)=[f(\theta),\theta]=
    (f(\theta)\cos\theta, f(\theta)\sin\theta).
 
+.. index::
+  pólhnitagraf;snertill
+   
 Snertill við pólhnitagraf
 -------------------------
 
 Setning 
 ~~~~~~~~
 
+..
+  XXX reference
+
+
 Látum :math:`r=f(\theta)` vera pólhnitagraf fallsins :math:`f` og gerum
 ráð fyrir að fallið :math:`f` sé samfellt diffranlegt. Látum
 :math:`\mbox{${\bf r}$}(\theta)` tákna stikunina á pólhnitagrafinu sem
-innleidd er í 2.3. Ef vigurinn
+innleidd er í 1.7.1. Ef vigurinn
 :math:`\mbox{${\bf r}$}'(\theta)\neq \mbox{${\bf 0}$}` þá gefur þessi
 vigur stefnu snertils við pólhnitagrafið og út frá
 :math:`\mbox{${\bf r}$}'(\theta)` má reikna hallatölu snertils við
 pólhnitagrafið.
+
+
+.. index::
+  pólhnitagraf;flatarmál
 
 Flatarmál
 ---------
@@ -361,6 +409,11 @@ Flatarmál svæðisins sem afmarkast af geislunum :math:`\theta=\alpha` og
    A=\frac{1}{2}\int_\alpha^\beta r^2\,d\theta
    =\frac{1}{2}\int_\alpha^\beta f(\theta)^2\,d\theta.
 
+   
+
+.. index::
+  pólhnitagraf;bogalengd   
+   
 Bogalengd
 ---------
 
@@ -375,6 +428,10 @@ pólhnitagrafsins :math:`r=f(\theta)`, þegar
 
 Einingarsnertivigur
 -------------------
+
+
+.. index::
+  einingarsnertivigur
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -392,6 +449,11 @@ skilgreindur með formúlunni
 
 Krappi
 ------
+
+
+.. index::
+  krappi
+  krappageisli
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -413,6 +475,11 @@ C` í punktinum :math:`\mbox{${\bf r}$}(s)` er skilgreindur sem talan
 
 Meginþverill
 ------------
+
+
+.. index::
+  meginþverill
+  
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -437,6 +504,11 @@ grunnvigurinn :math:`\mbox{${\bf i}$}`. Þá er
 Hjúfurplan
 ----------
 
+
+.. index::
+  hjúfur-;plan
+  hjúfur-;hringur
+
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -457,6 +529,11 @@ gegnum punktinn :math:`\mbox{${\bf r}$}(s)`, hefur geisla
 Tvíþverill
 ----------
 
+
+.. index::
+  tvíþverill
+  Frenet ramminn
+  
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -474,6 +551,10 @@ er þverstaðlaður grunnur og kallast **Frenet ramminn**.
 Vindingur
 ---------
 
+
+.. index::
+  vindingur
+
 Setning og skilgreining 
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -490,6 +571,10 @@ kallast *vindingur* ferilsins í punktinum :math:`\mbox{${\bf r}$}(s)`.
 
 Frenet-Serret jöfnurnar
 -----------------------
+
+
+.. index::
+  Frenet-Serret
 
 Jöfnur
 ~~~~~~

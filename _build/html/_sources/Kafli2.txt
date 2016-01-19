@@ -12,6 +12,10 @@ Hlutafleiður
 Graf falls
 ----------
 
+
+.. index::
+  graf falls
+
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -35,6 +39,12 @@ Ef :math:`f:{\mathbb  R}^3\rightarrow {\mathbb  R}` er fall, þá er
 
 Jafnhæðarlínur
 --------------
+
+
+.. index::
+  jafnhæðar-;lína
+  jafnhæðar-;ferill
+  jafnhæðar-;flötur
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -66,6 +76,9 @@ fastann :math:`c`.
 Fjarlægð milli punkta
 ---------------------
 
+.. index::
+  fjarlægð
+
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -78,6 +91,9 @@ Skilgreining
 
 Opnar kúlur
 -----------
+
+.. index::
+  opin kúla
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -95,6 +111,11 @@ bil.
 Opin mengi
 ----------
 
+.. index::
+  opið mengi
+  lokað mengi
+  fyllimengi
+  
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -111,6 +132,9 @@ Mengið :math:`U` er sagt *lokað* ef fyllimengið er opið. (*Fyllimengi*
 Jaðarpunktur
 ------------
 
+.. index::
+  jaðarpunktur
+
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -124,6 +148,9 @@ jaðarpunktur :math:`U` sé í :math:`U` og að hann sé ekki í :math:`U`.)
 Skilgreiningarmengi
 -------------------
 
+.. index::
+  skilgreiningarmengi
+
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -133,8 +160,12 @@ og ekkert sagt um :math:`{\cal D}(f)` þá lítum við svo á að
 :math:`{\cal D}(f)` sé mengi allra punkta í :math:`\mbox{${\bf R}^n$}`
 þannig að formúlan gefi vel skilgreinda tölu.
 
+.. index::
+  markgildi
+
 Markgildi
 ---------
+
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -177,7 +208,7 @@ er ritað
   XXX reference
    
 Skilgreining (Skilgreining 2.8.1 sett fram fyrir föll af tveimur breytum.) 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`f(x,y)` vera fall skilgreint á mengi
 :math:`{\cal D}(f)\subseteq {\mathbb  R}^2`. Látum :math:`(a,b)` vera
@@ -226,8 +257,13 @@ sem bæði föllin :math:`f` og :math:`g` eru skilgreind. Þá gildir
 **(d)** :math:`\lim_{(x,y)\rightarrow (a,b)}F(f(x,y))=F(L)` ef :math:`F`
 er fall af einni breytistærð sem er samfellt í punktinum :math:`L`.
 
+
+.. index::
+  samfelldni
+
 Samfelldni
 ----------
+
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -247,6 +283,9 @@ skilgreiningarmengis síns.
 
 Hlutafleiður
 ------------
+
+.. index::
+  hlutafleiða
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -299,6 +338,8 @@ og *hlutafleiðu m.t.t.* :math:`z` í :math:`(a,b,c)` með
 
 ef markgildin eru til.
 
+
+
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -306,7 +347,7 @@ Látum :math:`f` vera fall af :math:`n` breytum
 :math:`x_1,x_2,\ldots,x_n` sem er skilgreint á opinni kúlu um punktinn
 :math:`\mathbf{a}=(a_1, a_2, \ldots, a_n).`
 
-:math:`f` með tilliti til breytunnar :math:`x_k` í punktinum
+Hlutafleiða :math:`f` með tilliti til breytunnar :math:`x_k` í punktinum
 :math:`\mathbf{a}` er skilgreind sem markgildið
 
 .. math:: \displaystyle f_k(\mathbf{a})=\lim_{h\rightarrow 0}\frac{f(\mathbf{a}+h\mbox{${\bf e}$}_k)-f(\mathbf{a})}{h}
@@ -314,6 +355,7 @@ Látum :math:`f` vera fall af :math:`n` breytum
 ef markgildið er til. (Hér stendur :math:`\mbox{${\bf e}$}_k` fyrir
 vigurinn sem er með 0 í öllum hnitum nema því :math:`k`-ta þar sem er
 1.)
+
 
 Snertiplan
 ----------
@@ -353,9 +395,15 @@ Ef :math:`f(x,y)` er ’nógu nálægt’ (skilgreint nánar síðar) planinu
 kallast :math:`S` *snertiplan* við grafið :math:`z=f(x,y)` í punktinum
 :math:`(a,b,f(a,b)`.
 
+
 Hlutafleiður af hærra stigi
 ---------------------------
 
+.. index::
+  hlutafleiða;annars stigs
+  hlutafleiða;hrein
+  hlutafleiða;blönduð
+  
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -390,7 +438,6 @@ Hlutafleiðurnar :math:`f_{11}(x,y)` og :math:`f_{22}(x,y)` kallast
 hreinar hlutafleiður og :math:`f_{12}(x,y)` og :math:`f_{21}(x,y)`
 kallast blandaðar hlutafleiður.
 
-.. _setning_vixla
 
 Setning 
 ~~~~~~~~
@@ -449,8 +496,14 @@ Ef :math:`w = f(x,y,z)` er fall af þremur breytistærðum þá er t.d. 
 
 ef skilyrðin í setningunni eru uppfyllt.
 
+.. index::
+  keðjuregla
+
 Keðjuregla
 ----------
+
+.. index::
+  keðjuregla;í einni breytistærð
 
 Setning (Keðjureglan í einni breytistærð.)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -612,6 +665,10 @@ Látum :math:`z` vera fall af fall af :math:`u`, :math:`v` og :math:`r`,
 Jákvætt einsleit föll
 ---------------------
 
+.. index::
+  fall;jákvætt einsleitt fall
+  jákvætt einsleitt fall
+  
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -645,6 +702,10 @@ markgildið
 
 er til.
 
+
+.. index::
+  diffranleiki;falls af einni breytistærð
+
 Diffranleiki í einni breytistærð - önnur lýsing
 -----------------------------------------------
 
@@ -666,6 +727,9 @@ Fallið :math:`f` er ’nálægt’ línunni :math:`L` nálægt punktinum
 Diffranleiki
 ------------
 
+.. index::
+  diffranleiki;falls af tveimur breytistærðum
+
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -684,6 +748,9 @@ báðar fyrsta stigs hlutafleiður :math:`f` eru skilgreindar í
 Fallið :math:`f` er ’nálægt’ sléttunni :math:`S` nálægt punktinum
 :math:`(a,b)`.
 
+.. index::
+  snertiplan
+
 Snertiplan
 ----------
 
@@ -697,6 +764,9 @@ Ef :math:`f` er diffranlegt í :math:`(a,b)` þá kallast planið :math:`S`
 
 Diffranleiki
 ------------
+
+.. index::
+  meðalgildissetningin
 
 Setning (Meðalgildissetningin)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -764,8 +834,12 @@ og
    \frac{\partial z}{\partial x}\frac{\partial x}{\partial t}
    +\frac{\partial z}{\partial y}\frac{\partial y}{\partial t}.
 
+   
 Diffur
 ------
+
+.. index::
+  diffur
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -805,6 +879,9 @@ hvert :math:`f_i` er fall
 Jacobi-fylki
 ------------
 
+.. index::
+  Jacobi-;fylki
+
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -828,6 +905,9 @@ y_i/\partial x_j` eru skilgreindar í punktinum :math:`\mbox{${\bf x}$}`
    \cdots&\frac{\partial y_m}{\partial x_n}
    \end{bmatrix}
 
+.. index::
+  diffranleiki;varpana
+   
 Diffranleiki varpana :math:`\mbox{${\bf R}^n$}\rightarrow\mbox{${\bf R}^m$}`
 ----------------------------------------------------------------------------
 
@@ -874,6 +954,9 @@ samskeytta vörpunin
 diffranleg í :math:`\mbox{${\bf x}$}` og
 
 .. math:: \displaystyle D(\mbox{${\bf g}$}\circ\mbox{${\bf f}$})(\mbox{${\bf x}$})=D\mbox{${\bf g}$}(\mbox{${\bf f}$}(\mbox{${\bf x}$}))D\mbox{${\bf f}$}(\mbox{${\bf x}$}).
+
+.. index::
+  stigull
 
 Stigull
 -------
@@ -925,6 +1008,9 @@ Gerum ráð fyrir að fallið :math:`f(x,y)` sé diffranlegt í punktinum
 vigurinn :math:`\nabla f(a,b)` hornréttur á þá jafnhæðarlínu :math:`f`
 sem liggur í gegnum punktinn :math:`(a,b)`.
 
+.. index::
+  snertilína;við jafnhæðarferil
+
 Snertilína við jafnhæðarferil
 -----------------------------
 
@@ -942,8 +1028,13 @@ eða
 
 .. math:: \displaystyle f_1(a,b)(x-a)+f_2(a,b)(y-b)=0.
 
+
+.. index::
+  stefnuafleiða
+
 Stefnuafleiða
 -------------
+
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -956,7 +1047,7 @@ stefnu :math:`\mbox{${\bf u}$}` er skilgreind sem
 
 ef markgildið er skilgreint.
 
-Setning 
+
 ~~~~~~~~
 
 Gerum ráð fyrir að fallið :math:`f` sé diffranlegt í :math:`(a,b)` og
@@ -1007,8 +1098,8 @@ stefnu :math:`\nabla f(a,b)`.
 :math:`\cal C` í punktinum :math:`(a,b)` þá er er vaxtarhraði :math:`f`
 í stefnu :math:`\mbox{${\bf u}$}` jafn 0.
 
-Stigull
--------
+Stigull (aftur)
+---------------
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -1020,6 +1111,9 @@ skilgreindur sem vigurinn
 
 .. math:: \displaystyle \nabla f(x,y,z)=f_1(x,y,z)\mbox{${\bf i}$}+f_2(x,y,z)\mbox{${\bf j}$}+f_3(x,y,z)\mbox{${\bf k}$}.
 
+.. index::
+  snertiplan;við jafnhæðarflöt
+  
 Snertiplan við jafnhæðarflöt
 ----------------------------
 
@@ -1043,6 +1137,10 @@ eða með umritun
 Fólgin föll og Taylor-nálganir
 ------------------------------
 
+.. index::
+  fólgið fall
+  fall; fólgið fall
+  
 Upprifjun 
 ~~~~~~~~~~
 
@@ -1084,6 +1182,10 @@ Ennfremur gildir að
    \varphi_i(a_1,\ldots,a_{n-1})
    =-\frac{F_i(a_1,\ldots,a_n)}{F_n(a_1,\ldots,a_n)}.
 
+
+.. index::
+  Jacobi-;ákveða
+   
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -1129,6 +1231,9 @@ skilgreinum við, til dæmis,
    &\frac{\partial H}{\partial y}
    \end{vmatrix}.
 
+.. index::
+  Cramer
+   
 Setning (Upprifjun á reglu Cramers.)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1141,6 +1246,10 @@ fyrir að :math:`\mbox{${\bf x}$}=(x_1, x_2, \ldots, x_n)` sé lausn á
 er
 
 .. math:: \displaystyle x_i=\frac{\det B_i}{\det A}.
+
+.. index::
+  setning;um fólgin föll
+  fólgið fall; setning
 
 Setning (Setningin um fólgin föll)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1192,6 +1301,9 @@ að
    {\partial( y_1, \ldots,x_j,\ldots y_n)}}
    {\frac{\partial(F_{(1)}, \ldots, F_{(n)})}{\partial( y_1, \ldots, y_n)}}.
 
+.. index::
+  setning;um staðbundna andhverfu
+   
 Setning (Setningin um staðbundna andhverfu)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1218,6 +1330,9 @@ kúla :math:`B_{\mbox{${\bf y}$}}` utan um
 fyrir alla punkta :math:`\mbox{${\bf x}$}\in B_{\mbox{${\bf x}$}}` og
 :math:`\mbox{${\bf f}$}(\mbox{${\bf g}$}(\mbox{${\bf y}$}))=\mbox{${\bf y}$}`
 fyrir alla punkta :math:`\mbox{${\bf y}$}\in B_{\mbox{${\bf y}$}}`.
+
+.. index::
+  Taylor-;regla í einni breytistærð
 
 Upprifjun (Taylor-regla í einni breytistærð.)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1246,6 +1361,9 @@ Fáum svo að
    +\frac{f^{(n+1)}(s)}{(n+1)!}(x-a)^{n+1}, \end{aligned}
 
 sem er kallað :math:`n`\ *-ta stigs Taylor-formúla.*
+
+.. index::
+  Taylor-;margliða
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -1288,6 +1406,9 @@ Athugið að ef hlutafleiður :math:`f` af nógu háum stigum eru allar
 skilgreindar og samfelldar þá er :math:`D_1D_2=D_2D_1`, þ.e.a.s. ekki
 skiptir máli í hvaða röð er diffrað, bara hve oft er diffrað með tilliti
 til hvorrar breytu.
+
+.. item::
+  tvíliðuregla
 
 Upprifjun (Tvíliðuregla)
 ~~~~~~~~~~~~~~~~~~~~~~~~
