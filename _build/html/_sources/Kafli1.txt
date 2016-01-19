@@ -156,7 +156,7 @@ og talað um :math:`\mbox{${\bf a}$}(t)` sem *hröðun* eða
 .. ggb:: 2384599
   :width: 700
   :height: 364
-  :img: ../../_static/hi_logo.jpg
+  :img: stikaferill.png
   :imgwidth: 4cm
   :zoom_drag: true 
 
@@ -498,8 +498,9 @@ Táknum með :math:`\theta` hornið sem :math:`\mbox{${\bf T}$}` myndar við
 grunnvigurinn :math:`\mbox{${\bf i}$}`. Þá er
 :math:`\kappa = \frac{d\theta}{ds}`.
 
-.. figure:: krappi.png
-   :alt: 
+.. image:: krappi.png
+     :width: 40 %
+     :align: center
 
 Hjúfurplan
 ----------

@@ -69,29 +69,36 @@ staðbundið útgildi í punkti :math:`(a,b)` þá gildir eitt af þrennu um
 
 #. Punkturinn :math:`(a,b)` er jaðarpunktur :math:`{\cal D}(f)`.
 
-Dæmi: Föll skilgreind á svæðinu :math:`-0.5 \leq x \leq 0.5`,
+Dæmi 
+~~~~
+
+Föll skilgreind á svæðinu :math:`-0.5 \leq x \leq 0.5`,
 :math:`-0.5 \leq y \leq 0.5`. Hvar eru staðbundin hágildi?
 
-.. figure:: peak_smooth.png
-   :alt: :math:`z = f(x,y) = 1-x^2-y^2`.
+.. image:: peak_smooth.png
+  :width: 60%
+  :align: center
 
-   ..
+..
 
-   :math:`z = f(x,y) = 1-x^2-y^2`.
+:math:`z = f(x,y) = 1-x^2-y^2`.
 
-.. figure:: peak.png
-   :alt: :math:`z = f(x,y) = 1-\sqrt{x^2+y^2}`.
+.. image:: peak.png
+  :width: 60%
+  :align: center
 
-   ..
+..
 
-   :math:`z = f(x,y) = 1-\sqrt{x^2+y^2}`.
+:math:`z = f(x,y) = 1-\sqrt{x^2+y^2}`.
 
-.. figure:: max_bound.png
-   :alt: :math:`z= f(x,y) = x^2+y^2`.
+.. image:: max_bound.png
+  :width: 60%
+  :align: center
 
-   ..
 
-   :math:`z= f(x,y) = x^2+y^2`.
+..
+
+:math:`z= f(x,y) = x^2+y^2`.
 
 Tilvist útgilda
 ---------------
@@ -115,19 +122,23 @@ hefur ekki staðbundið útgildi í :math:`(x,y)`.
 
 Dæmi um föll með söðulpunkta.
 
-.. figure:: sodull1.png
-   :alt: :math:`z = f(x,y) = x^3`.
+.. image:: sodull1.png
+   :width: 60%
+   :align: center
 
-   ..
 
-   :math:`z = f(x,y) = x^3`.
+..
 
-.. figure:: sodull2.png
-   :alt: :math:`z = f(x,y) = x^3+y^3`.
+:math:`z = f(x,y) = x^3`.
 
-   ..
+.. image:: sodull2.png
+   :width: 60%
+   :align: center
 
-   :math:`z = f(x,y) = x^3+y^3`.
+
+..
+
+:math:`z = f(x,y) = x^3+y^3`.
 
 Staðbundið útgildi
 ------------------
@@ -331,13 +342,14 @@ Finna skal útgildi falls :math:`f(x,y)` þegar skilgreiningarsvæði
 Dæmi
 ~~~~
 
-.. figure:: constraint.png
-   :alt: Hver eru hæstu og lægstu gildi fallsins :math:`f(x,y) = x^2-y^2+4` á menginu :math:`\{(x,y)~|~x^2+y^2=1\}`?
+.. image:: constraint.png
+   :width: 60%
+   :align: center
 
-   .. 
+..  
 
-   *Hver eru hæstu og lægstu gildi fallsins* :math:`f(x,y) = x^2-y^2+4` *á
-   menginu* :math:`\{(x,y)~|~x^2+y^2=1\}`?
+*Hver eru hæstu og lægstu gildi fallsins* :math:`f(x,y) = x^2-y^2+4` *á
+menginu* :math:`\{(x,y)~|~x^2+y^2=1\}`?
 
 Setning 
 ~~~~~~~~
@@ -350,14 +362,15 @@ ef við einskorðum fallið :math:`f` við ferilinn :math:`g(x,y)=0` þá hafi
 :math:`f` staðbundið útgildi í :math:`P_0`. Þá eru stiglarnir
 :math:`\nabla f(x_0,y_0)` og :math:`\nabla g(x_0,y_0)` samsíða.
 
-.. figure:: lagrange1.png
-   :alt: Ef stiglarnir :math:`\nabla g(P_0)` og :math:`\nabla f(P_0)` eru ekki samsíða þá vex :math:`f` eða minnkar þegar farið er eftir :math:`\mathcal{C}` út frá punktinum :math:`P_0`.
+.. image:: lagrange1.png
+   :width: 40%
+   :align: center
 
-   ..
+..
 
-   *Ef stiglarnir* :math:`\nabla g(P_0)` *og* :math:`\nabla f(P_0)` *eru ekki
-   samsíða þá vex* :math:`f` *eða minnkar þegar farið er eftir*
-   :math:`\mathcal{C}` *út frá punktinum* :math:`P_0`.
+*Ef stiglarnir* :math:`\nabla g(P_0)` *og* :math:`\nabla f(P_0)` *eru ekki
+samsíða þá vex* :math:`f` *eða minnkar þegar farið er eftir*
+:math:`\mathcal{C}` *út frá punktinum* :math:`P_0`.
 
 Lagrange-margfaldarar
 ---------------------

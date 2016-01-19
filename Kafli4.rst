@@ -30,11 +30,15 @@ skiptingarinnar :math:`P`, táknað með :math:`\|P\|`, er skilgreint sem
 lengd lengstu hornalínu í rétthyrningunum
 :math:`[x_i,x_{i+1}]\times [y_j,y_{j+1}]`.
 
-Skipting :math:`P` á rétthyrningi :math:`R= [a,b]\times [c,d]`.
 
-.. figure:: skipting.png
-   :alt: 
 
+.. image:: skipting.png
+   :width: 50% 
+   :align: center
+
+
+*Skipting* :math:`P` *á rétthyrningi* :math:`R= [a,b]\times [c,d]`.
+   
 Riemann-summa
 -------------
 
@@ -52,11 +56,13 @@ Skilgreinum *Riemann-summuna*
    \mathcal{R}(f,P)=\sum_{i=1}^m\sum_{j=1}^n f(x_i^*, y_j^*)\Delta x_i\Delta
      y_j.
 
-.. figure:: skipting2.png
-   :alt: 
-
-.. figure:: double.png
-   :alt: 
+.. image:: skipting2.png
+   :width: 80% 
+   :align: center 
+   
+.. image:: double.png
+   :width: 75% 
+   :align: center
 
 Tvöfalt heildi yfir rétthyrning
 -------------------------------
@@ -138,7 +144,9 @@ föll yfir :math:`D` þá gildir:
 
    .. math:: \displaystyle \int\!\!\!\int_D f(x,y)\,dA\leq \int\!\!\!\int_Dg(x,y)\,dA.
 
-#. Þríhyrningsójafna:
+#. Þríhyrningsójafna: 
+
+  .. math:: \bigg|\int\!\!\!\int_D f(x,y)\,dA\bigg|\leq \int\!\!\!\int_D |f(x,y)|\,dA.
 
 #. Ritum :math:`D` sem sammengi af svæðum :math:`D_1,\ldots, D_k` sem
    skarast ekki nema mögulega í jaðarpunktum þá er
@@ -170,8 +178,9 @@ Sömuleiðis gildir þegar við setjum
    \int\!\!\!\int_R f(x,y)\,dA=\int_c^d A(y)\,dy=\int_c^d\!\!\int_a^b
    f(x,y)\,dx\,dy.
 
-.. figure:: ax1.png
-   :alt: 
+.. image:: ax1.png
+   :width: 50% 
+   :align: center
 
 :math:`x`-einföld og :math:`y`-einföld svæði
 --------------------------------------------
@@ -191,8 +200,9 @@ að finna tölur :math:`c` og :math:`d` og föll :math:`a(y)` og
 
 .. math:: \displaystyle D=\{(x,y)\mid c\leq y\leq d, a(y)\leq x\leq b(y)\}.
 
-.. figure:: einfalt.png
-   :alt: 
+.. image:: einfalt.png
+   :width: 65% 
+   :align: center
 
 Regla 
 ~~~~~~
@@ -222,12 +232,13 @@ Látum :math:`D=\{(x,y)\mid c\leq y\leq d, a(y)\leq x\leq b(y)\}` vera
 
 .. math:: \displaystyle \int\!\!\!\int_D f(x,y)\,dA=\int_c^d\!\!\!\int_{a(y)}^{b(y)}f(x,y)\,dx\, dy.
 
-.. figure:: einfalt2.png
-   :alt: Hér er svæðinu :math:`D` skipt í endanlega mörg :math:`x`-einföld og :math:`y`-einföld svæði sem skarast eingöngu í punktum á jaðrinum.
+.. image:: einfalt2.png
+   :width: 35% 
+   :align: center
 
-   ..
+..
 
-   *Hér er svæðinu* :math:`D` *skipt í endanlega mörg* :math:`x`-*einföld* og :math:`y`-*einföld svæði sem skarast eingöngu í punktum á jaðrinum.*
+*Hér er svæðinu* :math:`D` *skipt í endanlega mörg* :math:`x`-*einföld* og :math:`y`-*einföld svæði sem skarast eingöngu í punktum á jaðrinum.*
 
 Óeiginleg heildi
 ----------------
@@ -267,20 +278,26 @@ skilgreint sem talan
 
 .. math:: \displaystyle \bar{f}=\frac{1}{\mbox{flatarmál }D}\int\!\!\!\int_D f(x,y)\,dA.
 
-Skilgreining 
-~~~~~~~~~~~~~
 
-Svæði :math:`D` í :math:`{\mathbb  R}^2` er sagt vera *samanhangandi*
-(e. connected) ef um sérhverja tvo punkta :math:`P_1` og :math:`P_2` í
-:math:`D` gildir að til er ferill sem liggur í :math:`D`, byrjar í
-:math:`P_1` og endar í :math:`P_2`. (Hugtakið sem hér er skilgreint væri
-venjulega kallað *ferilsamanhangandi*.)
 
 Skilgreining 
 ~~~~~~~~~~~~~
 
-(Meðalgildissetning fyrir tvöföld heildi) Gerum ráð fyrir að :math:`f`
-sé samfellt fall sem er skilgreint á lokuðu, takmörkuð og samanhangandi
+Segjum að mengi :math:`D\subseteq {\mathbb  R}^2` sé
+*ferilsamanhangandi* (e. path-connected) ef fyrir sérhverja
+tvo punkta :math:`P, Q\in D` gildir að til er stikaferill
+:math:`\mbox{${\bf r}$}:[0,1]\rightarrow D` þannig að
+:math:`\mbox{${\bf r}$}(0)=P` og :math:`\mbox{${\bf r}$}(1)=Q`.
+
+.. warning:: 
+   Í bók er orðið *connected* notað fyrir hugtakið *ferilsamanhangandi*. Venjulega er orðið *connected* notað yfir annað hugtak, skylt en samt ólíkt.
+
+
+Setning (Meðalgildissetning fyrir tvöföld heildi)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Gerum ráð fyrir að :math:`f`
+sé samfellt fall sem er skilgreint á lokuðu, takmörkuðu og ferilsamanhangandi
 svæði :math:`D` í :math:`{\mathbb  R}^2`. Þá er til punktur
 :math:`(x_0,y_0)` í :math:`D` þannig að
 
@@ -308,8 +325,9 @@ hálflínum sem byrja í :math:`(0,0)` og mynda hornin :math:`\alpha` og
 :math:`\beta` við :math:`x`-ásinn (Hornin eru mæld þannig að rangsælis
 stefna telst jákvæð.)
 
-.. figure:: polarrett.png
-   :alt: 
+.. image:: polarrett.png
+   :width: 40% 
+   :align: center
 
 Gerum ráð fyrir að :math:`0\leq a\leq b` og að
 :math:`0\leq\beta-\alpha\leq
@@ -330,8 +348,9 @@ Ef :math:`f` er fall sem er heildanlegt yfir pólhnitarétthyrning
    \int\!\!\!\int_D f(x,y)\,dA=\int_\alpha^\beta\!\!\!\int_{a}^{b}
    f(r\cos\theta,r\sin\theta)\,r\,dr\, d\theta.
 
-.. figure:: polarelement.png
-   :alt: 
+.. image:: polarelement.png
+   :width: 90% 
+   :align: center
 
 Upprifjun 
 ~~~~~~~~~~
@@ -345,7 +364,7 @@ fallsins :math:`f`.
 Setning 
 ~~~~~~~~
 
-Látum :math:`D` vera svæði i :math:`xy`-plani sem afmarkast ef
+Látum :math:`D` vera svæði í :math:`xy`-plani sem afmarkast af
 pólhnitalínum :math:`\theta=\alpha` og :math:`\theta=\beta` og tveimur
 pólhnitagröfum :math:`r=a(\theta)` og :math:`r=b(\theta)`. Gerum ráð
 fyrir að :math:`0\leq a(\theta)\leq
@@ -354,11 +373,12 @@ heildanlegt fall yfir :math:`D` þá er
 
 .. math:: \displaystyle
 
-   \int\!\!\!\int\,f(x,y)\,dA=\int_\alpha^\beta\!\!\!\int_{a(\theta)}^{b(\theta)}
+   \int\!\!\!\int_D\,f(x,y)\,dA=\int_\alpha^\beta\!\!\!\int_{a(\theta)}^{b(\theta)}
    f(r\cos\theta,r\sin\theta)\,r\,dr\, d\theta.
 
-.. figure:: polarsvaedi.png
-   :alt: 
+.. image:: polarsvaedi.png
+   :width: 45% 
+   :align: center
 
 Regla 
 ~~~~~~
@@ -387,8 +407,9 @@ svæðis :math:`S` í :math:`uv`-plani og svæðis :math:`D` í
    \int\!\!\!\int_D f(x,y)\,dx\,dy=\int\!\!\!\int_S g(u,v)
    \bigg|\frac{\partial(x,y)}{\partial(u,v)}\bigg|\,du\,dv.
 
-.. figure:: changevar.png
-   :alt: 
+.. image:: changevar.png
+   :width: 90% 
+   :align: center
 
 Þreföld heildi
 --------------
@@ -509,26 +530,27 @@ Látum :math:`(x,y,z)` vera punkt í :math:`{\mathbb  R}^3`. *Kúluhnit*
 Punktur sem hefur kúluhnit :math:`\rho, \varphi, \theta` er táknaður með
 :math:`[\rho, \varphi, \theta]`.
 
-.. figure:: sphere.png
-   :alt: 
+.. image:: sphere.png
+   :width: 80% 
+   :align: center
 
 Umræða 
 ~~~~~~~
 
 Eftirfarandi jöfnur gefa aðferð til að finna kúluhnit:
 
--  er fjarlægðin frá :math:`(0,0,0)` til :math:`(x,y,z)`, það er að
+-  :math:`\rho` er fjarlægðin frá :math:`(0,0,0)` til :math:`(x,y,z)`, það er að
    segja
 
    .. math:: \displaystyle \rho=\sqrt{x^2+y^2+z^2}.
 
--  er hornið á milli jákvæða hluta :math:`z`-ássins og línustriksins frá
+-  :math:`\varphi` er hornið á milli jákvæða hluta :math:`z`-ássins og línustriksins frá
    :math:`(0,0,0)` til :math:`(x,y,z)`. Hornið :math:`\varphi` má
    ákvarða út frá jöfnunni
 
    .. math:: \displaystyle \tan\varphi=\frac{\sqrt{x^2+y^2}}{z}.
 
--  er hornið sem jákvæði hluti :math:`x`-ásins myndar við línustrikið
+-  :math:`\theta` er hornið sem jákvæði hluti :math:`x`-ásins myndar við línustrikið
    frá :math:`(0,0,0)` til :math:`(x,y,0)` (sama horn og notað í
    sívalningshnitum (og pólhnitum)). Hornið :math:`\theta` má finna út
    frá jöfnunni

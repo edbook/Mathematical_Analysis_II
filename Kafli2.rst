@@ -30,12 +30,12 @@ Ef :math:`f:{\mathbb  R}^3\rightarrow {\mathbb  R}` er fall, þá er
 .. math:: \displaystyle \{(x,y,z,f(x,y,z))\mid (x,y,z)\in{\mathbb  R}^3\}\subseteq {\mathbb  R}^4.
 
 
-.. figure:: surface.png
-   :alt: :math:`f(x,y) = \sqrt{1-x^2-y^2}`, :math:`-0.5\leq x,y\leq 0.5`.
+.. image:: ./surface.png
+  :width: 60%
+  :align: center
+..
    
-   ..
-   
-   *Graf fallsins* :math:`f(x,y) = \sqrt{1-x^2-y^2}`, :math:`-0.5\leq x,y\leq 0.5`.
+*Graf fallsins* :math:`f(x,y) = \sqrt{1-x^2-y^2}`, :math:`-0.5\leq x,y\leq 0.5`.
 
 Jafnhæðarlínur
 --------------
@@ -66,12 +66,13 @@ kallað *jafnhæðarflötur* (e. level surface) fallsins :math:`f` fyrir
 fastann :math:`c`.
 
 
-.. figure:: contour.png
-   :alt: :math:`f(x,y) = \sqrt{1-x^2-y^2}`, :math:`-0.5\leq x,y\leq 0.5`.
+.. image:: contour.png
+  :width: 60%
+  :align: center
    
-   ..
+..
    
-   *Nokkrar jafnæðarlínur fallsins* :math:`f(x,y) = \sqrt{1-x^2-y^2}`, :math:`-0.5\leq x,y\leq 0.5`.
+*Nokkrar jafnæðarlínur fallsins* :math:`f(x,y) = \sqrt{1-x^2-y^2}`, :math:`-0.5\leq x,y\leq 0.5`.
 
 Fjarlægð milli punkta
 ---------------------
@@ -303,19 +304,22 @@ og *hlutafleiðu m.t.t.* :math:`y` í :math:`(a,b)` með
 
 ef markgildin eru til.
 
-.. figure:: xpart.png
-   :alt: Hlutafleiða m.t.t. \ :math:`x` fyrir :math:`y=1`.
+.. image:: xpart.png
+  :width: 60%
+  :align: center
+  
+..
 
-   ..
+*Hlutafleiða m.t.t.* \ :math:`x` *fyrir* :math:`y=1`.
 
-   *Hlutafleiða m.t.t.* \ :math:`x` *fyrir* :math:`y=1`.
+.. image:: ypart.png
+   :width: 60%
+   :align: center
 
-.. figure:: ypart.png
-   :alt: Hlutafleiða m.t.t. \ :math:`y` fyrir :math:`x=1`.
 
-   ..
+..
 
-   *Hlutafleiða m.t.t.* \ :math:`y` *fyrir* :math:`x=1`.
+*Hlutafleiða m.t.t.* \ :math:`y` *fyrir* :math:`x=1`.
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -363,8 +367,9 @@ Snertiplan
 Látum :math:`f(x,y)` vera fall af tveimur breytistærðum þannig að
 hlutafleiðurnar :math:`f_1(a,b)` og :math:`f_2(a,b)` séu skilgreindar.
 
-.. figure:: bothpart.png
-   :alt: 
+.. image:: bothpart.png
+   :width: 60%
+   :align: center
 
 Í punktinum :math:`(a,b,f(a,b))` er
 
@@ -542,8 +547,9 @@ af breytu :math:`t`. Þá er
    \frac{dz}{dt}=\frac{\partial z}{\partial x}\frac{dx}{dt}
    +\frac{\partial z}{\partial y}\frac{dy}{dt}.
 
-.. figure:: chain1.png
-   :alt: 
+.. image:: chain1.png
+   :width: 27%
+   :align: center
 
 Setning 
 ~~~~~~~~
@@ -580,7 +586,9 @@ föll af breytum :math:`s` og :math:`t`. Þá er
    +\frac{\partial z}{\partial y}\frac{\partial y}{\partial t}.
 
 .. figure:: chain2.png
-   :alt: 
+   :width: 30%
+   :align: center
+
 
 Ritháttur
 ~~~~~~~~~
@@ -619,8 +627,10 @@ fæst að
    +\cdots+
    \frac{\partial u}{\partial x_n}\frac{\partial x_n}{\partial t_j}.
 
-.. figure:: chain3.png
-   :alt: 
+.. image:: chain3.png
+   :width: 50%
+   :align: center
+ 
 
 Dæmi 
 ~~~~~
@@ -629,8 +639,10 @@ Látum :math:`T` vera fall af fall af :math:`x`, :math:`y` og :math:`t`,
 og :math:`x` og :math:`y` föll af :math:`t`. Finnum
 :math:`\frac{ dT}{dt}`.
 
-.. figure:: chain5.png
-   :alt: 
+.. image:: chain5.png
+   :width: 40%
+   :align: center
+ 
 
 .. math:: \displaystyle \frac{d T}{d t} = \frac{\partial T}{\partial x} \frac{d x}{d t} +\frac{\partial T}{\partial y} \frac{d y}{\partial t} + \frac{\partial T}{\partial t} .
 
@@ -641,8 +653,10 @@ Látum :math:`T` vera fall af fall af :math:`x`, :math:`y`, :math:`s` og
 :math:`t`, og :math:`x` og :math:`y` föll af :math:`s` og :math:`t`.
 Finnum :math:`\frac{ \partial T}{\partial t}`.
 
-.. figure:: chain6.png
-   :alt: 
+.. image:: chain6.png
+   :width: 50%
+   :align: center
+ 
 
 .. math:: \displaystyle \frac{\partial T}{\partial t} = \frac{\partial T}{\partial x} \frac{\partial x}{\partial t} +\frac{\partial T}{\partial y} \frac{\partial y}{\partial t} + \left(\frac{\partial T}{\partial t}\right)_{x,y,s} .
 
@@ -654,8 +668,10 @@ Látum :math:`z` vera fall af fall af :math:`u`, :math:`v` og :math:`r`,
 :math:`r` vera fall af :math:`x` og :math:`y`. Skrifum niður
 :math:`\frac{\partial z}{\partial x}`.
 
-.. figure:: chain4.png
-   :alt: 
+.. image:: chain4.png
+   :width: 40%
+   :align: center
+ 
 
 .. math:: \displaystyle
 
@@ -757,8 +773,10 @@ Snertiplan
 Ef :math:`f` er diffranlegt í :math:`(a,b)` þá kallast planið :math:`S`
 *snertiplan* við graf fallsins.
 
-.. figure:: bothpart.png
-   :alt: 
+.. image:: bothpart.png
+   :width: 60%
+   :align: center
+ 
 
 :math:`S(x,y) = f(a,b) + f_1(a,b)(x-a)+f_2(a,b)(y-b)`.
 
@@ -986,19 +1004,22 @@ Oft hentugt að rita
 Dæmi
 ----
 
-.. figure:: gradfurf.png
-   :alt: Graf :math:`z=1-x^2-y^2`
+.. o,age:: gradfurf.png
+   :width: 50%
+   :align: center
 
-   ..
 
-   *Graf* :math:`z=1-x^2-y^2`
+..
 
-.. figure:: gradient.png
-   :alt: Jafnhæðarlínur. Stigull og snertilína við jafnhæðarlínuna :math:`z=0.5` í :math:`(x,y) = (0.5,0.5)`.
+*Graf* :math:`z=1-x^2-y^2`
 
-   ..
+.. image:: gradient.png
+   :width: 60%
+   :align: center
 
-   *Jafnhæðarlínur. Stigull og snertilína við jafnhæðarlínuna* :math:`z=0.5` *í* :math:`(x,y) = (0.5,0.5)`.
+..
+
+*Jafnhæðarlínur. Stigull og snertilína við jafnhæðarlínuna* :math:`z=0.5` *í* :math:`(x,y) = (0.5,0.5)`.
 
 Setning 
 ~~~~~~~~
@@ -1078,8 +1099,10 @@ fæst þegar :math:`\mbox{${\bf u}$}` er einingarvigur í stefnu
 :math:`\cal C` í punktinum :math:`(a,b)` þá er
 :math:`D_{\mbox{${\bf u}$}}f(a,b)=0`.
 
-.. figure:: contours.png
-   :alt: 
+.. image:: contours.png
+   :width: 50%
+   :align: center
+ 
 
 Setning 
 ~~~~~~~~
@@ -1407,7 +1430,7 @@ skilgreindar og samfelldar þá er :math:`D_1D_2=D_2D_1`, þ.e.a.s. ekki
 skiptir máli í hvaða röð er diffrað, bara hve oft er diffrað með tilliti
 til hvorrar breytu.
 
-.. item::
+.. index::
   tvíliðuregla
 
 Upprifjun (Tvíliðuregla)

@@ -32,12 +32,13 @@ Við hugsum :math:`\mbox{${\bf F}$}(x,y,z)` sem vigur með :math:`(x,y,z)`
 sem fótpunkt. Skilgreiningin á því að vigursvið í :math:`{\mathbb  R}^3`
 sé samfellt er eins og á samfeldni vigursvið í :math:`{\mathbb  R}^2` .
 
-.. figure:: vfield.png
-   :alt: Vigursviðið :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`.
+.. image:: vfield.png
+   :width: 70%
+   :align: center
 
-   ..
+..
 
-   *Vigursviðið* :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`.
+*Vigursviðið* :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`.
 
 Straumlína
 ----------
@@ -50,13 +51,14 @@ line) fyrir vigursvið :math:`\mbox{${\bf F}$}(x,y)` ef í hverjum punkti
 :math:`(x,y)` á ferlinum er vigurinn :math:`\mbox{${\bf F}$}(x,y)`
 snertivigur við ferilinn.
 
-.. figure:: flowlines.png
-   :alt: Vigursviðið :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}` ásamt nokkrum straumlínum.
+.. image:: flowlines.png
+   :width: 70%
+   :align: center
 
-   ..
+..
 
-   *Vigursviðið* :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`
-   *ásamt nokkrum straumlínum*.
+*Vigursviðið* :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`
+*ásamt nokkrum straumlínum*.
 
 Stigulsvið
 ----------
@@ -319,7 +321,7 @@ stikaferli ef og aðeins ef
 :math:`\oint_{\cal C} \mbox{${\bf F}$}\cdot\,d\mbox{${\bf r}$}=0` fyrir
 alla lokaða ferla :math:`\cal C` sem eru samfellt diffranlegir á köflum.
 
-Skilgreining 
+Upprifjun 
 ~~~~~~~~~~~~~
 
 Segjum að mengi :math:`D\subseteq {\mathbb  R}^2` sé
@@ -328,8 +330,6 @@ tvo punkta :math:`P, Q\in D` gildir að til er stikaferill
 :math:`\mbox{${\bf r}$}:[0,1]\rightarrow D` þannig að
 :math:`\mbox{${\bf r}$}(0)=P` og :math:`\mbox{${\bf r}$}(1)=Q`.
 
-.. warning:: 
-   Í bók er orðið *connected* notað fyrir hugtakið *ferilsamanhangandi*. Venjulega er orðið *connected* notað yfir annað hugtak, skylt en samt ólíkt.
 
 Setning 
 ~~~~~~~~
@@ -350,7 +350,7 @@ eftirfarandi jafngilt:
 
 (b)  :math:`\oint_{\cal C} \mbox{${\bf F}$}\cdot\,d\mbox{${\bf r}$}=0` fyrir alla samfellt diffranlega á köflum lokaða stikaferla :math:`\mbox{${\bf r}$}` í :math:`D`,
 
-(c)  ferilheildi :math:`\mbox{${\bf F}$}` er óháð vegi.
+(c)  Ferilheildi :math:`\mbox{${\bf F}$}` er óháð vegi.
 
 .. begin-toggle::
   :label: Sýna sönnun
@@ -388,7 +388,7 @@ Flötum er aðallega lýst með formúlum á þrjá vegu:
 
    .. math:: \displaystyle {\cal S}=\{(x,y,z)\mid (x,y)\in D\mbox{ og } z=f(x,y)\}.
 
-#. Með stikafleti (sjá næstu glæru).
+#. Með stikafleti (sjá næstu grein).
 
 Stikafletir
 -----------
@@ -451,19 +451,21 @@ Setning
 
    .. math:: \displaystyle z=f(a, b)+f_1(a, b)(x-a)+f_2(a, b)(y-b).
 
-.. figure:: xpart.png
-   :alt: Snertivigur við skurðferil sléttunnar :math:`y=b` og yfirborðsins :math:`z = f(x,y)` í punktinum :math:`(a,b,f(a,b))` er :math:`\mathbf{T}_1 = (1,0,f_1(a,b))`.
+.. image:: xpart.png
+   :width: 70%
+   :align: center
 
-   ..
+..
 
-   *Snertivigur við skurðferil sléttunnar* :math:`y=b` *og yfirborðsins* :math:`z = f(x,y)` *í punktinum* :math:`(a,b,f(a,b))` *er* :math:`\mathbf{T}_1 = (1,0,f_1(a,b))`.
+*Snertivigur við skurðferil sléttunnar* :math:`y=b` *og yfirborðsins* :math:`z = f(x,y)` *í punktinum* :math:`(a,b,f(a,b))` *er* :math:`\mathbf{T}_1 = (1,0,f_1(a,b))`.
 
-.. figure:: ypart.png
-   :alt: Snertivigur við skurðferil sléttunnar :math:`x=a` og yfirborðsins :math:`z = f(x,y)` í punktinum :math:`(a,b,f(a,b))` er :math:`\mathbf{T}_2 = (0,1,f_2(a,b))`.
+.. image:: ypart.png
+   :width: 70%
+   :align: center
 
-   ..
+..
 
-   *Snertivigur við skurðferil sléttunnar* :math:`x=a` *og yfirborðsins* :math:`z = f(x,y)` *í punktinum* :math:`(a,b,f(a,b))` *er* :math:`\mathbf{T}_2 = (0,1,f_2(a,b))`.
+*Snertivigur við skurðferil sléttunnar* :math:`x=a` *og yfirborðsins* :math:`z = f(x,y)` *í punktinum* :math:`(a,b,f(a,b))` *er* :math:`\mathbf{T}_2 = (0,1,f_2(a,b))`.
 
 3. Látum
    :math:`\mbox{${\bf r}$}: D\subseteq {\mathbb  R}^2\rightarrow {\mathbb  R}^3`
@@ -538,19 +540,6 @@ með formúlunni
    \big(\frac{\partial f}{\partial x}\big)^2+
    \big(\frac{\partial f}{\partial y}\big)^2}}\,\,dx\,dy.
 
-Flatarheildi
-------------
-
-Verkefni 
-~~~~~~~~~
-
-#. Flatarmál flata – sambærilegt við bogalengd ferla.
-
-#. Heildi falls yfir flöt með tilliti til flatarmáls – sambærilegt við
-   heildi falls eftir ferli með tilliti til bogalengdar.
-
-#. Heildi vigursviðs yfir flöt – svipar til heildis vigursviðs eftir
-   ferli.
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -595,7 +584,7 @@ Ritum :math:`dS` fyrir flatarmálselement á fleti :math:`\cal S`.
 
    .. math:: \displaystyle dS=\sqrt{1+g_1(x,y)^2+g_2(x,y)^2}\,dx\,dy.
 
-Ritum :math:`dS` fyrir flatarmálselement á fleti :math:`\cal S`.
+
 
 -  Gerum ráð fyrir að flöturinn :math:`\cal S` í :math:`{\mathbb  R}^3`
    hafi þann eiginleika að ofanvarp hans á :math:`xy`-planið sé eintækt
@@ -633,7 +622,7 @@ Einingarþvervigrasvið
 Skilgreining 
 ~~~~~~~~~~~~~
 
-Látum :math:`\cal S` vera flöt í :math:`{\mathbb  R}^3`.
+Látum :math:`\cal S` vera flöt í :math:`{\mathbb  R}^3` sem hefur snertiplan í punkti :math:`P`.
 *Einingarþvervigur* :math:`\mbox{${\bf n}$}` á flötinn :math:`\cal S` í
 punktinum :math:`P` er einingarvigur hornréttur á snertiplan við flötinn
 í punktinum :math:`P`.
@@ -644,8 +633,9 @@ punktinum :math:`P` er einingarvigur hornréttur á snertiplan við flötinn
 :math:`\mbox{${\bf n}$}(x,y,z)` einingarvigur sem er hornréttur á
 snertiplan við flötinn í punktinum :math:`(x,y,z)`.
 
-.. figure:: normalfield.png
-   :alt: 
+.. image:: normalfield.png
+   :width: 50%
+   :align: center
 
 Áttanlegir fletir
 -----------------
@@ -656,15 +646,16 @@ Skilgreining
 Flöturinn :math:`\cal S` er sagður *áttanlegur* ef til er
 einingarþvervigrasvið :math:`\mbox{${\bf N}$}` á :math:`\cal S`.
 
-á áttanlegum fleti felst í því að velja annað af tveimur mögulegum
+Áttun á áttanlegum fleti felst í því að velja annað af tveimur mögulegum
 einingaþvervigrasviðum.
 
-.. figure:: mobius.png
-   :alt: Möbiusarborði er ekki áttanlegur.
+.. image:: mobius.png
+   :width: 40%
+   :align: center
 
-   ..
+..
 
-   *Möbiusarborði er ekki áttanlegur.*
+*Möbiusarborði er ekki áttanlegur.*
 
 Umræða 
 ~~~~~~~
@@ -678,8 +669,9 @@ Ef tveir áttanlegir fletir hafa jaðar má splæsa þeim saman í áttanlegan
 flöt með því að líma þá saman á (hluta af) jöðrunum og gæta þess að
 jaðrarnir hafi andstæða stefnu á samskeytunum.
 
-.. figure:: joinsurf.png
-   :alt: 
+.. image:: joinsurf.png
+   :width: 70%
+   :align: center
 
 Setning 
 ~~~~~~~~
@@ -714,8 +706,11 @@ Látum :math:`\cal S` vera áttanlegan flöt stikaðan af reglulegum
 stikaferli
 :math:`\mbox{${\bf r}$}:D\subseteq{\mathbb  R}^2\rightarrow {\mathbb  R}^3`
 með samfelldar hlutafleiður. Látum :math:`\mbox{${\bf N}$}` tákna
-einingarþvervigrasviðið sem gefið er í [attun]. Heildi vigursviðs
+einingarþvervigrasviðið sem gefið er í Setningu 5.13.3. Heildi vigursviðs
 :math:`\mbox{${\bf F}$}` yfir flötinn :math:`\cal S` er skilgreint sem
+
+..
+  XXX ref
 
 .. math:: \displaystyle
 
@@ -777,7 +772,8 @@ gefið með heildinu
 :math:`\int\!\!\!\int_{\cal S} \mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS`
 þar sem streymi í stefnu :math:`\mbox{${\bf N}$}` reiknast jákvætt.
 
-.. figure:: flux.png
-   :alt: 
+.. image:: flux.png
+   :width: 40%
+   :align: center 
 
 
