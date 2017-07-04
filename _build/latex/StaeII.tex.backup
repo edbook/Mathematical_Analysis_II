@@ -18,20 +18,13 @@
 \usepackage{hyperref}
 
 
-
-
 \title{Stærðfræðigreining II (STÆ205G)}
-\date{Rafræna útgáfu af þessum nótum má finna á 
-\\\url{http://notendur.hi.is/sigurdur/stae205/}}
-\release{\today}
-\author{Sigurður Örn Stefánsson, sigurdur@hi.is}
-\newcommand{\sphinxlogo}{\includegraphics{hi_vnvs_horiz_raunvisindadeild.png}\par}
-\renewcommand{\releasename}{}
+\date{January 10, 2017}
+\release{2015}
+\author{Sigurður Örn Stefánsson}
+\newcommand{\sphinxlogo}{\includegraphics{hi_horiz_raunvisindadeild.png}\par}
+\renewcommand{\releasename}{Útgáfa}
 \makeindex
-
-
-
-
 
 \makeatletter
 \def\PYG@reset{\let\PYG@it=\relax \let\PYG@bf=\relax%
@@ -44,66 +37,66 @@
     \PYG@it{\PYG@bf{\PYG@ff{#1}}}}}}}
 \def\PYG#1#2{\PYG@reset\PYG@toks#1+\relax+\PYG@do{#2}}
 
-\expandafter\def\csname PYG@tok@mh\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.13,0.50,0.31}{##1}}}
-\expandafter\def\csname PYG@tok@mf\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.13,0.50,0.31}{##1}}}
-\expandafter\def\csname PYG@tok@c1\endcsname{\let\PYG@it=\textit\def\PYG@tc##1{\textcolor[rgb]{0.25,0.50,0.56}{##1}}}
-\expandafter\def\csname PYG@tok@gs\endcsname{\let\PYG@bf=\textbf}
-\expandafter\def\csname PYG@tok@sc\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.25,0.44,0.63}{##1}}}
-\expandafter\def\csname PYG@tok@ss\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.32,0.47,0.09}{##1}}}
-\expandafter\def\csname PYG@tok@ni\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.84,0.33,0.22}{##1}}}
-\expandafter\def\csname PYG@tok@mo\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.13,0.50,0.31}{##1}}}
-\expandafter\def\csname PYG@tok@ow\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
-\expandafter\def\csname PYG@tok@si\endcsname{\let\PYG@it=\textit\def\PYG@tc##1{\textcolor[rgb]{0.44,0.63,0.82}{##1}}}
-\expandafter\def\csname PYG@tok@s\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.25,0.44,0.63}{##1}}}
-\expandafter\def\csname PYG@tok@vg\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.73,0.38,0.84}{##1}}}
-\expandafter\def\csname PYG@tok@ne\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
-\expandafter\def\csname PYG@tok@il\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.13,0.50,0.31}{##1}}}
 \expandafter\def\csname PYG@tok@gt\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
-\expandafter\def\csname PYG@tok@kc\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
-\expandafter\def\csname PYG@tok@sb\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.25,0.44,0.63}{##1}}}
-\expandafter\def\csname PYG@tok@mi\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.13,0.50,0.31}{##1}}}
+\expandafter\def\csname PYG@tok@sc\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.25,0.44,0.63}{##1}}}
 \expandafter\def\csname PYG@tok@gh\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
-\expandafter\def\csname PYG@tok@o\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
-\expandafter\def\csname PYG@tok@nt\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.02,0.16,0.45}{##1}}}
-\expandafter\def\csname PYG@tok@nv\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.73,0.38,0.84}{##1}}}
-\expandafter\def\csname PYG@tok@nl\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.00,0.13,0.44}{##1}}}
-\expandafter\def\csname PYG@tok@na\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.25,0.44,0.63}{##1}}}
-\expandafter\def\csname PYG@tok@cp\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
-\expandafter\def\csname PYG@tok@k\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
-\expandafter\def\csname PYG@tok@sh\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.25,0.44,0.63}{##1}}}
-\expandafter\def\csname PYG@tok@gi\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
-\expandafter\def\csname PYG@tok@ge\endcsname{\let\PYG@it=\textit}
-\expandafter\def\csname PYG@tok@gu\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
-\expandafter\def\csname PYG@tok@gr\endcsname{\def\PYG@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
-\expandafter\def\csname PYG@tok@nc\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.05,0.52,0.71}{##1}}}
-\expandafter\def\csname PYG@tok@bp\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
-\expandafter\def\csname PYG@tok@kn\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
-\expandafter\def\csname PYG@tok@cm\endcsname{\let\PYG@it=\textit\def\PYG@tc##1{\textcolor[rgb]{0.25,0.50,0.56}{##1}}}
-\expandafter\def\csname PYG@tok@w\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
-\expandafter\def\csname PYG@tok@vc\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.73,0.38,0.84}{##1}}}
-\expandafter\def\csname PYG@tok@s1\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.25,0.44,0.63}{##1}}}
-\expandafter\def\csname PYG@tok@gd\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
-\expandafter\def\csname PYG@tok@c\endcsname{\let\PYG@it=\textit\def\PYG@tc##1{\textcolor[rgb]{0.25,0.50,0.56}{##1}}}
-\expandafter\def\csname PYG@tok@cs\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.25,0.50,0.56}{##1}}\def\PYG@bc##1{\setlength{\fboxsep}{0pt}\colorbox[rgb]{1.00,0.94,0.94}{\strut ##1}}}
-\expandafter\def\csname PYG@tok@nd\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.33,0.33,0.33}{##1}}}
-\expandafter\def\csname PYG@tok@vi\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.73,0.38,0.84}{##1}}}
-\expandafter\def\csname PYG@tok@se\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.25,0.44,0.63}{##1}}}
-\expandafter\def\csname PYG@tok@kd\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
-\expandafter\def\csname PYG@tok@gp\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.78,0.36,0.04}{##1}}}
-\expandafter\def\csname PYG@tok@sx\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.78,0.36,0.04}{##1}}}
-\expandafter\def\csname PYG@tok@kt\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.56,0.13,0.00}{##1}}}
-\expandafter\def\csname PYG@tok@nf\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.02,0.16,0.49}{##1}}}
-\expandafter\def\csname PYG@tok@s2\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.25,0.44,0.63}{##1}}}
-\expandafter\def\csname PYG@tok@kp\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
-\expandafter\def\csname PYG@tok@kr\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
-\expandafter\def\csname PYG@tok@err\endcsname{\def\PYG@bc##1{\setlength{\fboxsep}{0pt}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}
-\expandafter\def\csname PYG@tok@no\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.38,0.68,0.84}{##1}}}
-\expandafter\def\csname PYG@tok@go\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.20,0.20,0.20}{##1}}}
 \expandafter\def\csname PYG@tok@sd\endcsname{\let\PYG@it=\textit\def\PYG@tc##1{\textcolor[rgb]{0.25,0.44,0.63}{##1}}}
-\expandafter\def\csname PYG@tok@m\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.13,0.50,0.31}{##1}}}
-\expandafter\def\csname PYG@tok@nb\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
 \expandafter\def\csname PYG@tok@sr\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.14,0.33,0.53}{##1}}}
+\expandafter\def\csname PYG@tok@gi\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\expandafter\def\csname PYG@tok@ow\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
 \expandafter\def\csname PYG@tok@nn\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.05,0.52,0.71}{##1}}}
+\expandafter\def\csname PYG@tok@mo\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.13,0.50,0.31}{##1}}}
+\expandafter\def\csname PYG@tok@mi\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.13,0.50,0.31}{##1}}}
+\expandafter\def\csname PYG@tok@mf\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.13,0.50,0.31}{##1}}}
+\expandafter\def\csname PYG@tok@kt\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.56,0.13,0.00}{##1}}}
+\expandafter\def\csname PYG@tok@gs\endcsname{\let\PYG@bf=\textbf}
+\expandafter\def\csname PYG@tok@ne\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
+\expandafter\def\csname PYG@tok@gp\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.78,0.36,0.04}{##1}}}
+\expandafter\def\csname PYG@tok@c1\endcsname{\let\PYG@it=\textit\def\PYG@tc##1{\textcolor[rgb]{0.25,0.50,0.56}{##1}}}
+\expandafter\def\csname PYG@tok@kp\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
+\expandafter\def\csname PYG@tok@gu\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\expandafter\def\csname PYG@tok@w\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\expandafter\def\csname PYG@tok@o\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PYG@tok@ge\endcsname{\let\PYG@it=\textit}
+\expandafter\def\csname PYG@tok@vg\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.73,0.38,0.84}{##1}}}
+\expandafter\def\csname PYG@tok@na\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.25,0.44,0.63}{##1}}}
+\expandafter\def\csname PYG@tok@gd\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\expandafter\def\csname PYG@tok@nt\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.02,0.16,0.45}{##1}}}
+\expandafter\def\csname PYG@tok@c\endcsname{\let\PYG@it=\textit\def\PYG@tc##1{\textcolor[rgb]{0.25,0.50,0.56}{##1}}}
+\expandafter\def\csname PYG@tok@kr\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
+\expandafter\def\csname PYG@tok@nl\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.00,0.13,0.44}{##1}}}
+\expandafter\def\csname PYG@tok@nc\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.05,0.52,0.71}{##1}}}
+\expandafter\def\csname PYG@tok@sb\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.25,0.44,0.63}{##1}}}
+\expandafter\def\csname PYG@tok@kd\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
+\expandafter\def\csname PYG@tok@gr\endcsname{\def\PYG@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PYG@tok@err\endcsname{\def\PYG@bc##1{\setlength{\fboxsep}{0pt}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}
+\expandafter\def\csname PYG@tok@vi\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.73,0.38,0.84}{##1}}}
+\expandafter\def\csname PYG@tok@go\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.20,0.20,0.20}{##1}}}
+\expandafter\def\csname PYG@tok@sx\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.78,0.36,0.04}{##1}}}
+\expandafter\def\csname PYG@tok@m\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.13,0.50,0.31}{##1}}}
+\expandafter\def\csname PYG@tok@no\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.38,0.68,0.84}{##1}}}
+\expandafter\def\csname PYG@tok@bp\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
+\expandafter\def\csname PYG@tok@s1\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.25,0.44,0.63}{##1}}}
+\expandafter\def\csname PYG@tok@cp\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
+\expandafter\def\csname PYG@tok@s\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.25,0.44,0.63}{##1}}}
+\expandafter\def\csname PYG@tok@nf\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.02,0.16,0.49}{##1}}}
+\expandafter\def\csname PYG@tok@ni\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.84,0.33,0.22}{##1}}}
+\expandafter\def\csname PYG@tok@k\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
+\expandafter\def\csname PYG@tok@s2\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.25,0.44,0.63}{##1}}}
+\expandafter\def\csname PYG@tok@nd\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.33,0.33,0.33}{##1}}}
+\expandafter\def\csname PYG@tok@se\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.25,0.44,0.63}{##1}}}
+\expandafter\def\csname PYG@tok@nv\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.73,0.38,0.84}{##1}}}
+\expandafter\def\csname PYG@tok@cm\endcsname{\let\PYG@it=\textit\def\PYG@tc##1{\textcolor[rgb]{0.25,0.50,0.56}{##1}}}
+\expandafter\def\csname PYG@tok@mh\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.13,0.50,0.31}{##1}}}
+\expandafter\def\csname PYG@tok@si\endcsname{\let\PYG@it=\textit\def\PYG@tc##1{\textcolor[rgb]{0.44,0.63,0.82}{##1}}}
+\expandafter\def\csname PYG@tok@kn\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
+\expandafter\def\csname PYG@tok@nb\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
+\expandafter\def\csname PYG@tok@ss\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.32,0.47,0.09}{##1}}}
+\expandafter\def\csname PYG@tok@kc\endcsname{\let\PYG@bf=\textbf\def\PYG@tc##1{\textcolor[rgb]{0.00,0.44,0.13}{##1}}}
+\expandafter\def\csname PYG@tok@il\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.13,0.50,0.31}{##1}}}
+\expandafter\def\csname PYG@tok@cs\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.25,0.50,0.56}{##1}}\def\PYG@bc##1{\setlength{\fboxsep}{0pt}\colorbox[rgb]{1.00,0.94,0.94}{\strut ##1}}}
+\expandafter\def\csname PYG@tok@vc\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.73,0.38,0.84}{##1}}}
+\expandafter\def\csname PYG@tok@sh\endcsname{\def\PYG@tc##1{\textcolor[rgb]{0.25,0.44,0.63}{##1}}}
 
 \def\PYGZbs{\char`\\}
 \def\PYGZus{\char`\_}
@@ -134,8 +127,117 @@
 
 
 
+\chapter*{Formáli}
+\label{formali::doc}\label{formali:staerfraeigreining-ii-stae205g-haskoli-islands-vor-2016}\label{formali:formali}
+Þetta kennsluefni er ætlað til að styðja við kennslu í áfanganum
+Stærðfræðigreining II við Háskóla Íslands. Það er bæði aðgengilegt sem
+vefsíða, \href{http://notendur.hi.is/sigurdur/stae205}{http://notendur.hi.is/sigurdur/stae205}, og sem \href{https://notendur.hi.is/sigurdur/stae205/stae205.pdf}{pdf-skjal} sem hentar
+til útprentunar. Efnið byggir upprunalega á glærupakka sem \href{http://starfsfolk.hi.is/simaskra/1198}{Rögnvaldur
+Möller} útbjó fyrir sambærilegan áfanga. Efnið er skrifað í
+Markup-tungumáli í kerfinu Sphinx sem upphaflega var hannað fyrir
+hjálpina í forritunarmálinu Python. \href{http://notendur.hi.is/bsm}{Benedikt Steinar Magnússon} aðlagaði kerfið þannig að það hentar til
+að útbúa kennsluefni og naut við það aðstoðar Sólrúnar Höllu
+Einarsdóttur. Kerfið er opið og allar viðbætur við það eru
+aðgengilegar á \href{http://github.com/edbook}{http://github.com/edbook}. Arnbjörg Soffía Árnadóttir og
+Þorsteinn Hjörtur Jónsson sáu um uppsetningu á efninu í
+Stærðfræðigreiningu II og kann ég þeim bestu þakkir fyrir.
+
+\textbf{Janúar 2016, Sigurður Örn Stefánsson}
+
+Sumarið 2016 var þýðingu lykilorða bætt við kerfið. Símon Böðvarsson sá um forritunarvinnuna. Þýðingar eru sóttar úr \href{http://stæ.is/os}{Orðaskrá Íslenska stærðfræðafélagsins}. Þegar músabendill svífur yfir lykilorði birtist fyrsta þýðing þess samkvæmt orðaskránni. Í sumum tilfellum eru margar mögulegar þýðingar sem eiga misvel við en þá er hægt að smella á orðið til að sjá alla möguleika.
+
+\textbf{Janúar 2017, Sigurður Örn Stefánsson}
+
+
+\chapter*{Gagnlegar upplýsingar}
+\label{umnamskeidid::doc}\label{umnamskeidid:gagnlegar-upplysingar}
+
+\section*{Námsefnið}
+\label{umnamskeidid:namsefni}
+Viðfangsefnið eru varpanir sem skilgreindar eru á
+hlutmengi í \(\mathbb{R}^n\) og taka gildi í \(\mathbb{R}^m\).  Sérstaklega munum við skoða
+varpanir \(\mathbf{r}:[a,b]\rightarrow \mathbb{R}^m\) (stikaferla) og föll \(f:\mathbb{R}^n\rightarrow
+\mathbb{R}\).  Námskeiðið skiptist í tvo svo til jafnstóra hluta þar sem í
+öðrum er diffrun í aðalhlutverki og í hinum heildun.   Meginþema í
+námskeiðinu er beiting á aðferðum stærðfræðigreiningar á rúmfræðileg
+verkefni.
+
+Þegar þið þurfið virkilega að reikna, hvort sem það er í námi eða
+starfi,   er líklegt að reyni á kunnáttu ykkar í efni þessa
+námskeiðs.
+
+Notuð er sama kennslubók og í Stærðfræðigreiningu I, 8. útgáfa af
+Calculus eftir Adams. Í námskeiðinu verður farið yfir mest allt efni kafla 8, 11,
+12, 13, 14, 15 og 16 (sjá áætlun um fyrirlestra).
+
+
+\section*{Fyrirlestrar}
+\label{umnamskeidid:fyrirlestrar}
+Fyrirlestrar verða 8:20-9:50 á mánudögum og 10:00-11:30 á
+miðvikudögum.  Í fyrirlestraáætlun og  á
+dæmablöðunum er sagt nánar frá efni fyrirlestra hverrar viku og
+vísað á viðeigandi efnisgreinar í bók.  Helstu atriði
+fyrirlestranna verða aðgengileg á vefnum.
+Að mestu verður fylgt þeirri efnisröð sem er í bók Adams.
+
+
+\section*{Dæmi og dæmatímar}
+\label{umnamskeidid:daemi-og-daematimar}
+Í tímunum 15:00-16:30 á mánudögum og 13:20-14:50 á þriðjudögum verða
+reiknuð dæmi. Þið getið valið í hvorn tímann þið mætið. Rætt verður um lausnir skiladæma í tímanum 11:40-12:20 á miðvikudögum.
+
+Því til viðbótar verða stoðtímar  á miðvikudögum og fimmtudögum.  Í þeim tímum gefst ykkur tækifæri á að fá aðstoð við skiladæmi og önnur dæmi sem þið eruð að glíma við og einnig að fá nánari útskýringar á atriðum úr fyrirlestrum og leystum dæmum. Þið getið valið í hvaða stoðtíma þið mætið en athugið að yfirleitt er mest álag í fimmtudagstímunum og því getur verið auðveldara að fá aðstoð fyrr í vikunni.
+
+Dæmablöð og lausnir skiladæma verða settar á skráasvæðið í UGLU.
+
+Í dæmatímum verður fyrst farið yfir dæmi með undirstrikuðum númerum.
+
+
+\section*{Skiladæmi og próftökuréttur}
+\label{umnamskeidid:skiladaemi-og-proftokurettur}
+Á misserinu verða 11 sinnum lögð fyrir
+skiladæmi. Fyrstu skiladæmi verða föstudaginn 13. janúar.
+
+\begin{notice}{important}{Mikilvægt:}
+Til að öðlast próftökurétt þarf að skila að minnsta kosti \textbf{7 af 11} heimadæmum. Skil teljast ekki gild nema þið hafi náð 50\% árangri í
+glímunni við dæmin. Þið berið sjálf ábyrgð á að fylgjast með að skil séu rétt skráð í Uglunni. Yfirfarin heimadæmi undirrituð af
+aðstoðarkennara gilda sem kvittun fyrir skilum. Haldið þeim því til haga!
+\end{notice}
+
+Dæmum á að skila fyrir 13:00 á föstudögum í \textbf{hólf merkt Sigurður Örn Stefánsson} í anddyri VRII.  Vinsamlegast merkið lausnir ykkar með \textbf{fullu nafni} ykkar og hvaða grein þið eruð í (t.d. rafmagnsverkfræði, efnafræði...)  \textbf{efst á fremstu síðunni}.  Ef lausnir ykkar eru á tveimur eða fleiri blöðum þá þurfið þið að hefta þau saman. Yfirfarnar úrlausnir má nálgast í rekkunum við stigann á jarðhæð í VRII á miðvikudagsmorgni vikuna eftir skil.
+
+
+\section*{Próf}
+\label{umnamskeidid:prof}
+Á misserinu verða tvö stutt próf sem hvort um sig gildir 15\% til lokaeinkunnar en þó eingöngu til hækkunar.   Ég stefni að því að hafa fyrra prófið í tíma 22. febrúar.  Þá verður prófað úr lesnu efni, skilgreiningum og setningum.  Seinna prófið verður væntanlega í tíma 22. mars.  Á því prófi verða dæmi og atriði sem hafa komið fyrir í skiladæmum.  Engin skiladæmi eru lögð fyrir þær vikur sem prófin eru haldin.
+
+Í lok námskeiðsins er þriggja tíma skriflegt próf sem gildir 70\%.  Nauðsynlegt og nægjanlegt er að fá a.m.k. 5 í lokaprófinu til að standast námskeiðið. Engin hjálpargögn eru heimil í prófinu, nema formúlublöð sem fylgja prófverkefni. Vasareiknar eru ekki leyfðir í prófinu. Á prófinu verða dæmi úr öllum hlutum námsefnisins.  Dæmin munu bæði reyna á reiknifærni og grundvallarskilning á hugtökum.
+
+
+\section*{Að taka námskeiðið í annað sinn}
+\label{umnamskeidid:a-taka-namskeii-i-anna-sinn}
+Þau ykkar sem sátuð námskeiðið í fyrra og unnuð ykkur inn próftökurétt haldið próftökuréttinum en eldri próftökuréttur gildir ekki. Einkunnir úr misserisprófum frá í fyrra gilda ekki. Þið eruð hvött til að taka fullan þátt í námskeiðinu með dæmaskilum og þátttöku í misserisprófum.
+
+
+\section*{Viðtalstímar kennara}
+\label{umnamskeidid:vitalstimar-kennara}
+Kennari námskeiðsins er Sigurður Örn Stefánsson, og hefur skrifstofu á þriðju hæð í Tæknigarði.  Tímarnir frá 11:40 - 12:20 á miðvikudögum verða nýttir til að fara yfir lausnir skiladæma og í fyrirspurnir og aðrar umræður. Aðrir viðtalstímar eru eftir samkomulagi.  Síminn minn er 525 5481 og tölvupóstfangið er \href{mailto:sigurdur@hi.is}{sigurdur@hi.is}.
+
+\begin{notice}{important}{Mikilvægt:}
+Þar sem mjög margir nemendur eru í námskeiðinu bið ég ykkur um að íhuga  áður en þið sendið tölvupóst hvort svarið við spurningunni
+sé að finna í þessu skjali eða hvort þið gætuð borið spurninguna fram í fyrirlestri, dæmatíma, stoðtíma eða viðtalstíma.
+\end{notice}
+
+
+\section*{Hugbúnaður}
+\label{umnamskeidid:hugbunaur}
+Við munum nota forritið Matlab í námskeiðinu, aðallega til að framkalla teikningar. Á \href{http://notendur.hi.is/jonasson/matlab/}{heimasíðu Kristjáns Jónassonar} getið þið nálgast útgáfu af Matlab fyrir nemendur háskólans.
+
+Fyrir þá sem kjósa frjálsan hugbúnað þá má benda á að forritið \href{http://www.gnu.org/software/octave}{Octave}, er að mestu leyti sambærilegt við Matlab.
+
+
 \chapter{Ferlar}
-\label{Kafli1:staerfraeigreining-ii-stae205g-haskoli-islands-vor-2016}\label{Kafli1::doc}\label{Kafli1:ferlar}
+\label{Kafli1::doc}\label{Kafli1:ferlar}
 \emph{Winter is coming.}
 
 - George R.R. Martin, A Game of Thrones
@@ -174,7 +276,7 @@ Vörpun \(\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}\)
 \emph{vigurgild vörpun}. Slík vörpun er sögð samfelld ef föllin
 \(r_1, \ldots, r_n\) eru öll samfelld. Samfelld vörpun
 \(\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}\) er oft
-kölluð \emph{stikaferill}.
+kölluð \textit{stikaferill}.
 
 
 \subsection{Ritháttur}
@@ -198,11 +300,11 @@ ritað
 
 \subsection{Skilgreining}
 \label{Kafli1:id1}\label{Kafli1:index-1}
-\emph{Ferill í plani} er mengi punkta \((x,y)\) í planinu þannig að
+\textit{Ferill í plani} er mengi punkta \((x,y)\) í planinu þannig að
 skrifa má \(x=f(t)\) og \(y=g(t)\) fyrir \(t\) á bili
 \(I\) þar sem \(f\) og \(g\) eru samfelld föll á \(I\).
 Bilið \(I\) ásamt föllunum \((f,g)\) kallast \emph{s}tikun á
-ferlinum. Ferill í rúmi og stikun á ferli í rúmi eru skilgreind á
+ferlinum. Ferill í rúmi og \textit{stikun} á ferli í rúmi eru skilgreind á
 sambærilegan hátt.
 
 \begin{notice}{warning}{Aðvörun:}
@@ -237,12 +339,13 @@ um ólíkar stikanir:
 \end{array}\right.\end{aligned}\end{split}\notag
 \end{gather}
 
+
 \section{Diffrun stikaferla}
 \label{Kafli1:diffrun-stikaferla}
 \index{stikaferill!diffrun}
 
 \subsection{Skilgreining}
-\label{Kafli1:index-2}\label{Kafli1:id2}
+\label{Kafli1:id2}\label{Kafli1:index-2}
 Stikaferill
 \(\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}\) er
 \emph{diffranlegur í punkti} \(t\) ef markgildið
@@ -271,10 +374,10 @@ Stikaferill
 Látum \(\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}\)
 vera diffranlegan stikaferil. Venja er að rita
 \(\mbox{${\bf v}$}(t)=\mbox{${\bf r}$}'(t)\) og tala um
-\(\mbox{${\bf v}$}(t)\) sem \emph{hraða} eða \emph{hraðavigur}. Talan
-\(|\mbox{${\bf v}$}(t)|\) er kölluð \emph{ferð}. Einnig er ritað
+\(\mbox{${\bf v}$}(t)\) sem \textit{hraða} eða \emph{hraðavigur}. Talan
+\(|\mbox{${\bf v}$}(t)|\) er kölluð \textit{ferð}. Einnig er ritað
 \(\mbox{${\bf a}$}(t)=\mbox{${\bf v}$}'(t)=\mbox{${\bf r}$}''(t)\)
-og talað um \(\mbox{${\bf a}$}(t)\) sem \emph{hröðun} eða
+og talað um \(\mbox{${\bf a}$}(t)\) sem \textit{hröðun} eða
 \emph{hröðunarvigur}.
 
 
@@ -339,35 +442,34 @@ Ef \(\mbox{${\bf u}$}(t)\neq\mbox{${\bf 0}$}\) þá er
 \index{stikaferill!samfellt diffranlegur}\index{stikaferill!þjáll}
 
 \subsection{Skilgreining}
-\label{Kafli1:id6}\label{Kafli1:index-4}
+\label{Kafli1:index-4}\label{Kafli1:id6}
 Látum
 \(\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}; \mbox{${\bf r}$}(t)=(r_1(t),\ldots,r_n(t))\)
 vera stikaferil.
 
-Stikaferillinn er sagður \emph{samfellt diffranlegur} ef föllin
+Stikaferillinn er sagður \textit{samfellt diffranlegur} ef föllin
 \(r_1(t),\ldots,r_n(t)\) eru öll diffranleg og afleiður þeirra eru
-samfelldar. Samfellt diffranlegur stikaferill er sagður \emph{þjáll}
-(e. smooth) ef \(\mbox{${\bf r}$}'(t)\neq\mbox{${\bf 0}$}\) fyrir
+samfelldar. Samfellt diffranlegur stikaferill er sagður \textit{þjáll}
+ef \(\mbox{${\bf r}$}'(t)\neq\mbox{${\bf 0}$}\) fyrir
 öll \(t\).
 
 Stikaferillinn er sagður \emph{samfellt diffranlegur á köflum} ef til eru
 tölur \(b_0,\ldots,b_k\) þannig að \(a=b_0<b_1<\cdots<b_k=b\) og
 stikaferillinn er samfellt diffranlegur á hverju bili
-\([b_{i-1}, b_i]\). Það að stikaferill sé \emph{þjáll á köflum}
-(e. piecewise smooth curve) er skilgreint á sambærilegan hátt.
+\([b_{i-1}, b_i]\). Það að stikaferill sé \textit{þjáll á köflum} er skilgreint á sambærilegan hátt.
 
 \index{stikaferill!snertilína}
 
 \subsection{Setning}
-\label{Kafli1:id7}\label{Kafli1:index-5}
+\label{Kafli1:index-5}\label{Kafli1:id7}
 Látum \(\mbox{${\bf r}$}=f(t)\mbox{${\bf i}$}+g(t)\mbox{${\bf j}$}\)
 vera samfellt diffranlegan stikaferil fyrir \(t\) á bili \(I\).
-Ef \(f'(t) \neq 0\) á \(I\) þá hefur ferilinn snertilínu fyrir
+Ef \(f'(t) \neq 0\) á \(I\) þá hefur ferilinn \textit{snertilínu} fyrir
 hvert gildi á \(t\) og hallatala hennar er
 \begin{gather}
 \begin{split}\displaystyle \frac{dy}{dx} = \frac{g'(t)}{f'(t)}.\end{split}\notag
 \end{gather}
-Ef \(g'(t) \neq 0\) á \(I\) þá hefur ferilinn þverlínu fyrir
+Ef \(g'(t) \neq 0\) á \(I\) þá hefur ferilinn \textit{þverlínu} fyrir
 hvert gildi á \(t\) og hallatala hennar er
 \begin{gather}
 \begin{split}\displaystyle -\frac{dx}{dy} = -\frac{f'(t)}{g'(t)}.\end{split}\notag
@@ -380,12 +482,12 @@ hvert gildi á \(t\) og hallatala hennar er
 \subsection{Regla}
 \label{Kafli1:regla}
 Látum \(\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}\)
-vera samfellt diffranlegan stikaferil. \emph{Lengd} eða \emph{bogalengd}
+vera samfellt diffranlegan stikaferil. Lengd eða \textit{bogalengd}
 stikaferilsins er skilgreind með formúlunni
 \begin{gather}
 \begin{split}\displaystyle s=\int_a^b |\mbox{${\bf v}$}(t)|\,dt.\end{split}\notag
 \end{gather}
-\index{stikun með bogalengd}
+\index{stikun!með bogalengd}
 
 \subsection{Skilgreining og umræða}
 \label{Kafli1:index-7}\label{Kafli1:skilgreining-og-umraea}
@@ -415,10 +517,11 @@ Heppilegt val á hnitakerfi getur skipt sköpum við lausn verkefnis.
 \end{itemize}
 
 \index{pólhnit}
+\index{pólhnit}
 
 \subsection{Skilgreining}
-\label{Kafli1:id8}\label{Kafli1:index-8}
-Látum \(P=(x,y)\neq \mbox{${\bf 0}$}\) vera punkt í plani. \emph{Pólhnit}
+\label{Kafli1:index-9}\label{Kafli1:id8}
+Látum \(P=(x,y)\neq \mbox{${\bf 0}$}\) vera punkt í plani. \textit{Pólhnit}
 \(P\) er talnapar \([r,\theta]\) þannig að \(r\) er fjarlægð
 \(P\) frá \(O=(0,0)\) og \(\theta\) er hornið á milli
 striksins \(\overline{OP}\) og \(x\)-ássins. (Hornið er mælt
@@ -429,8 +532,7 @@ heil margfeldi af \(2\pi\).)
 \subsection{Regla}
 \label{Kafli1:id9}
 Ef pólhnit punkts í plani eru \([r, \theta]\) þá má reikna
-\(xy\)-hnit hans (e. \emph{rectangular coordinates} eða \emph{Cartesian
-coordinates}) með formúlunum
+\textit{hornrétt hnit} hans (\(xy\)-hnit) með formúlunum
 \begin{gather}
 \begin{split}\displaystyle x=r\cos\theta \qquad\mbox{og}\qquad y=r\sin\theta.\end{split}\notag
 \end{gather}
@@ -453,7 +555,7 @@ ef \(x>0\) en á milli \(\frac{\pi}{2}\) og
 \index{pólhnitagraf}
 
 \subsection{Skilgreining og umræða}
-\label{Kafli1:index-9}\label{Kafli1:id10}
+\label{Kafli1:id10}\label{Kafli1:index-10}
 Látum \(f\) vera fall skilgreint fyrir \(\theta\) þannig að
 \(\alpha\leq\theta\leq\beta\). Jafnan \(r=f(\theta)\) lýsir
 mengi allra punkta í planinu sem hafa pólhnit á forminu
@@ -472,7 +574,7 @@ með formúlu
 \index{pólhnitagraf!snertill}
 
 \section{Snertill við pólhnitagraf}
-\label{Kafli1:snertill-vi-polhnitagraf}\label{Kafli1:index-10}
+\label{Kafli1:snertill-vi-polhnitagraf}\label{Kafli1:index-11}
 
 \subsection{Setning}
 \label{Kafli1:id11}
@@ -481,18 +583,18 @@ ráð fyrir að fallið \(f\) sé samfellt diffranlegt. Látum
 \(\mbox{${\bf r}$}(\theta)\) tákna stikunina á pólhnitagrafinu sem
 innleidd er í 1.7.1. Ef vigurinn
 \(\mbox{${\bf r}$}'(\theta)\neq \mbox{${\bf 0}$}\) þá gefur þessi
-vigur stefnu snertils við pólhnitagrafið og út frá
+vigur stefnu \textit{snertils} við pólhnitagrafið og út frá
 \(\mbox{${\bf r}$}'(\theta)\) má reikna hallatölu snertils við
 pólhnitagrafið.
 
 \index{pólhnitagraf!flatarmál}
 
 \section{Flatarmál}
-\label{Kafli1:flatarmal}\label{Kafli1:index-11}
+\label{Kafli1:index-12}\label{Kafli1:flatarmal}
 
 \subsection{Setning}
 \label{Kafli1:id12}
-Flatarmál svæðisins sem afmarkast af geislunum \(\theta=\alpha\) og
+\textit{Flatarmál} svæðisins sem afmarkast af geislunum \(\theta=\alpha\) og
 \(\theta=\beta\) (með \(\alpha\leq \beta\) og
 \(\beta-\alpha\leq 2\pi\)) og pólhnitagrafi \(r=f(\theta)\)
 (\(f\) samfellt) er
@@ -503,11 +605,11 @@ Flatarmál svæðisins sem afmarkast af geislunum \(\theta=\alpha\) og
 \index{pólhnitagraf!bogalengd}
 
 \section{Bogalengd}
-\label{Kafli1:index-12}\label{Kafli1:bogalengd}
+\label{Kafli1:index-13}\label{Kafli1:bogalengd}
 
 \subsection{Setning}
 \label{Kafli1:id13}
-Gerum ráð fyrir að fallið \(f(\theta)\) sé diffranlegt. Bogalengd
+Gerum ráð fyrir að fallið \(f(\theta)\) sé diffranlegt. \textit{Bogalengd}
 pólhnitagrafsins \(r=f(\theta)\), þegar
 \(\alpha\leq\theta\leq\beta\), er gefin með formúlunni
 \begin{gather}
@@ -519,7 +621,7 @@ pólhnitagrafsins \(r=f(\theta)\), þegar
 \index{einingarsnertivigur}
 
 \subsection{Skilgreining}
-\label{Kafli1:index-13}\label{Kafli1:id14}
+\label{Kafli1:index-14}\label{Kafli1:id14}
 Látum \(\cal C\) vera feril í plani eða rúmi. Látum
 \(\mbox{${\bf r}$}\) vera stikun á \(\cal C\) og gerum ráð fyrir
 að \(\mbox{${\bf r}$}\) sé þjáll stikaferill
@@ -537,18 +639,18 @@ skilgreindur með formúlunni
 \index{krappi}\index{krappageisli}
 
 \subsection{Skilgreining}
-\label{Kafli1:index-14}\label{Kafli1:id15}
+\label{Kafli1:index-15}\label{Kafli1:id15}
 Látum \(\cal C\) vera feril í plani eða rúmi og
 \(\mbox{${\bf r}$}\) stikun á \(\cal C\) með bogalengd. (Þegar
 fjallað er um stikanir með bogalengd er venja að tákna stikann með
 \(s\).) Lengd hraðavigurs er alltaf 1 og því er
-\(\mbox{${\bf T}$}(s)=\mbox{${\bf v}$}(s)\). \emph{Krappi} (e. curvature)
+\(\mbox{${\bf T}$}(s)=\mbox{${\bf v}$}(s)\). \textit{Krappi}
 ferilsins \(\cal
 C\) í punktinum \(\mbox{${\bf r}$}(s)\) er skilgreindur sem talan
 \begin{gather}
 \begin{split}\displaystyle \kappa(s)=\left|\frac{d\mbox{${\bf T}$}}{ds}\right|.\end{split}\notag
 \end{gather}
-\emph{Krappageisli} (e. radius of curvature) í punktinum
+\textit{Krappageisli} í punktinum
 \(\mbox{${\bf r}$}(s)\) er skilgreindur sem
 \begin{gather}
 \begin{split}\displaystyle \rho(s)=\frac{1}{\kappa(s)}.\end{split}\notag
@@ -559,10 +661,10 @@ C\) í punktinum \(\mbox{${\bf r}$}(s)\) er skilgreindur sem talan
 \index{meginþverill}
 
 \subsection{Skilgreining}
-\label{Kafli1:id16}\label{Kafli1:index-15}
+\label{Kafli1:id16}\label{Kafli1:index-16}
 Látum \(\cal C\) vera feril í plani eða rúmi og
 \(\mbox{${\bf r}$}\) stikun á \(\cal C\) með bogalengd.
-\emph{Meginþverill} (e. unit principal normal) í punkti
+\textit{Meginþverill} í punkti
 \(\mbox{${\bf r}$}(s)\) er skilgreindur sem vigurinn
 \begin{gather}
 \begin{split}\displaystyle \mbox{${\bf N}$}(s)=\frac{\mbox{${\bf T}$}'(s)}{|\mbox{${\bf T}$}'(s)|}=\frac{1}{\kappa(s)}\mbox{${\bf T}$}'(s).\end{split}\notag
@@ -582,16 +684,16 @@ grunnvigurinn \(\mbox{${\bf i}$}\). Þá er
 \index{hjúfur-!plan}\index{hjúfur-!hringur}
 
 \subsection{Skilgreining}
-\label{Kafli1:index-16}\label{Kafli1:id17}
+\label{Kafli1:index-17}\label{Kafli1:id17}
 Látum \(\cal C\) vera feril í plani eða rúmi og
 \(\mbox{${\bf r}$}\) stikun á \(\cal C\) með bogalengd.
 
-\emph{Hjúfurplanið} (e. osculating plane) við ferilinn í punkti
+\textit{Hjúfurplanið} við ferilinn í punkti
 \(\mbox{${\bf r}$}(s)\) er planið sem spannað er af vigrunum
 \(\mbox{${\bf T}$}(s)\) og \(\mbox{${\bf N}$}(s)\) og liggur um
 punktinn \(\mbox{${\bf r}$}(s)\).
 
-\emph{Hjúfurhringur} (e. osculating circle) við ferilinn í punkti
+\textit{Hjúfurhringur} við ferilinn í punkti
 \(\mbox{${\bf r}$}(s)\) er hringur sem liggur í hjúfurplaninu, fer í
 gegnum punktinn \(\mbox{${\bf r}$}(s)\), hefur geisla
 \(\rho(s)\) og hefur miðju í punktinum
@@ -603,13 +705,13 @@ gegnum punktinn \(\mbox{${\bf r}$}(s)\), hefur geisla
 \index{tvíþverill}\index{Frenet ramminn}
 
 \subsection{Skilgreining}
-\label{Kafli1:id18}\label{Kafli1:index-17}
+\label{Kafli1:id18}\label{Kafli1:index-18}
 Látum \(\cal C\) vera feril í plani eða rúmi og
 \(\mbox{${\bf r}$}\) stikun á \(\cal C\) með bogalengd. Vigurinn
 \begin{gather}
 \begin{split}\displaystyle \mbox{${\bf B}$}(s)=\mbox{${\bf T}$}(s)\times \mbox{${\bf N}$}(s)\end{split}\notag
 \end{gather}
-kallas \emph{tvíþverill} (e. binormal) við ferilinn í
+kallast \textit{tvíþverill} við ferilinn í
 \(\mbox{${\bf r}$}(s)\).
 
 \(\{\mbox{${\bf T}$}(s),\mbox{${\bf N}$}(s),\mbox{${\bf B}$}(s)\}\)
@@ -621,7 +723,7 @@ er þverstaðlaður grunnur og kallast \textbf{Frenet ramminn}.
 \index{vindingur}
 
 \subsection{Setning og skilgreining}
-\label{Kafli1:index-18}\label{Kafli1:setning-og-skilgreining}
+\label{Kafli1:index-19}\label{Kafli1:setning-og-skilgreining}
 Látum \(\cal C\) vera feril í plani eða rúmi og
 \(\mbox{${\bf r}$}\) stikun á \(\cal C\) með bogalengd. Vigurinn
 \(\mbox{${\bf B}$}'(s)\) er samsíða vigrinum
@@ -631,7 +733,7 @@ að
 \begin{gather}
 \begin{split}\displaystyle \mbox{${\bf B}$}'(s)=-\tau(s)\mbox{${\bf N}$}(s)\end{split}\notag
 \end{gather}
-kallast \emph{vindingur} ferilsins í punktinum \(\mbox{${\bf r}$}(s)\).
+kallast \textit{vindingur} ferilsins í punktinum \(\mbox{${\bf r}$}(s)\).
 
 
 \section{Frenet-Serret jöfnurnar}
@@ -639,7 +741,7 @@ kallast \emph{vindingur} ferilsins í punktinum \(\mbox{${\bf r}$}(s)\).
 \index{Frenet-Serret}
 
 \subsection{Jöfnur}
-\label{Kafli1:index-19}\label{Kafli1:jofnur}
+\label{Kafli1:jofnur}\label{Kafli1:index-20}
 Látum \(\cal C\) vera feril í plani eða rúmi og
 \(\mbox{${\bf r}$}\) stikun á \(\cal C\) með bogalengd. Þá
 gildir
@@ -707,7 +809,7 @@ Látum \(f:{\mathbb  R}^2\rightarrow {\mathbb  R}\) vera fall. Ef
 \begin{gather}
 \begin{split}\displaystyle \{(x,y)\mid f(x,y)=c\}\subseteq {\mathbb  R}^2\end{split}\notag
 \end{gather}
-kallað \emph{jafnhæðarlína} eða \emph{jafnhæðarferill} (e. level curve) fallsins
+kallað \textit{jafnhæðarlína} eða \textit{jafnhæðarferill} fallsins
 \(f\) fyrir fastann \(c\).
 
 Látum \(f:{\mathbb  R}^3\rightarrow {\mathbb  R}\) vera fall. Ef
@@ -715,7 +817,7 @@ Látum \(f:{\mathbb  R}^3\rightarrow {\mathbb  R}\) vera fall. Ef
 \begin{gather}
 \begin{split}\displaystyle \{(x,y,z)\mid f(x,y,z)=c\}\end{split}\notag
 \end{gather}
-kallað \emph{jafnhæðarflötur} (e. level surface) fallsins \(f\) fyrir
+kallað \textit{jafnhæðarflötur} fallsins \(f\) fyrir
 fastann \(c\).
 
 {\hfill\includegraphics[width=0.600\linewidth]{contour.png}\hfill}
@@ -728,7 +830,7 @@ fastann \(c\).
 \index{fjarlægð}
 
 \subsection{Skilgreining}
-\label{Kafli2:index-2}\label{Kafli2:id2}
+\label{Kafli2:id2}\label{Kafli2:index-2}
 \emph{Fjarlægðin} milli tveggja punkta
 \(\mbox{${\bf x}$}=(x_1,x_2, \ldots,x_n)\) og
 \(\mbox{${\bf y}$}=(y_1,y_2, \ldots,y_n)\) í
@@ -762,11 +864,11 @@ bil.
 \label{Kafli2:index-4}\label{Kafli2:id4}
 Látum \(U\) vera hlutmengi í \(\mbox{${\bf R}^n$}\).
 
-Sagt er að \(U\) sé \emph{opið mengi} ef um sérhvern punkt \(P\) í
+Sagt er að \(U\) sé \textit{opið mengi} ef um sérhvern punkt \(P\) í
 \(U\) gildir að til er tala \(r>0\) þannig að
 \(B_r(P)\subseteq U\).
 
-Mengið \(U\) er sagt \emph{lokað} ef fyllimengið er opið. (\emph{Fyllimengi}
+Mengið \(U\) er sagt \textit{lokað} ef \textit{fyllimengið} er opið. (\emph{Fyllimengi}
 \(U\) er skilgreint sem mengið
 \(\mbox{${\bf R}^n$}\setminus U=\{Q\in \mbox{${\bf R}^n$}\mid Q\mbox{$\;\not\in\;$}U\}\).)
 
@@ -776,9 +878,9 @@ Mengið \(U\) er sagt \emph{lokað} ef fyllimengið er opið. (\emph{Fyllimengi}
 \index{jaðarpunktur}
 
 \subsection{Skilgreining}
-\label{Kafli2:id5}\label{Kafli2:index-5}
+\label{Kafli2:index-5}\label{Kafli2:id5}
 Látum \(U\) vera mengi í \(\mbox{${\bf R}^n$}\). Punktur
-\(P\) í \(\mbox{${\bf R}^n$}\) er sagður \emph{jaðarpunktur}
+\(P\) í \(\mbox{${\bf R}^n$}\) er sagður \textit{jaðarpunktur}
 \(U\) ef sérhver opin kúla \(B_r(P)\) með \(r>0\) inniheldur
 bæði punkt úr \(U\) og punkt úr
 \(\mbox{${\bf R}^n$}\setminus U\). (Athugið að bæði er mögulegt að
@@ -792,12 +894,12 @@ jaðarpunktur \(U\) sé í \(U\) og að hann sé ekki í \(U\).)
 \subsection{Skilgreining}
 \label{Kafli2:id6}\label{Kafli2:index-6}
 Fyrir fall \(f(x_1,x_2,\ldots,x_n)\) þá táknar \({\cal D}(f)\)
-skilgreiningarmengi fallsins \(f\). Ef fallið er gefið með formúlu
+\textit{skilgreiningarmengi} fallsins \(f\). Ef fallið er gefið með formúlu
 og ekkert sagt um \({\cal D}(f)\) þá lítum við svo á að
 \({\cal D}(f)\) sé mengi allra punkta í \(\mbox{${\bf R}^n$}\)
 þannig að formúlan gefi vel skilgreinda tölu.
 
-\index{markgildi}
+\index{markgildi}\index{stefna á}
 
 \section{Markgildi}
 \label{Kafli2:index-7}\label{Kafli2:markgildi}
@@ -810,7 +912,7 @@ Látum \(P=(p_1,p_2,\ldots,p_n)\) vera punkt í
 \(\mbox{${\bf R}^n$}\) þannig að sérhver opin kúla um \(P\)
 inniheldur meira en einn punkt úr \({\cal D}(f)\).
 
-Segjum að \(f(x_1,x_2,\ldots,x_n)\) stefni á tölu \(L\) þegar
+Segjum að \(f(x_1,x_2,\ldots,x_n)\) \textit{stefni á} tölu \(L\) þegar
 \((x_1,x_2,\ldots,x_n)\) stefnir á \((p_1,p_2,\ldots,p_n)\) ef
 eftirfarandi gildir:
 
@@ -834,6 +936,8 @@ er ritað
 \begin{split}\displaystyle\end{split}\notag\\\begin{split}\lim_{(x_1,x_2,\ldots,x_n)\rightarrow (p_1,p_2,\ldots,p_n)}
 f(x_1,x_2,\ldots,x_n)=L.\end{split}\notag
 \end{gather}
+og \(L\) kallast \textit{markgildi} fallsins \(f\) í punktinum \((x_1,x_2,\ldots,x_n)\).
+
 
 \subsection{Skilgreining (Skilgreining 2.8.1 sett fram fyrir föll af tveimur breytum.)}
 \label{Kafli2:skilgreining-skilgreining-2-8-1-sett-fram-fyrir-foll-af-tveimur-breytum}
@@ -867,7 +971,7 @@ fyrir að
 \begin{split}\displaystyle\end{split}\notag\\\begin{split}\lim_{(x,y)\rightarrow (a,b)}f(x,y)=L\quad\mbox{og}\quad
 \lim_{(x,y)\rightarrow (a,b)}g(x,y)=M,\end{split}\notag
 \end{gather}
-og að sérhver grennd um \((a,b)\) innihaldi fleiri en einn punkt þar
+og að sérhver \textit{grennd} um \((a,b)\) innihaldi fleiri en einn punkt þar
 sem bæði föllin \(f\) og \(g\) eru skilgreind. Þá gildir
 
 \textbf{(a)} \(\lim_{(x,y)\rightarrow (a,b)}(f(x,y)\pm g(x,y))=L\pm M\).
@@ -883,19 +987,19 @@ er fall af einni breytistærð sem er samfellt í punktinum \(L\).
 \index{samfelldni}
 
 \section{Samfelldni}
-\label{Kafli2:samfelldni}\label{Kafli2:index-8}
+\label{Kafli2:index-8}\label{Kafli2:samfelldni}
 
 \subsection{Skilgreining}
 \label{Kafli2:id8}
 Látum \(f\) vera fall af \(n\) breytistærðum skilgreint á mengi
-\({\cal Dalt}(f)\) í \(\mbox{${\bf R}^n$}\). Fallið \(f\) er
+\({\cal D}(f)\) í \(\mbox{${\bf R}^n$}\). Fallið \(f\) er
 sagt \emph{samfellt í punkti} \((p_1,p_2,\ldots,p_n)\) í
 \({\cal D}(f)\) ef
 \begin{gather}
 \begin{split}\displaystyle\end{split}\notag\\\begin{split}\lim_{(x_1,x_2,\ldots,x_n)\rightarrow (p_1,p_2,\ldots,p_n)}
 f(x_1,x_2,\ldots,x_n)=f(p_1,p_2,\ldots,p_n).\end{split}\notag
 \end{gather}
-Sagt er að fallið sé \emph{samfellt} ef það er samfellt í öllum punktum
+Sagt er að fallið sé \textit{samfellt} ef það er samfellt í öllum punktum
 skilgreiningarmengis síns.
 
 
@@ -904,15 +1008,15 @@ skilgreiningarmengis síns.
 \index{hlutafleiða}
 
 \subsection{Skilgreining}
-\label{Kafli2:index-9}\label{Kafli2:id10}
+\label{Kafli2:id10}\label{Kafli2:index-9}
 Látum \(f(x,y)\) vera fall af tveimur breytum \(x\) og \(y\)
 sem er skilgreint á opinni skífu með miðju í punktinum \((a,b)\).
 
-Skilgreinum \emph{hlutafleiðu m.t.t.} \(x\) í \((a,b)\) með
+Skilgreinum \textit{hlutafleiðu} m.t.t. \(x\) í \((a,b)\) með
 \begin{gather}
 \begin{split}\displaystyle f_1(a,b)=\lim_{h\rightarrow 0}\frac{f(a+h,b)-f(a,b)}{h}\end{split}\notag
 \end{gather}
-og \emph{hlutafleiðu m.t.t.} \(y\) í \((a,b)\) með
+og \textit{hlutafleiðu} m.t.t. \(y\) í \((a,b)\) með
 \begin{gather}
 \begin{split}\displaystyle f_2(a,b)=\lim_{k\rightarrow 0}\frac{f(a,b+k)-f(a,b)}{k}\end{split}\notag
 \end{gather}
@@ -964,6 +1068,34 @@ vigurinn sem er með 0 í öllum hnitum nema því \(k\)-ta þar sem er
 1.)
 
 
+\subsection{Ritháttur}
+\label{Kafli2:id13}
+Ritum \(z=f(x,y)\).  Ýmis konar ritháttur er fyrir hlutafleiður, m.a.
+\begin{gather}
+\begin{split}\displaystyle\end{split}\notag\\\begin{split}\begin{aligned}
+f_1(x,y)&=\frac{\partial z}{\partial x}=  \frac{\partial }{\partial x}f(x,y)
+=D_1f(x,y)=f_x(x,y)=D_xf(x,y)=\partial_xf(x,y) \\
+f_2(x,y)&=\frac{\partial z}{\partial y}=  \frac{\partial }{\partial y}f(x,y)
+=D_2f(x,y)=f_y(x,y)=D_yf(x,y)=\partial_yf(x,y). \end{aligned}\end{split}\notag
+\end{gather}
+Þegar við viljum tákna gildið á hlutafleiðu \(f\) í ákveðnum punkti
+\((x,y)=(a,b)\) þá eru líka ýmsir möguleikar, til dæmis
+\begin{gather}
+\begin{split}\displaystyle\end{split}\notag\\\begin{split}\begin{aligned}
+\frac{\partial z}{\partial x}\bigg|_{(a,b)}&=
+\left(\frac{\partial }{\partial x}f(x,y)\right)\bigg|_{(a,b)}
+=f_1(a,b)=D_1f(a,b) \\
+\frac{\partial z}{\partial y}\bigg|_{(a,b)}&=
+\left(\frac{\partial }{\partial y}f(x,y)\right)\bigg|_{(a,b)}
+=f_2(a,b)=D_2f(a,b). \end {aligned}\end{split}\notag
+\end{gather}
+\begin{notice}{warning}{Aðvörun:}
+Strangt til tekið merkir rithátturinn \(\frac{\partial}{\partial x} f(a,b)\) að við stingum fyrst
+inn tölunum \(a\) og \(b\) og diffrum síðan með tilliti til \(x\). En þar sem \(f(a,b)\) er
+óháð \(x\) er útkoman 0.
+\end{notice}
+
+
 \section{Snertiplan}
 \label{Kafli2:snertiplan}
 Látum \(f(x,y)\) vera fall af tveimur breytistærðum þannig að
@@ -974,10 +1106,10 @@ hlutafleiðurnar \(f_1(a,b)\) og \(f_2(a,b)\) séu skilgreindar.
 Í punktinum \((a,b,f(a,b))\) er
 
 \(\mbox{${\bf T}$}_1 = \mbox{${\bf i}$}+ f_1(a,b)\mbox{${\bf k}$}\qquad\)
-snertivigur við ferilinn \(f(x,b) = z\) og
+\textit{snertivigur} við ferilinn \(f(x,b) = z\) og
 
 \(\mbox{${\bf T}$}_2 = \mbox{${\bf j}$}+ f_2(a,b)\mbox{${\bf k}$}\qquad\)
-snertivigur við ferilinn \(f(a,y) = z\).
+\textit{snertivigur} við ferilinn \(f(a,y) = z\).
 
 Táknum með \(S\) planið sem hefur stikunina
 \begin{gather}
@@ -991,14 +1123,14 @@ er þvervigur á \(S\) og jafna plansins \(S\) er
 \begin{gather}
 \begin{split}\displaystyle z=f(a,b)+f_1(a,b)(x-a)+f_2(a,b)(y-b).\end{split}\notag
 \end{gather}
-\emph{Þverlína} á \(S\) hefur stikun
+\textit{Þverlína} á \(S\) hefur stikun
 \begin{gather}
 \begin{split}\displaystyle (a,b,f(a,b)) + u \mbox{${\bf n}$}, \quad -\infty < u < \infty.\end{split}\notag
 \end{gather}
 Ef \(f(x,y)\) er ’nógu nálægt’ (skilgreint nánar síðar) planinu
 \(S\) þegar \((x,y)\) er nálægt punktinum \((a,b)\) þá
-kallast \(S\) \emph{snertiplan} við grafið \(z=f(x,y)\) í punktinum
-\((a,b,f(a,b)\).
+kallast \(S\) \textit{snertiplan} við grafið \(z=f(x,y)\) í punktinum
+\((a,b,f(a,b))\).
 
 
 \section{Hlutafleiður af hærra stigi}
@@ -1006,7 +1138,7 @@ kallast \(S\) \emph{snertiplan} við grafið \(z=f(x,y)\) í punktinum
 \index{hlutafleiða!annars stigs}\index{hlutafleiða!hrein}\index{hlutafleiða!blönduð}
 
 \subsection{Skilgreining}
-\label{Kafli2:id13}\label{Kafli2:index-10}
+\label{Kafli2:id14}\label{Kafli2:index-10}
 Ritum \(z=f(x,y)\). \emph{Annars stigs hlutafleiður} \(f\) eru
 skilgreindar með formúlunum
 \begin{gather}
@@ -1032,7 +1164,7 @@ kallast blandaðar hlutafleiður.
 
 
 \subsection{Setning}
-\label{Kafli2:id14}
+\label{Kafli2:id15}
 Látum \(f(x,y)\) vera fall sem er skilgreint á opinni skífu
 \(D\) með miðju í \(P=(a,b)\) . Gerum ráð fyrir að
 hlutafleiðurnar \(f_1(x,y)\), \(f_2(x,y)\), \(f_{12}(x,y)\)
@@ -1082,8 +1214,8 @@ ef skilyrðin í setningunni eru uppfyllt.
 
 \index{keðjuregla}
 
-\section{Keðjuregla}
-\label{Kafli2:index-11}\label{Kafli2:kejuregla}
+\section{\textit{Keðjuregla}}
+\label{Kafli2:id16}\label{Kafli2:index-11}
 \index{keðjuregla!í einni breytistærð}
 
 \subsection{Setning (Keðjureglan í einni breytistærð.)}
@@ -1097,9 +1229,9 @@ Gerum ráð fyrir að fallið \(f(u)\) sé diffranlegt í punktinum
 \end{gather}
 
 \subsection{Setning}
-\label{Kafli2:id15}
+\label{Kafli2:id17}
 Látum \(f(x,y)\) vera fall þar sem \(x=x(t)\) og \(y=y(t)\)
-eru föll af breytu \(t\), Gerum ráð fyrir að á opinni skífu um
+eru föll af breytu \(t\). Gerum ráð fyrir að á opinni skífu um
 punktinum \((x(t),y(t))\) séu báðar fyrsta stigs hlutafleiður
 \(f\) skilgreindar og samfelldar. Gerum enn fremur ráð fyrir að
 föllin \(x(t)\) og \(y(t)\) séu bæði diffranleg í punktinum
@@ -1113,7 +1245,7 @@ diffranlegt í \(t\) og
 \end{gather}
 
 \subsection{Ritháttur}
-\label{Kafli2:id16}
+\label{Kafli2:id18}
 Ritum \(z=f(x,y)\) þar sem \(x=x(t)\) og \(y=y(t)\) eru föll
 af breytu \(t\). Þá er
 \begin{gather}
@@ -1124,7 +1256,7 @@ af breytu \(t\). Þá er
 
 
 \subsection{Setning}
-\label{Kafli2:id17}
+\label{Kafli2:id19}
 Látum \(f(x,y)\) vera fall af breytistærðum \(x\) og \(y\)
 sem aftur eru föll af breytum \(s\) og \(t\), það er að segja
 \(x=x(s,t)\) og \(y=y(s,t)\). Ritum svo
@@ -1139,7 +1271,7 @@ sem aftur eru föll af breytum \(s\) og \(t\), það er að segja
 \end{gather}
 
 \subsection{Ritháttur}
-\label{Kafli2:id18}
+\label{Kafli2:id20}
 Ritum \(z=f(x,y)\) þar sem \(x=x(s,t)\) og \(y=y(s,t)\) eru
 föll af breytum \(s\) og \(t\). Þá er
 \begin{gather}
@@ -1156,7 +1288,7 @@ föll af breytum \(s\) og \(t\). Þá er
 
 
 \subsection{Ritháttur}
-\label{Kafli2:id19}
+\label{Kafli2:id21}
 Ritum \(z=f(x,y)\) þar sem \(x=x(s,t)\) og \(y=y(s,t)\) eru
 föll af breytum \(s\) og \(t\). Þá er
 \begin{gather}
@@ -1172,7 +1304,7 @@ föll af breytum \(s\) og \(t\). Þá er
 \end{gather}
 
 \subsection{Setning}
-\label{Kafli2:id20}
+\label{Kafli2:id22}
 Látum \(u\) vera fall af \(n\) breytum
 \(x_1, x_2, \ldots, x_n\) þannig að hvert \(x_i\) má rita sem
 fall af \(m\) breytum \(t_1, t_2, \ldots, t_m\). Gerum ráð fyrir
@@ -1191,18 +1323,18 @@ fæst að
 
 
 \subsection{Dæmi}
-\label{Kafli2:id21}
+\label{Kafli2:id23}
 Látum \(T\) vera fall af fall af \(x\), \(y\) og \(t\),
 og \(x\) og \(y\) föll af \(t\). Finnum
 \(\frac{ dT}{dt}\).
 
 {\hfill\includegraphics[width=0.400\linewidth]{chain5.png}\hfill}
 \begin{gather}
-\begin{split}\displaystyle \frac{d T}{d t} = \frac{\partial T}{\partial x} \frac{d x}{d t} +\frac{\partial T}{\partial y} \frac{d y}{\partial t} + \frac{\partial T}{\partial t} .\end{split}\notag
+\begin{split}\displaystyle \frac{d T}{d t} = \frac{\partial T}{\partial x} \frac{d x}{d t} +\frac{\partial T}{\partial y} \frac{d y}{d t} + \frac{\partial T}{\partial t} .\end{split}\notag
 \end{gather}
 
 \subsection{Dæmi}
-\label{Kafli2:id22}
+\label{Kafli2:id24}
 Látum \(T\) vera fall af fall af \(x\), \(y\), \(s\) og
 \(t\), og \(x\) og \(y\) föll af \(s\) og \(t\).
 Finnum \(\frac{ \partial T}{\partial t}\).
@@ -1213,7 +1345,7 @@ Finnum \(\frac{ \partial T}{\partial t}\).
 \end{gather}
 
 \subsection{Dæmi}
-\label{Kafli2:id23}
+\label{Kafli2:id25}
 Látum \(z\) vera fall af fall af \(u\), \(v\) og \(r\),
 \(u\) og \(v\) vera föll af \(x\), \(y\) og \(r\) og
 \(r\) vera fall af \(x\) og \(y\). Skrifum niður
@@ -1230,7 +1362,7 @@ Látum \(z\) vera fall af fall af \(u\), \(v\) og \(r\),
 \index{fall!jákvætt einsleitt fall}\index{jákvætt einsleitt fall}
 
 \subsection{Skilgreining}
-\label{Kafli2:index-13}\label{Kafli2:id24}
+\label{Kafli2:index-13}\label{Kafli2:id26}
 Fall \(f(x_1, x_2, \ldots, x_n)\) er sagt vera \emph{jákvætt einsleitt af
 stigi} \(k\) (e. positively homogeneous of degree \(k\)) ef
 fyrir sérhvern punkt \((x_1, x_2, \ldots, x_n)\) og sérhverja tölu
@@ -1240,7 +1372,7 @@ fyrir sérhvern punkt \((x_1, x_2, \ldots, x_n)\) og sérhverja tölu
 \end{gather}
 
 \subsection{Setning}
-\label{Kafli2:id25}
+\label{Kafli2:id27}
 Ef fall \(f(x_1, x_2, \ldots, x_n)\) hefur samfelldar fyrsta stigs
 hlutafleiður og er jákvætt einsleitt af stigi \(k\) þá er
 \begin{gather}
@@ -1251,10 +1383,10 @@ hlutafleiður og er jákvætt einsleitt af stigi \(k\) þá er
 \label{Kafli2:diffranleiki-i-einni-breytistaer}
 
 \subsection{Skilgreining}
-\label{Kafli2:id26}
+\label{Kafli2:id28}
 Látum \(f\) vera fall af einni breytistærð og gerum ráð fyrir að
 \(f\) sé skilgreint á opnu bili sem inniheldur punktinn \(a\).
-Fallið \(f\) er sagt vera \emph{diffranlegt} í punkti \(a\) ef
+Fallið \(f\) er sagt vera \textit{diffranlegt} í punkti \(a\) ef
 markgildið
 \begin{gather}
 \begin{split}\displaystyle f'(a)=\lim_{h\rightarrow 0}\frac{f(a+h)-f(a)}{h}\end{split}\notag
@@ -1264,13 +1396,13 @@ er til.
 \index{diffranleiki!falls af einni breytistærð}
 
 \section{Diffranleiki í einni breytistærð - önnur lýsing}
-\label{Kafli2:diffranleiki-i-einni-breytistaer-onnur-lysing}\label{Kafli2:index-14}
+\label{Kafli2:index-14}\label{Kafli2:diffranleiki-i-einni-breytistaer-onnur-lysing}
 
 \subsection{Skilgreining}
-\label{Kafli2:id27}
+\label{Kafli2:id29}
 Látum \(f\) vera fall af einni breytistærð og gerum ráð fyrir að
 \(f\) sé skilgreint á opnu bili sem inniheldur punktinn \(a\).
-Fallið \(f\) er sagt vera \emph{diffranlegt} í punkti \(a\) ef til er
+Fallið \(f\) er sagt vera \textit{diffranlegt} í punkti \(a\) ef til er
 tala \(m\) þannig að ef \(L(x)=f(a)+m(x-a)\) þá er
 \begin{gather}
 \begin{split}\displaystyle \lim_{h\rightarrow 0}\frac{f(a+h)-L(a+h)}{h}=0.\end{split}\notag
@@ -1286,9 +1418,9 @@ Fallið \(f\) er ’nálægt’ línunni \(L\) nálægt punktinum
 \index{diffranleiki!falls af tveimur breytistærðum}
 
 \subsection{Skilgreining}
-\label{Kafli2:id28}\label{Kafli2:index-15}
+\label{Kafli2:id30}\label{Kafli2:index-15}
 Fall \(f(x,y)\) sem er skilgreint á opinni skífu umhverfis
-\((a,b)\) er sagt vera diffranlegt í punktinum \((a,b)\) ef
+\((a,b)\) er sagt vera \textit{diffranlegt} í punktinum \((a,b)\) ef
 báðar fyrsta stigs hlutafleiður \(f\) eru skilgreindar í
 \((a,b)\) og ef
 \begin{gather}
@@ -1303,9 +1435,9 @@ Fallið \(f\) er ’nálægt’ sléttunni \(S\) nálægt punktinum
 \index{snertiplan}
 
 \section{Snertiplan}
-\label{Kafli2:index-16}\label{Kafli2:id29}
+\label{Kafli2:index-16}\label{Kafli2:id31}
 Ef \(f\) er diffranlegt í \((a,b)\) þá kallast planið \(S\)
-\emph{snertiplan} við graf fallsins.
+\textit{snertiplan} við graf fallsins.
 
 {\hfill\includegraphics[width=0.600\linewidth]{bothpart.png}\hfill}
 
@@ -1313,7 +1445,7 @@ Ef \(f\) er diffranlegt í \((a,b)\) þá kallast planið \(S\)
 
 
 \section{Diffranleiki}
-\label{Kafli2:id30}
+\label{Kafli2:id32}
 \index{meðalgildissetningin}
 
 \subsection{Setning (Meðalgildissetningin)}
@@ -1326,7 +1458,7 @@ punktur \(c\) á opna bilinu \((a,b)\) þannig að
 \end{gather}
 
 \subsection{Setning}
-\label{Kafli2:id31}
+\label{Kafli2:id33}
 Látum \(f(x,y)\) vera fall sem er skilgreint á opinni skífu
 \(\cal D\) með miðju í \((a,b)\) þannig að á þessari skífu eru
 báðar fyrsta stigs hlutafleiður \(f\) skilgreindar og samfelldar.
@@ -1338,7 +1470,7 @@ Gerum ráð fyrir að \(h\) og \(k\) séu tölur þannig að
 \end{gather}
 
 \subsection{Setning}
-\label{Kafli2:id32}
+\label{Kafli2:id34}
 Látum \(f(x,y)\) vera fall sem er skilgreint á opinni skífu
 \(\cal D\) með miðju í \((a,b)\) þannig að á þessari skífu eru
 báðar fyrsta stigs hlutafleiður \(f\) skilgreindar og samfelldar. Þá
@@ -1346,13 +1478,13 @@ er fallið \(f\) diffranlegt í \((a,b)\).
 
 
 \subsection{Setning}
-\label{Kafli2:id33}
+\label{Kafli2:id35}
 Gerum ráð fyrir að \(f(x,y)\) sé fall sem er diffranlegt í punktinum
 \((a,b)\). Þá er \(f\) samfellt í \((a,b)\).
 
 
-\subsection{Keðjuregla}
-\label{Kafli2:id34}
+\subsection{\textit{Keðjuregla}}
+\label{Kafli2:id36}
 Ritum \(z=f(x,y)\) þar sem \(x=x(s,t)\) og \(y=y(s,t)\).
 Gerum ráð fyrir að
 \begin{enumerate}
@@ -1388,8 +1520,8 @@ og
 \index{diffur}
 
 \subsection{Skilgreining}
-\label{Kafli2:index-18}\label{Kafli2:id35}
-Ritum \(z=f(x_1, x_2, \ldots, x_n)\). \emph{Diffrið} af \(z\) er
+\label{Kafli2:index-18}\label{Kafli2:id37}
+Ritum \(z=f(x_1, x_2, \ldots, x_n)\). \textit{Diffrið} af \(z\) er
 skilgreint sem
 \begin{gather}
 \begin{split}\displaystyle\end{split}\notag\\\begin{split}dz=df=\frac{\partial z}{\partial x_1}dx_1
@@ -1423,7 +1555,7 @@ hvert \(f_i\) er fall
 \index{Jacobi-!fylki}
 
 \subsection{Skilgreining}
-\label{Kafli2:index-19}\label{Kafli2:id36}
+\label{Kafli2:id38}\label{Kafli2:index-19}
 Notum táknmálið úr 2.22.1. Ef allar hlutafleiðurnar \(\partial
 y_i/\partial x_j\) eru skilgreindar í punktinum \(\mbox{${\bf x}$}\)
 þá skilgreinum við \emph{Jacobi-fylki} \(f\) í punktinum
@@ -1445,7 +1577,7 @@ y_i/\partial x_j\) eru skilgreindar í punktinum \(\mbox{${\bf x}$}\)
 \label{Kafli2:diffranleiki-varpana}\label{Kafli2:index-20}
 
 \subsection{Skilgreining}
-\label{Kafli2:id37}
+\label{Kafli2:id39}
 Notum táknmálið úr 2.22.1 og 2.23.1. Látum
 \(\mbox{${\bf a}$}=(a_1, a_2, \ldots, a_n)\) vera fastan punkt í
 \(\mbox{${\bf R}^n$}\) og ritum
@@ -1463,11 +1595,11 @@ Línulega vörpunin \(D\mbox{${\bf f}$}\) kallast afleiða
 \(\mbox{${\bf f}$}\).
 
 
-\section{Keðjureglan}
-\label{Kafli2:kejureglan}
+\section{\textit{Keðjuregla}}
+\label{Kafli2:id40}
 
 \subsection{Setning}
-\label{Kafli2:id38}
+\label{Kafli2:id41}
 Látum
 \(\mbox{${\bf f}$}:\mbox{${\bf R}^n$}\rightarrow \mbox{${\bf R}^m$}\)
 og
@@ -1488,38 +1620,40 @@ diffranleg í \(\mbox{${\bf x}$}\) og
 \label{Kafli2:stigull}\label{Kafli2:index-21}
 
 \subsection{Skilgreining}
-\label{Kafli2:id39}
+\label{Kafli2:id42}
 Látum \(f(x,y)\) vera fall og \((x,y)\) punkt þar sem báðar
 fyrsta stigs hlutafleiður \(f\) eru skilgreindar. Skilgreinum
-\emph{stigul} \(f\) í punktinum \((x,y)\) sem vigurinn
+\textit{stigul} \(f\) í punktinum \((x,y)\) sem vigurinn
 \begin{gather}
 \begin{split}\displaystyle \nabla f(x,y)=f_1(x,y)\mbox{${\bf i}$}+f_2(x,y)\mbox{${\bf j}$}.\end{split}\notag
 \end{gather}
-Stigull \(f\) er stundum táknaður með \textbf{grad}\(\,f\).
+\textit{Stigull} \(f\) er stundum táknaður með \textbf{grad}\(\,f\).
 
 
 \subsection{Ritháttur}
-\label{Kafli2:id40}
+\label{Kafli2:id43}
 Oft hentugt að rita
 \begin{gather}
 \begin{split}\displaystyle \nabla=\mbox{${\bf i}$}\frac{\partial}{\partial x}+ \mbox{${\bf j}$}\frac{\partial}{\partial y}.\end{split}\notag
 \end{gather}
-Þá er litið svo á að \(\nabla\) sé \emph{diffurvirki},
+Þá er litið svo á að \(\nabla\) sé \textit{diffurvirki},
 þ.e.a.s. \(\nabla\) gefur fyrirmæli um hvað á að gera við
 \(f\) til að fá \(\nabla f(x,y)\).
 
 
 \section{Dæmi}
-\label{Kafli2:id41}
+\label{Kafli2:id44}
+{\hfill\includegraphics[width=0.600\linewidth]{gradfurf.png}\hfill}
+
 \emph{Graf} \(z=1-x^2-y^2\)
 
 {\hfill\includegraphics[width=0.600\linewidth]{gradient.png}\hfill}
 
-\emph{Jafnhæðarlínur. Stigull og snertilína við jafnhæðarlínuna} \(z=0.5\) \emph{í} \((x,y) = (0.5,0.5)\).
+\emph{Jafnhæðarlínur} \(z=1-x^2-y^2\). \emph{Stigull og snertilína við jafnhæðarlínuna} \(z=0.5\) \emph{í} \((x,y) = (0.5,0.5)\).
 
 
 \subsection{Setning}
-\label{Kafli2:id42}
+\label{Kafli2:id45}
 Gerum ráð fyrir að fallið \(f(x,y)\) sé diffranlegt í punktinum
 \((a,b)\) og að \(\nabla f(a,b) \neq \mathbf{0}\). Þá er
 vigurinn \(\nabla f(a,b)\) hornréttur á þá jafnhæðarlínu \(f\)
@@ -1531,10 +1665,10 @@ sem liggur í gegnum punktinn \((a,b)\).
 \label{Kafli2:snertilina-vi-jafnhaearferil}\label{Kafli2:index-22}
 
 \subsection{Setning}
-\label{Kafli2:id43}
+\label{Kafli2:id46}
 Gerum ráð fyrir að fallið \(f(x,y)\) sé diffranlegt í punktinum
 \((a,b)\) og að \(\nabla f(a,b) \neq \mathbf{0}\). Jafna
-snertilínu við jafnhæðarferil \(f\) í punktinum \((a,b)\) er
+\textit{snertilínu} við \textit{jafnhæðarferil} \(f\) í punktinum \((a,b)\) er
 gefin með formúlunni
 \begin{gather}
 \begin{split}\displaystyle \nabla f(a,b)\cdot (x,y)=\nabla f(a,b)\cdot (a,b),\end{split}\notag
@@ -1546,22 +1680,25 @@ eða
 \index{stefnuafleiða}
 
 \section{Stefnuafleiða}
-\label{Kafli2:stefnuafleia}\label{Kafli2:index-23}
+\label{Kafli2:index-23}\label{Kafli2:stefnuafleia}
 
 \subsection{Skilgreining}
-\label{Kafli2:id44}
+\label{Kafli2:id47}
 Látum \(\mbox{${\bf u}$}=u\mbox{${\bf i}$}+v\mbox{${\bf j}$}\) vera
-einingarvigur. \emph{Stefnuafleiða} \(f\) í punktinum \((a,b)\) í
+einingarvigur. \textit{Stefnuafleiða} \(f\) í punktinum \((a,b)\) í
 stefnu \(\mbox{${\bf u}$}\) er skilgreind sem
 \begin{gather}
 \begin{split}\displaystyle D_{\mbox{${\bf u}$}}f(a,b)=\lim_{h\rightarrow 0^+}\frac{f(a+hu, b+hv)-f(a,b)}{h}\end{split}\notag
 \end{gather}
 ef markgildið er skilgreint.
 
+\begin{notice}{warning}{Aðvörun:}
+Í skilgreiningunni á stefnuafleiðu er tekið einhliða markgildi. Berið það saman við skilgreiningu á hlutafleiðu þar sem markgildið er tvíhliða.
+\end{notice}
 
-\bigskip\hrule{}\bigskip
 
-
+\subsection{Setning}
+\label{Kafli2:id48}
 Gerum ráð fyrir að fallið \(f\) sé diffranlegt í \((a,b)\) og
 \(\mbox{${\bf u}$}=u\mbox{${\bf i}$}+v\mbox{${\bf j}$}\) sé
 einingarvigur. Þá er stefnuafleiðan í punktinum \((a,b)\) í stefnu
@@ -1571,7 +1708,7 @@ einingarvigur. Þá er stefnuafleiðan í punktinum \((a,b)\) í stefnu
 \end{gather}
 
 \subsection{Setning}
-\label{Kafli2:id45}
+\label{Kafli2:id49}
 Látum \(f\) vera gefið fall og gerum ráð fyrir að \(f\) sé
 diffranlegt í punktinum \((a,b)\).
 
@@ -1594,7 +1731,7 @@ fæst þegar \(\mbox{${\bf u}$}\) er einingarvigur í stefnu
 
 
 \subsection{Setning}
-\label{Kafli2:id46}
+\label{Kafli2:id50}
 Látum \(f\) vera gefið fall og gerum ráð fyrir að \(f\) sé
 diffranlegt í punktinum \((a,b)\).
 
@@ -1614,10 +1751,10 @@ stefnu \(\nabla f(a,b)\).
 \label{Kafli2:stigull-aftur}
 
 \subsection{Skilgreining}
-\label{Kafli2:id47}
+\label{Kafli2:id51}
 Látum \(f\) vera fall af þremur breytistærðum, þannig að allar þrjár
 fyrsta stigs hlutafleiður \(f\) í punktinum \((x,y,z)\) séu
-skilgreindar. \emph{Stigull} \(f\) í punktinum \((x,y,z)\) er
+skilgreindar. \textit{Stigull} \(f\) í punktinum \((x,y,z)\) er
 skilgreindur sem vigurinn
 \begin{gather}
 \begin{split}\displaystyle \nabla f(x,y,z)=f_1(x,y,z)\mbox{${\bf i}$}+f_2(x,y,z)\mbox{${\bf j}$}+f_3(x,y,z)\mbox{${\bf k}$}.\end{split}\notag
@@ -1625,15 +1762,15 @@ skilgreindur sem vigurinn
 \index{snertiplan!við jafnhæðarflöt}
 
 \section{Snertiplan við jafnhæðarflöt}
-\label{Kafli2:index-24}\label{Kafli2:snertiplan-vi-jafnhaearflot}
+\label{Kafli2:snertiplan-vi-jafnhaearflot}\label{Kafli2:index-24}
 
 \subsection{Setning}
-\label{Kafli2:id48}
+\label{Kafli2:id52}
 Látum \(f\) vera fall af þremur breytistærðum þannig að fallið
 \(f\) er diffranlegt í punktinum \((a,b,c)\). Látum
-\(\cal F\) tákna þann jafnhæðarflöt \(f\) sem liggur um
+\(\cal F\) tákna þann \textit{jafnhæðarflöt} \(f\) sem liggur um
 \((a,b,c)\). Stigullinn \(\nabla f(a,b,c)\) er hornréttur á
-flötinn \(\cal F\) í punktinum \((a,b,c)\) og snertiplan (ef
+flötinn \(\cal F\) í punktinum \((a,b,c)\) og \textit{snertiplan} (ef
 \(\nabla f(a,b,c)\neq\mbox{${\bf 0}$}\)) við jafnhæðarflötinn í
 punktinum \((a,b,c)\) er gefið með jöfnunni
 \begin{gather}
@@ -1649,7 +1786,7 @@ eða með umritun
 \index{fólgið fall}\index{fall!fólgið fall}
 
 \subsection{Upprifjun}
-\label{Kafli2:upprifjun}\label{Kafli2:index-25}
+\label{Kafli2:index-25}\label{Kafli2:upprifjun}
 Skoðum feril sem gefinn er með jöfnu \(F(x,y)=0\) og gerum ráð fyrir
 að báðar fyrsta stigs hlutafleiður \(F\) séu samfelldar. Látum
 \((x_0,y_0)\) vera punkt á ferlinum. Ef \(F_2(x_0,y_0)\neq 0\)
@@ -1659,12 +1796,12 @@ að báðar fyrsta stigs hlutafleiður \(F\) séu samfelldar. Látum
 \begin{gather}
 \begin{split}\displaystyle y'(x_0)=-\frac{F_1(x_0,y_0)}{F_2(x_0,y_0)}.\end{split}\notag
 \end{gather}
-Sagt að jafnan \(F(x,y)=0\) skilgreini \(y\) sem \emph{fólgið fall}
+Sagt að jafnan \(F(x,y)=0\) skilgreini \(y\) sem \textit{fólgið fall}
 af \(x\) í grennd við \((x_0,y_0)\).
 
 
 \subsection{Setning}
-\label{Kafli2:id49}
+\label{Kafli2:id53}
 Látum \(F\) vera fall af \(n\)-breytum \(x_1, \ldots,
 x_n\) og gerum ráð fyrir að allar fyrsta stigs hlutafleiður \(F\) séu
 samfelldar. Látum \((a_1,\ldots,a_n)\) vera punkt þannig að
@@ -1689,8 +1826,8 @@ Ennfremur gildir að
 \index{Jacobi-!ákveða}
 
 \subsection{Skilgreining}
-\label{Kafli2:index-26}\label{Kafli2:id50}
-\emph{Jacobi-ákveða} tveggja falla \(u=u(x,y)\) og \(v=v(x,y)\) með
+\label{Kafli2:index-26}\label{Kafli2:id54}
+\textit{Jacobi-ákveða} tveggja falla \(u=u(x,y)\) og \(v=v(x,y)\) með
 tilliti til breytanna \(x\) og \(y\) er skilgreind sem
 \begin{gather}
 \begin{split}\displaystyle\end{split}\notag\\\begin{split}\frac{\partial(u,v)}{\partial(x,y)}=
@@ -1742,8 +1879,8 @@ er
 \end{gather}
 \index{setning!um fólgin föll}\index{fólgið fall!setning}
 
-\subsection{Setning (Setningin um fólgin föll)}
-\label{Kafli2:index-28}\label{Kafli2:setning-setningin-um-folgin-foll}
+\subsection{Setning (\textit{Setningin um fólgin föll})}
+\label{Kafli2:id55}\label{Kafli2:index-28}
 Skoðum jöfnuhneppi
 \begin{gather}
 \begin{split}\displaystyle\end{split}\notag\\\begin{split}\begin{aligned}
@@ -1788,7 +1925,7 @@ að
 \index{setning!um staðbundna andhverfu}
 
 \subsection{Setning (Setningin um staðbundna andhverfu)}
-\label{Kafli2:setning-setningin-um-stabundna-andhverfu}\label{Kafli2:index-29}
+\label{Kafli2:index-29}\label{Kafli2:setning-setningin-um-stabundna-andhverfu}
 \begin{DUlineblock}{0em}
 \item[] Látum
 \end{DUlineblock}
@@ -1816,7 +1953,7 @@ fyrir alla punkta \(\mbox{${\bf y}$}\in B_{\mbox{${\bf y}$}}\).
 \index{Taylor-!regla í einni breytistærð}
 
 \subsection{Upprifjun (Taylor-regla í einni breytistærð.)}
-\label{Kafli2:index-30}\label{Kafli2:upprifjun-taylor-regla-i-einni-breytistaer}
+\label{Kafli2:upprifjun-taylor-regla-i-einni-breytistaer}\label{Kafli2:index-30}
 Látum \(f\) vera \(n+1\)-diffranlegt fall af einni breytistærð.
 Margliðan
 \begin{gather}
@@ -1841,7 +1978,7 @@ sem er kallað \(n\)\emph{-ta stigs Taylor-formúla.}
 \index{Taylor-!margliða}
 
 \subsection{Skilgreining}
-\label{Kafli2:id51}\label{Kafli2:index-31}
+\label{Kafli2:id56}\label{Kafli2:index-31}
 Látum \(f(x,y)\) vera fall þannig að fyrsta stigs hlutafleiður
 \(f\) eru skilgreindar og samfelldar. Margliðan
 \begin{gather}
@@ -1852,7 +1989,7 @@ kallast \emph{fyrsta stigs Taylor-margliða} \(f\) \emph{með miðju í}
 
 
 \subsection{Skilgreining}
-\label{Kafli2:id52}
+\label{Kafli2:id57}
 Látum \(f(x,y)\) vera fall þannig að fyrsta og annars stigs
 hlutafleiður \(f\) eru skilgreindar og samfelldar. Margliðan
 \begin{gather}
@@ -1867,7 +2004,7 @@ kallast \emph{annars stigs Taylor-margliða} \(f\) \emph{með miðju í}
 
 \subsection{Skilgreining og athugasemd}
 \label{Kafli2:skilgreining-og-athugasemd}
-Skilgreinum tvo \emph{diffurvirkja} \(D_1\) og \(D_2\) þannig að
+Skilgreinum tvo \textit{diffurvirkja} \(D_1\) og \(D_2\) þannig að
 \begin{gather}
 \begin{split}\displaystyle\end{split}\notag\\\begin{split}D_1f(a,b)=f_1(a,b)\qquad\mbox{og}\qquad
 D_2f(a,b)=f_2(a,b).\end{split}\notag
@@ -1879,8 +2016,8 @@ til hvorrar breytu.
 
 \index{tvíliðuregla}
 
-\subsection{Upprifjun (Tvíliðuregla)}
-\label{Kafli2:upprifjun-tviliuregla}\label{Kafli2:index-32}
+\subsection{Upprifjun (\textit{Tvíliðuregla})}
+\label{Kafli2:index-32}\label{Kafli2:id58}
 Skilgreinum
 \begin{gather}
 \begin{split}\displaystyle {n\choose j}=\frac{n!}{j!(n-j)!}.\end{split}\notag
@@ -1901,7 +2038,7 @@ h^jk^{n-j}D_1^jD_2^{n-j}f(a,b).\end{split}\notag
 \end{gather}
 
 \subsection{Skilgreining}
-\label{Kafli2:id53}
+\label{Kafli2:id59}
 Fyrir fall \(f(x,y)\) þannig að allar hlutafleiður af \(n\)-ta
 og lægri stigum eru samfelldar þá er \(n\)\emph{-ta stigs
 Taylor-margliða} \(f\) \emph{með miðju í punktinum} \((a,b)\)
@@ -1916,7 +2053,7 @@ D_1^jD_2^{m-j}f(a,b)(x-a)^j(y-b)^{m-j}.\end{aligned}\end{split}\notag
 \end{gather}
 
 \subsection{Setning}
-\label{Kafli2:id54}
+\label{Kafli2:id60}
 Fyrir fall \(f(x,y)\) þannig að allar hlutafleiður af \(n+1\)-ta
 og lægri stigum eru samfelldar þá gildir um skekkjuna í \(n\)-ta
 stigs Taylor-nálgun að til er tala \(\theta\) á milli 0 og 1 þannig
@@ -1932,38 +2069,39 @@ f(a+\theta h, b+\theta k).\end{split}\notag
 
 -George R.R. Martin, A Storm of Swords
 
+\index{útgildi}\index{lággildi!staðbundið lággildi}\index{hágildi!staðbundið hágildi}\index{útgildi!staðbundið útgildi}\index{hæsta gildi}
 
 \section{Útgildi}
-\label{Kafli3:utgildi}
+\label{Kafli3:utgildi}\label{Kafli3:index-0}
 
 \subsection{Skilgreining}
 \label{Kafli3:skilgreining}
 Látum \(f\) vera fall af tveim breytum skilgreint á mengi
 \({\cal D}(f)\).
 
-Sagt er að \(f\) hafi \emph{staðbundið lággildi} (e. local minimum) í
+Sagt er að \(f\) hafi \textit{staðbundið lággildi} í
 punkti \((a,b)\) ef til er tala \(r>0\) þannig að
 \(f(a,b)\leq f(x,y)\) fyrir alla punkta
 \((x,y)\in B_r(a,b)\cap{\cal D}(f)\).
 
-Sagt er að \(f\) hafi \emph{staðbundið hágildi} (e. local maximum) í
+Sagt er að \(f\) hafi \textit{staðbundið hágildi}  í
 punkti \((a,b)\) ef til er tala \(r>0\) þannig að
 \(f(a,b)\geq f(x,y)\) fyrir alla punkta
 \((x,y)\in B_r(a,b)\cap{\cal D}(f)\).
 
 Í þeim punktum þar sem \(f\) tekur annað hvort staðbundið lággildi
-eða staðbundið hágildi er sagt að \(f\) hafi \emph{staðbundið útgildi}
-(e. local extreme).
+eða staðbundið hágildi er sagt að \(f\) hafi \textit{staðbundið útgildi}
 
 Ef \(f(a,b)\leq f(x,y)\) fyrir alla punkta
 \((x,y)\in {\cal D}(f)\) þá er sagt að \(f\) taki \emph{lægsta gildi}
 í \((a,b)\) (e. global minimum). Ef \(f(a,b)\geq f(x,y)\) fyrir
 alla punkta \((x,y)\in {\cal D}(f)\) þá er sagt að \(f\) taki
-\emph{hæsta gildi} í \((a,b)\) (e. global maximum).
+\textit{hæsta gildi} í \((a,b)\).
 
+\index{útgildi!staðbundið útgildi}\index{stöðupunktur}
 
 \section{Staðbundið útgildi}
-\label{Kafli3:stabundi-utgildi}
+\label{Kafli3:index-1}\label{Kafli3:stabundi-utgildi}
 
 \subsection{Upprifjun}
 \label{Kafli3:upprifjun}
@@ -1973,14 +2111,14 @@ staðbundið útgildi í punkti \(a\) þá gildir eitt af þrennu um
 \(a\):
 \begin{enumerate}
 \item {} 
-\(f'(a)=0\). (punkturinn \(a\) kallast \emph{stöðupunktur}
+\(f'(a)=0\). (punkturinn \(a\) kallast \textit{stöðupunktur}
 \(f\)).
 
 \item {} 
 Afleiðan \(f'(a)\) er ekki skilgreind.
 
 \item {} 
-Punkturinn \(a\) er jaðarpunktur \({\cal D}(f)\).
+Punkturinn \(a\) er \textit{jaðarpunktur} \({\cal D}(f)\).
 
 \end{enumerate}
 
@@ -1989,18 +2127,18 @@ Punkturinn \(a\) er jaðarpunktur \({\cal D}(f)\).
 \label{Kafli3:setning}
 Látum \(f\) vera fall af tveim breytum skilgreint á mengi
 \({\cal D}(f)\subseteq {\mathbb  R}^2\). Ef fallið \(f\) hefur
-staðbundið útgildi í punkti \((a,b)\) þá gildir eitt af þrennu um
+\textit{staðbundið útgildi} í punkti \((a,b)\) þá gildir eitt af þrennu um
 \(a\)
 \begin{enumerate}
 \item {} 
 \(\nabla f(a,b)=\mbox{${\bf 0}$}\). (punkturinn \((a,b)\)
-kallast \emph{stöðupunktur} \(f\))
+kallast \textit{stöðupunktur} \(f\))
 
 \item {} 
-Stigullinn \(\nabla f(a,b)\) er ekki skilgreindur.
+\textit{Stigullinn} \(\nabla f(a,b)\) er ekki skilgreindur.
 
 \item {} 
-Punkturinn \((a,b)\) er jaðarpunktur \({\cal D}(f)\).
+Punkturinn \((a,b)\) er \textit{jaðarpunktur} \({\cal D}(f)\).
 
 \end{enumerate}
 
@@ -2032,14 +2170,15 @@ Látum \(f\) vera samfellt fall af tveim breytum skilgreint á lokuðu
 og takmörkuðu mengi \({\cal D}(f)\). Fallið \(f\) tekur þá bæði
 hæsta og lægsta gildi.
 
+\index{söðulpunktur}
 
 \section{Söðulpunktur}
-\label{Kafli3:soulpunktur}
+\label{Kafli3:index-2}\label{Kafli3:soulpunktur}
 
 \subsection{Skilgreining}
 \label{Kafli3:id2}
 Punktur \((x,y)\in  {\cal D}(f)\) sem er ekki jaðarpunktur kallast
-\emph{söðulpunktur} ef \(\nabla f(x,y)=\mbox{${\bf 0}$}\) en \(f\)
+\textit{söðulpunktur} ef \(\nabla f(x,y)=\mbox{${\bf 0}$}\) en \(f\)
 hefur ekki staðbundið útgildi í \((x,y)\).
 
 Dæmi um föll með söðulpunkta.
@@ -2063,11 +2202,11 @@ Látum \(f\) vera fall af einni breytistærð og gerum ráð fyrir að
 Þá gildir:
 \begin{enumerate}
 \item {} 
-Ef \(f''(a)>0\) þá hefur \(f\) staðbundið lággildi í
+Ef \(f''(a)>0\) þá hefur \(f\) \textit{staðbundið lággildi} í
 \(a\).
 
 \item {} 
-Ef \(f''(a)<0\) þá hefur \(f\) staðbundið hágildi í
+Ef \(f''(a)<0\) þá hefur \(f\) \textit{staðbundið hágildi} í
 \(a\).
 
 \item {} 
@@ -2094,13 +2233,14 @@ Látum \(f\) vera fall af \(n\) breytum
  \vdots & \vdots & \ddots & \vdots & \\
   f_{n1}(\mathbf{x})&f_{n2}(\mathbf{x}) & \cdots & f_{nn}(\mathbf{x})\end{bmatrix}.\end{split}\notag
 \end{gather}
+\index{ferningsform}
 
 \section{Ferningsform (sjá kafla 10.7 í Adams)}
-\label{Kafli3:ferningsform-sja-kafla-10-7-i-adams}
+\label{Kafli3:index-3}\label{Kafli3:ferningsform-sja-kafla-10-7-i-adams}
 
 \subsection{Upprifjun}
 \label{Kafli3:id6}
-\emph{Ferningsform} \(Q\) af \(n\)-breytum
+\textit{Ferningsform} \(Q\) af \(n\)-breytum
 \(x_1,x_2,\ldots, x_n\) er einsleit margliða af stigi 2 gefin með
 \begin{gather}
 \begin{split}Q(\mathbf{x}) = \mathbf{x}^T A \mathbf{x}\end{split}\notag
@@ -2112,17 +2252,15 @@ Látum \(f\) vera fall af \(n\) breytum
 
 \subsection{Skilgreining}
 \label{Kafli3:id7}
-Ferningsform \(Q\) af \(n\)-breytum er sagt vera \emph{jákvætt
-ákvarðað} (e. positive definite) ef \(Q(\mbox{${\bf x}$})>0\) fyrir
+Ferningsform \(Q\) af \(n\)-breytum er sagt vera \textit{jákvætt ákvarðað} ef \(Q(\mbox{${\bf x}$})>0\) fyrir
 alla vigra \(\mbox{${\bf x}$}\neq \mbox{${\bf 0}$}\) í
 \(\mbox{${\bf R}^n$}\).
 
-Sagt að ferningsformið \(Q\) sé \emph{neikvætt ákvarðað} (e. negative
-definite) ef \(Q(\mbox{${\bf x}$})<0\) fyrir alla vigra
+Sagt að ferningsformið \(Q\) sé \textit{neikvætt ákvarðað} ef \(Q(\mbox{${\bf x}$})<0\) fyrir alla vigra
 \(\mbox{${\bf x}$}\neq \mbox{${\bf 0}$}\) í
 \(\mbox{${\bf R}^n$}\).
 
-Síðan er sagt að ferningsformið \(Q\) sé \emph{óákvarðað} (e. indefinite)
+Síðan er sagt að ferningsformið \(Q\) sé \textit{óákvarðað}
 ef \(Q(\mbox{${\bf x}$})<0\) fyrir einhvern vigur
 \(\mbox{${\bf x}$}\) og \(Q(\mbox{${\bf y}$})>0\) fyrir einhvern
 vigur \(\mbox{${\bf y}$}\).
@@ -2136,16 +2274,16 @@ samhverft \(n\times n\) fylki þannig að
 alla vigra \(\mbox{${\bf x}$}\),
 \begin{enumerate}
 \item {} 
-Ferningsformið er jákvætt ákvarðað ef og aðeins ef öll eigingildi
+Ferningsformið er jákvætt ákvarðað ef og aðeins ef öll \textit{eigingildi}
 \(A\) eru jákvæð.
 
 \item {} 
-Ferningsformið er neikvætt ákvarðað ef og aðeins ef öll eigingildi
+Ferningsformið er neikvætt ákvarðað ef og aðeins ef öll \textit{eigingildi}
 \(A\) eru neikvæð.
 
 \item {} 
 Ferningsformið er óákvarðað ef og aðeins ef \(A\) hefur bæði
-jákvæð og neikvæð eigingildi.
+jákvæð og neikvæð \textit{eigingildi}
 
 \end{enumerate}
 
@@ -2164,15 +2302,15 @@ f(\mathbf{a})=\mbox{${\bf 0}$}\). Þá gildir: Ef
 \({\cal H}(\mathbf{a})\) er
 \begin{enumerate}
 \item {} 
-...jákvætt ákvarðað þá hefur \(f\) staðbundið lággildi í
+...jákvætt ákvarðað þá hefur \(f\) \textit{staðbundið lággildi} í
 \(\mathbf{a}\).
 
 \item {} 
-...neikvætt ákvarðað þá hefur \(f\) staðbundið hágildi í
+...neikvætt ákvarðað þá hefur \(f\) \textit{staðbundið hágildi} í
 \(\mathbf{a}\).
 
 \item {} 
-...óákvarðað þá hefur \(f\) söðulpunkt í \(\mathbf{a}\).
+...óákvarðað þá hefur \(f\) \textit{söðulpunkt} í \(\mathbf{a}\).
 
 \item {} 
 ...hvorki jákvætt ákvarðað, neikvætt ákvarðað né óákvarðað þá nægja
@@ -2198,15 +2336,15 @@ C=f_{22}(a,b).\end{split}\notag
 Þá gildir:
 \begin{enumerate}
 \item {} 
-Ef \(B^2-AC<0\) og \(A>0\) þá hefur \(f\) staðbundið
-lággildi í \((a,b)\).
+Ef \(B^2-AC<0\) og \(A>0\) þá hefur \(f\) \textit{staðbundið
+lággildi} í \((a,b)\).
 
 \item {} 
-Ef \(B^2-AC<0\) og \(A<0\) þá hefur \(f\) staðbundið
-hágildi í \((a,b)\).
+Ef \(B^2-AC<0\) og \(A<0\) þá hefur \(f\) \textit{staðbundið
+hágildi} í \((a,b)\).
 
 \item {} 
-Ef \(B^2-AC>0\) þá hefur \(f\) söðulpunkt í \((a,b)\).
+Ef \(B^2-AC>0\) þá hefur \(f\) \textit{söðulpunkt} í \((a,b)\).
 
 \item {} 
 Ef \(B^2-AC=0\) þá er ekkert hægt að segja.
@@ -2233,26 +2371,27 @@ Ef \(A\) er samhverft \(n \times n\) fylki með tölu
 \begin{enumerate}
 \item {} 
 Ef \(D_i > 0\) fyrir \(1\leq i \leq n\) þá er \(A\)
-jákvætt ákvarðað.
+\textit{jákvætt ákvarðað}.
 
 \item {} 
 Ef \(D_i > 0\) fyrir slétt \(i\) í \(\{1,2,\ldots,n\}\)
 og \(D_i < 0\) fyrir oddatölu \(i\) í
-\(\{1,2,\ldots,n\}\) þá er \(A\) neikvætt ákvarðað.
+\(\{1,2,\ldots,n\}\) þá er \(A\) \textit{neikvætt ákvarðað}.
 
 \item {} 
 Ef \(\det(A) = D_n \neq 0\) en hvorki \(1\) né \(2\)
-gilda þá er \(A\) óákvarðað.
+gilda þá er \(A\) :hover:\textasciitilde{}óákvarðað,.
 
 \item {} 
 Ef \(\det(A) = 0\) þá er \(A\) hvorki jákvætt né neikvætt
-ákvarðað en getur verið óákvarðað.
+ákvarðað en getur verið \textit{óákvarðað}.
 
 \end{enumerate}
 
+\index{skorðujöfnur}
 
 \section{Útgildi falla þar sem breytur uppfylla skorðujöfnur}
-\label{Kafli3:utgildi-falla-ar-sem-breytur-uppfylla-skorujofnur}
+\label{Kafli3:index-4}\label{Kafli3:utgildi-falla-ar-sem-breytur-uppfylla-skorujofnur}
 
 \subsection{Sértækar aðferðir}
 \label{Kafli3:sertaekar-aferir}
@@ -2308,9 +2447,10 @@ ef við einskorðum fallið \(f\) við ferilinn \(g(x,y)=0\) þá hafi
 samsíða þá vex} \(f\) \emph{eða minnkar þegar farið er eftir}
 \(\mathcal{C}\) \emph{út frá punktinum} \(P_0\).
 
+\index{Lagrange-margfaldarar}
 
 \section{Lagrange-margfaldarar}
-\label{Kafli3:lagrange-margfaldarar}
+\label{Kafli3:index-5}\label{Kafli3:lagrange-margfaldarar}
 
 \subsection{Reikniaðferð}
 \label{Kafli3:reikniafer}
@@ -2322,7 +2462,7 @@ Búum til \emph{Lagrange-fallið}
 \begin{gather}
 \begin{split}L(x,y,\lambda)=f(x,y)+\lambda g(x,y).\end{split}\notag
 \end{gather}
-Stöðupunktar \(L\), þ.e.a.s. punktar \((x_0,y_0,\lambda_0)\) þar
+\textit{Stöðupunktar} \(L\), þ.e.a.s. punktar \((x_0,y_0,\lambda_0)\) þar
 sem \(\nabla L(x_0,y_0,\lambda_0)=\mbox{${\bf 0}$}\), gefa mögulega
 punkta \((x_0,y_0)\) þar sem \(f\) tekur útgildi.
 
@@ -2338,14 +2478,14 @@ Talan \(\lambda\) nefnist \emph{Lagrange-margfaldari}.
 
 \subsection{Regla}
 \label{Kafli3:id13}
-Finna skal útgildi falls \(f(x,y)\) þegar skilgreiningarsvæði
+Finna skal \textit{útgildi} falls \(f(x,y)\) þegar skilgreiningarsvæði
 \(f\) er mengi þeirra punkta \((x,y)\) sem uppfylla jöfnu
 \(g(x,y)=0\).
 
 Athuga þarf punkta sem uppfylla eitt af eftirfarandi skilyrðum:
 \begin{enumerate}
 \item {} 
-Stöðupunktar \(L(x,y,\lambda)\).
+\textit{Stöðupunktar} \(L(x,y,\lambda)\).
 
 \item {} 
 Punktar \((x,y)\) þar sem \(\nabla g(x,y)=\mbox{${\bf 0}$}\)
@@ -2362,7 +2502,7 @@ Punktar \((x,y)\) þar sem annar eða báðir stiglanna
 
 \subsection{Reikniaðferð}
 \label{Kafli3:id14}
-Finna skal útgildi falls \(f(x,y,z)\) þegar skilgreiningarsvæði
+Finna skal  \textit{útgildi} falls \(f(x,y,z)\) þegar skilgreiningarsvæði
 \(f\) er mengi þeirra punkta \((x,y,z)\) sem uppfylla jöfnurnar
 \(g(x,y,z)=0\) og \(h(x,y,z)=0\).
 
@@ -2370,10 +2510,10 @@ Búum til Lagrange-fallið
 \begin{gather}
 \begin{split}L(x,y,z,\lambda,\mu)=f(x,y,z)+\lambda g(x,y,z)+\mu h(x,y,z).\end{split}\notag
 \end{gather}
-Stöðupunktar \(L\), þ.e.a.s. punktar
+\textit{Stöðupunktar} \(L\), þ.e.a.s. punktar
 \((x_0,y_0,z_0,\lambda_0,\mu_0)\) þar sem
 \(\nabla L(x_0,y_0,z_0,\lambda_0,\mu_0)=\mbox{${\bf 0}$}\) gefa
-mögulega punkta \((x_0,y_0,z_0)\) þar sem \(f\) tekur útgildi.
+mögulega punkta \((x_0,y_0,z_0)\) þar sem \(f\) tekur  \textit{útgildi}.
 
 Þessir punktar finnast með því að leysa jöfnuhneppið
 \begin{gather}
@@ -2391,9 +2531,10 @@ h(x,y,z)&=0.\end{aligned}\end{split}\notag
 
 - George R.R. Martin, A Game of Thrones
 
+\index{skipting}
 
 \section{Skiptingar}
-\label{Kafli4:skiptingar}
+\label{Kafli4:skiptingar}\label{Kafli4:index-0}
 
 \subsection{Skilgreining}
 \label{Kafli4:skilgreining}
@@ -2415,9 +2556,10 @@ lengd lengstu hornalínu í rétthyrningunum
 
 \emph{Skipting} \(P\) \emph{á rétthyrningi} \(R= [a,b]\times [c,d]\).
 
+\index{Riemann-summa}
 
 \section{Riemann-summa}
-\label{Kafli4:riemann-summa}
+\label{Kafli4:riemann-summa}\label{Kafli4:index-1}
 
 \subsection{Skilgreining}
 \label{Kafli4:id1}
@@ -2434,14 +2576,15 @@ Skilgreinum \emph{Riemann-summuna}
 
 {\hfill\includegraphics[width=0.750\linewidth]{double.png}\hfill}
 
+\index{heildi!tvöfalt heildi}
 
 \section{Tvöfalt heildi yfir rétthyrning}
-\label{Kafli4:tvofalt-heildi-yfir-retthyrning}
+\label{Kafli4:tvofalt-heildi-yfir-retthyrning}\label{Kafli4:index-2}
 
 \subsection{Skilgreining}
 \label{Kafli4:id2}
 Sagt er að fall \(f\) skilgreint á rétthyrningi
-\(R=[a,b]\times [c,d]\) sé \emph{heildanlegt yfir} \(R\) með heildi
+\(R=[a,b]\times [c,d]\) sé \textit{heildanlegt} yfir \(R\) með \textit{heildi}
 \(I\) (hér stendur \(I\) fyrir tölu) ef fyrir sérhvert
 \(\varepsilon>0\) er til tala \(\delta>0\) þannig að
 \(|\mathcal{R}(f,P)-I|<\varepsilon\) fyrir allar skiptingar
@@ -2459,7 +2602,7 @@ Ritum þá
 \subsection{Skilgreining}
 \label{Kafli4:id3}
 Látum \(D\) vera takmarkað svæði í planinu. Fall \(f\) er sagt
-heildanlegt yfir \(D\) ef til er rétthyrningur \(R\) sem
+\textit{heildanlegt} yfir \(D\) ef til er rétthyrningur \(R\) sem
 inniheldur \(D\) og fallið
 \begin{gather}
 \begin{split}\displaystyle\end{split}\notag\\\begin{split}\hat{f}(x,y)=\left\{\begin{array}{rcl}
@@ -2475,13 +2618,13 @@ er heildanlegt yfir \(R\).
 Látum \(f\) vera samfellt fall skilgreint á lokuðu og takmörkuðu
 svæði \(D\) í planinu \({\mathbb  R}^2\). Gerum ráð fyrir að
 jaðar \(D\) samanstandi af endanlega mörgum ferlum sem hafa
-endanlega lengd. Þá er fallið \(f\) heildanlegt yfir \(D\).
+endanlega lengd. Þá er fallið \(f\) \textit{heildanlegt} yfir \(D\).
 
 
 \subsection{Setning}
 \label{Kafli4:id4}
-Látum \(D\) vera svæði í planinu og \(f\) takmarkað fall
-skilgreint á \(D\) og heildanlegt yfir \(D\). Þá gildir:
+Látum \(D\) vera svæði í planinu og \(f\) \textit{takmarkað} fall
+skilgreint á \(D\) og \textit{heildanlegt} yfir \(D\). Þá gildir:
 \begin{enumerate}
 \item {} 
 \(\int\!\!\!\int_D f(x,y)\,dA=0\) ef flatarmál \(D\) er 0.
@@ -2535,10 +2678,11 @@ skarast ekki nema mögulega í jaðarpunktum þá er
 \end{gather}
 \end{enumerate}
 
+\index{Fubini!setning Fubinis}
 
 \subsection{Setning Fubinis}
-\label{Kafli4:setning-fubinis}
-Látum \(f\) vera fall sem er heildanlegt yfir rétthyrning
+\label{Kafli4:setning-fubinis}\label{Kafli4:index-3}
+Látum \(f\) vera fall sem er \textit{samfellt} á rétthyrningi
 \(R=[a,b]\times
 [c,d]\). Setjum
 \begin{gather}
@@ -2561,9 +2705,10 @@ f(x,y)\,dx\,dy.\end{split}\notag
 
 \section{\(x\)-einföld og \(y\)-einföld svæði}
 \label{Kafli4:einfold-og-einfold-svaei}
+\index{x-einfaldur}\index{y-einfaldur}
 
 \subsection{Skilgreining}
-\label{Kafli4:id6}
+\label{Kafli4:index-4}\label{Kafli4:id6}
 Svæði \(D\) í planinu er sagt vera \(y\)\emph{-einfalt} ef hægt er
 að finna tölur \(a\) og \(b\) og föll \(c(x)\) og
 \(d(x)\) þannig að
@@ -2610,9 +2755,10 @@ Látum \(D=\{(x,y)\mid c\leq y\leq d, a(y)\leq x\leq b(y)\}\) vera
 
 \emph{Hér er svæðinu} \(D\) \emph{skipt í endanlega mörg} \(x\)-\emph{einföld} og \(y\)-\emph{einföld svæði sem skarast eingöngu í punktum á jaðrinum.}
 
+\index{heildi!óeiginlegt heildi}
 
 \section{Óeiginleg heildi}
-\label{Kafli4:oeiginleg-heildi}
+\label{Kafli4:index-5}\label{Kafli4:oeiginleg-heildi}
 
 \subsection{Umræða}
 \label{Kafli4:umraea}
@@ -2639,7 +2785,7 @@ takmörkuðum mengjum
 \end{gather}
 er vel skilgreint fyrir öll \(n\) og hefur markgildi þegar
 \(n\to \infty\) (fyrir allar ólíkar runur \((D_n)_{n\geq 1}\))
-þá skilgreinum við \emph{óeiginlega heildið}
+þá skilgreinum við \textit{óeiginlega heildið}
 \begin{gather}
 \begin{split}\displaystyle \int\!\!\!\int_{D} f(x,y)\,dA := \lim_{n\to \infty} \int\!\!\!\int_{D_n} f(x,y)\,dA .\end{split}\notag
 \end{gather}
@@ -2652,9 +2798,10 @@ skilgreint sem talan
 \begin{gather}
 \begin{split}\displaystyle \bar{f}=\frac{1}{\mbox{flatarmál }D}\int\!\!\!\int_D f(x,y)\,dA.\end{split}\notag
 \end{gather}
+\index{samanhangandi}\index{ferilsamanhangandi}
 
 \subsection{Skilgreining}
-\label{Kafli4:id9}
+\label{Kafli4:id9}\label{Kafli4:index-6}
 Segjum að mengi \(D\subseteq {\mathbb  R}^2\) sé
 \emph{ferilsamanhangandi} (e. path-connected) ef fyrir sérhverja
 tvo punkta \(P, Q\in D\) gildir að til er stikaferill
@@ -2665,9 +2812,10 @@ tvo punkta \(P, Q\in D\) gildir að til er stikaferill
 Í bók er orðið \emph{connected} notað fyrir hugtakið \emph{ferilsamanhangandi}. Venjulega er orðið \emph{connected} notað yfir annað hugtak, skylt en samt ólíkt.
 \end{notice}
 
+\index{meðalgildissetning}
 
-\subsection{Setning (Meðalgildissetning fyrir tvöföld heildi)}
-\label{Kafli4:setning-mealgildissetning-fyrir-tvofold-heildi}
+\subsection{Setning (\textit{Meðalgildissetning} fyrir tvöföld heildi)}
+\label{Kafli4:index-7}\label{Kafli4:setning-fyrir-tvofold-heildi}
 Gerum ráð fyrir að \(f\)
 sé samfellt fall sem er skilgreint á lokuðu, takmörkuðu og ferilsamanhangandi
 svæði \(D\) í \({\mathbb  R}^2\). Þá er til punktur
@@ -2675,22 +2823,24 @@ svæði \(D\) í \({\mathbb  R}^2\). Þá er til punktur
 \begin{gather}
 \begin{split}\displaystyle \frac{1}{\mbox{flatarmál }D}\int\!\!\!\int_D f(x,y)\,dA=f(x_0,y_0).\end{split}\notag
 \end{gather}
+\index{breytuskipti}
 
 \section{Breytuskipti}
-\label{Kafli4:breytuskipti}
+\label{Kafli4:index-8}\label{Kafli4:breytuskipti}
 
 \subsection{Upprifjun}
 \label{Kafli4:upprifjun}
-Látum \(P=(x,y)\neq \mbox{${\bf 0}$}\) vera punkt í plani. \emph{Pólhnit}
+Látum \(P=(x,y)\neq \mbox{${\bf 0}$}\) vera punkt í plani. \textit{Pólhnit}
 \(P\) er talnapar \([r,\theta]\) þannig að \(r\) er fjarlægð
 \(P\) frá \(O=(0,0)\) og \(\theta\) er hornið á milli
 striksins \(\overline{OP}\) og \(x\)-ássins. (Hornið er mælt
 þannig að rangsælis stefna telst jákvæð, og leggja má við \(\theta\)
 heil margfeldi af \(2\pi\).)
 
+\index{pólhnitarétthyrningur}
 
 \subsection{Skilgreining}
-\label{Kafli4:id10}
+\label{Kafli4:id10}\label{Kafli4:index-9}
 \emph{Pólhnitarétthyrningur} í \(xy\)-planinu er svæði sem afmarkast af
 tveimur hringbogum \(x^2+y^2=a^2\) og \(x^2+y^2=b^2\) og tveimur
 hálflínum sem byrja í \((0,0)\) og mynda hornin \(\alpha\) og
@@ -2709,7 +2859,7 @@ að
 
 \subsection{Setning}
 \label{Kafli4:id11}
-Ef \(f\) er fall sem er heildanlegt yfir pólhnitarétthyrning
+Ef \(f\) er fall sem er \textit{heildanlegt} yfir pólhnitarétthyrning
 \(D=\{[r,\theta]\mid 0\leq a\leq r\leq b, \alpha\leq \theta\leq\beta\}\)
 þá er
 \begin{gather}
@@ -2718,12 +2868,13 @@ f(r\cos\theta,r\sin\theta)\,r\,dr\, d\theta.\end{split}\notag
 \end{gather}
 {\hfill\includegraphics[width=0.900\linewidth]{polarelement.png}\hfill}
 
+\index{pólhnitagraf}
 
 \subsection{Upprifjun}
-\label{Kafli4:id12}
+\label{Kafli4:id12}\label{Kafli4:index-10}
 Látum \(f\) vera fall skilgreint á bili \([\alpha,\beta]\).
 Jafnan \(r=f(\theta)\) lýsir mengi allra punkta í planinu sem hafa
-pólhnit á forminu \([f(\theta),\theta]\) þar sem
+\textit{pólhnit} á forminu \([f(\theta),\theta]\) þar sem
 \(\alpha\leq\theta\leq\beta\). Þetta mengi kallast \emph{pólhnitagraf}
 fallsins \(f\).
 
@@ -2767,20 +2918,21 @@ svæðis \(S\) í \(uv\)-plani og svæðis \(D\) í
 \end{gather}
 {\hfill\includegraphics[width=0.900\linewidth]{changevar.png}\hfill}
 
+\index{heildi!þrefalt heildi}
 
 \section{Þreföld heildi}
-\label{Kafli4:refold-heildi}
+\label{Kafli4:refold-heildi}\label{Kafli4:index-11}
 
 \subsection{Umræða}
 \label{Kafli4:id15}
-Heildi falls \(f(x,y,z)\) yfir kassa
+\textit{Heildi} falls \(f(x,y,z)\) yfir kassa
 \(K=[a,b]\times[c,d]\times[u,v]\) í \({\mathbb  R}^3\) er
 skilgreint á sambærilegan hátt og tvöfalt heildi er skilgreint.
 
 Á sama hátt og fyrir tvöföld heildi má svo skilgreina heildi fyrir
-almennari rúmskika í \({\mathbb  R}^3\).
+almennari \textit{rúmskika}.
 
-Heildi falls \(f(x,y,z)\) yfir rúmskika \(R\) er táknað með
+\textit{Heildi} falls \(f(x,y,z)\) yfir \textit{rúmskika} \(R\) er táknað með
 \begin{gather}
 \begin{split}\displaystyle \int\!\!\!\int\!\!\!\int_R f(x,y,z)\,dV.\end{split}\notag
 \end{gather}
@@ -2789,7 +2941,7 @@ Heildi falls \(f(x,y,z)\) yfir rúmskika \(R\) er táknað með
 
 \subsection{Setning}
 \label{Kafli4:id16}
-Látum \(f(x,y,z)\) vera fall sem er heildanlegt yfir kassa
+Látum \(f(x,y,z)\) vera fall sem er \textit{heildanlegt} yfir kassa
 \(K=[a,b]\times[c,d]\times[u,v]\) í \({\mathbb  R}^3\). Þá er
 \begin{gather}
 \begin{split}\displaystyle\end{split}\notag\\\begin{split}\int\!\!\!\int\!\!\!\int_K f(x,y,z)\,dV=
@@ -2832,11 +2984,12 @@ hlutafleiður. Ef \(f(x,y,z)\) er fall sem er heildanlegt yfir
 \int\!\!\!\int\!\!\!\int_R& f(x,y,z)\,dV \\&=\int\!\!\!\int\!\!\!\int_S f(x(u,v,w), y(u,v,w), z(u,v,w))
 \bigg|\frac{\partial(x,y,z)}{\partial(u,v,w)}\bigg|\,du\,dv\,dw.\end{aligned}\end{split}\notag
 \end{gather}
+\index{sívalningshnit}
 
 \subsection{Skilgreining}
-\label{Kafli4:id18}
+\label{Kafli4:index-12}\label{Kafli4:id18}
 Látum \((x,y,z)\) vera punkt í \({\mathbb  R}^3\).
-\emph{Sívalningshnit} \((x,y,z)\) eru þrennd talna \(r, \theta, z\)
+\textit{Sívalningshnit} \((x,y,z)\) eru þrennd talna \(r, \theta, z\)
 þannig að
 \begin{gather}
 \begin{split}\displaystyle x=r\cos\theta\qquad\qquad y=r\sin\theta\qquad\qquad z=z.\end{split}\notag
@@ -2845,9 +2998,10 @@ Látum \((x,y,z)\) vera punkt í \({\mathbb  R}^3\).
 Athugið að \([r,\theta]\) eru pólhnit punktsins \((x,y)\).
 \end{notice}
 
+\index{sívalningshnit!breytuskipti}
 
 \subsection{Setning (Breytuskipti yfir í sívalningshnit.)}
-\label{Kafli4:setning-breytuskipti-yfir-i-sivalningshnit}
+\label{Kafli4:index-13}\label{Kafli4:setning-breytuskipti-yfir-i-sivalningshnit}
 Látum \(R\) vera rúmskika í \({\mathbb  R}^3\) og látum
 \(f(x,y,z)\) vera heildanlegt fall yfir \(R\). Gerum ráð fyrir
 að \(R\) megi lýsa með eftirfarandi skorðum á sívalningshnit
@@ -2862,13 +3016,14 @@ punktanna sem eru í \(R\)
 \!\int_{a(\theta)}^{b(\theta)}\int_{u(r,\theta)}^{v(r,\theta)}
 f(r\cos\theta,r\sin\theta,z)r\,dz\,dr\,d\theta.\end{split}\notag
 \end{gather}
+\index{kúluhnit}
 
 \section{Kúluhnit}
-\label{Kafli4:kuluhnit}
+\label{Kafli4:index-14}\label{Kafli4:kuluhnit}
 
 \subsection{Skilgreining}
 \label{Kafli4:id19}
-Látum \((x,y,z)\) vera punkt í \({\mathbb  R}^3\). \emph{Kúluhnit}
+Látum \((x,y,z)\) vera punkt í \({\mathbb  R}^3\). \textit{Kúluhnit}
 \((x,y,z)\) eru þrennd talna \(\rho, \varphi, \theta\) þannig að
 \begin{gather}
 \begin{split}\displaystyle x=\rho\sin\varphi\cos\theta\qquad\qquad y=\rho\sin\varphi\sin\theta\qquad\qquad z=\rho\cos\varphi.\end{split}\notag
@@ -2881,7 +3036,7 @@ Punktur sem hefur kúluhnit \(\rho, \varphi, \theta\) er táknaður með
 
 \subsection{Umræða}
 \label{Kafli4:id20}
-Eftirfarandi jöfnur gefa aðferð til að finna kúluhnit:
+Eftirfarandi jöfnur gefa aðferð til að finna \textit{kúluhnit}:
 \begin{itemize}
 \item {} 
 \(\rho\) er fjarlægðin frá \((0,0,0)\) til \((x,y,z)\), það er að
@@ -2911,27 +3066,29 @@ gildir að velja má \(\rho, \varphi, \theta\) þannig að
 \(0\leq \rho\), \(0\leq\varphi\leq \pi\) og
 \(0\leq\theta\leq 2\pi\).
 
+\index{kúluhnit!breytuskipti}
 
 \section{Breytuskipti í kúluhnit}
-\label{Kafli4:breytuskipti-i-kuluhnit}
+\label{Kafli4:breytuskipti-i-kuluhnit}\label{Kafli4:index-15}
 
 \subsection{Setning}
 \label{Kafli4:id21}
-Látum \(R\) vera rúmskika þannig að þegar notuð eru kúluhnit þá fæst
+Látum \(R\) vera rúmskika þannig að þegar notuð eru \textit{kúluhnit} þá fæst
 eftirfarandi lýsing
 \begin{gather}
 \begin{split}\displaystyle\end{split}\notag\\\begin{split}R=\{[\rho,\varphi,\theta]\mid \alpha\leq\theta\leq\beta,
 c\leq\varphi\leq d, a\leq \rho\leq b\}.\end{split}\notag
 \end{gather}
-Ef \(f\) er fall sem er heildanlegt yfir \(R\) þá er
+Ef \(f\) er fall sem er \textit{heildanlegt} yfir \(R\) þá er
 \begin{gather}
 \begin{split}\displaystyle\end{split}\notag\\\begin{split}\begin{aligned}
 &\int\!\!\!\int\!\!\!\int_R f(x,y,z)\,dV=\\ &\int_\alpha^\beta\!\int_c^d\!\int_a^b f(\rho\sin\varphi\cos\theta, \rho\sin\varphi\sin\theta,\rho\cos\varphi)
 \,\rho^2\sin\varphi\,d\rho\,d\varphi\,d\theta.\end{aligned}\end{split}\notag
 \end{gather}
+\index{massamiðja}\index{vægi}
 
 \section{Massamiðja}
-\label{Kafli4:massamija}
+\label{Kafli4:index-16}\label{Kafli4:massamija}
 
 \subsection{Regla}
 \label{Kafli4:id22}
@@ -2954,7 +3111,7 @@ sem
 
 \subsection{Regla}
 \label{Kafli4:id23}
-Látum \(R\) tákna rúmskika. Hugsum \(R\) sem hlut þannig að í
+Látum \(R\) tákna \textit{rúmskika}. Hugsum \(R\) sem hlut þannig að í
 punkti \((x,y,z)\) er efnisþéttleikinn gefinn með falli
 \(\delta(x,y,z)\). Massi hlutarins er
 \begin{gather}
@@ -2977,9 +3134,10 @@ Hnit \emph{massamiðju} hlutarins eru
 \qquad\mbox{og}\qquad
 \overline{z}=\frac{M_{z=0}}{m}.\end{split}\notag
 \end{gather}
+\index{hverfitregða}
 
 \section{Hverfitregða}
-\label{Kafli4:hverfitrega}
+\label{Kafli4:hverfitrega}\label{Kafli4:index-17}
 
 \subsection{Regla}
 \label{Kafli4:id24}
@@ -3015,10 +3173,11 @@ skilgreint á \(D\). Flatarmál grafsins \(z=f(x,y)\) þar sem
 
 \section{Vigursvið}
 \label{Kafli5:id1}
+\index{vigursvið}
 
 \subsection{Skilgreining}
-\label{Kafli5:skilgreining}
-\emph{Vigursvið} á \({\mathbb  R}^2\) er vörpun
+\label{Kafli5:skilgreining}\label{Kafli5:index-0}
+\textit{Vigursvið} á \({\mathbb  R}^2\) er vörpun
 \begin{gather}
 \begin{split}\displaystyle \mbox{${\bf F}$}(x,y)=F_1(x,y)\,\mbox{${\bf i}$}+F_2(x,y)\,\mbox{${\bf j}$}.\end{split}\notag
 \end{gather}
@@ -3028,7 +3187,7 @@ hefur fótpunkt í punktinum \((x,y)\).
 
 Vigursvið
 \(\mbox{${\bf F}$}(x,y)=F_1(x,y)\mbox{${\bf i}$}+F_2(x,y)\mbox{${\bf j}$}\)
-er sagt \emph{samfellt} ef föllin \(F_1(x,y)\) og \(F_2(x,y)\) eru
+er sagt \textit{samfellt} ef föllin \(F_1(x,y)\) og \(F_2(x,y)\) eru
 samfelld.
 
 Vigursvið á \({\mathbb  R}^3\) er vörpun
@@ -3043,25 +3202,26 @@ sé samfellt er eins og á samfeldni vigursvið í \({\mathbb  R}^2\) .
 
 \emph{Vigursviðið} \(\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}\).
 
+\index{straumlína}
 
 \section{Straumlína}
-\label{Kafli5:straumlina}
+\label{Kafli5:straumlina}\label{Kafli5:index-1}
 
 \subsection{Skilgreining}
 \label{Kafli5:id2}
-Ferill \(C\) í planinu kallast \emph{straumlína} (e. stream line, flow
-line) fyrir vigursvið \(\mbox{${\bf F}$}(x,y)\) ef í hverjum punkti
+\textit{Ferill} \(C\) í planinu kallast \textit{straumlína} fyrir \textit{vigursvið} \(\mbox{${\bf F}$}(x,y)\) ef í hverjum punkti
 \((x,y)\) á ferlinum er vigurinn \(\mbox{${\bf F}$}(x,y)\)
-snertivigur við ferilinn.
+\textit{snertivigur} við ferilinn.
 
 {\hfill\includegraphics[width=0.700\linewidth]{flowlines.png}\hfill}
 
 \emph{Vigursviðið} \(\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}\)
 \emph{ásamt nokkrum straumlínum}.
 
+\index{vigursvið:geymið}\index{stigulsvið}\index{mætti}
 
 \section{Stigulsvið}
-\label{Kafli5:stigulsvi}
+\label{Kafli5:index-2}\label{Kafli5:stigulsvi}
 
 \subsection{Skilgreining}
 \label{Kafli5:id3}
@@ -3083,7 +3243,7 @@ Vigursvið \(\mbox{${\bf F}$}(x,y,z)\) kallast \emph{stigulsvið} eða
 \emph{geymið svið} ef til er fall \(\varphi(x,y,z)\) þannig að
 \(\mbox{${\bf F}$}(x,y,z)=\nabla\varphi(x,y,z)\).
 
-Fallið \(\varphi\) kallast \emph{mætti} (e. potential) fyrir vigursviðið
+Fallið \(\varphi\) kallast \textit{mætti}  fyrir vigursviðið
 \(\mbox{${\bf F}$}\).
 
 
@@ -3122,7 +3282,7 @@ vera vigursvið þannig að föllin \(F_1(x,y,z), F_2(x,y,z)\) og
 
 \subsection{Reikniaðferð}
 \label{Kafli5:reikniafer}
-Finna á mætti \(\varphi(x,y)\) fyrir stigulsvið
+Finna á \textit{mætti} \(\varphi(x,y)\) fyrir stigulsvið
 \(\mbox{${\bf F}$}(x,y)=F_1(x,y)\,\mbox{${\bf i}$}+F_2(x,y)\,\mbox{${\bf j}$}\).
 Viljum finna fall \(\varphi(x,y)\) þannig að
 \begin{gather}
@@ -3141,9 +3301,10 @@ er svo að horfa á jöfnurnar tvær hér að ofan og sjá hvort ekki er hægt
 að finna gildi fyrir heildunarfastanna \(C_1(x)\) og \(C_2(y)\)
 þannig að sama formúlan fyrir \(\varphi(x,y)\) fáist.
 
+\index{ferilheildi}
 
 \section{Heildi falls yfir feril}
-\label{Kafli5:heildi-falls-yfir-feril}
+\label{Kafli5:index-3}\label{Kafli5:heildi-falls-yfir-feril}
 
 \subsection{Skilgreining}
 \label{Kafli5:id5}
@@ -3179,8 +3340,8 @@ ef til er stikun
 \(\mbox{${\bf r}$}:[a,b]\rightarrow {\mathbb  R}^2\) á
 \(\cal C\) þannig að til eru punktar
 \(a=t_0<t_1<t_2<\cdots<t_n<t_{n+1}=b\) þannig að á hverju bili
-\((t_i,t_{i+1})\) er \(\mbox{${\bf r}$}\) samfellt diffranlegur
-ferill og markgildin
+\((t_i,t_{i+1})\) er \(\mbox{${\bf r}$}\) \textit{samfellt diffranlegur}
+ferill og \textit{markgildin}
 \begin{gather}
 \begin{split}\displaystyle\end{split}\notag\\\begin{split}\lim_{t\rightarrow t_i^+}\mbox{${\bf r}$}'(t)\qquad\mbox{og}\qquad
 \lim_{t\rightarrow t_{i+1}^-}\mbox{${\bf r}$}'(t)\end{split}\notag
@@ -3316,7 +3477,7 @@ tvo punkta \(P, Q\in D\) gildir að til er stikaferill
 
 \subsection{Setning}
 \label{Kafli5:id14}
-Látum \(D\) vera opið mengi í \({\mathbb  R}^2\) sem er
+Látum \(D\) vera \textit{opið mengi} í \({\mathbb  R}^2\) sem er
 ferilsamanhangandi. Ef \(\mbox{${\bf F}$}\) er samfellt vigursvið
 skilgreint á \(D\) og ferilheildi \(\mbox{${\bf F}$}\) eru óháð
 vegi þá er \(\mbox{${\bf F}$}\) stigulsvið.
@@ -3350,13 +3511,14 @@ Ferilheildi \(\mbox{${\bf F}$}\) er óháð vegi.
 
 \end{enumerate}
 
+\index{flötur}
 
 \section{Fletir}
-\label{Kafli5:fletir}
+\label{Kafli5:index-4}\label{Kafli5:fletir}
 
 \subsection{Óformleg skilgreining}
 \label{Kafli5:oformleg-skilgreining}
-Flötur \(\cal S\) í \({\mathbb  R}^3\) er ,,tvívítt hlutmengi í
+\textit{Flötur} \(\cal S\) í \({\mathbb  R}^3\) er ,,tvívítt hlutmengi í
 \({\mathbb  R}^3\).
 
 
@@ -3366,7 +3528,7 @@ Flötum er aðallega lýst með formúlum á þrjá vegu:
 \begin{enumerate}
 \item {} 
 Gefið er fall \(f(x,y,z)\). Fletinum \(\cal S\) er lýst með
-jöfnu \(f(x,y,z)=C\) (þ.e.a.s. \(\cal S\) er jafnhæðarflötur
+jöfnu \(f(x,y,z)=C\) (þ.e.a.s. \(\cal S\) er \textit{jafnhæðarflötur}
 fallsins \(f\)). Þá er
 \begin{gather}
 \begin{split}\displaystyle {\cal S}=\{(x,y,z)\mid f(x,y,z)=C\}.\end{split}\notag
@@ -3383,9 +3545,10 @@ Með stikafleti (sjá næstu grein).
 
 \end{enumerate}
 
+\index{stikaflötur}
 
 \section{Stikafletir}
-\label{Kafli5:stikafletir}
+\label{Kafli5:index-5}\label{Kafli5:stikafletir}
 
 \subsection{Skilgreining}
 \label{Kafli5:id16}
@@ -3414,13 +3577,13 @@ sé eintæk vörpun, nema hugsanlega á jaðri \(D\). Ritum einnig
 \subsection{Setning}
 \label{Kafli5:id17}\begin{enumerate}
 \item {} 
-Látum \(\cal S\) vera flöt sem er gefinn sem jafnhæðarflötur
+Látum \(\cal S\) vera flöt sem er gefinn sem \textit{jafnhæðarflötur}
 \(f(x,y,z)=C\). Ef \((a, b, c)\) er punktur á fletinum og
 fallið \(f\) er diffranlegt í punktinum \((a, b,c)\) þá er
 vigurinn \(\mbox{${\bf n}$}=\nabla f(a, b, c)\) hornréttur á
 flötinn í punktinum \((a,b, c)\) og ef
 \(\nabla f(a, b, c)\neq \mbox{${\bf 0}$}\) þá hefur flöturinn
-snertiplan í punktinum. Jafna snertiplansins er
+\textit{snertiplan} í punktinum. Jafna snertiplansins er
 \begin{gather}
 \begin{split}\displaystyle f_1(a, b, c)x+f_2(a, b, c)y+f_3(a, b, c)z=D\end{split}\notag
 \end{gather}
@@ -3471,9 +3634,10 @@ punktinum \((x_0, y_0, z_0)\).
 
 \end{enumerate}
 
+\index{stikun!regluleg}
 
 \subsection{Skilgreining}
-\label{Kafli5:id18}
+\label{Kafli5:id18}\label{Kafli5:index-6}
 Ef vigrarnir \(\frac{\partial \mbox{${\bf r}$}}{\partial u}(u,v)\)
 og \(\frac{\partial \mbox{${\bf r}$}}{\partial v}(u,v)\) eru óháðir
 fyrir alla punkta \((u,v)\in D\) þá er sagt að stikunin sé
@@ -3486,9 +3650,10 @@ Ef vigrarnir \(\frac{\partial \mbox{${\bf r}$}}{\partial u}(u_0,v_0)\) og \(\fra
 \Pi(u,v) = \mbox{${\bf r}$}(u_0,v_0)+u\frac{\partial \mbox{${\bf r}$}}{\partial u}(u_0,v_0)+v\frac{\partial \mbox{${\bf r}$}}{\partial v}(u_0,v_0).\end{split}\notag
 \end{gather}\end{notice}
 
+\index{flatarheildi}
 
 \section{Flatarheildi}
-\label{Kafli5:flatarheildi}
+\label{Kafli5:index-7}\label{Kafli5:flatarheildi}
 
 \subsection{Verkefni}
 \label{Kafli5:verkefni}\begin{enumerate}
@@ -3573,7 +3738,7 @@ Gerum ráð fyrir að flöturinn \(\cal S\) í \({\mathbb  R}^3\)
 hafi þann eiginleika að ofanvarp hans á \(xy\)-planið sé eintækt
 eða með öðrum orðum hægt er að lýsa fletinum sem grafi
 \(z=f(x,y)\). Ef \(\mbox{${\bf n}$}\) er þvervigur á flötinn
-og \(\gamma\) er hornið sem þvervigurinn \(\mbox{${\bf n}$}\)
+og \(\gamma\) er hornið sem \textit{þvervigurinn} \(\mbox{${\bf n}$}\)
 myndar við jákvæða hluta \(z\)-ássins þá er
 \begin{gather}
 \begin{split}\displaystyle\end{split}\notag\\\begin{split}dS=\bigg|\frac{1}{\cos\gamma}\bigg|\,dx\,dy
@@ -3597,18 +3762,19 @@ yfir flötinn \(\cal S\) með tilliti til flatarmáls er
     \mbox{${\bf r}$}}{\partial u}
 \times\frac{\partial \mbox{${\bf r}$}}{\partial v}}\big|\,dudv.\end{split}\notag
 \end{gather}
+\index{einingarþvervigrasvið}
 
 \section{Einingarþvervigrasvið}
-\label{Kafli5:einingarvervigrasvi}
+\label{Kafli5:index-8}\label{Kafli5:einingarvervigrasvi}
 
 \subsection{Skilgreining}
 \label{Kafli5:id23}
-Látum \(\cal S\) vera flöt í \({\mathbb  R}^3\) sem hefur snertiplan í punkti \(P\).
+Látum \(\cal S\) vera flöt í \({\mathbb  R}^3\) sem hefur \textit{snertiplan} í punkti \(P\).
 \emph{Einingarþvervigur} \(\mbox{${\bf n}$}\) á flötinn \(\cal S\) í
-punktinum \(P\) er einingarvigur hornréttur á snertiplan við flötinn
+punktinum \(P\) er \textit{einingarvigur} hornréttur á snertiplan við flötinn
 í punktinum \(P\).
 
-\emph{Einingarþvervigrasvið} á \(\cal S\) er samfellt vigursvið
+\emph{Einingarþvervigrasvið} á \(\cal S\) er samfellt \textit{vigursvið}
 \(\mbox{${\bf N}$}\) sem er skilgreint í öllum punktum
 \(\cal S\) þannig að fyrir \((x,y,z)\in{\cal S}\) er vigurinn
 \(\mbox{${\bf n}$}(x,y,z)\) einingarvigur sem er hornréttur á
@@ -3616,16 +3782,17 @@ snertiplan við flötinn í punktinum \((x,y,z)\).
 
 {\hfill\includegraphics[width=0.500\linewidth]{normalfield.png}\hfill}
 
+\index{flötur!áttanlegur}\index{áttun}
 
 \section{Áttanlegir fletir}
-\label{Kafli5:attanlegir-fletir}
+\label{Kafli5:index-9}\label{Kafli5:attanlegir-fletir}
 
 \subsection{Skilgreining}
 \label{Kafli5:id24}
-Flöturinn \(\cal S\) er sagður \emph{áttanlegur} ef til er
+Flöturinn \(\cal S\) er sagður \textit{áttanlegur} ef til er
 einingarþvervigrasvið \(\mbox{${\bf N}$}\) á \(\cal S\).
 
-Áttun á áttanlegum fleti felst í því að velja annað af tveimur mögulegum
+\textit{Áttun} á áttanlegum fleti felst í því að velja annað af tveimur mögulegum
 einingaþvervigrasviðum.
 
 {\hfill\includegraphics[width=0.400\linewidth]{mobius.png}\hfill}
@@ -3649,7 +3816,7 @@ jaðrarnir hafi andstæða stefnu á samskeytunum.
 
 \subsection{Setning}
 \label{Kafli5:id25}
-Gerum ráð fyrir að \(\cal S\) sé áttanlegur flötur og
+Gerum ráð fyrir að \(\cal S\) sé \textit{áttanlegur} flötur og
 \(\mbox{${\bf r}$}:D\subseteq{\mathbb  R}^2\rightarrow {\mathbb  R}^3\)
 sé regluleg stikun á \(\cal S\) (það er,
 \(\frac{\partial \mbox{${\bf r}$}}{\partial u}\) og
@@ -3667,13 +3834,14 @@ af \(u\) og \(v\) og vigrarnir
 \end{gather}
 einingarþvervigrasvið á \(\cal S\).
 
+\index{flæði}
 
 \section{Heildi vigursviðs yfir flöt - Flæði}
-\label{Kafli5:heildi-vigursvis-yfir-flot-flaei}
+\label{Kafli5:heildi-vigursvis-yfir-flot-flaei}\label{Kafli5:index-10}
 
 \subsection{Skilgreining og ritháttur}
 \label{Kafli5:skilgreining-og-rithattur}
-Látum \(\cal S\) vera áttanlegan flöt stikaðan af reglulegum
+Látum \(\cal S\) vera \textit{áttanlegan} flöt stikaðan af reglulegum
 stikaferli
 \(\mbox{${\bf r}$}:D\subseteq{\mathbb  R}^2\rightarrow {\mathbb  R}^3\)
 með samfelldar hlutafleiður. Látum \(\mbox{${\bf N}$}\) tákna
@@ -3686,8 +3854,8 @@ einingarþvervigrasviðið sem gefið er í Setningu 5.13.3. Heildi vigursviðs
   v}\bigg)\,
 du\,dv.\end{split}\notag
 \end{gather}
-Slík heildi eru oft nefnd \emph{flæði vigursviðsins} \(\mbox{${\bf F}$}\)
-\emph{gegnum flötinn} \(\cal S\).
+Slík heildi eru oft nefnd \textit{flæði} vigursviðsins \(\mbox{${\bf F}$}\)
+gegnum flötinn \(\cal S\).
 
 Ritum \(d\mbox{${\bf S}$}=\mbox{${\bf N}$}\,dS\). Þá er
 \begin{gather}
@@ -3722,7 +3890,7 @@ eða með öðrum orðum hægt er að lýsa fletinum sem grafi
 \end{gather}
 \end{enumerate}
 
-Val á áttun felst í því að velja \(+\) eða \(-\) í formúlunum
+Val á \textit{áttun} felst í því að velja \(+\) eða \(-\) í formúlunum
 hér að ofan.
 
 
@@ -3763,17 +3931,17 @@ Látum
 \(\mbox{${\bf F}$}(x,y,z)=F_1(x,y,z)\,\mbox{${\bf i}$}+F_2(x,y,z)\,\mbox{${\bf j}$}+F_3(x,y,z)\,\mbox{${\bf k}$}\)
 vera vigursvið og \(\varphi(x,y,z)\) vera fall.
 
-Skilgreinum \emph{stigul} \(\varphi\) sem vigursviðið
+Skilgreinum \textit{stigul} \(\varphi\) sem vigursviðið
 \begin{gather}
 \begin{split}\displaystyle\end{split}\notag\\\begin{split}\mbox{${\rm\bf grad\,}$}\varphi=\nabla\varphi=\frac{\partial \varphi}{\partial x}\,\mbox{${\bf i}$}+
 \frac{\partial \varphi}{\partial y}\,\mbox{${\bf j}$}+\frac{\partial \varphi}{\partial z}\,\mbox{${\bf k}$}.\end{split}\notag
 \end{gather}
-Skilgreinum \emph{sundurleitni} (e. divergens) vigursviðsins
+Skilgreinum \textit{sundurleitni} vigursviðsins
 \(\mbox{${\bf F}$}\) sem
 \begin{gather}
 \begin{split}\displaystyle \mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}=\nabla\cdot\mbox{${\bf F}$}=\frac{\partial F_1}{\partial x}+\frac{\partial F_2}{\partial y}+\frac{\partial F_3}{\partial z}.\end{split}\notag
 \end{gather}
-Skilgreinum \emph{rót} vigursviðsins \(\mbox{${\bf F}$}\) sem
+Skilgreinum \textit{rót} vigursviðsins \(\mbox{${\bf F}$}\) sem
 \begin{gather}
 \begin{split}\displaystyle\end{split}\notag\\\begin{split}\begin{aligned}
  \mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}&=\nabla\times\mbox{${\bf F}$}=\begin{vmatrix} \mbox{${\bf i}$}&\mbox{${\bf j}$}&\mbox{${\bf k}$}\\
@@ -3781,7 +3949,7 @@ Skilgreinum \emph{rót} vigursviðsins \(\mbox{${\bf F}$}\) sem
  \end{aligned}\end{split}\notag
 \end{gather}
 \begin{notice}{warning}{Aðvörun:}
-Ef \(\varphi(x,y,z)\) er fall þá er \(\nabla \varphi(x,y,z)\) stigullinn af \(\varphi(x,y,z)\) en \(\varphi(x,y,z)\nabla\) er diffurvirki.
+Ef \(\varphi(x,y,z)\) er fall þá er \(\nabla \varphi(x,y,z)\) stigullinn af \(\varphi(x,y,z)\) en \(\varphi(x,y,z)\nabla\) er \textit{diffurvirki}.
 \end{notice}
 
 \begin{notice}{warning}{Aðvörun:}
@@ -3793,12 +3961,12 @@ Sundurleitnin \(\mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}\) er fall \({\mathbb  R}
 \label{Kafli6:id2}
 Látum
 \(\mbox{${\bf F}$}(x,y)=F_1(x,y)\,\mbox{${\bf i}$}+F_2(x,y)\,\mbox{${\bf j}$}\)
-vera vigursvið. Skilgreinum \emph{sundurleitni} \(\mbox{${\bf F}$}\) sem
+vera vigursvið. Skilgreinum \textit{sundurleitni} \(\mbox{${\bf F}$}\) sem
 \begin{gather}
 \begin{split}\displaystyle\end{split}\notag\\\begin{split}\mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}=\nabla\cdot\mbox{${\bf F}$}=\frac{\partial F_1}{\partial
   x}+\frac{\partial F_2}{\partial y}.\end{split}\notag
 \end{gather}
-og \emph{rót} \(\mbox{${\bf F}$}\) skilgreinum við sem
+og \textit{rót} \(\mbox{${\bf F}$}\) skilgreinum við sem
 \begin{gather}
 \begin{split}\displaystyle\end{split}\notag\\\begin{split}\mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}=\bigg(\frac{\partial F_2}{\partial x}-\frac{\partial
   F_1}{\partial y}\bigg)\,\mbox{${\bf k}$}.\end{split}\notag
@@ -3810,11 +3978,9 @@ Gerum ráð fyrir að \(\mbox{${\bf F}$}\) og \(\mbox{${\bf G}$}\)
 séu vigursvið og \(\varphi\) og \(\psi\) föll. Gerum ráð fyrir
 að þær hlutafleiður sem við þurfum að nota séu skilgreindar og
 samfelldar.
-\begin{enumerate}
-\item {} 
-\(\nabla(\varphi\psi)=\varphi\nabla\psi+\psi\nabla\varphi\).
 
-\end{enumerate}
+(a)
+\(\nabla(\varphi\psi)=\varphi\nabla\psi+\psi\nabla\varphi\).
 
 (b)
 \(\nabla\cdot(\varphi\mbox{${\bf F}$})=(\nabla\varphi)\cdot\mbox{${\bf F}$}+\varphi(\nabla\cdot\mbox{${\bf F}$})\).
@@ -3840,20 +4006,20 @@ samfelldar.
 (i)
 \(\nabla\times(\nabla\times \mbox{${\bf F}$})=\nabla(\nabla\cdot\mbox{${\bf F}$})-\nabla^2\mbox{${\bf F}$}\).
 
+\index{sundurleitnilaus}\index{uppsprettulaus}\index{rótlaus}
 
 \subsection{Skilgreining}
-\label{Kafli6:id3}
+\label{Kafli6:id3}\label{Kafli6:index-0}
 Látum \(\mbox{${\bf F}$}\) vera vigursvið skilgreint á svæði
 \(D\).
 
 (a) Vigursviðið \(\mbox{${\bf F}$}\) er sagt vera
-\emph{sundurleitnilaust} (e. solenoidal) ef
+\textit{sundurleitnilaust} eða \emph{uppsprettulaust} ef
 \(\mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}=0\) i öllum punktum
 \(D\).
 
-(b) Vigursviðið \(\mbox{${\bf F}$}\) er sagt vera \emph{rótlaust}
-(e. irrotational) ef
-\(\mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}=\mbox{${\bf 0}$}\) á öllu
+(b) Vigursviðið \(\mbox{${\bf F}$}\) er sagt vera \textit{rótlaust}
+ef \(\mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}=\mbox{${\bf 0}$}\) á öllu
 \(D\).
 
 \begin{notice}{note}{Athugasemd:}
@@ -3872,17 +4038,18 @@ Vigursvið \(\mbox{${\bf F}$}(x,y,z)=F_1(x,y,z)\,\mbox{${\bf i}$}+F_2(x,y,z)\,\m
 \subsection{Setning}
 \label{Kafli6:setning}\begin{enumerate}
 \item {} 
-Rót vigursviðs er sundurleitnilaus.
+Rót vigursviðs er \textit{sundurleitnilaus}.
 
 \item {} 
-Stigulsvið er rótlaust.
+Stigulsvið er \textit{rótlaust}.
 
 \end{enumerate}
 
+\index{stjörnusvæði}
 
 \subsection{Skilgreining}
-\label{Kafli6:id4}
-Svæði \(D\) í rúmi eða plani kallast \emph{stjörnusvæði} ef til er
+\label{Kafli6:id4}\label{Kafli6:index-1}
+Svæði \(D\) í rúmi eða plani kallast \textit{stjörnusvæði} ef til er
 punktur \(P\) í \(D\) þannig að fyrir sérhvern annan punkt
 \(Q\) í \(D\) þá liggur allt línustrikið á milli \(P\) og
 \(Q\) í \(D\).
@@ -3891,10 +4058,10 @@ punktur \(P\) í \(D\) þannig að fyrir sérhvern annan punkt
 \subsection{Setning}
 \label{Kafli6:id5}
 Látum \(\mbox{${\bf F}$}\) vera samfellt diffranlegt vigursvið
-skilgreint á stjörnusvæði \(D\). Ef \(\mbox{${\bf F}$}\) er
+skilgreint á \textit{stjörnusvæði} \(D\). Ef \(\mbox{${\bf F}$}\) er
 rótlaust þá er \(\mbox{${\bf F}$}\) stigulsvið. Með öðrum orðum, ef
 vigursviðið \(\mbox{${\bf F}$}\) er samfellt diffranlegt og
-skilgreint á stjörnusvæði \(D\) og uppfyllir jöfnurnar
+skilgreint á \textit{stjörnusvæði} \(D\) og uppfyllir jöfnurnar
 \begin{gather}
 \begin{split}\displaystyle\end{split}\notag\\\begin{split}\frac{\partial F_1}{\partial y}=
 \frac{\partial F_2}{\partial x},\quad
@@ -3909,15 +4076,16 @@ skilgreint á stjörnusvæði \(D\) og uppfyllir jöfnurnar
 \subsection{Setning}
 \label{Kafli6:id6}
 Lát \(\mbox{${\bf F}$}\) vera samfellt diffranlegt vigursvið
-skilgreint á stjörnusvæði \(D\). Ef \(\mbox{${\bf F}$}\) er
+skilgreint á \textit{stjörnusvæði} \(D\). Ef \(\mbox{${\bf F}$}\) er
 sundurleitnilaust þá er til vigursvið \(\mbox{${\bf G}$}\) þannig að
 \(\mbox{${\bf F}$}=\mbox{${\rm\bf curl\,}$}\mbox{${\bf G}$}\).
 Vigursviðið \(\mbox{${\bf G}$}\) kallast \emph{vigurmætti} fyrir
 \(\mbox{${\bf F}$}\).
 
+\index{sundurleitnisetning}
 
 \section{Sundurleitnisetningin I}
-\label{Kafli6:sundurleitnisetningin-i}
+\label{Kafli6:sundurleitnisetningin-i}\label{Kafli6:index-2}
 
 \subsection{Setning (Sundurleitnisetning I)}
 \label{Kafli6:setning-sundurleitnisetning-i}
@@ -3935,9 +4103,10 @@ einingarþvervigrasvið á \({\cal S}_\varepsilon\) þannig að
 þar sem \(V_\varepsilon= 4\pi\varepsilon^3/3\) er rúmmálið innan í
 \({\cal S}_\varepsilon\).
 
+\index{Stoke!setning}
 
 \subsection{Setning (Setning Stokes I)}
-\label{Kafli6:setning-setning-stokes-i}
+\label{Kafli6:setning-setning-stokes-i}\label{Kafli6:index-3}
 Látum \(\mbox{${\bf F}$}\) vera samfellt diffranlegt vigursvið
 skilgreint á opnu mengi \(D\) í \({\mathbb  R}^3\). Látum
 \(P\) vera punkt á skilgreiningarsvæði \(\mbox{${\bf F}$}\) og
@@ -3978,12 +4147,13 @@ eða
 \subsection{Skilgreining}
 \label{Kafli6:id7}
 Látum \(R\) vera svæði í \({\mathbb  R}^2\) og \(\cal C\)
-jaðar \(R\). Gerum ráð fyrir að \(\cal C\) samanstandi af endanlega mörgum ferlum \({\cal C}_1, \ldots, {\cal C}_n\). Jákvæð
-áttun á ferlunum felst í því að velja fyrir hvert \(i\) stikun \(\mbox{${\bf r}$}_i\) á \({\cal C}_i\) þannig að ef labbað eftir \({\cal C}_i\) í stefnu stikunar þá er \(R\) á vinstri hönd.
+\textit{jaðar} \(R\). Gerum ráð fyrir að \(\cal C\) samanstandi af endanlega mörgum ferlum \({\cal C}_1, \ldots, {\cal C}_n\). Jákvæð
+\textit{áttun} á ferlunum felst í því að velja fyrir hvert \(i\) stikun \(\mbox{${\bf r}$}_i\) á \({\cal C}_i\) þannig að ef labbað eftir \({\cal C}_i\) í stefnu stikunar þá er \(R\) á vinstri hönd.
 
+\index{Green!setning}
 
 \subsection{Setning Green}
-\label{Kafli6:setning-green}
+\label{Kafli6:index-4}\label{Kafli6:setning-green}
 Látum \(R\) vera svæði í planinu þannig að jaðar \(R\), táknaður
 með \(\cal C\), samanstendur af endanlega mörgum samfellt
 diffranlegum ferlum. Áttum \(\cal C\) jákvætt. Látum
@@ -4020,10 +4190,11 @@ vera samfellt diffranlegt vigursvið skilgreint á \(R\). Þá er
 
 \section{Sundurleitnisetningin II}
 \label{Kafli6:sundurleitnisetningin-ii}
+\index{flötur!reglulegur}
 
 \subsection{Skilgreining}
-\label{Kafli6:id8}
-Flötur er sagður reglulegur ef hann hefur snertiplan í hverjum punkti.
+\label{Kafli6:index-5}\label{Kafli6:id8}
+Flötur er sagður reglulegur ef hann hefur \textit{snertiplan} í hverjum punkti.
 
 Flötur \(\cal S\) sem er búinn til með því að taka endanlega marga
 reglulega fleti \({\cal S}_1, \ldots, {\cal S}_n\) og líma þá saman
@@ -4101,7 +4272,7 @@ látum \(\mbox{${\bf N}$}\) tákna einingarþvervigrasvið á
 \(\cal S\). Táknum með \(\cal C\) jaðar \(\cal S\) og áttum
 \(\cal C\) með tilliti til \(\mbox{${\bf N}$}\). Ef
 \(\mbox{${\bf F}$}\) er samfellt diffranlegt vigursvið skilgreint á
-opnu mengi sem inniheldur \(\cal S\) þá er
+\textit{opnu mengi} sem inniheldur \(\cal S\) þá er
 \begin{gather}
 \begin{split}\displaystyle \int\!\!\!\int_{\cal S} \mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS=\oint_{\cal C}\mbox{${\bf F}$}\cdot \mbox{${\bf T}$}\,ds.\end{split}\notag
 \end{gather}
@@ -4264,75 +4435,43 @@ Jöfnur Maxwells
 
 
 \chapter{Viðauki}
-\label{vidauki::doc}\label{vidauki:viauki}
+\label{vidauki::doc}\label{vidauki:viauki}\begin{itemize}
+\item {} 
+\emph{genindex}
 
+\item {} 
+Pdf-útgáfa
+
+\end{itemize}
+
+
+\bigskip\hrule{}\bigskip
 
 
 
 \section{Kennsluáætlun}
 \label{vidauki:kennsluaaetlun}
 
-\begin{center}
-\begin{tabular}{l|l|l|l}
-Dags. &Efni & Nótur &Adams Calculus\\
-\hline
-11.01.16.&1. Ferlar.&    1.1-1.5.     &8.1, {\bf 8.2}, {\bf 8.3}, {\bf 8.4},\\
-&&&{\bf 11.1}, 11.2, {\bf 11.3}.\\
-&Viðbótarefni:  Krossmargfeldi& {\bf 10.3}.\\
-13.01.16.&2. Ferlar í plani og pólhnit.& 1.6-1.10.& {\bf 8.4}, {\bf 8.5}, {\bf 8.6}.\\
-\hline
-18.01.16.&3. Krappi og vindingur.& 1.10-1.17.& {\bf 11.4}, {\bf 11.5}, 11.6.\\
-20.01.16.&4. Föll af mörgum 
-breytistærðum.\ \ \ \ \ \ & 2.1-2.10.& {\bf 12.1}, {\bf 12.2}.\\
-\hline
-25.01.16.&5. Hlutafleiður.& 2.11-2.13.&{\bf 12.3}, {\bf 12.4}.\\
-27.01.16.&6. Keðjureglan.&2.14-2.15.&{\bf 12.5}.\\
-\hline
-01.02.16.&7. Línulegar nálganir.&2.16-2.25.&{\bf 12.6}\\
-03.02.16.&8. Stiglar.&2.26-2.31.&{\bf 12.7}.\\
-\hline
-08.02.16.&9. Fólgin föll og Taylor-nálganir.&2.32.&{\bf 12.8}, {\bf 12.9}.\\
-10.02.16.&10. Útgildi. &3.1-3.9.&{\bf 13.1}, {\bf 13.2}.\\
-\hline
-15.02.16.&11. Lagrange-margfaldarar. &3.10-3.11.&{\bf 13.2}, {\bf 13.3}.\\
-17.02.16.&12. Tvöföld heildi. &4.1-4.4.&{\bf 14.1}, {\bf 14.2}, {\bf 14.3}.\\
-\hline
-22.02.16.&13. Meira um tvöföld heildi. &4.5-4.7.&{\bf 14.1}, {\bf 14.2}, {\bf 14.3}.\\
-24.02.16.&14. Breytuskipti. &4.8.&{\bf 14.4}.\\
-\hline
-29.02.16.&15. Þreföld heildi. &4.9.& {\bf 14.5}, {\bf 14.6}.\\
-02.03.16.&16. Hagnýtingar margfaldra heilda.&4.10-4.14. &{\bf 14.7}.\\
-&  {\bf Próf úr  lesnu efni.$^\ast$}&\\
-\hline
-07.03.16.&17. Vigursvið og stigulsvið. &5.1-5.3.&{\bf 15.1}, {\bf 15.2}.\\
-09.03.16.&18. Ferilheildi. & 5.4-5.5.&{\bf 15.3}. \\
-\hline
-14.03.16.&19. Ferilheildi og stigulsvið. &5.6.&{\bf 15.2}, {\bf 15.3}, {\bf 15.4}.\\
-16.03.16.&20. Fletir. &5.7-5.11.&{\bf 15.5}. \\
-\hline
-21.03.16.&21. Flatarheildi.   &5.12.&{\bf 15.5}, {\bf 15.6}\\
-23.03.16.& \textbf{Páskafrí}. &\\
-\hline
-28.03.16.&  \textbf{Páskafrí}. &\\
-30.03.16.&22. Áttanlegir fletir. Heildi vigursviðs yfir flöt.&5.13-5.15.&  {\bf 15.6}.\\
-&  {\bf Próf úr skiladæmum.$^\ast$} &\\
-\hline
-04.04.16.&23. grad, div og curl. &6.1.&{\bf 16.1}, {\bf 16.2}.\\
-06.06.16.&24. Sundurleitnisetningin I. &6.2.&{\bf 16.2}, {\bf 16.3}, {\bf 16.4}.\\
-\hline
-11.04.16.&25. Sundurleitnisetningin II.&6.3& {\bf 16.2}, {\bf 16.3}, {\bf 16.4}.\\
-13.04.16.&26. Setning Stokes.  &6.4.& {\bf 16.5}, {\bf 16.6}.\\
-\hline
-18.04.16.&27. Hagnýtingar í eðlisfræði. &6.5.& {\bf 16.6}.\\
-20.04.16.&28. Langur dæmatími. & \\
-
-\end{tabular}
-\end{center}
-
 
 Kaflanúmer í Adams Calculus miðast við 8. útgáfu kennslubókarinnar. Megináhersla er á efni þeirra kafla sem eru feitletraðir.
 
 {\color{red}\bfseries{}*}Með fyrirvara um breyttar dagsetningar.
+
+\begin{notice}{note}{Verkefnalisti}
+\begin{itemize}
+\item {} 
+aðrar upplýsingar
+
+\end{itemize}
+\end{notice}
+
+
+\chapter{Orðaskrá}
+\label{ordaskra::doc}\label{ordaskra:oraskra}\begin{itemize}
+\item {} 
+\emph{genindex}
+
+\end{itemize}
 
 
 

@@ -6,8 +6,13 @@ Diffur- og heildareikningur vigursviða
 \- George R.R. Martin, A Dance with Dragons 
 
 
+
+
 grad, div og curl
 -----------------
+
+.. item::
+  nabla-virkinn
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -16,6 +21,10 @@ Skilgreinum *nabla*-virkjann sem diffurvirkja
 
 .. math:: \displaystyle \nabla=\mbox{${\bf i}$}\,\frac{\partial}{\partial x}+\mbox{${\bf j}$}\,\frac{\partial}{\partial y}+\mbox{${\bf k}$}\,\frac{\partial}{\partial z}.
 
+.. item::
+  sundurleitni
+  rót
+
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -23,19 +32,19 @@ Látum
 :math:`\mbox{${\bf F}$}(x,y,z)=F_1(x,y,z)\,\mbox{${\bf i}$}+F_2(x,y,z)\,\mbox{${\bf j}$}+F_3(x,y,z)\,\mbox{${\bf k}$}`
 vera vigursvið og :math:`\varphi(x,y,z)` vera fall.
 
-Skilgreinum *stigul* :math:`\varphi` sem vigursviðið
+Skilgreinum :hover:`stigul,stigull` :math:`\varphi` sem vigursviðið
 
 .. math:: \displaystyle
 
    \mbox{${\rm\bf grad\,}$}\varphi=\nabla\varphi=\frac{\partial \varphi}{\partial x}\,\mbox{${\bf i}$}+
    \frac{\partial \varphi}{\partial y}\,\mbox{${\bf j}$}+\frac{\partial \varphi}{\partial z}\,\mbox{${\bf k}$}.
 
-Skilgreinum *sundurleitni* (e. divergens) vigursviðsins
+Skilgreinum :hover:`sundurleitni` vigursviðsins
 :math:`\mbox{${\bf F}$}` sem
 
 .. math:: \displaystyle \mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}=\nabla\cdot\mbox{${\bf F}$}=\frac{\partial F_1}{\partial x}+\frac{\partial F_2}{\partial y}+\frac{\partial F_3}{\partial z}.
 
-Skilgreinum *rót* vigursviðsins :math:`\mbox{${\bf F}$}` sem
+Skilgreinum :hover:`rót` vigursviðsins :math:`\mbox{${\bf F}$}` sem
 
 .. math:: \displaystyle
 
@@ -46,7 +55,7 @@ Skilgreinum *rót* vigursviðsins :math:`\mbox{${\bf F}$}` sem
 
 .. warning::
 
-   Ef :math:`\varphi(x,y,z)` er fall þá er :math:`\nabla \varphi(x,y,z)` stigullinn af :math:`\varphi(x,y,z)` en :math:`\varphi(x,y,z)\nabla` er diffurvirki.
+   Ef :math:`\varphi(x,y,z)` er fall þá er :math:`\nabla \varphi(x,y,z)` stigullinn af :math:`\varphi(x,y,z)` en :math:`\varphi(x,y,z)\nabla` er :hover:`diffurvirki`.
 
 .. warning::
 
@@ -57,14 +66,14 @@ Skilgreining
 
 Látum
 :math:`\mbox{${\bf F}$}(x,y)=F_1(x,y)\,\mbox{${\bf i}$}+F_2(x,y)\,\mbox{${\bf j}$}`
-vera vigursvið. Skilgreinum *sundurleitni* :math:`\mbox{${\bf F}$}` sem
+vera vigursvið. Skilgreinum :hover:`sundurleitni` :math:`\mbox{${\bf F}$}` sem
 
 .. math:: \displaystyle
 
    \mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}=\nabla\cdot\mbox{${\bf F}$}=\frac{\partial F_1}{\partial
      x}+\frac{\partial F_2}{\partial y}.
 
-og *rót* :math:`\mbox{${\bf F}$}` skilgreinum við sem
+og :hover:`rót` :math:`\mbox{${\bf F}$}` skilgreinum við sem
 
 .. math:: \displaystyle
 
@@ -105,6 +114,11 @@ samfelldar.
 (i)
 :math:`\nabla\times(\nabla\times \mbox{${\bf F}$})=\nabla(\nabla\cdot\mbox{${\bf F}$})-\nabla^2\mbox{${\bf F}$}`.
 
+.. index::
+  sundurleitnilaus
+  uppsprettulaus
+  rótlaus
+  
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -112,13 +126,12 @@ Látum :math:`\mbox{${\bf F}$}` vera vigursvið skilgreint á svæði
 :math:`D`.
 
 (a) Vigursviðið :math:`\mbox{${\bf F}$}` er sagt vera
-*sundurleitnilaust* (e. solenoidal) ef
+:hover:`sundurleitnilaust,uppsprettulaus` eða *uppsprettulaust* ef
 :math:`\mbox{${\rm\bf div\,}$}\mbox{${\bf F}$}=0` i öllum punktum
 :math:`D`.
 
-(b) Vigursviðið :math:`\mbox{${\bf F}$}` er sagt vera *rótlaust*
-(e. irrotational) ef
-:math:`\mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}=\mbox{${\bf 0}$}` á öllu
+(b) Vigursviðið :math:`\mbox{${\bf F}$}` er sagt vera :hover:`rótlaust,rótlaus`
+ef :math:`\mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}=\mbox{${\bf 0}$}` á öllu
 :math:`D`.
 
 .. note::
@@ -135,26 +148,31 @@ Látum :math:`\mbox{${\bf F}$}` vera vigursvið skilgreint á svæði
 Setning 
 ~~~~~~~~
 
-(a) Rót vigursviðs er sundurleitnilaus.
+(a) Rót vigursviðs er :hover:`sundurleitnilaus,uppsprettulaus`.
 
-(b) Stigulsvið er rótlaust.
+(b) Stigulsvið er :hover:`rótlaust,rótlaus`.
+
+
+.. index::
+  stjörnusvæði
 
 Skilgreining 
 ~~~~~~~~~~~~~
 
-Svæði :math:`D` í rúmi eða plani kallast *stjörnusvæði* ef til er
+Svæði :math:`D` í rúmi eða plani kallast :hover:`stjörnusvæði` ef til er
 punktur :math:`P` í :math:`D` þannig að fyrir sérhvern annan punkt
 :math:`Q` í :math:`D` þá liggur allt línustrikið á milli :math:`P` og
 :math:`Q` í :math:`D`.
+
 
 Setning 
 ~~~~~~~~
 
 Látum :math:`\mbox{${\bf F}$}` vera samfellt diffranlegt vigursvið
-skilgreint á stjörnusvæði :math:`D`. Ef :math:`\mbox{${\bf F}$}` er
+skilgreint á :hover:`stjörnusvæði` :math:`D`. Ef :math:`\mbox{${\bf F}$}` er
 rótlaust þá er :math:`\mbox{${\bf F}$}` stigulsvið. Með öðrum orðum, ef
 vigursviðið :math:`\mbox{${\bf F}$}` er samfellt diffranlegt og
-skilgreint á stjörnusvæði :math:`D` og uppfyllir jöfnurnar
+skilgreint á :hover:`stjörnusvæði` :math:`D` og uppfyllir jöfnurnar
 
 .. math:: \displaystyle
 
@@ -171,11 +189,14 @@ Setning
 ~~~~~~~~
 
 Lát :math:`\mbox{${\bf F}$}` vera samfellt diffranlegt vigursvið
-skilgreint á stjörnusvæði :math:`D`. Ef :math:`\mbox{${\bf F}$}` er
+skilgreint á :hover:`stjörnusvæði` :math:`D`. Ef :math:`\mbox{${\bf F}$}` er
 sundurleitnilaust þá er til vigursvið :math:`\mbox{${\bf G}$}` þannig að
 :math:`\mbox{${\bf F}$}=\mbox{${\rm\bf curl\,}$}\mbox{${\bf G}$}`.
 Vigursviðið :math:`\mbox{${\bf G}$}` kallast *vigurmætti* fyrir
 :math:`\mbox{${\bf F}$}`.
+
+.. index::
+  sundurleitnisetning	
 
 Sundurleitnisetningin I
 -----------------------
@@ -198,6 +219,10 @@ einingarþvervigrasvið á :math:`{\cal S}_\varepsilon` þannig að
 
 þar sem :math:`V_\varepsilon= 4\pi\varepsilon^3/3` er rúmmálið innan í
 :math:`{\cal S}_\varepsilon`.
+
+.. index::
+  Stoke;setning
+
 
 Setning (Setning Stokes I)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -244,8 +269,11 @@ Skilgreining
 ~~~~~~~~~~~~~
 
 Látum :math:`R` vera svæði í :math:`{\mathbb  R}^2` og :math:`\cal C`
-jaðar :math:`R`. Gerum ráð fyrir að :math:`\cal C` samanstandi af endanlega mörgum ferlum :math:`{\cal C}_1, \ldots, {\cal C}_n`. Jákvæð
-áttun á ferlunum felst í því að velja fyrir hvert :math:`i` stikun :math:`\mbox{${\bf r}$}_i` á :math:`{\cal C}_i` þannig að ef labbað eftir :math:`{\cal C}_i` í stefnu stikunar þá er :math:`R` á vinstri hönd.
+:hover:`jaðar` :math:`R`. Gerum ráð fyrir að :math:`\cal C` samanstandi af endanlega mörgum ferlum :math:`{\cal C}_1, \ldots, {\cal C}_n`. Jákvæð
+:hover:`áttun` á ferlunum felst í því að velja fyrir hvert :math:`i` stikun :math:`\mbox{${\bf r}$}_i` á :math:`{\cal C}_i` þannig að ef labbað eftir :math:`{\cal C}_i` í stefnu stikunar þá er :math:`R` á vinstri hönd.
+
+.. index::
+  Green;setning
 
 Setning Green 
 ~~~~~~~~~~~~~~
@@ -290,10 +318,13 @@ vera samfellt diffranlegt vigursvið skilgreint á :math:`R`. Þá er
 Sundurleitnisetningin II
 ------------------------
 
+.. index::
+  flötur;reglulegur
+
 Skilgreining 
 ~~~~~~~~~~~~~
 
-Flötur er sagður reglulegur ef hann hefur snertiplan í hverjum punkti.
+Flötur er sagður reglulegur ef hann hefur :hover:`snertiplan,snertislétta` í hverjum punkti.
 
 Flötur :math:`\cal S` sem er búinn til með því að taka endanlega marga
 reglulega fleti :math:`{\cal S}_1, \ldots, {\cal S}_n` og líma þá saman
@@ -371,7 +402,7 @@ látum :math:`\mbox{${\bf N}$}` tákna einingarþvervigrasvið á
 :math:`\cal S`. Táknum með :math:`\cal C` jaðar :math:`\cal S` og áttum
 :math:`\cal C` með tilliti til :math:`\mbox{${\bf N}$}`. Ef
 :math:`\mbox{${\bf F}$}` er samfellt diffranlegt vigursvið skilgreint á
-opnu mengi sem inniheldur :math:`\cal S` þá er
+:hover:`opnu mengi,opið mengi` sem inniheldur :math:`\cal S` þá er
 
 .. math:: \displaystyle \int\!\!\!\int_{\cal S} \mbox{${\rm\bf curl\,}$}\mbox{${\bf F}$}\cdot\mbox{${\bf N}$}\,dS=\oint_{\cal C}\mbox{${\bf F}$}\cdot \mbox{${\bf T}$}\,ds.
 

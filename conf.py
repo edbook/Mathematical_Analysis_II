@@ -31,6 +31,7 @@ import shlex
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'hoverrole.hoverrole',
     'sphinx.ext.todo',
     'sphinx.ext.mathjax',
     #'sphinx.ext.pngmath',

@@ -38,7 +38,7 @@ Vörpun :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}`
 *vigurgild vörpun*. Slík vörpun er sögð samfelld ef föllin
 :math:`r_1, \ldots, r_n` eru öll samfelld. Samfelld vörpun
 :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}` er oft
-kölluð *stikaferill*.
+kölluð :hover:`stikaferill,stikaður ferill`.
 
 Ritháttur 
 ~~~~~~~~~~
@@ -65,11 +65,11 @@ Ferlar og stikanir á ferlum
 Skilgreining 
 ~~~~~~~~~~~~~
 
-*Ferill í plani* er mengi punkta :math:`(x,y)` í planinu þannig að
+:hover:`Ferill í plani,ferill` er mengi punkta :math:`(x,y)` í planinu þannig að
 skrifa má :math:`x=f(t)` og :math:`y=g(t)` fyrir :math:`t` á bili
 :math:`I` þar sem :math:`f` og :math:`g` eru samfelld föll á :math:`I`.
 Bilið :math:`I` ásamt föllunum :math:`(f,g)` kallast *s*\ tikun á
-ferlinum. Ferill í rúmi og stikun á ferli í rúmi eru skilgreind á
+ferlinum. Ferill í rúmi og :hover:`stikun` á ferli í rúmi eru skilgreind á
 sambærilegan hátt.
 
 .. warning::
@@ -147,10 +147,10 @@ Ritháttur
 Látum :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}`
 vera diffranlegan stikaferil. Venja er að rita
 :math:`\mbox{${\bf v}$}(t)=\mbox{${\bf r}$}'(t)` og tala um
-:math:`\mbox{${\bf v}$}(t)` sem *hraða* eða *hraðavigur*. Talan
-:math:`|\mbox{${\bf v}$}(t)|` er kölluð *ferð*. Einnig er ritað
+:math:`\mbox{${\bf v}$}(t)` sem :hover:`hraða,hraði` eða *hraðavigur*. Talan
+:math:`|\mbox{${\bf v}$}(t)|` er kölluð :hover:`ferð`. Einnig er ritað
 :math:`\mbox{${\bf a}$}(t)=\mbox{${\bf v}$}'(t)=\mbox{${\bf r}$}''(t)`
-og talað um :math:`\mbox{${\bf a}$}(t)` sem *hröðun* eða
+og talað um :math:`\mbox{${\bf a}$}(t)` sem :hover:`hröðun` eða
 *hröðunarvigur*.
 
 .. ggb:: 2384599
@@ -229,17 +229,16 @@ Látum
 :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}; \mbox{${\bf r}$}(t)=(r_1(t),\ldots,r_n(t))`
 vera stikaferil.
 
-Stikaferillinn er sagður *samfellt diffranlegur* ef föllin
+Stikaferillinn er sagður :hover:`samfellt diffranlegur` ef föllin
 :math:`r_1(t),\ldots,r_n(t)` eru öll diffranleg og afleiður þeirra eru
-samfelldar. Samfellt diffranlegur stikaferill er sagður *þjáll*
-(e. smooth) ef :math:`\mbox{${\bf r}$}'(t)\neq\mbox{${\bf 0}$}` fyrir
+samfelldar. Samfellt diffranlegur stikaferill er sagður :hover:`þjáll`
+ef :math:`\mbox{${\bf r}$}'(t)\neq\mbox{${\bf 0}$}` fyrir
 öll :math:`t`.
 
 Stikaferillinn er sagður *samfellt diffranlegur á köflum* ef til eru
 tölur :math:`b_0,\ldots,b_k` þannig að :math:`a=b_0<b_1<\cdots<b_k=b` og
 stikaferillinn er samfellt diffranlegur á hverju bili
-:math:`[b_{i-1}, b_i]`. Það að stikaferill sé *þjáll á köflum*
-(e. piecewise smooth curve) er skilgreint á sambærilegan hátt.
+:math:`[b_{i-1}, b_i]`. Það að stikaferill sé :hover:`þjáll á köflum` er skilgreint á sambærilegan hátt.
 
 .. index::
   stikaferill;snertilína
@@ -249,12 +248,12 @@ Setning
 
 Látum :math:`\mbox{${\bf r}$}=f(t)\mbox{${\bf i}$}+g(t)\mbox{${\bf j}$}`
 vera samfellt diffranlegan stikaferil fyrir :math:`t` á bili :math:`I`.
-Ef :math:`f'(t) \neq 0` á :math:`I` þá hefur ferilinn snertilínu fyrir
+Ef :math:`f'(t) \neq 0` á :math:`I` þá hefur ferilinn :hover:`snertilínu,snertilína` fyrir
 hvert gildi á :math:`t` og hallatala hennar er
 
 .. math:: \displaystyle \frac{dy}{dx} = \frac{g'(t)}{f'(t)}.
 
-Ef :math:`g'(t) \neq 0` á :math:`I` þá hefur ferilinn þverlínu fyrir
+Ef :math:`g'(t) \neq 0` á :math:`I` þá hefur ferilinn :hover:`þverlínu, þverlína` fyrir
 hvert gildi á :math:`t` og hallatala hennar er
 
 .. math:: \displaystyle -\frac{dx}{dy} = -\frac{f'(t)}{g'(t)}.
@@ -270,13 +269,13 @@ Regla
 ~~~~~~
 
 Látum :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}`
-vera samfellt diffranlegan stikaferil. *Lengd* eða *bogalengd*
+vera samfellt diffranlegan stikaferil. Lengd eða :hover:`bogalengd`
 stikaferilsins er skilgreind með formúlunni
 
 .. math:: \displaystyle s=\int_a^b |\mbox{${\bf v}$}(t)|\,dt.
 
 .. index::
-  stikun með bogalengd
+  stikun; með bogalengd
 
 Skilgreining og umræða 
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -307,10 +306,13 @@ Pólhnit
   pólhnit
 
 
+.. index::
+  pólhnit
+  
 Skilgreining 
 ~~~~~~~~~~~~~
 
-Látum :math:`P=(x,y)\neq \mbox{${\bf 0}$}` vera punkt í plani. *Pólhnit*
+Látum :math:`P=(x,y)\neq \mbox{${\bf 0}$}` vera punkt í plani. :hover:`Pólhnit`
 :math:`P` er talnapar :math:`[r,\theta]` þannig að :math:`r` er fjarlægð
 :math:`P` frá :math:`O=(0,0)` og :math:`\theta` er hornið á milli
 striksins :math:`\overline{OP}` og :math:`x`-ássins. (Hornið er mælt
@@ -321,8 +323,7 @@ Regla
 ~~~~~~
 
 Ef pólhnit punkts í plani eru :math:`[r, \theta]` þá má reikna
-:math:`xy`-hnit hans (e. *rectangular coordinates* eða *Cartesian
-coordinates*) með formúlunum
+:hover:`hornrétt hnit` hans (:math:`xy`-hnit) með formúlunum
 
 .. math:: \displaystyle x=r\cos\theta \qquad\mbox{og}\qquad y=r\sin\theta.
 
@@ -385,7 +386,7 @@ ráð fyrir að fallið :math:`f` sé samfellt diffranlegt. Látum
 :math:`\mbox{${\bf r}$}(\theta)` tákna stikunina á pólhnitagrafinu sem
 innleidd er í 1.7.1. Ef vigurinn
 :math:`\mbox{${\bf r}$}'(\theta)\neq \mbox{${\bf 0}$}` þá gefur þessi
-vigur stefnu snertils við pólhnitagrafið og út frá
+vigur stefnu :hover:`snertils,snertill` við pólhnitagrafið og út frá
 :math:`\mbox{${\bf r}$}'(\theta)` má reikna hallatölu snertils við
 pólhnitagrafið.
 
@@ -399,7 +400,7 @@ Flatarmál
 Setning 
 ~~~~~~~~
 
-Flatarmál svæðisins sem afmarkast af geislunum :math:`\theta=\alpha` og
+:hover:`Flatarmál` svæðisins sem afmarkast af geislunum :math:`\theta=\alpha` og
 :math:`\theta=\beta` (með :math:`\alpha\leq \beta` og
 :math:`\beta-\alpha\leq 2\pi`) og pólhnitagrafi :math:`r=f(\theta)`
 (:math:`f` samfellt) er
@@ -420,7 +421,7 @@ Bogalengd
 Setning 
 ~~~~~~~~
 
-Gerum ráð fyrir að fallið :math:`f(\theta)` sé diffranlegt. Bogalengd
+Gerum ráð fyrir að fallið :math:`f(\theta)` sé diffranlegt. :hover:`Bogalengd`
 pólhnitagrafsins :math:`r=f(\theta)`, þegar
 :math:`\alpha\leq\theta\leq\beta`, er gefin með formúlunni
 
@@ -462,13 +463,13 @@ Látum :math:`\cal C` vera feril í plani eða rúmi og
 :math:`\mbox{${\bf r}$}` stikun á :math:`\cal C` með bogalengd. (Þegar
 fjallað er um stikanir með bogalengd er venja að tákna stikann með
 :math:`s`.) Lengd hraðavigurs er alltaf 1 og því er
-:math:`\mbox{${\bf T}$}(s)=\mbox{${\bf v}$}(s)`. *Krappi* (e. curvature)
+:math:`\mbox{${\bf T}$}(s)=\mbox{${\bf v}$}(s)`. :hover:`Krappi`
 ferilsins :math:`\cal
 C` í punktinum :math:`\mbox{${\bf r}$}(s)` er skilgreindur sem talan
 
 .. math:: \displaystyle \kappa(s)=\left|\frac{d\mbox{${\bf T}$}}{ds}\right|.
 
-*Krappageisli* (e. radius of curvature) í punktinum
+:hover:`Krappageisli` í punktinum
 :math:`\mbox{${\bf r}$}(s)` er skilgreindur sem
 
 .. math:: \displaystyle \rho(s)=\frac{1}{\kappa(s)}.
@@ -486,7 +487,7 @@ Skilgreining
 
 Látum :math:`\cal C` vera feril í plani eða rúmi og
 :math:`\mbox{${\bf r}$}` stikun á :math:`\cal C` með bogalengd.
-*Meginþverill* (e. unit principal normal) í punkti
+:hover:`Meginþverill` í punkti
 :math:`\mbox{${\bf r}$}(s)` er skilgreindur sem vigurinn
 
 .. math:: \displaystyle \mbox{${\bf N}$}(s)=\frac{\mbox{${\bf T}$}'(s)}{|\mbox{${\bf T}$}'(s)|}=\frac{1}{\kappa(s)}\mbox{${\bf T}$}'(s).
@@ -516,12 +517,12 @@ Skilgreining
 Látum :math:`\cal C` vera feril í plani eða rúmi og
 :math:`\mbox{${\bf r}$}` stikun á :math:`\cal C` með bogalengd.
 
-*Hjúfurplanið* (e. osculating plane) við ferilinn í punkti
+:hover:`Hjúfurplanið,hjúfurslétta` við ferilinn í punkti
 :math:`\mbox{${\bf r}$}(s)` er planið sem spannað er af vigrunum
 :math:`\mbox{${\bf T}$}(s)` og :math:`\mbox{${\bf N}$}(s)` og liggur um
 punktinn :math:`\mbox{${\bf r}$}(s)`.
 
-*Hjúfurhringur* (e. osculating circle) við ferilinn í punkti
+:hover:`Hjúfurhringur` við ferilinn í punkti
 :math:`\mbox{${\bf r}$}(s)` er hringur sem liggur í hjúfurplaninu, fer í
 gegnum punktinn :math:`\mbox{${\bf r}$}(s)`, hefur geisla
 :math:`\rho(s)` og hefur miðju í punktinum
@@ -543,7 +544,7 @@ Látum :math:`\cal C` vera feril í plani eða rúmi og
 
 .. math:: \displaystyle \mbox{${\bf B}$}(s)=\mbox{${\bf T}$}(s)\times \mbox{${\bf N}$}(s)
 
-kallas *tvíþverill* (e. binormal) við ferilinn í
+kallast :hover:`tvíþverill` við ferilinn í
 :math:`\mbox{${\bf r}$}(s)`.
 
 :math:`\{\mbox{${\bf T}$}(s),\mbox{${\bf N}$}(s),\mbox{${\bf B}$}(s)\}`
@@ -568,7 +569,7 @@ að
 
 .. math:: \displaystyle \mbox{${\bf B}$}'(s)=-\tau(s)\mbox{${\bf N}$}(s)
 
-kallast *vindingur* ferilsins í punktinum :math:`\mbox{${\bf r}$}(s)`.
+kallast :hover:`vindingur` ferilsins í punktinum :math:`\mbox{${\bf r}$}(s)`.
 
 Frenet-Serret jöfnurnar
 -----------------------

@@ -54,7 +54,7 @@ Látum :math:`f:{\mathbb  R}^2\rightarrow {\mathbb  R}` vera fall. Ef
 
 .. math:: \displaystyle \{(x,y)\mid f(x,y)=c\}\subseteq {\mathbb  R}^2
 
-kallað *jafnhæðarlína* eða *jafnhæðarferill* (e. level curve) fallsins
+kallað :hover:`jafnhæðarlína,hæðarlína` eða :hover:`jafnhæðarferill,hæðarferill` fallsins
 :math:`f` fyrir fastann :math:`c`.
 
 Látum :math:`f:{\mathbb  R}^3\rightarrow {\mathbb  R}` vera fall. Ef
@@ -62,7 +62,7 @@ Látum :math:`f:{\mathbb  R}^3\rightarrow {\mathbb  R}` vera fall. Ef
 
 .. math:: \displaystyle \{(x,y,z)\mid f(x,y,z)=c\}
 
-kallað *jafnhæðarflötur* (e. level surface) fallsins :math:`f` fyrir
+kallað :hover:`jafnhæðarflötur,hæðarflötur` fallsins :math:`f` fyrir
 fastann :math:`c`.
 
 
@@ -122,11 +122,11 @@ Skilgreining
 
 Látum :math:`U` vera hlutmengi í :math:`\mbox{${\bf R}^n$}`.
 
-Sagt er að :math:`U` sé *opið mengi* ef um sérhvern punkt :math:`P` í
+Sagt er að :math:`U` sé :hover:`opið mengi` ef um sérhvern punkt :math:`P` í
 :math:`U` gildir að til er tala :math:`r>0` þannig að
 :math:`B_r(P)\subseteq U`.
 
-Mengið :math:`U` er sagt *lokað* ef fyllimengið er opið. (*Fyllimengi*
+Mengið :math:`U` er sagt :hover:`lokað,lokað mengi` ef :hover:`fyllimengið,fyllimengi` er opið. (*Fyllimengi*
 :math:`U` er skilgreint sem mengið
 :math:`\mbox{${\bf R}^n$}\setminus U=\{Q\in \mbox{${\bf R}^n$}\mid Q\mbox{$\;\not\in\;$}U\}`.)
 
@@ -140,7 +140,7 @@ Skilgreining
 ~~~~~~~~~~~~~
 
 Látum :math:`U` vera mengi í :math:`\mbox{${\bf R}^n$}`. Punktur
-:math:`P` í :math:`\mbox{${\bf R}^n$}` er sagður *jaðarpunktur*
+:math:`P` í :math:`\mbox{${\bf R}^n$}` er sagður :hover:`jaðarpunktur`
 :math:`U` ef sérhver opin kúla :math:`B_r(P)` með :math:`r>0` inniheldur
 bæði punkt úr :math:`U` og punkt úr
 :math:`\mbox{${\bf R}^n$}\setminus U`. (Athugið að bæði er mögulegt að
@@ -156,14 +156,15 @@ Skilgreining
 ~~~~~~~~~~~~~
 
 Fyrir fall :math:`f(x_1,x_2,\ldots,x_n)` þá táknar :math:`{\cal D}(f)`
-skilgreiningarmengi fallsins :math:`f`. Ef fallið er gefið með formúlu
+:hover:`skilgreiningarmengi` fallsins :math:`f`. Ef fallið er gefið með formúlu
 og ekkert sagt um :math:`{\cal D}(f)` þá lítum við svo á að
 :math:`{\cal D}(f)` sé mengi allra punkta í :math:`\mbox{${\bf R}^n$}`
 þannig að formúlan gefi vel skilgreinda tölu.
 
 .. index::
   markgildi
-
+  stefna á
+  
 Markgildi
 ---------
 
@@ -177,7 +178,7 @@ Látum :math:`P=(p_1,p_2,\ldots,p_n)` vera punkt í
 :math:`\mbox{${\bf R}^n$}` þannig að sérhver opin kúla um :math:`P`
 inniheldur meira en einn punkt úr :math:`{\cal D}(f)`.
 
-Segjum að :math:`f(x_1,x_2,\ldots,x_n)` stefni á tölu :math:`L` þegar
+Segjum að :math:`f(x_1,x_2,\ldots,x_n)` :hover:`stefni á,stefna á` tölu :math:`L` þegar
 :math:`(x_1,x_2,\ldots,x_n)` stefnir á :math:`(p_1,p_2,\ldots,p_n)` ef
 eftirfarandi gildir:
 
@@ -205,6 +206,8 @@ er ritað
    \lim_{(x_1,x_2,\ldots,x_n)\rightarrow (p_1,p_2,\ldots,p_n)}
    f(x_1,x_2,\ldots,x_n)=L.
 
+og :math:`L` kallast :hover:`markgildi,markgildi` fallsins :math:`f` í punktinum :math:`(x_1,x_2,\ldots,x_n)`.
+   
 ..
   XXX reference
    
@@ -245,7 +248,7 @@ fyrir að
    \lim_{(x,y)\rightarrow (a,b)}f(x,y)=L\quad\mbox{og}\quad
    \lim_{(x,y)\rightarrow (a,b)}g(x,y)=M,
 
-og að sérhver grennd um :math:`(a,b)` innihaldi fleiri en einn punkt þar
+og að sérhver :hover:`grennd` um :math:`(a,b)` innihaldi fleiri en einn punkt þar
 sem bæði föllin :math:`f` og :math:`g` eru skilgreind. Þá gildir
 
 **(a)** :math:`\lim_{(x,y)\rightarrow (a,b)}(f(x,y)\pm g(x,y))=L\pm M`.
@@ -270,7 +273,7 @@ Skilgreining
 ~~~~~~~~~~~~~
 
 Látum :math:`f` vera fall af :math:`n` breytistærðum skilgreint á mengi
-:math:`{\cal Dalt}(f)` í :math:`\mbox{${\bf R}^n$}`. Fallið :math:`f` er
+:math:`{\cal D}(f)` í :math:`\mbox{${\bf R}^n$}`. Fallið :math:`f` er
 sagt *samfellt í punkti* :math:`(p_1,p_2,\ldots,p_n)` í
 :math:`{\cal D}(f)` ef
 
@@ -279,7 +282,7 @@ sagt *samfellt í punkti* :math:`(p_1,p_2,\ldots,p_n)` í
    \lim_{(x_1,x_2,\ldots,x_n)\rightarrow (p_1,p_2,\ldots,p_n)}
    f(x_1,x_2,\ldots,x_n)=f(p_1,p_2,\ldots,p_n).
 
-Sagt er að fallið sé *samfellt* ef það er samfellt í öllum punktum
+Sagt er að fallið sé :hover:`samfellt` ef það er samfellt í öllum punktum
 skilgreiningarmengis síns.
 
 Hlutafleiður
@@ -294,11 +297,11 @@ Skilgreining
 Látum :math:`f(x,y)` vera fall af tveimur breytum :math:`x` og :math:`y`
 sem er skilgreint á opinni skífu með miðju í punktinum :math:`(a,b)`.
 
-Skilgreinum *hlutafleiðu m.t.t.* :math:`x` í :math:`(a,b)` með
+Skilgreinum :hover:`hlutafleiðu,hlutafleiða` m.t.t. :math:`x` í :math:`(a,b)` með
 
 .. math:: \displaystyle f_1(a,b)=\lim_{h\rightarrow 0}\frac{f(a+h,b)-f(a,b)}{h}
 
-og *hlutafleiðu m.t.t.* :math:`y` í :math:`(a,b)` með
+og :hover:`hlutafleiðu,hlutafleiða` m.t.t. :math:`y` í :math:`(a,b)` með
 
 .. math:: \displaystyle f_2(a,b)=\lim_{k\rightarrow 0}\frac{f(a,b+k)-f(a,b)}{k}
 
@@ -361,6 +364,40 @@ vigurinn sem er með 0 í öllum hnitum nema því :math:`k`-ta þar sem er
 1.)
 
 
+Ritháttur
+~~~~~~~~~
+
+Ritum :math:`z=f(x,y)`.  Ýmis konar ritháttur er fyrir hlutafleiður, m.a.
+
+.. math:: \displaystyle 
+
+  \begin{aligned}
+  f_1(x,y)&=\frac{\partial z}{\partial x}=  \frac{\partial }{\partial x}f(x,y)
+  =D_1f(x,y)=f_x(x,y)=D_xf(x,y)=\partial_xf(x,y) \\  
+  f_2(x,y)&=\frac{\partial z}{\partial y}=  \frac{\partial }{\partial y}f(x,y)
+  =D_2f(x,y)=f_y(x,y)=D_yf(x,y)=\partial_yf(x,y). \end{aligned}
+
+Þegar við viljum tákna gildið á hlutafleiðu :math:`f` í ákveðnum punkti
+:math:`(x,y)=(a,b)` þá eru líka ýmsir möguleikar, til dæmis 
+
+.. math:: \displaystyle 
+
+  \begin{aligned}
+  \frac{\partial z}{\partial x}\bigg|_{(a,b)}&=
+  \left(\frac{\partial }{\partial x}f(x,y)\right)\bigg|_{(a,b)}
+  =f_1(a,b)=D_1f(a,b) \\
+  \frac{\partial z}{\partial y}\bigg|_{(a,b)}&=
+  \left(\frac{\partial }{\partial y}f(x,y)\right)\bigg|_{(a,b)}
+  =f_2(a,b)=D_2f(a,b). \end {aligned}
+
+
+.. warning::
+
+  Strangt til tekið merkir rithátturinn :math:`\frac{\partial}{\partial x} f(a,b)` að við stingum fyrst
+  inn tölunum :math:`a` og :math:`b` og diffrum síðan með tilliti til :math:`x`. En þar sem :math:`f(a,b)` er
+  óháð :math:`x` er útkoman 0.
+  
+  
 Snertiplan
 ----------
 
@@ -374,10 +411,10 @@ hlutafleiðurnar :math:`f_1(a,b)` og :math:`f_2(a,b)` séu skilgreindar.
 Í punktinum :math:`(a,b,f(a,b))` er
 
 :math:`\mbox{${\bf T}$}_1 = \mbox{${\bf i}$}+ f_1(a,b)\mbox{${\bf k}$}\qquad`
-snertivigur við ferilinn :math:`f(x,b) = z` og
+:hover:`snertivigur` við ferilinn :math:`f(x,b) = z` og
 
 :math:`\mbox{${\bf T}$}_2 = \mbox{${\bf j}$}+ f_2(a,b)\mbox{${\bf k}$}\qquad`
-snertivigur við ferilinn :math:`f(a,y) = z`.
+:hover:`snertivigur` við ferilinn :math:`f(a,y) = z`.
 
 Táknum með :math:`S` planið sem hefur stikunina
 
@@ -391,14 +428,14 @@ er þvervigur á :math:`S` og jafna plansins :math:`S` er
 
 .. math:: \displaystyle z=f(a,b)+f_1(a,b)(x-a)+f_2(a,b)(y-b).
 
-*Þverlína* á :math:`S` hefur stikun
+:hover:`Þverlína` á :math:`S` hefur stikun
 
 .. math:: \displaystyle (a,b,f(a,b)) + u \mbox{${\bf n}$}, \quad -\infty < u < \infty.
 
 Ef :math:`f(x,y)` er ’nógu nálægt’ (skilgreint nánar síðar) planinu
 :math:`S` þegar :math:`(x,y)` er nálægt punktinum :math:`(a,b)` þá
-kallast :math:`S` *snertiplan* við grafið :math:`z=f(x,y)` í punktinum
-:math:`(a,b,f(a,b)`.
+kallast :math:`S` :hover:`snertiplan,snertislétta` við grafið :math:`z=f(x,y)` í punktinum
+:math:`(a,b,f(a,b))`.
 
 
 Hlutafleiður af hærra stigi
@@ -504,8 +541,8 @@ ef skilyrðin í setningunni eru uppfyllt.
 .. index::
   keðjuregla
 
-Keðjuregla
-----------
+:hover:`Keðjuregla`	
+-------------------
 
 .. index::
   keðjuregla;í einni breytistærð
@@ -524,7 +561,7 @@ Setning
 ~~~~~~~~
 
 Látum :math:`f(x,y)` vera fall þar sem :math:`x=x(t)` og :math:`y=y(t)`
-eru föll af breytu :math:`t`, Gerum ráð fyrir að á opinni skífu um
+eru föll af breytu :math:`t`. Gerum ráð fyrir að á opinni skífu um
 punktinum :math:`(x(t),y(t))` séu báðar fyrsta stigs hlutafleiður
 :math:`f` skilgreindar og samfelldar. Gerum enn fremur ráð fyrir að
 föllin :math:`x(t)` og :math:`y(t)` séu bæði diffranleg í punktinum
@@ -644,7 +681,7 @@ og :math:`x` og :math:`y` föll af :math:`t`. Finnum
    :align: center
  
 
-.. math:: \displaystyle \frac{d T}{d t} = \frac{\partial T}{\partial x} \frac{d x}{d t} +\frac{\partial T}{\partial y} \frac{d y}{\partial t} + \frac{\partial T}{\partial t} .
+.. math:: \displaystyle \frac{d T}{d t} = \frac{\partial T}{\partial x} \frac{d x}{d t} +\frac{\partial T}{\partial y} \frac{d y}{d t} + \frac{\partial T}{\partial t} .
 
 Dæmi 
 ~~~~~
@@ -711,7 +748,7 @@ Skilgreining
 
 Látum :math:`f` vera fall af einni breytistærð og gerum ráð fyrir að
 :math:`f` sé skilgreint á opnu bili sem inniheldur punktinn :math:`a`.
-Fallið :math:`f` er sagt vera *diffranlegt* í punkti :math:`a` ef
+Fallið :math:`f` er sagt vera :hover:`diffranlegt,diffranlegur` í punkti :math:`a` ef
 markgildið
 
 .. math:: \displaystyle f'(a)=\lim_{h\rightarrow 0}\frac{f(a+h)-f(a)}{h}
@@ -730,7 +767,7 @@ Skilgreining
 
 Látum :math:`f` vera fall af einni breytistærð og gerum ráð fyrir að
 :math:`f` sé skilgreint á opnu bili sem inniheldur punktinn :math:`a`.
-Fallið :math:`f` er sagt vera *diffranlegt* í punkti :math:`a` ef til er
+Fallið :math:`f` er sagt vera :hover:`diffranlegt,diffranlegur` í punkti :math:`a` ef til er
 tala :math:`m` þannig að ef :math:`L(x)=f(a)+m(x-a)` þá er
 
 .. math:: \displaystyle \lim_{h\rightarrow 0}\frac{f(a+h)-L(a+h)}{h}=0.
@@ -750,7 +787,7 @@ Skilgreining
 ~~~~~~~~~~~~~
 
 Fall :math:`f(x,y)` sem er skilgreint á opinni skífu umhverfis
-:math:`(a,b)` er sagt vera diffranlegt í punktinum :math:`(a,b)` ef
+:math:`(a,b)` er sagt vera :hover:`diffranlegt,diffranlegur` í punktinum :math:`(a,b)` ef
 báðar fyrsta stigs hlutafleiður :math:`f` eru skilgreindar í
 :math:`(a,b)` og ef
 
@@ -771,7 +808,7 @@ Snertiplan
 ----------
 
 Ef :math:`f` er diffranlegt í :math:`(a,b)` þá kallast planið :math:`S`
-*snertiplan* við graf fallsins.
+:hover:`snertiplan,snertislétta` við graf fallsins.
 
 .. image:: bothpart.png
    :width: 60%
@@ -821,8 +858,8 @@ Setning
 Gerum ráð fyrir að :math:`f(x,y)` sé fall sem er diffranlegt í punktinum
 :math:`(a,b)`. Þá er :math:`f` samfellt í :math:`(a,b)`.
 
-Keðjuregla 
-~~~~~~~~~~~
+:hover:`Keðjuregla`
+~~~~~~~~~~~~~~~~~~~
 
 Ritum :math:`z=f(x,y)` þar sem :math:`x=x(s,t)` og :math:`y=y(s,t)`.
 Gerum ráð fyrir að
@@ -862,7 +899,7 @@ Diffur
 Skilgreining 
 ~~~~~~~~~~~~~
 
-Ritum :math:`z=f(x_1, x_2, \ldots, x_n)`. *Diffrið* af :math:`z` er
+Ritum :math:`z=f(x_1, x_2, \ldots, x_n)`. :hover:`Diffrið,diffur` af :math:`z` er
 skilgreint sem
 
 .. math:: \displaystyle
@@ -953,8 +990,8 @@ Vörpunin :math:`f` er ’nálægt’ línulegu vörpuninni
 Línulega vörpunin :math:`D\mbox{${\bf f}$}` kallast afleiða
 :math:`\mbox{${\bf f}$}`.
 
-Keðjureglan
------------
+:hover:`Keðjuregla`
+-------------------
 
 Setning 
 ~~~~~~~~
@@ -984,11 +1021,11 @@ Skilgreining
 
 Látum :math:`f(x,y)` vera fall og :math:`(x,y)` punkt þar sem báðar
 fyrsta stigs hlutafleiður :math:`f` eru skilgreindar. Skilgreinum
-*stigul* :math:`f` í punktinum :math:`(x,y)` sem vigurinn
+:hover:`stigul,stigull` :math:`f` í punktinum :math:`(x,y)` sem vigurinn
 
 .. math:: \displaystyle \nabla f(x,y)=f_1(x,y)\mbox{${\bf i}$}+f_2(x,y)\mbox{${\bf j}$}.
 
-Stigull :math:`f` er stundum táknaður með **grad**\ :math:`\,f`.
+:hover:`Stigull` :math:`f` er stundum táknaður með **grad**\ :math:`\,f`.
 
 Ritháttur 
 ~~~~~~~~~~
@@ -997,15 +1034,15 @@ Oft hentugt að rita
 
 .. math:: \displaystyle \nabla=\mbox{${\bf i}$}\frac{\partial}{\partial x}+ \mbox{${\bf j}$}\frac{\partial}{\partial y}.
 
-Þá er litið svo á að :math:`\nabla` sé *diffurvirki*,
+Þá er litið svo á að :math:`\nabla` sé :hover:`diffurvirki`,
 þ.e.a.s. \ :math:`\nabla` gefur fyrirmæli um hvað á að gera við
 :math:`f` til að fá :math:`\nabla f(x,y)`.
 
 Dæmi
 ----
 
-.. o,age:: gradfurf.png
-   :width: 50%
+.. image:: gradfurf.png
+   :width: 60%
    :align: center
 
 
@@ -1019,7 +1056,7 @@ Dæmi
 
 ..
 
-*Jafnhæðarlínur. Stigull og snertilína við jafnhæðarlínuna* :math:`z=0.5` *í* :math:`(x,y) = (0.5,0.5)`.
+*Jafnhæðarlínur* :math:`z=1-x^2-y^2`. *Stigull og snertilína við jafnhæðarlínuna* :math:`z=0.5` *í* :math:`(x,y) = (0.5,0.5)`.
 
 Setning 
 ~~~~~~~~
@@ -1040,7 +1077,7 @@ Setning
 
 Gerum ráð fyrir að fallið :math:`f(x,y)` sé diffranlegt í punktinum
 :math:`(a,b)` og að :math:`\nabla f(a,b) \neq \mathbf{0}`. Jafna
-snertilínu við jafnhæðarferil :math:`f` í punktinum :math:`(a,b)` er
+:hover:`snertilínu,snertilína` við :hover:`jafnhæðarferil,hæðarferill` :math:`f` í punktinum :math:`(a,b)` er
 gefin með formúlunni
 
 .. math:: \displaystyle \nabla f(a,b)\cdot (x,y)=\nabla f(a,b)\cdot (a,b),
@@ -1061,7 +1098,7 @@ Skilgreining
 ~~~~~~~~~~~~~
 
 Látum :math:`\mbox{${\bf u}$}=u\mbox{${\bf i}$}+v\mbox{${\bf j}$}` vera
-einingarvigur. *Stefnuafleiða* :math:`f` í punktinum :math:`(a,b)` í
+einingarvigur. :hover:`Stefnuafleiða` :math:`f` í punktinum :math:`(a,b)` í
 stefnu :math:`\mbox{${\bf u}$}` er skilgreind sem
 
 .. math:: \displaystyle D_{\mbox{${\bf u}$}}f(a,b)=\lim_{h\rightarrow 0^+}\frac{f(a+hu, b+hv)-f(a,b)}{h}
@@ -1069,6 +1106,12 @@ stefnu :math:`\mbox{${\bf u}$}` er skilgreind sem
 ef markgildið er skilgreint.
 
 
+.. warning::
+
+  Í skilgreiningunni á stefnuafleiðu er tekið einhliða markgildi. Berið það saman við skilgreiningu á hlutafleiðu þar sem markgildið er tvíhliða.
+
+
+Setning
 ~~~~~~~~
 
 Gerum ráð fyrir að fallið :math:`f` sé diffranlegt í :math:`(a,b)` og
@@ -1129,7 +1172,7 @@ Skilgreining
 
 Látum :math:`f` vera fall af þremur breytistærðum, þannig að allar þrjár
 fyrsta stigs hlutafleiður :math:`f` í punktinum :math:`(x,y,z)` séu
-skilgreindar. *Stigull* :math:`f` í punktinum :math:`(x,y,z)` er
+skilgreindar. :hover:`Stigull` :math:`f` í punktinum :math:`(x,y,z)` er
 skilgreindur sem vigurinn
 
 .. math:: \displaystyle \nabla f(x,y,z)=f_1(x,y,z)\mbox{${\bf i}$}+f_2(x,y,z)\mbox{${\bf j}$}+f_3(x,y,z)\mbox{${\bf k}$}.
@@ -1145,9 +1188,9 @@ Setning
 
 Látum :math:`f` vera fall af þremur breytistærðum þannig að fallið
 :math:`f` er diffranlegt í punktinum :math:`(a,b,c)`. Látum
-:math:`\cal F` tákna þann jafnhæðarflöt :math:`f` sem liggur um
+:math:`\cal F` tákna þann :hover:`jafnhæðarflöt,hæðarflötur` :math:`f` sem liggur um
 :math:`(a,b,c)`. Stigullinn :math:`\nabla f(a,b,c)` er hornréttur á
-flötinn :math:`\cal F` í punktinum :math:`(a,b,c)` og snertiplan (ef
+flötinn :math:`\cal F` í punktinum :math:`(a,b,c)` og :hover:`snertiplan,snertislétta` (ef
 :math:`\nabla f(a,b,c)\neq\mbox{${\bf 0}$}`) við jafnhæðarflötinn í
 punktinum :math:`(a,b,c)` er gefið með jöfnunni
 
@@ -1176,7 +1219,7 @@ að báðar fyrsta stigs hlutafleiður :math:`F` séu samfelldar. Látum
 
 .. math:: \displaystyle y'(x_0)=-\frac{F_1(x_0,y_0)}{F_2(x_0,y_0)}.
 
-Sagt að jafnan :math:`F(x,y)=0` skilgreini :math:`y` sem *fólgið fall*
+Sagt að jafnan :math:`F(x,y)=0` skilgreini :math:`y` sem :hover:`fólgið fall`
 af :math:`x` í grennd við :math:`(x_0,y_0)`.
 
 Setning 
@@ -1212,7 +1255,7 @@ Ennfremur gildir að
 Skilgreining 
 ~~~~~~~~~~~~~
 
-*Jacobi-ákveða* tveggja falla :math:`u=u(x,y)` og :math:`v=v(x,y)` með
+:hover:`Jacobi-ákveða` tveggja falla :math:`u=u(x,y)` og :math:`v=v(x,y)` með
 tilliti til breytanna :math:`x` og :math:`y` er skilgreind sem
 
 .. math:: \displaystyle
@@ -1274,8 +1317,8 @@ er
   setning;um fólgin föll
   fólgið fall; setning
 
-Setning (Setningin um fólgin föll)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Setning (:hover:`Setningin um fólgin föll,setning um fólgin föll`)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Skoðum jöfnuhneppi
 
@@ -1418,7 +1461,7 @@ kallast *annars stigs Taylor-margliða* :math:`f` *með miðju í*
 Skilgreining og athugasemd 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Skilgreinum tvo *diffurvirkja* :math:`D_1` og :math:`D_2` þannig að
+Skilgreinum tvo :hover:`diffurvirkja,diffurvirki` :math:`D_1` og :math:`D_2` þannig að
 
 .. math:: \displaystyle
 
@@ -1433,7 +1476,7 @@ til hvorrar breytu.
 .. index::
   tvíliðuregla
 
-Upprifjun (Tvíliðuregla)
+Upprifjun (:hover:`Tvíliðuregla,tvíliðusetning`)
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Skilgreinum

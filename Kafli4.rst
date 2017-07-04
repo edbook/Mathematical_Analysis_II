@@ -8,6 +8,9 @@ Margföld heildi
 \- George R.R. Martin, A Game of Thrones
 
 
+.. index::
+  skipting
+
 Skiptingar
 ----------
 
@@ -38,7 +41,11 @@ lengd lengstu hornalínu í rétthyrningunum
 
 
 *Skipting* :math:`P` *á rétthyrningi* :math:`R= [a,b]\times [c,d]`.
-   
+
+.. index::
+  Riemann-summa
+
+
 Riemann-summa
 -------------
 
@@ -64,6 +71,10 @@ Skilgreinum *Riemann-summuna*
    :width: 75% 
    :align: center
 
+.. index::
+  heildi;tvöfalt heildi
+   
+   
 Tvöfalt heildi yfir rétthyrning
 -------------------------------
 
@@ -71,7 +82,7 @@ Skilgreining
 ~~~~~~~~~~~~~
 
 Sagt er að fall :math:`f` skilgreint á rétthyrningi
-:math:`R=[a,b]\times [c,d]` sé *heildanlegt yfir* :math:`R` með heildi
+:math:`R=[a,b]\times [c,d]` sé :hover:`heildanlegt,heildanlegur` yfir :math:`R` með :hover:`heildi,tegur`
 :math:`I` (hér stendur :math:`I` fyrir tölu) ef fyrir sérhvert
 :math:`\varepsilon>0` er til tala :math:`\delta>0` þannig að
 :math:`|\mathcal{R}(f,P)-I|<\varepsilon` fyrir allar skiptingar
@@ -89,7 +100,7 @@ Skilgreining
 ~~~~~~~~~~~~~
 
 Látum :math:`D` vera takmarkað svæði í planinu. Fall :math:`f` er sagt
-heildanlegt yfir :math:`D` ef til er rétthyrningur :math:`R` sem
+:hover:`heildanlegt,heildanlegur` yfir :math:`D` ef til er rétthyrningur :math:`R` sem
 inniheldur :math:`D` og fallið
 
 .. math:: \displaystyle
@@ -107,13 +118,13 @@ Setning
 Látum :math:`f` vera samfellt fall skilgreint á lokuðu og takmörkuðu
 svæði :math:`D` í planinu :math:`{\mathbb  R}^2`. Gerum ráð fyrir að
 jaðar :math:`D` samanstandi af endanlega mörgum ferlum sem hafa
-endanlega lengd. Þá er fallið :math:`f` heildanlegt yfir :math:`D`.
+endanlega lengd. Þá er fallið :math:`f` :hover:`heildanlegt,heildanlegur` yfir :math:`D`.
 
 Setning 
 ~~~~~~~~
 
-Látum :math:`D` vera svæði í planinu og :math:`f` takmarkað fall
-skilgreint á :math:`D` og heildanlegt yfir :math:`D`. Þá gildir:
+Látum :math:`D` vera svæði í planinu og :math:`f` :hover:`takmarkað,takmarkaður` fall
+skilgreint á :math:`D` og :hover:`heildanlegt,heildanlegur` yfir :math:`D`. Þá gildir:
 
 #. :math:`\int\!\!\!\int_D f(x,y)\,dA=0` ef flatarmál :math:`D` er 0.
 
@@ -153,10 +164,13 @@ föll yfir :math:`D` þá gildir:
 
    .. math:: \displaystyle \int\!\!\!\int_D f(x,y)\,dA=\sum_{i=1}^k\int\!\!\!\int_{D_i}f(x,y)\,dA.
 
+.. index::
+  Fubini;setning Fubinis
+   
 Setning Fubinis 
 ~~~~~~~~~~~~~~~~
 
-Látum :math:`f` vera fall sem er heildanlegt yfir rétthyrning
+Látum :math:`f` vera jákvætt fall sem er :hover:`heildanlegt,heildanlegur` á rétthyrningi
 :math:`R=[a,b]\times
 [c,d]`. Setjum
 
@@ -182,8 +196,16 @@ Sömuleiðis gildir þegar við setjum
    :width: 50% 
    :align: center
 
+.. note::
+
+  Setning Fubinis er stundum kölluð brauðsneiðareglan. Ef við ímyndum okkur að rúmskikinn sem liggur milli graf jákvæðs falls og :math:`xy`-sléttunnar sé brauðhleifur, þá má reikna rúmmál hans með því að skera hann í næfurþunnar brauðsneiðar sem liggja samsíða annað hvort :math:`x`-ás eða :math:`y`-ás, reikna svo rúmmál hverrar brauðsneiðar fyrir sig og leggja saman.
+   
 :math:`x`-einföld og :math:`y`-einföld svæði
 --------------------------------------------
+
+.. index::
+  x-einfaldur
+  y-einfaldur
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -221,13 +243,13 @@ Setning
 ~~~~~~~~
 
 Látum :math:`D=\{(x,y)\mid a\leq x\leq b, c(x)\leq y\leq d(x)\}` vera
-:math:`y`-einfalt svæði og :math:`f(x,y)` fall sem er heildanlegt yfir
+:math:`y`-einfalt svæði og :math:`f(x,y)` jákvætt fall sem er heildanlegt yfir
 :math:`D`. Þá er
 
 .. math:: \displaystyle \int\!\!\!\int_D f(x,y)\,dA=\int_a^b\!\!\!\int_{c(x)}^{d(x)}f(x,y)\,dy\, dx.
 
 Látum :math:`D=\{(x,y)\mid c\leq y\leq d, a(y)\leq x\leq b(y)\}` vera
-:math:`x`-einfalt svæði og :math:`f(x,y)` fall sem er heildanlegt yfir
+:math:`x`-einfalt svæði og :math:`f(x,y)` jákvætt fall sem er heildanlegt yfir
 :math:`D`. Þá er
 
 .. math:: \displaystyle \int\!\!\!\int_D f(x,y)\,dA=\int_c^d\!\!\!\int_{a(y)}^{b(y)}f(x,y)\,dx\, dy.
@@ -239,6 +261,9 @@ Látum :math:`D=\{(x,y)\mid c\leq y\leq d, a(y)\leq x\leq b(y)\}` vera
 ..
 
 *Hér er svæðinu* :math:`D` *skipt í endanlega mörg* :math:`x`-*einföld* og :math:`y`-*einföld svæði sem skarast eingöngu í punktum á jaðrinum.*
+
+.. index::
+  heildi;óeiginlegt heildi
 
 Óeiginleg heildi
 ----------------
@@ -265,7 +290,7 @@ takmörkuðum mengjum
 
 er vel skilgreint fyrir öll :math:`n` og hefur markgildi þegar
 :math:`n\to \infty` (fyrir allar ólíkar runur :math:`(D_n)_{n\geq 1}`)
-þá skilgreinum við *óeiginlega heildið*
+þá skilgreinum við :hover:`óeiginlega heildið,óeiginlegt heildi`
 
 .. math:: \displaystyle \int\!\!\!\int_{D} f(x,y)\,dA := \lim_{n\to \infty} \int\!\!\!\int_{D_n} f(x,y)\,dA .
 
@@ -279,6 +304,9 @@ skilgreint sem talan
 .. math:: \displaystyle \bar{f}=\frac{1}{\mbox{flatarmál }D}\int\!\!\!\int_D f(x,y)\,dA.
 
 
+.. index::
+  samanhangandi
+  ferilsamanhangandi
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -293,7 +321,10 @@ tvo punkta :math:`P, Q\in D` gildir að til er stikaferill
    Í bók er orðið *connected* notað fyrir hugtakið *ferilsamanhangandi*. Venjulega er orðið *connected* notað yfir annað hugtak, skylt en samt ólíkt.
 
 
-Setning (Meðalgildissetning fyrir tvöföld heildi)
+.. index::
+  meðalgildissetning
+   
+Setning (:hover:`Meðalgildissetning` fyrir tvöföld heildi)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Gerum ráð fyrir að :math:`f`
@@ -303,18 +334,24 @@ svæði :math:`D` í :math:`{\mathbb  R}^2`. Þá er til punktur
 
 .. math:: \displaystyle \frac{1}{\mbox{flatarmál }D}\int\!\!\!\int_D f(x,y)\,dA=f(x_0,y_0).
 
+.. index::
+  breytuskipti
+
 Breytuskipti
 ------------
 
 Upprifjun 
 ~~~~~~~~~~
 
-Látum :math:`P=(x,y)\neq \mbox{${\bf 0}$}` vera punkt í plani. *Pólhnit*
+Látum :math:`P=(x,y)\neq \mbox{${\bf 0}$}` vera punkt í plani. :hover:`Pólhnit`
 :math:`P` er talnapar :math:`[r,\theta]` þannig að :math:`r` er fjarlægð
 :math:`P` frá :math:`O=(0,0)` og :math:`\theta` er hornið á milli
 striksins :math:`\overline{OP}` og :math:`x`-ássins. (Hornið er mælt
 þannig að rangsælis stefna telst jákvæð, og leggja má við :math:`\theta`
 heil margfeldi af :math:`2\pi`.)
+
+.. index::
+  pólhnitarétthyrningur
 
 Skilgreining 
 ~~~~~~~~~~~~~
@@ -339,7 +376,7 @@ að
 Setning 
 ~~~~~~~~
 
-Ef :math:`f` er fall sem er heildanlegt yfir pólhnitarétthyrning
+Ef :math:`f` er fall sem er :hover:`heildanlegt,heildanlegur` yfir pólhnitarétthyrning
 :math:`D=\{[r,\theta]\mid 0\leq a\leq r\leq b, \alpha\leq \theta\leq\beta\}`
 þá er
 
@@ -352,12 +389,15 @@ Ef :math:`f` er fall sem er heildanlegt yfir pólhnitarétthyrning
    :width: 90% 
    :align: center
 
+.. index::
+  pólhnitagraf
+   
 Upprifjun 
 ~~~~~~~~~~
 
 Látum :math:`f` vera fall skilgreint á bili :math:`[\alpha,\beta]`.
 Jafnan :math:`r=f(\theta)` lýsir mengi allra punkta í planinu sem hafa
-pólhnit á forminu :math:`[f(\theta),\theta]` þar sem
+:hover:`pólhnit` á forminu :math:`[f(\theta),\theta]` þar sem
 :math:`\alpha\leq\theta\leq\beta`. Þetta mengi kallast *pólhnitagraf*
 fallsins :math:`f`.
 
@@ -411,20 +451,23 @@ svæðis :math:`S` í :math:`uv`-plani og svæðis :math:`D` í
    :width: 90% 
    :align: center
 
+.. index::
+  heildi; þrefalt heildi
+   
 Þreföld heildi
 --------------
 
 Umræða 
 ~~~~~~~
 
-Heildi falls :math:`f(x,y,z)` yfir kassa
+:hover:`Heildi,tegur` falls :math:`f(x,y,z)` yfir kassa
 :math:`K=[a,b]\times[c,d]\times[u,v]` í :math:`{\mathbb  R}^3` er
 skilgreint á sambærilegan hátt og tvöfalt heildi er skilgreint.
 
 Á sama hátt og fyrir tvöföld heildi má svo skilgreina heildi fyrir
-almennari rúmskika í :math:`{\mathbb  R}^3`.
+almennari :hover:`rúmskika,rúmskiki~ í :math:`{\mathbb  R}^3`.
 
-Heildi falls :math:`f(x,y,z)` yfir rúmskika :math:`R` er táknað með
+:hover:`Heildi,tegur` falls :math:`f(x,y,z)` yfir :hover:`rúmskika` :math:`R` er táknað með
 
 .. math:: \displaystyle \int\!\!\!\int\!\!\!\int_R f(x,y,z)\,dV.
 
@@ -433,7 +476,7 @@ Heildi falls :math:`f(x,y,z)` yfir rúmskika :math:`R` er táknað með
 Setning 
 ~~~~~~~~
 
-Látum :math:`f(x,y,z)` vera fall sem er heildanlegt yfir kassa
+Látum :math:`f(x,y,z)` vera fall sem er :hover:`heildanlegt,heildanlegur` yfir kassa
 :math:`K=[a,b]\times[c,d]\times[u,v]` í :math:`{\mathbb  R}^3`. Þá er
 
 .. math:: \displaystyle
@@ -465,6 +508,8 @@ Látum :math:`f(x,y,z)` vera fall sem er heildanlegt yfir rúmskika
 
 Breyturnar :math:`x, y, z` geta svo skipt um hlutverk.
 
+
+
 Setning (Almenn breytuskiptaformúla fyrir þreföld heildi.) 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -484,11 +529,16 @@ hlutafleiður. Ef :math:`f(x,y,z)` er fall sem er heildanlegt yfir
    \int\!\!\!\int\!\!\!\int_R& f(x,y,z)\,dV \\&=\int\!\!\!\int\!\!\!\int_S f(x(u,v,w), y(u,v,w), z(u,v,w))
    \bigg|\frac{\partial(x,y,z)}{\partial(u,v,w)}\bigg|\,du\,dv\,dw.\end{aligned}
 
+   
+.. index::
+  sívalningshnit
+  
+   
 Skilgreining 
 ~~~~~~~~~~~~~
 
 Látum :math:`(x,y,z)` vera punkt í :math:`{\mathbb  R}^3`.
-*Sívalningshnit* :math:`(x,y,z)` eru þrennd talna :math:`r, \theta, z`
+:hover:`Sívalningshnit` :math:`(x,y,z)` eru þrennd talna :math:`r, \theta, z`
 þannig að
 
 .. math:: \displaystyle x=r\cos\theta\qquad\qquad y=r\sin\theta\qquad\qquad z=z.
@@ -496,7 +546,10 @@ Látum :math:`(x,y,z)` vera punkt í :math:`{\mathbb  R}^3`.
 .. note:: 
    Athugið að :math:`[r,\theta]` eru pólhnit punktsins :math:`(x,y)`.
   
-
+.. index::
+  sívalningshnit;breytuskipti
+  
+  
 Setning (Breytuskipti yfir í sívalningshnit.)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -516,13 +569,17 @@ punktanna sem eru í :math:`R`
    \!\int_{a(\theta)}^{b(\theta)}\int_{u(r,\theta)}^{v(r,\theta)}      
    f(r\cos\theta,r\sin\theta,z)r\,dz\,dr\,d\theta.
 
+
+.. index::
+  kúluhnit   
+   
 Kúluhnit
 --------
 
 Skilgreining 
 ~~~~~~~~~~~~~
 
-Látum :math:`(x,y,z)` vera punkt í :math:`{\mathbb  R}^3`. *Kúluhnit*
+Látum :math:`(x,y,z)` vera punkt í :math:`{\mathbb  R}^3`. :hover:`Kúluhnit`
 :math:`(x,y,z)` eru þrennd talna :math:`\rho, \varphi, \theta` þannig að
 
 .. math:: \displaystyle x=\rho\sin\varphi\cos\theta\qquad\qquad y=\rho\sin\varphi\sin\theta\qquad\qquad z=\rho\cos\varphi.
@@ -537,7 +594,7 @@ Punktur sem hefur kúluhnit :math:`\rho, \varphi, \theta` er táknaður með
 Umræða 
 ~~~~~~~
 
-Eftirfarandi jöfnur gefa aðferð til að finna kúluhnit:
+Eftirfarandi jöfnur gefa aðferð til að finna :hover:`kúluhnit`:
 
 -  :math:`\rho` er fjarlægðin frá :math:`(0,0,0)` til :math:`(x,y,z)`, það er að
    segja
@@ -562,13 +619,17 @@ gildir að velja má :math:`\rho, \varphi, \theta` þannig að
 :math:`0\leq \rho`, :math:`0\leq\varphi\leq \pi` og
 :math:`0\leq\theta\leq 2\pi`.
 
+.. index::
+  kúluhnit;breytuskipti
+
+
 Breytuskipti í kúluhnit
 -----------------------
 
 Setning 
 ~~~~~~~~
 
-Látum :math:`R` vera rúmskika þannig að þegar notuð eru kúluhnit þá fæst
+Látum :math:`R` vera rúmskika þannig að þegar notuð eru :hover:`kúluhnit` þá fæst
 eftirfarandi lýsing
 
 .. math:: \displaystyle
@@ -576,7 +637,7 @@ eftirfarandi lýsing
    R=\{[\rho,\varphi,\theta]\mid \alpha\leq\theta\leq\beta, 
    c\leq\varphi\leq d, a\leq \rho\leq b\}.
 
-Ef :math:`f` er fall sem er heildanlegt yfir :math:`R` þá er
+Ef :math:`f` er fall sem er :hover:`heildanlegt,heildanlegur` yfir :math:`R` þá er
 
 .. math:: \displaystyle
 
@@ -584,6 +645,10 @@ Ef :math:`f` er fall sem er heildanlegt yfir :math:`R` þá er
    &\int\!\!\!\int\!\!\!\int_R f(x,y,z)\,dV=\\ &\int_\alpha^\beta\!\int_c^d\!\int_a^b f(\rho\sin\varphi\cos\theta, \rho\sin\varphi\sin\theta,\rho\cos\varphi)
    \,\rho^2\sin\varphi\,d\rho\,d\varphi\,d\theta.\end{aligned}
 
+.. index::
+  massamiðja
+  vægi
+   
 Massamiðja
 ----------
 
@@ -609,7 +674,7 @@ sem
 Regla 
 ~~~~~~
 
-Látum :math:`R` tákna rúmskika. Hugsum :math:`R` sem hlut þannig að í
+Látum :math:`R` tákna :hover:`rúmskika,rúmskiki`. Hugsum :math:`R` sem hlut þannig að í
 punkti :math:`(x,y,z)` er efnisþéttleikinn gefinn með falli
 :math:`\delta(x,y,z)`. Massi hlutarins er
 
@@ -634,6 +699,10 @@ Hnit *massamiðju* hlutarins eru
    \qquad\mbox{og}\qquad
    \overline{z}=\frac{M_{z=0}}{m}.
 
+.. index::
+  hverfitregða
+
+   
 Hverfitregða
 ------------
 

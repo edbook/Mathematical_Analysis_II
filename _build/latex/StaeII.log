@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.8)  19 JAN 2016 15:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.8)  10 JAN 2017 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -809,28 +809,28 @@ Writing index file StaeII.idx
 (./StaeII.aux)
 \openout1 = `StaeII.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 129.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 121.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 121.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 129.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 121.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -864,7 +864,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box41
-Package hyperref Info: Link coloring ON on input line 129.
+Package hyperref Info: Link coloring ON on input line 121.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -874,69 +874,61 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count128
 )
-LaTeX Info: Redefining \ref on input line 129.
-LaTeX Info: Redefining \pageref on input line 129.
-LaTeX Info: Redefining \nameref on input line 129.
+LaTeX Info: Redefining \ref on input line 121.
+LaTeX Info: Redefining \pageref on input line 121.
+LaTeX Info: Redefining \nameref on input line 121.
 
 (./StaeII.out) (./StaeII.out)
 \@outlinefile=\write6
 \openout6 = `StaeII.out'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
 
  []
 
-<hi_vnvs_horiz_raunvisindadeild.png, id=411, 501.875pt x 147.55125pt>
-File: hi_vnvs_horiz_raunvisindadeild.png Graphic file (type png)
+<hi_horiz_raunvisindadeild.png, id=411, 270.25969pt x 79.79813pt>
+File: hi_horiz_raunvisindadeild.png Graphic file (type png)
 
-<use hi_vnvs_horiz_raunvisindadeild.png>
-Package pdftex.def Info: hi_vnvs_horiz_raunvisindadeild.png used on input line 
-132.
-(pdftex.def)             Requested size: 501.87376pt x 147.55087pt.
-File: hi_vnvs_horiz_raunvisindadeild.png Graphic file (type png)
-
-<use hi_vnvs_horiz_raunvisindadeild.png>
-Package pdftex.def Info: hi_vnvs_horiz_raunvisindadeild.png used on input line 
-132.
-(pdftex.def)             Requested size: 452.96788pt x 133.17987pt.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 132.
+<use hi_horiz_raunvisindadeild.png>
+Package pdftex.def Info: hi_horiz_raunvisindadeild.png used on input line 124.
+(pdftex.def)             Requested size: 270.25902pt x 79.79791pt.
+File: hi_horiz_raunvisindadeild.png Graphic file (type png)
+ <use hi_horiz_raunvisindadeild.png>
+Package pdftex.def Info: hi_horiz_raunvisindadeild.png used on input line 124.
+(pdftex.def)             Requested size: 270.25902pt x 79.79791pt.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 124.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 132.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 124.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <17.28> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 132.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 124.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 132.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 124.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 132.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 124.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 132.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 124.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 132.
+LaTeX Font Info:    Try loading font information for U+msa on input line 124.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 132.
+LaTeX Font Info:    Try loading font information for U+msb on input line 124.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 132.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./hi_vnvs_horiz_raunvisind
-adeild.png>]
-[2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./hi_horiz_raunvisindadeil
+d.png>] [2
 
-] (./StaeII.toc
+]
+(./StaeII.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
 
@@ -947,7 +939,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 ... continue without it.}}{21}{section.2.22}
+l.113 ... continue without it.}}{26}{section.2.22}
                                                   
 Your command was ignored.
 Type I <command> <return> to replace it with another command,
@@ -956,7 +948,7 @@ or <return> to continue without it.
 ! Extra }, or forgotten $.
 <argument> ...r <return> to continue without it.}}
                                                   \hyper@linkend 
-l.112 ... continue without it.}}{21}{section.2.22}
+l.113 ... continue without it.}}{26}{section.2.22}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -967,7 +959,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.112 ... continue without it.}}{21}{section.2.22}
+l.113 ... continue without it.}}{26}{section.2.22}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -978,7 +970,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.112 ... continue without it.}}{21}{section.2.22}
+l.113 ... continue without it.}}{26}{section.2.22}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -987,7 +979,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 116.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 117.
 [1
 
 ]
@@ -998,7 +990,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 ... continue without it.}}{22}{section.2.24}
+l.117 ... continue without it.}}{26}{section.2.24}
                                                   
 Your command was ignored.
 Type I <command> <return> to replace it with another command,
@@ -1007,7 +999,7 @@ or <return> to continue without it.
 ! Extra }, or forgotten $.
 <argument> ...r <return> to continue without it.}}
                                                   \hyper@linkend 
-l.116 ... continue without it.}}{22}{section.2.24}
+l.117 ... continue without it.}}{26}{section.2.24}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1018,7 +1010,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.116 ... continue without it.}}{22}{section.2.24}
+l.117 ... continue without it.}}{26}{section.2.24}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1029,7 +1021,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.116 ... continue without it.}}{22}{section.2.24}
+l.117 ... continue without it.}}{26}{section.2.24}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1044,14 +1036,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.195 ...\IeC {\ae }\IeC {\dh }i}{40}{section.4.5}
+l.197 ...\IeC {\ae }\IeC {\dh }i}{46}{section.4.5}
                                                   
 Your command was ignored.
 Type I <command> <return> to replace it with another command,
 or <return> to continue without it.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 195.
+LaTeX Warning: Command \" invalid in math mode on input line 197.
 
 Missing character: There is no � in font cmr10!
 
@@ -1061,7 +1053,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.195 ...\IeC {\ae }\IeC {\dh }i}{40}{section.4.5}
+l.197 ...\IeC {\ae }\IeC {\dh }i}{46}{section.4.5}
                                                   
 Your command was ignored.
 Type I <command> <return> to replace it with another command,
@@ -1074,14 +1066,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.198 ...\IeC {\ae }\IeC {\dh }i}{41}{section.4.6}
+l.200 ...\IeC {\ae }\IeC {\dh }i}{47}{section.4.6}
                                                   
 Your command was ignored.
 Type I <command> <return> to replace it with another command,
 or <return> to continue without it.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 198.
+LaTeX Warning: Command \" invalid in math mode on input line 200.
 
 Missing character: There is no � in font cmr10!
 
@@ -1091,7 +1083,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.198 ...\IeC {\ae }\IeC {\dh }i}{41}{section.4.6}
+l.200 ...\IeC {\ae }\IeC {\dh }i}{47}{section.4.6}
                                                   
 Your command was ignored.
 Type I <command> <return> to replace it with another command,
@@ -1103,299 +1095,346 @@ or <return> to continue without it.
 
 
 Adding blank page after the table of contents.
-[3] [4]
-Kafli 1.
+[3] [4] [1
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.85497pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2
+
+]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 137.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 154.
+ [3] [4]
+Kafli 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 137.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 137.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 146.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 238.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 247.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 170.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 271.
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--212
+Underfull \hbox (badness 10000) in paragraph at lines 309--313
 
  []
 
-[1
+[5
 
-
-] <stikaferill.png, id=569, 574.39594pt x 297.36093pt>
+] <stikaferill.png, id=596, 574.39594pt x 297.36093pt>
 File: stikaferill.png Graphic file (type png)
  <use stikaferill.png>
-Package pdftex.def Info: stikaferill.png used on input line 282.
+Package pdftex.def Info: stikaferill.png used on input line 384.
 (pdftex.def)             Requested size: 284.52756pt x 147.30074pt.
 
-[2] [3 <./stikaferill.png>] [4] [5]
-<krappi.png, id=606, 758.835pt x 769.87625pt>
+[6] [7 <./stikaferill.png>] [8] [9]
+<krappi.png, id=634, 758.835pt x 769.87625pt>
 File: krappi.png Graphic file (type png)
  <use krappi.png>
-Package pdftex.def Info: krappi.png used on input line 577.
+Package pdftex.def Info: krappi.png used on input line 678.
 (pdftex.def)             Requested size: 181.18439pt x 183.81079pt.
- [6] [7 <./krappi.png>] [8]
+ [10] [11 <./krappi.png>] [12]
 Kafli 2.
-<surface.png, id=631, 461.5644pt x 346.4142pt>
+<surface.png, id=659, 461.5644pt x 346.4142pt>
 File: surface.png Graphic file (type png)
  <use surface.png>
-Package pdftex.def Info: surface.png used on input line 694.
+Package pdftex.def Info: surface.png used on input line 795.
 (pdftex.def)             Requested size: 271.78348pt x 203.97559pt.
- [9
+ [13
 
- <./surface.png>] <contour.png, id=639, 461.5644pt x 346.4142pt>
+ <./surface.png>] <contour.png, id=667, 461.5644pt x 346.4142pt>
 File: contour.png Graphic file (type png)
  <use contour.png>
-Package pdftex.def Info: contour.png used on input line 721.
+Package pdftex.def Info: contour.png used on input line 822.
 (pdftex.def)             Requested size: 271.78348pt x 203.97559pt.
- [10 <./contour.png>] [11] <xpart.png, id=657, 577.15625pt x 433.62pt>
+
+[14 <./contour.png>] [15] <xpart.png, id=685, 577.15625pt x 433.62pt>
 File: xpart.png Graphic file (type png)
- <use xpart.png>
-Package pdftex.def Info: xpart.png used on input line 921.
-(pdftex.def)             Requested size: 271.78348pt x 204.19841pt.
 
-[12] <ypart.png, id=665, 577.15625pt x 433.62pt>
+<use xpart.png>
+Package pdftex.def Info: xpart.png used on input line 1024.
+(pdftex.def)             Requested size: 271.78348pt x 204.19841pt.
+ [16] <ypart.png, id=693, 577.15625pt x 433.62pt>
 File: ypart.png Graphic file (type png)
- <use ypart.png>
-Package pdftex.def Info: ypart.png used on input line 925.
+
+<use ypart.png>
+Package pdftex.def Info: ypart.png used on input line 1028.
 (pdftex.def)             Requested size: 271.78348pt x 204.19841pt.
- [13 <./xpart.png> <./ypart.png>] <bothpart.png, id=674, 577.15625pt x 433.62pt
->
+ [17 <./xpart.png> <./ypart.png>]
+Overfull \hbox (15.2002pt too wide) in paragraph at lines 1090--1096
+        []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1090--1096
+
+ []
+
+<bothpart.png, id=701, 577.15625pt x 433.62pt>
 File: bothpart.png Graphic file (type png)
-
-<use bothpart.png>
-Package pdftex.def Info: bothpart.png used on input line 972.
+ <use bothpart.png>
+Package pdftex.def Info: bothpart.png used on input line 1103.
 (pdftex.def)             Requested size: 271.78348pt x 204.19841pt.
- [14 <./bothpart.png>] [15]
-<chain1.png, id=689, 371.3875pt x 289.08pt>
+ [18 <./bothpart.png>] [19]
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 1216.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 1216.
+ [20] <chain1.png, id=725, 371.3875pt x 289.08pt>
 File: chain1.png Graphic file (type png)
- <use chain1.png>
-Package pdftex.def Info: chain1.png used on input line 1123.
-(pdftex.def)             Requested size: 122.30325pt x 95.1982pt.
- [16 <./chain1.png>] <chain2.png, id=700, 470.75874pt x 340.27126pt>
-File: chain2.png Graphic file (type png)
- <use chain2.png>
-Package pdftex.def Info: chain2.png used on input line 1154.
-(pdftex.def)             Requested size: 135.89174pt x 98.22441pt.
 
-<chain3.png, id=701, 723.70375pt x 346.29375pt>
+<use chain1.png>
+Package pdftex.def Info: chain1.png used on input line 1254.
+(pdftex.def)             Requested size: 122.30325pt x 95.1982pt.
+ <chain2.png, id=726, 470.75874pt x 340.27126pt>
+File: chain2.png Graphic file (type png)
+
+<use chain2.png>
+Package pdftex.def Info: chain2.png used on input line 1285.
+(pdftex.def)             Requested size: 135.89174pt x 98.22441pt.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 1314.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 1314.
+ [21 <./chain1.png> <./chain2.png>]
+<chain3.png, id=737, 723.70375pt x 346.29375pt>
 File: chain3.png Graphic file (type png)
  <use chain3.png>
-Package pdftex.def Info: chain3.png used on input line 1190.
+Package pdftex.def Info: chain3.png used on input line 1321.
 (pdftex.def)             Requested size: 226.48393pt x 108.37505pt.
- [17 <./chain2.png> <./chain3.png>] <chain5.png, id=711, 519.9425pt x 295.1025p
-t>
+
+<chain5.png, id=738, 519.9425pt x 295.1025pt>
 File: chain5.png Graphic file (type png)
-
-<use chain5.png>
-Package pdftex.def Info: chain5.png used on input line 1199.
+ <use chain5.png>
+Package pdftex.def Info: chain5.png used on input line 1330.
 (pdftex.def)             Requested size: 181.18439pt x 102.83261pt.
- <chain6.png, id=712, 668.4975pt x 315.1775pt>
+
+<chain6.png, id=739, 668.4975pt x 315.1775pt>
 File: chain6.png Graphic file (type png)
-
-<use chain6.png>
-Package pdftex.def Info: chain6.png used on input line 1210.
+ <use chain6.png>
+Package pdftex.def Info: chain6.png used on input line 1341.
 (pdftex.def)             Requested size: 226.48393pt x 106.77899pt.
- <chain4.png, id=713, 627.34375pt x 483.8075pt>
+
+<chain4.png, id=740, 627.34375pt x 483.8075pt>
 File: chain4.png Graphic file (type png)
-
-<use chain4.png>
-Package pdftex.def Info: chain4.png used on input line 1222.
+ <use chain4.png>
+Package pdftex.def Info: chain4.png used on input line 1353.
 (pdftex.def)             Requested size: 181.18439pt x 139.73215pt.
- [18 <./chain5.png> <./chain6.png> <./chain4.png>] [19]
+ [22 <./chain3.png> <./chain5.png> <./chain6.png>] [23 <./chain4.png>]
 File: bothpart.png Graphic file (type png)
-
-<use bothpart.png>
-Package pdftex.def Info: bothpart.png used on input line 1310.
+ <use bothpart.png>
+Package pdftex.def Info: bothpart.png used on input line 1441.
 (pdftex.def)             Requested size: 271.78348pt x 204.19841pt.
- [20]
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1405.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1405.
+[24]
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <12> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 1485.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 1485.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1405.
+(hyperref)                removing `math shift' on input line 1536.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1405.
+(hyperref)                removing `math shift' on input line 1536.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 1405.
+(hyperref)                removing `superscript' on input line 1536.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1405.
+(hyperref)                removing `math shift' on input line 1536.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1405.
+(hyperref)                removing `\rightarrow' on input line 1536.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1405.
+(hyperref)                removing `math shift' on input line 1536.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1444.
+(hyperref)                removing `superscript' on input line 1536.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1444.
+(hyperref)                removing `math shift' on input line 1536.
+
+[25]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1575.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1444.
+(hyperref)                removing `math shift' on input line 1575.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1444.
+(hyperref)                removing `superscript' on input line 1575.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 1444.
+(hyperref)                removing `math shift' on input line 1575.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1444.
+(hyperref)                removing `\rightarrow' on input line 1575.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1444.
+(hyperref)                removing `math shift' on input line 1575.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1444.
+(hyperref)                removing `superscript' on input line 1575.
 
-[21] <gradient.png, id=755, 461.5644pt x 346.4142pt>
-File: gradient.png Graphic file (type png)
- <use gradient.png>
-Package pdftex.def Info: gradient.png used on input line 1516.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1575.
+
+[26] <gradfurf.png, id=790, 461.5644pt x 346.4142pt>
+File: gradfurf.png Graphic file (type png)
+ <use gradfurf.png>
+Package pdftex.def Info: gradfurf.png used on input line 1645.
 (pdftex.def)             Requested size: 271.78348pt x 203.97559pt.
 
-[22] [23 <./gradient.png>] <contours.png, id=771, 376.40625pt x 228.10219pt>
+<gradient.png, id=791, 461.5644pt x 346.4142pt>
+File: gradient.png Graphic file (type png)
+ <use gradient.png>
+Package pdftex.def Info: gradient.png used on input line 1649.
+(pdftex.def)             Requested size: 271.78348pt x 203.97559pt.
+ [27 <./gradfurf.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
+
+ []
+
+[28 <./gradient.png>] <contours.png, id=805, 376.40625pt x 228.10219pt>
 File: contours.png Graphic file (type png)
 
 <use contours.png>
-Package pdftex.def Info: contours.png used on input line 1593.
+Package pdftex.def Info: contours.png used on input line 1729.
 (pdftex.def)             Requested size: 226.48393pt x 137.25217pt.
- [24 <./contours.png>] [25] [26]
+ [29 <./contours.png>] [30] [31] [32]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 1887.
+(amsmath)                 on input line 2023.
 
-[27] [28]
+[33] [34]
 Kafli 3.
-[29
+[35
 
-] <peak_smooth.png, id=823, 461.5644pt x 346.4142pt>
+] <peak_smooth.png, id=863, 461.5644pt x 346.4142pt>
 File: peak_smooth.png Graphic file (type png)
  <use peak_smooth.png>
-Package pdftex.def Info: peak_smooth.png used on input line 2013.
+Package pdftex.def Info: peak_smooth.png used on input line 2150.
 (pdftex.def)             Requested size: 271.78348pt x 203.97559pt.
 
-<peak.png, id=824, 461.5644pt x 346.4142pt>
+<peak.png, id=864, 461.5644pt x 346.4142pt>
 File: peak.png Graphic file (type png)
  <use peak.png>
-Package pdftex.def Info: peak.png used on input line 2017.
+Package pdftex.def Info: peak.png used on input line 2154.
 (pdftex.def)             Requested size: 271.78348pt x 203.97559pt.
 
-<max_bound.png, id=825, 461.5644pt x 346.4142pt>
+<max_bound.png, id=865, 461.5644pt x 346.4142pt>
 File: max_bound.png Graphic file (type png)
  <use max_bound.png>
-Package pdftex.def Info: max_bound.png used on input line 2021.
+Package pdftex.def Info: max_bound.png used on input line 2158.
 (pdftex.def)             Requested size: 271.78348pt x 203.97559pt.
- [30 <./peak_smooth.png> <./peak.png>] <sodull1.png, id=832, 461.5644pt x 346.4
+ [36 <./peak_smooth.png> <./peak.png>] <sodull1.png, id=872, 461.5644pt x 346.4
 142pt>
 File: sodull1.png Graphic file (type png)
 
 <use sodull1.png>
-Package pdftex.def Info: sodull1.png used on input line 2047.
+Package pdftex.def Info: sodull1.png used on input line 2185.
 (pdftex.def)             Requested size: 271.78348pt x 203.97559pt.
- <sodull2.png, id=833, 461.5644pt x 346.4142pt>
+ <sodull2.png, id=873, 461.5644pt x 346.4142pt>
 File: sodull2.png Graphic file (type png)
 
 <use sodull2.png>
-Package pdftex.def Info: sodull2.png used on input line 2051.
+Package pdftex.def Info: sodull2.png used on input line 2189.
 (pdftex.def)             Requested size: 271.78348pt x 203.97559pt.
- [31 <./max_bound.png> <./sodull1.png>] [32 <./sodull2.png>]
-[33] <constraint.png, id=871, 461.5644pt x 346.4142pt>
+ [37 <./max_bound.png> <./sodull1.png>] [38 <./sodull2.png>]
+[39] <constraint.png, id=910, 461.5644pt x 346.4142pt>
 File: constraint.png Graphic file (type png)
  <use constraint.png>
-Package pdftex.def Info: constraint.png used on input line 2289.
+Package pdftex.def Info: constraint.png used on input line 2427.
 (pdftex.def)             Requested size: 271.78348pt x 203.97559pt.
 
-[34 <./constraint.png>] <lagrange1.png, id=885, 567.11874pt x 339.2675pt>
+[40 <./constraint.png>] <lagrange1.png, id=924, 567.11874pt x 339.2675pt>
 File: lagrange1.png Graphic file (type png)
 
 <use lagrange1.png>
-Package pdftex.def Info: lagrange1.png used on input line 2305.
+Package pdftex.def Info: lagrange1.png used on input line 2443.
 (pdftex.def)             Requested size: 181.18439pt x 108.38663pt.
- [35 <./lagrange1.png>] [36]
+ [41 <./lagrange1.png>] [42]
 Kafli 4.
-<skipting.png, id=903, 450.68375pt x 318.18875pt>
+<skipting.png, id=942, 450.68375pt x 318.18875pt>
 File: skipting.png Graphic file (type png)
  <use skipting.png>
-Package pdftex.def Info: skipting.png used on input line 2414.
+Package pdftex.def Info: skipting.png used on input line 2554.
 (pdftex.def)             Requested size: 226.48393pt x 159.89993pt.
- [37
+ [43
 
- <./skipting.png>] <skipting2.png, id=911, 810.02625pt x 318.18875pt>
+ <./skipting.png>] <skipting2.png, id=950, 810.02625pt x 318.18875pt>
 File: skipting2.png Graphic file (type png)
 
 <use skipting2.png>
-Package pdftex.def Info: skipting2.png used on input line 2433.
+Package pdftex.def Info: skipting2.png used on input line 2574.
 (pdftex.def)             Requested size: 362.37567pt x 142.34851pt.
- <double.png, id=912, 517.935pt x 430.60875pt>
+ <double.png, id=951, 517.935pt x 430.60875pt>
 File: double.png Graphic file (type png)
 
 <use double.png>
-Package pdftex.def Info: double.png used on input line 2435.
+Package pdftex.def Info: double.png used on input line 2576.
 (pdftex.def)             Requested size: 339.7259pt x 282.46144pt.
- [38 <./skipting2.png> <./double.png>] [39]
-<ax1.png, id=936, 396.48125pt x 277.035pt>
+ [44 <./skipting2.png> <./double.png>] [45]
+<ax1.png, id=976, 396.48125pt x 277.035pt>
 File: ax1.png Graphic file (type png)
  <use ax1.png>
-Package pdftex.def Info: ax1.png used on input line 2559.
+Package pdftex.def Info: ax1.png used on input line 2702.
 (pdftex.def)             Requested size: 226.48393pt x 158.25398pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2562.
+(hyperref)                removing `math shift' on input line 2705.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2562.
+(hyperref)                removing `math shift' on input line 2705.
 
-<einfalt.png, id=937, 751.80875pt x 336.25626pt>
+<einfalt.png, id=977, 751.80875pt x 336.25626pt>
 File: einfalt.png Graphic file (type png)
  <use einfalt.png>
-Package pdftex.def Info: einfalt.png used on input line 2579.
+Package pdftex.def Info: einfalt.png used on input line 2723.
 (pdftex.def)             Requested size: 294.42635pt x 131.6884pt.
- [40 <./ax1.png>]
+ [46 <./ax1.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2592.
+(hyperref)                removing `math shift' on input line 2736.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2592.
+(hyperref)                removing `math shift' on input line 2736.
 
-<einfalt2.png, id=947, 375.4025pt x 294.09875pt>
+<einfalt2.png, id=987, 375.4025pt x 294.09875pt>
 File: einfalt2.png Graphic file (type png)
  <use einfalt2.png>
-Package pdftex.def Info: einfalt2.png used on input line 2609.
+Package pdftex.def Info: einfalt2.png used on input line 2753.
 (pdftex.def)             Requested size: 158.54152pt x 124.20723pt.
 
 
@@ -1405,14 +1444,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2633 Þ
+l.2778 Þ
          að er gert með því að finna fyrst runu af stækkandi lokuðum og
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 2633.
+LaTeX Warning: Command \" invalid in math mode on input line 2778.
 
 Missing character: There is no � in font cmr10!
 
@@ -1422,64 +1461,64 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2633 Þ
+l.2778 Þ
          að er gert með því að finna fyrst runu af stækkandi lokuðum og
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[41 <./einfalt.png> <./einfalt2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2664--2667
+[47 <./einfalt.png> <./einfalt2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2810--2813
 
  []
 
-<polarrett.png, id=958, 259.97125pt x 249.93375pt>
+<polarrett.png, id=998, 259.97125pt x 249.93375pt>
 File: polarrett.png Graphic file (type png)
  <use polarrett.png>
-Package pdftex.def Info: polarrett.png used on input line 2700.
+Package pdftex.def Info: polarrett.png used on input line 2849.
 (pdftex.def)             Requested size: 181.18439pt x 174.18968pt.
- [42]
-<polarelement.png, id=970, 546.04pt x 247.92625pt>
+ [48]
+<polarelement.png, id=1008, 546.04pt x 247.92625pt>
 File: polarelement.png Graphic file (type png)
  <use polarelement.png>
-Package pdftex.def Info: polarelement.png used on input line 2719.
+Package pdftex.def Info: polarelement.png used on input line 2868.
 (pdftex.def)             Requested size: 407.66832pt x 185.1006pt.
 
-[43 <./polarrett.png> <./polarelement.png>]
-<polarsvaedi.png, id=981, 207.77625pt x 195.73125pt>
+[49 <./polarrett.png> <./polarelement.png>]
+<polarsvaedi.png, id=1019, 207.77625pt x 195.73125pt>
 File: polarsvaedi.png Graphic file (type png)
  <use polarsvaedi.png>
-Package pdftex.def Info: polarsvaedi.png used on input line 2743.
+Package pdftex.def Info: polarsvaedi.png used on input line 2893.
 (pdftex.def)             Requested size: 203.83415pt x 192.02437pt.
 
-<changevar.png, id=982, 728.7225pt x 256.96pt>
+<changevar.png, id=1020, 728.7225pt x 256.96pt>
 File: changevar.png Graphic file (type png)
  <use changevar.png>
-Package pdftex.def Info: changevar.png used on input line 2768.
+Package pdftex.def Info: changevar.png used on input line 2918.
 (pdftex.def)             Requested size: 407.66832pt x 143.74762pt.
- [44 <./polarsvaedi.png> <./changevar.png>] [45]
-<sphere.png, id=999, 428.60126pt x 223.83624pt>
+ [50 <./polarsvaedi.png>] [51 <./changevar.png>]
+<sphere.png, id=1037, 428.60126pt x 223.83624pt>
 File: sphere.png Graphic file (type png)
  <use sphere.png>
-Package pdftex.def Info: sphere.png used on input line 2879.
+Package pdftex.def Info: sphere.png used on input line 3033.
 (pdftex.def)             Requested size: 362.37567pt x 189.25072pt.
- [46 <./sphere.png>] [47] [48]
+ [52] [53 <./sphere.png>] [54] [55] [56
+
+]
 Kafli 5.
-<vfield.png, id=1022, 461.725pt x 346.29375pt>
+<vfield.png, id=1070, 461.725pt x 346.29375pt>
 File: vfield.png Graphic file (type png)
  <use vfield.png>
-Package pdftex.def Info: vfield.png used on input line 3042.
+Package pdftex.def Info: vfield.png used on input line 3200.
 (pdftex.def)             Requested size: 317.07613pt x 237.80687pt.
- [49
-
- <./vfield.png>] <flowlines.png, id=1030, 461.725pt x 346.29375pt>
+ [57 <./vfield.png>] <flowlines.png, id=1077, 461.725pt x 346.29375pt>
 File: flowlines.png Graphic file (type png)
  <use flowlines.png>
-Package pdftex.def Info: flowlines.png used on input line 3057.
+Package pdftex.def Info: flowlines.png used on input line 3215.
 (pdftex.def)             Requested size: 317.07613pt x 237.80687pt.
 
-[50 <./flowlines.png>]
-Underfull \hbox (badness 5475) in paragraph at lines 3108--3113
+[58 <./flowlines.png>]
+Underfull \hbox (badness 5475) in paragraph at lines 3267--3272
 \T1/ptm/m/n/10 L�tum $[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y; z\OT1/cmr/m/n/1
 0 ) = \OML/cmm/m/it/10 F[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y; z\OT1/cmr/m/n
 /10 ) [] + \OML/cmm/m/it/10 F[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y; z\OT1/cm
@@ -1487,82 +1526,102 @@ r/m/n/10 ) [] + \OML/cmm/m/it/10 F[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y; z\O
 T1/cmr/m/n/10 ) []$ \T1/ptm/m/n/10 vera vig-ur-svi� �annig a� f�ll-in
  []
 
-[51] [52] [53] [54]
+[59] [60] [61] [62]
 File: xpart.png Graphic file (type png)
  <use xpart.png>
-Package pdftex.def Info: xpart.png used on input line 3447.
+Package pdftex.def Info: xpart.png used on input line 3609.
 (pdftex.def)             Requested size: 317.07613pt x 238.22708pt.
 File: ypart.png Graphic file (type png)
  <use ypart.png>
-Package pdftex.def Info: ypart.png used on input line 3451.
+Package pdftex.def Info: ypart.png used on input line 3613.
 (pdftex.def)             Requested size: 317.07613pt x 238.22708pt.
- [55] [56] [57]
-<normalfield.png, id=1110, 406.51875pt x 196.03238pt>
+ [63] [64] [65]
+<normalfield.png, id=1157, 406.51875pt x 196.03238pt>
 File: normalfield.png Graphic file (type png)
  <use normalfield.png>
-Package pdftex.def Info: normalfield.png used on input line 3617.
+Package pdftex.def Info: normalfield.png used on input line 3782.
 (pdftex.def)             Requested size: 226.48393pt x 109.21503pt.
 
-<mobius.png, id=1111, 501.875pt x 336.25626pt>
+<mobius.png, id=1158, 501.875pt x 336.25626pt>
 File: mobius.png Graphic file (type png)
  <use mobius.png>
-Package pdftex.def Info: mobius.png used on input line 3631.
+Package pdftex.def Info: mobius.png used on input line 3797.
 (pdftex.def)             Requested size: 181.18439pt x 121.39592pt.
- [58 <./normalfield.png>] <joinsurf.png, id=1120, 501.875pt x 227.85126pt>
+ [66 <./normalfield.png>] <joinsurf.png, id=1167, 501.875pt x 227.85126pt>
 File: joinsurf.png Graphic file (type png)
  <use joinsurf.png>
-Package pdftex.def Info: joinsurf.png used on input line 3647.
+Package pdftex.def Info: joinsurf.png used on input line 3813.
 (pdftex.def)             Requested size: 317.07613pt x 143.96077pt.
 
-[59 <./mobius.png> <./joinsurf.png>]
-<flux.png, id=1130, 335.2525pt x 302.12875pt>
+[67 <./mobius.png> <./joinsurf.png>]
+<flux.png, id=1178, 335.2525pt x 302.12875pt>
 File: flux.png Graphic file (type png)
  <use flux.png>
-Package pdftex.def Info: flux.png used on input line 3740.
+Package pdftex.def Info: flux.png used on input line 3907.
 (pdftex.def)             Requested size: 181.18439pt x 163.28078pt.
- [60 <./flux.png>]
+ [68 <./flux.png>]
 Kafli 6.
 
-Overfull \hbox (15.2002pt too wide) in paragraph at lines 3782--3786
+Overfull \hbox (15.2002pt too wide) in paragraph at lines 3949--3953
         []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3782--3786
+Underfull \hbox (badness 10000) in paragraph at lines 3949--3953
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3787--3790
+Underfull \hbox (badness 10000) in paragraph at lines 3954--3957
 
  []
 
-[61
+[69
 
-] [62] [63] [64] [65] [66] [67] [68
+] [70] [71] [72] [73] [74] [75] [76
 
 ]
 Kafli 7.
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4513 \end{itemize}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.4513 \end{itemize}
+                    
+Things are pretty mixed up, but I think the worst is over.
+
 No file StaeII.ind.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4341.
-[69]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 4341.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4519.
+[77]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 4519.
  (./StaeII.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4341.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4341.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4519.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4519.
 
 Package rerunfilecheck Info: File `StaeII.out' has not changed.
-(rerunfilecheck)             Checksum: 410BF1F20161B7D8FA02B3543525807F;6756.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 4341.
+(rerunfilecheck)             Checksum: F8CC47B07A62580D474216305442AC09;6755.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 4519.
  ) 
 Here is how much of TeX's memory you used:
- 10610 strings out of 494442
- 147738 string characters out of 6165314
- 250747 words of memory out of 5000000
- 13064 multiletter control sequences out of 15000+600000
- 67411 words of font info for 94 fonts, out of 8000000 for 9000
+ 10633 strings out of 494442
+ 148227 string characters out of 6165314
+ 255175 words of memory out of 5000000
+ 13091 multiletter control sequences out of 15000+600000
+ 72258 words of font info for 86 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
- 38i,31n,51p,800b,475s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,31n,51p,800b,475s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist
@@ -1577,15 +1636,14 @@ share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helve
-tic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on StaeII.pdf (75 pages, 2497667 bytes).
+ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
+es/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on StaeII.pdf (83 pages, 2627268 bytes).
 PDF statistics:
- 1381 PDF objects out of 1440 (max. 8388607)
- 1198 compressed objects within 12 object streams
- 465 named destinations out of 1000 (max. 500000)
- 1029 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1428 PDF objects out of 1440 (max. 8388607)
+ 1236 compressed objects within 13 object streams
+ 476 named destinations out of 1000 (max. 500000)
+ 1034 words of extra memory for PDF output out of 10000 (max. 10000000)
 

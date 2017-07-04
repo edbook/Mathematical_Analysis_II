@@ -7,6 +7,13 @@
 
 \-George R.R. Martin, A Storm of Swords 
 
+.. index::
+  útgildi
+  lággildi;staðbundið lággildi
+  hágildi;staðbundið hágildi
+  útgildi;staðbundið útgildi
+  hæsta gildi
+
 Útgildi
 -------
 
@@ -16,25 +23,29 @@ Skilgreining
 Látum :math:`f` vera fall af tveim breytum skilgreint á mengi
 :math:`{\cal D}(f)`.
 
-Sagt er að :math:`f` hafi *staðbundið lággildi* (e. local minimum) í
+Sagt er að :math:`f` hafi :hover:`staðbundið lággildi` í
 punkti :math:`(a,b)` ef til er tala :math:`r>0` þannig að
 :math:`f(a,b)\leq f(x,y)` fyrir alla punkta
 :math:`(x,y)\in B_r(a,b)\cap{\cal D}(f)`.
 
-Sagt er að :math:`f` hafi *staðbundið hágildi* (e. local maximum) í
+Sagt er að :math:`f` hafi :hover:`staðbundið hágildi`  í
 punkti :math:`(a,b)` ef til er tala :math:`r>0` þannig að
 :math:`f(a,b)\geq f(x,y)` fyrir alla punkta
 :math:`(x,y)\in B_r(a,b)\cap{\cal D}(f)`.
 
 Í þeim punktum þar sem :math:`f` tekur annað hvort staðbundið lággildi
-eða staðbundið hágildi er sagt að :math:`f` hafi *staðbundið útgildi*
-(e. local extreme).
+eða staðbundið hágildi er sagt að :math:`f` hafi :hover:`staðbundið útgildi`
+
 
 Ef :math:`f(a,b)\leq f(x,y)` fyrir alla punkta
 :math:`(x,y)\in {\cal D}(f)` þá er sagt að :math:`f` taki *lægsta gildi*
 í :math:`(a,b)` (e. global minimum). Ef :math:`f(a,b)\geq f(x,y)` fyrir
 alla punkta :math:`(x,y)\in {\cal D}(f)` þá er sagt að :math:`f` taki
-*hæsta gildi* í :math:`(a,b)` (e. global maximum).
+:hover:`hæsta gildi` í :math:`(a,b)`.
+
+.. index::
+  útgildi;staðbundið útgildi
+  stöðupunktur
 
 Staðbundið útgildi
 ------------------
@@ -47,27 +58,27 @@ Látum :math:`f` vera fall af einni breytu skilgreint á mengi
 staðbundið útgildi í punkti :math:`a` þá gildir eitt af þrennu um
 :math:`a`:
 
-#. :math:`f'(a)=0`. (punkturinn :math:`a` kallast *stöðupunktur*
+#. :math:`f'(a)=0`. (punkturinn :math:`a` kallast :hover:`stöðupunktur`
    :math:`f`).
 
 #. Afleiðan :math:`f'(a)` er ekki skilgreind.
 
-#. Punkturinn :math:`a` er jaðarpunktur :math:`{\cal D}(f)`.
+#. Punkturinn :math:`a` er :hover:`jaðarpunktur` :math:`{\cal D}(f)`.
 
 Setning 
 ~~~~~~~~
 
 Látum :math:`f` vera fall af tveim breytum skilgreint á mengi
 :math:`{\cal D}(f)\subseteq {\mathbb  R}^2`. Ef fallið :math:`f` hefur
-staðbundið útgildi í punkti :math:`(a,b)` þá gildir eitt af þrennu um
+:hover:`staðbundið útgildi` í punkti :math:`(a,b)` þá gildir eitt af þrennu um
 :math:`a`
 
 #. :math:`\nabla f(a,b)=\mbox{${\bf 0}$}`. (punkturinn :math:`(a,b)`
-   kallast *stöðupunktur* :math:`f`)
+   kallast :hover:`stöðupunktur` :math:`f`)
 
-#. Stigullinn :math:`\nabla f(a,b)` er ekki skilgreindur.
+#. :hover:`Stigullinn,stigull` :math:`\nabla f(a,b)` er ekki skilgreindur.
 
-#. Punkturinn :math:`(a,b)` er jaðarpunktur :math:`{\cal D}(f)`.
+#. Punkturinn :math:`(a,b)` er :hover:`jaðarpunktur` :math:`{\cal D}(f)`.
 
 Dæmi 
 ~~~~
@@ -110,6 +121,11 @@ Látum :math:`f` vera samfellt fall af tveim breytum skilgreint á lokuðu
 og takmörkuðu mengi :math:`{\cal D}(f)`. Fallið :math:`f` tekur þá bæði
 hæsta og lægsta gildi.
 
+.. index::
+  söðulpunktur
+  
+
+
 Söðulpunktur
 ------------
 
@@ -117,7 +133,7 @@ Skilgreining
 ~~~~~~~~~~~~~
 
 Punktur :math:`(x,y)\in  {\cal D}(f)` sem er ekki jaðarpunktur kallast
-*söðulpunktur* ef :math:`\nabla f(x,y)=\mbox{${\bf 0}$}` en :math:`f`
+:hover:`söðulpunktur` ef :math:`\nabla f(x,y)=\mbox{${\bf 0}$}` en :math:`f`
 hefur ekki staðbundið útgildi í :math:`(x,y)`.
 
 Dæmi um föll með söðulpunkta.
@@ -150,10 +166,10 @@ Látum :math:`f` vera fall af einni breytistærð og gerum ráð fyrir að
 :math:`f'` sé samfellt fall. Gerum einnig ráð fyrir að :math:`f'(a)=0`.
 Þá gildir:
 
-#. Ef :math:`f''(a)>0` þá hefur :math:`f` staðbundið lággildi í
+#. Ef :math:`f''(a)>0` þá hefur :math:`f` :hover:`staðbundið lággildi` í
    :math:`a`.
 
-#. Ef :math:`f''(a)<0` þá hefur :math:`f` staðbundið hágildi í
+#. Ef :math:`f''(a)<0` þá hefur :math:`f` :hover:`staðbundið hágildi` í
    :math:`a`.
 
 #. Ef :math:`f''(a)=0` þá gæti verið staðbundið lággildi í :math:`A`,
@@ -179,13 +195,17 @@ Látum :math:`f` vera fall af :math:`n` breytum
     \vdots & \vdots & \ddots & \vdots & \\
      f_{n1}(\mathbf{x})&f_{n2}(\mathbf{x}) & \cdots & f_{nn}(\mathbf{x})\end{bmatrix}.
 
+
+.. index::
+  ferningsform
+     
 Ferningsform (sjá kafla 10.7 í Adams)
 -------------------------------------
 
 Upprifjun 
 ~~~~~~~~~~
 
-*Ferningsform* :math:`Q` af :math:`n`-breytum
+:hover:`Ferningsform` :math:`Q` af :math:`n`-breytum
 :math:`x_1,x_2,\ldots, x_n` er einsleit margliða af stigi 2 gefin með
 
 .. math:: Q(\mathbf{x}) = \mathbf{x}^T A \mathbf{x}
@@ -197,17 +217,15 @@ Upprifjun
 Skilgreining 
 ~~~~~~~~~~~~~
 
-Ferningsform :math:`Q` af :math:`n`-breytum er sagt vera *jákvætt
-ákvarðað* (e. positive definite) ef :math:`Q(\mbox{${\bf x}$})>0` fyrir
+Ferningsform :math:`Q` af :math:`n`-breytum er sagt vera :hover:`jákvætt ákvarðað,jákvætt ákveðinn` ef :math:`Q(\mbox{${\bf x}$})>0` fyrir
 alla vigra :math:`\mbox{${\bf x}$}\neq \mbox{${\bf 0}$}` í
 :math:`\mbox{${\bf R}^n$}`.
 
-Sagt að ferningsformið :math:`Q` sé *neikvætt ákvarðað* (e. negative
-definite) ef :math:`Q(\mbox{${\bf x}$})<0` fyrir alla vigra
+Sagt að ferningsformið :math:`Q` sé :hover:`neikvætt ákvarðað, neikvætt ákveðinn` ef :math:`Q(\mbox{${\bf x}$})<0` fyrir alla vigra
 :math:`\mbox{${\bf x}$}\neq \mbox{${\bf 0}$}` í
 :math:`\mbox{${\bf R}^n$}`.
 
-Síðan er sagt að ferningsformið :math:`Q` sé *óákvarðað* (e. indefinite)
+Síðan er sagt að ferningsformið :math:`Q` sé :hover:`óákvarðað,óákvarðaður`
 ef :math:`Q(\mbox{${\bf x}$})<0` fyrir einhvern vigur
 :math:`\mbox{${\bf x}$}` og :math:`Q(\mbox{${\bf y}$})>0` fyrir einhvern
 vigur :math:`\mbox{${\bf y}$}`.
@@ -220,14 +238,14 @@ samhverft :math:`n\times n` fylki þannig að
 :math:`Q(\mbox{${\bf x}$})=\mbox{${\bf x}$}^TA\mbox{${\bf x}$}` fyrir
 alla vigra :math:`\mbox{${\bf x}$}`,
 
-#. Ferningsformið er jákvætt ákvarðað ef og aðeins ef öll eigingildi
+#. Ferningsformið er jákvætt ákvarðað ef og aðeins ef öll :hover:`eigingildi`
    :math:`A` eru jákvæð.
 
-#. Ferningsformið er neikvætt ákvarðað ef og aðeins ef öll eigingildi
+#. Ferningsformið er neikvætt ákvarðað ef og aðeins ef öll :hover:`eigingildi`
    :math:`A` eru neikvæð.
 
 #. Ferningsformið er óákvarðað ef og aðeins ef :math:`A` hefur bæði
-   jákvæð og neikvæð eigingildi.
+   jákvæð og neikvæð :hover:`eigingildi`
 
 Staðbundið útgildi
 ------------------
@@ -243,13 +261,13 @@ innri punkt á skilgreiningarsvæði :math:`f` og gerum ráð fyrir að
 f(\mathbf{a})=\mbox{${\bf 0}$}`. Þá gildir: Ef
 :math:`{\cal H}(\mathbf{a})` er
 
-#. ...jákvætt ákvarðað þá hefur :math:`f` staðbundið lággildi í
+#. ...jákvætt ákvarðað þá hefur :math:`f` :hover:`staðbundið lággildi` í
    :math:`\mathbf{a}`.
 
-#. ...neikvætt ákvarðað þá hefur :math:`f` staðbundið hágildi í
+#. ...neikvætt ákvarðað þá hefur :math:`f` :hover:`staðbundið hágildi` í
    :math:`\mathbf{a}`.
 
-#. ...óákvarðað þá hefur :math:`f` söðulpunkt í :math:`\mathbf{a}`.
+#. ...óákvarðað þá hefur :math:`f` :hover:`söðulpunkt,söðulpunktur` í :math:`\mathbf{a}`.
 
 #. ...hvorki jákvætt ákvarðað, neikvætt ákvarðað né óákvarðað þá nægja
    upplýsingarnar sem felast í jöfnunni
@@ -273,13 +291,13 @@ f(a,b)=\mbox{${\bf 0}$}`. Setjum
 
 Þá gildir:
 
-#. Ef :math:`B^2-AC<0` og :math:`A>0` þá hefur :math:`f` staðbundið
-   lággildi í :math:`(a,b)`.
+#. Ef :math:`B^2-AC<0` og :math:`A>0` þá hefur :math:`f` :hover:`staðbundið
+   lággildi` í :math:`(a,b)`.
 
-#. Ef :math:`B^2-AC<0` og :math:`A<0` þá hefur :math:`f` staðbundið
-   hágildi í :math:`(a,b)`.
+#. Ef :math:`B^2-AC<0` og :math:`A<0` þá hefur :math:`f` :hover:`staðbundið
+   hágildi` í :math:`(a,b)`.
 
-#. Ef :math:`B^2-AC>0` þá hefur :math:`f` söðulpunkt í :math:`(a,b)`.
+#. Ef :math:`B^2-AC>0` þá hefur :math:`f` :hover:`söðulpunkt,söðulpunktur` í :math:`(a,b)`.
 
 #. Ef :math:`B^2-AC=0` þá er ekkert hægt að segja.
 
@@ -304,18 +322,21 @@ Ef :math:`A` er samhverft :math:`n \times n` fylki með tölu
 þá gildir
 
 #. Ef :math:`D_i > 0` fyrir :math:`1\leq i \leq n` þá er :math:`A`
-   jákvætt ákvarðað.
+   :hover:`jákvætt ákvarðað,jákvætt ákveðinn`.
 
 #. Ef :math:`D_i > 0` fyrir slétt :math:`i` í :math:`\{1,2,\ldots,n\}`
    og :math:`D_i < 0` fyrir oddatölu :math:`i` í
-   :math:`\{1,2,\ldots,n\}` þá er :math:`A` neikvætt ákvarðað.
+   :math:`\{1,2,\ldots,n\}` þá er :math:`A` :hover:`neikvætt ákvarðað,neikvætt ákveðinn`.
 
 #. Ef :math:`\det(A) = D_n \neq 0` en hvorki :math:`1` né :math:`2`
-   gilda þá er :math:`A` óákvarðað.
+   gilda þá er :math:`A` :hover:~óákvarðað,.
 
 #. Ef :math:`\det(A) = 0` þá er :math:`A` hvorki jákvætt né neikvætt
-   ákvarðað en getur verið óákvarðað.
+   ákvarðað en getur verið :hover:`óákvarðað,óákvarðaður`.
 
+.. index::
+  skorðujöfnur
+   
 Útgildi falla þar sem breytur uppfylla skorðujöfnur
 ---------------------------------------------------
 
@@ -372,6 +393,9 @@ ef við einskorðum fallið :math:`f` við ferilinn :math:`g(x,y)=0` þá hafi
 samsíða þá vex* :math:`f` *eða minnkar þegar farið er eftir*
 :math:`\mathcal{C}` *út frá punktinum* :math:`P_0`.
 
+.. index::
+  Lagrange-margfaldarar
+
 Lagrange-margfaldarar
 ---------------------
 
@@ -386,7 +410,7 @@ Búum til *Lagrange-fallið*
 
 .. math:: L(x,y,\lambda)=f(x,y)+\lambda g(x,y).
 
-Stöðupunktar :math:`L`, þ.e.a.s. punktar :math:`(x_0,y_0,\lambda_0)` þar
+:hover:`Stöðupunktar,stöðupunktur` :math:`L`, þ.e.a.s. punktar :math:`(x_0,y_0,\lambda_0)` þar
 sem :math:`\nabla L(x_0,y_0,\lambda_0)=\mbox{${\bf 0}$}`, gefa mögulega
 punkta :math:`(x_0,y_0)` þar sem :math:`f` tekur útgildi.
 
@@ -404,13 +428,13 @@ Talan :math:`\lambda` nefnist *Lagrange-margfaldari*.
 Regla 
 ~~~~~~
 
-Finna skal útgildi falls :math:`f(x,y)` þegar skilgreiningarsvæði
+Finna skal :hover:`útgildi` falls :math:`f(x,y)` þegar skilgreiningarsvæði
 :math:`f` er mengi þeirra punkta :math:`(x,y)` sem uppfylla jöfnu
 :math:`g(x,y)=0`.
 
 Athuga þarf punkta sem uppfylla eitt af eftirfarandi skilyrðum:
 
-#. Stöðupunktar :math:`L(x,y,\lambda)`.
+#. :hover:`Stöðupunktar,stöðupunktur` :math:`L(x,y,\lambda)`.
 
 #. Punktar :math:`(x,y)` þar sem :math:`\nabla g(x,y)=\mbox{${\bf 0}$}`
 
@@ -422,7 +446,7 @@ Athuga þarf punkta sem uppfylla eitt af eftirfarandi skilyrðum:
 Reikniaðferð 
 ~~~~~~~~~~~~~
 
-Finna skal útgildi falls :math:`f(x,y,z)` þegar skilgreiningarsvæði
+Finna skal  :hover:`útgildi` falls :math:`f(x,y,z)` þegar skilgreiningarsvæði
 :math:`f` er mengi þeirra punkta :math:`(x,y,z)` sem uppfylla jöfnurnar
 :math:`g(x,y,z)=0` og :math:`h(x,y,z)=0`.
 
@@ -430,10 +454,10 @@ Búum til Lagrange-fallið
 
 .. math:: L(x,y,z,\lambda,\mu)=f(x,y,z)+\lambda g(x,y,z)+\mu h(x,y,z).
 
-Stöðupunktar :math:`L`, þ.e.a.s. punktar
+:hover:`Stöðupunktar,stöðupunktur` :math:`L`, þ.e.a.s. punktar
 :math:`(x_0,y_0,z_0,\lambda_0,\mu_0)` þar sem
 :math:`\nabla L(x_0,y_0,z_0,\lambda_0,\mu_0)=\mbox{${\bf 0}$}` gefa
-mögulega punkta :math:`(x_0,y_0,z_0)` þar sem :math:`f` tekur útgildi.
+mögulega punkta :math:`(x_0,y_0,z_0)` þar sem :math:`f` tekur  :hover:`útgildi`.
 
 Þessir punktar finnast með því að leysa jöfnuhneppið
 

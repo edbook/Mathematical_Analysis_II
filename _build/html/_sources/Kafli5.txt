@@ -8,10 +8,13 @@ Vigursvið
 Vigursvið
 ---------
 
+.. index::
+  vigursvið
+
 Skilgreining 
 ~~~~~~~~~~~~~
 
-*Vigursvið* á :math:`{\mathbb  R}^2` er vörpun
+:hover:`Vigursvið` á :math:`{\mathbb  R}^2` er vörpun
 
 .. math:: \displaystyle \mbox{${\bf F}$}(x,y)=F_1(x,y)\,\mbox{${\bf i}$}+F_2(x,y)\,\mbox{${\bf j}$}.
 
@@ -21,7 +24,7 @@ hefur fótpunkt í punktinum :math:`(x,y)`.
 
 Vigursvið
 :math:`\mbox{${\bf F}$}(x,y)=F_1(x,y)\mbox{${\bf i}$}+F_2(x,y)\mbox{${\bf j}$}`
-er sagt *samfellt* ef föllin :math:`F_1(x,y)` og :math:`F_2(x,y)` eru
+er sagt :hover:`samfellt,samfelldur` ef föllin :math:`F_1(x,y)` og :math:`F_2(x,y)` eru
 samfelld.
 
 Vigursvið á :math:`{\mathbb  R}^3` er vörpun
@@ -40,16 +43,18 @@ sé samfellt er eins og á samfeldni vigursvið í :math:`{\mathbb  R}^2` .
 
 *Vigursviðið* :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`.
 
+.. index::
+  straumlína
+
 Straumlína
 ----------
 
 Skilgreining 
 ~~~~~~~~~~~~~
 
-Ferill :math:`C` í planinu kallast *straumlína* (e. stream line, flow
-line) fyrir vigursvið :math:`\mbox{${\bf F}$}(x,y)` ef í hverjum punkti
+:hover:`Ferill` :math:`C` í planinu kallast :hover:`straumlína` fyrir :hover:`vigursvið` :math:`\mbox{${\bf F}$}(x,y)` ef í hverjum punkti
 :math:`(x,y)` á ferlinum er vigurinn :math:`\mbox{${\bf F}$}(x,y)`
-snertivigur við ferilinn.
+:hover:`snertivigur` við ferilinn.
 
 .. image:: flowlines.png
    :width: 70%
@@ -60,6 +65,11 @@ snertivigur við ferilinn.
 *Vigursviðið* :math:`\mathbf{F}(x,y) = -y\mbox{${\bf i}$}+ x \mbox{${\bf j}$}`
 *ásamt nokkrum straumlínum*.
 
+.. index::
+  vigursvið:geymið
+  stigulsvið
+  mætti
+  
 Stigulsvið
 ----------
 
@@ -84,7 +94,7 @@ Vigursvið :math:`\mbox{${\bf F}$}(x,y,z)` kallast *stigulsvið* eða
 *geymið svið* ef til er fall :math:`\varphi(x,y,z)` þannig að
 :math:`\mbox{${\bf F}$}(x,y,z)=\nabla\varphi(x,y,z)`.
 
-Fallið :math:`\varphi` kallast *mætti* (e. potential) fyrir vigursviðið
+Fallið :math:`\varphi` kallast :hover:`mætti`  fyrir vigursviðið
 :math:`\mbox{${\bf F}$}`.
 
 Setning 
@@ -126,7 +136,7 @@ vera vigursvið þannig að föllin :math:`F_1(x,y,z), F_2(x,y,z)` og
 Reikniaðferð 
 ~~~~~~~~~~~~~
 
-Finna á mætti :math:`\varphi(x,y)` fyrir stigulsvið
+Finna á :hover:`mætti` :math:`\varphi(x,y)` fyrir stigulsvið
 :math:`\mbox{${\bf F}$}(x,y)=F_1(x,y)\,\mbox{${\bf i}$}+F_2(x,y)\,\mbox{${\bf j}$}`.
 Viljum finna fall :math:`\varphi(x,y)` þannig að
 
@@ -148,6 +158,9 @@ Með því að heilda þessar jöfnur fæst að
 er svo að horfa á jöfnurnar tvær hér að ofan og sjá hvort ekki er hægt
 að finna gildi fyrir heildunarfastanna :math:`C_1(x)` og :math:`C_2(y)`
 þannig að sama formúlan fyrir :math:`\varphi(x,y)` fáist.
+
+.. index::
+  ferilheildi
 
 Heildi falls yfir feril
 -----------------------
@@ -189,8 +202,8 @@ ef til er stikun
 :math:`\mbox{${\bf r}$}:[a,b]\rightarrow {\mathbb  R}^2` á
 :math:`\cal C` þannig að til eru punktar
 :math:`a=t_0<t_1<t_2<\cdots<t_n<t_{n+1}=b` þannig að á hverju bili
-:math:`(t_i,t_{i+1})` er :math:`\mbox{${\bf r}$}` samfellt diffranlegur
-ferill og markgildin
+:math:`(t_i,t_{i+1})` er :math:`\mbox{${\bf r}$}` :hover:`samfellt diffranlegur`
+ferill og :hover:`markgildin,markgildi`
 
 .. math:: \displaystyle
 
@@ -334,7 +347,7 @@ tvo punkta :math:`P, Q\in D` gildir að til er stikaferill
 Setning 
 ~~~~~~~~
 
-Látum :math:`D` vera opið mengi í :math:`{\mathbb  R}^2` sem er
+Látum :math:`D` vera :hover:`opið mengi` í :math:`{\mathbb  R}^2` sem er
 ferilsamanhangandi. Ef :math:`\mbox{${\bf F}$}` er samfellt vigursvið
 skilgreint á :math:`D` og ferilheildi :math:`\mbox{${\bf F}$}` eru óháð
 vegi þá er :math:`\mbox{${\bf F}$}` stigulsvið.
@@ -362,13 +375,16 @@ eftirfarandi jafngilt:
 .. end-toggle::
 
 
+.. index::
+  flötur
+
 Fletir
 ------
 
 Óformleg skilgreining 
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Flötur :math:`\cal S` í :math:`{\mathbb  R}^3` er ,,tvívítt hlutmengi í
+:hover:`Flötur` :math:`\cal S` í :math:`{\mathbb  R}^3` er ,,tvívítt hlutmengi í
 :math:`{\mathbb  R}^3`.
 
 Lýsing 
@@ -377,7 +393,7 @@ Lýsing
 Flötum er aðallega lýst með formúlum á þrjá vegu:
 
 #. Gefið er fall :math:`f(x,y,z)`. Fletinum :math:`\cal S` er lýst með
-   jöfnu :math:`f(x,y,z)=C` (þ.e.a.s. :math:`\cal S` er jafnhæðarflötur
+   jöfnu :math:`f(x,y,z)=C` (þ.e.a.s. :math:`\cal S` er :hover:`jafnhæðarflötur,hæðarflötur`
    fallsins :math:`f`). Þá er
 
    .. math:: \displaystyle {\cal S}=\{(x,y,z)\mid f(x,y,z)=C\}.
@@ -389,6 +405,9 @@ Flötum er aðallega lýst með formúlum á þrjá vegu:
    .. math:: \displaystyle {\cal S}=\{(x,y,z)\mid (x,y)\in D\mbox{ og } z=f(x,y)\}.
 
 #. Með stikafleti (sjá næstu grein).
+
+.. index::
+  stikaflötur
 
 Stikafletir
 -----------
@@ -422,13 +441,13 @@ Snertiplön
 Setning 
 ~~~~~~~~
 
-#. Látum :math:`\cal S` vera flöt sem er gefinn sem jafnhæðarflötur
+#. Látum :math:`\cal S` vera flöt sem er gefinn sem :hover:`jafnhæðarflötur,hæðarflötur`
    :math:`f(x,y,z)=C`. Ef :math:`(a, b, c)` er punktur á fletinum og
    fallið :math:`f` er diffranlegt í punktinum :math:`(a, b,c)` þá er
    vigurinn :math:`\mbox{${\bf n}$}=\nabla f(a, b, c)` hornréttur á
    flötinn í punktinum :math:`(a,b, c)` og ef
    :math:`\nabla f(a, b, c)\neq \mbox{${\bf 0}$}` þá hefur flöturinn
-   snertiplan í punktinum. Jafna snertiplansins er
+   :hover:`snertiplan,snertislétta` í punktinum. Jafna snertiplansins er
 
    .. math:: \displaystyle f_1(a, b, c)x+f_2(a, b, c)y+f_3(a, b, c)z=D
 
@@ -484,6 +503,9 @@ Setning
    reiknaður með :math:`u=u_0` og :math:`v=v_0` þvervigur á flötinn í
    punktinum :math:`(x_0, y_0, z_0)`.
 
+.. index::
+  stikun;regluleg
+   
 Skilgreining 
 ~~~~~~~~~~~~~
 
@@ -498,6 +520,9 @@ fyrir alla punkta :math:`(u,v)\in D` þá er sagt að stikunin sé
    .. math:: \displaystyle
       \Pi(u,v) = \mbox{${\bf r}$}(u_0,v_0)+u\frac{\partial \mbox{${\bf r}$}}{\partial u}(u_0,v_0)+v\frac{\partial \mbox{${\bf r}$}}{\partial v}(u_0,v_0).
 
+.. index::
+  flatarheildi
+      
 Flatarheildi
 ------------
 
@@ -590,7 +615,7 @@ Ritum :math:`dS` fyrir flatarmálselement á fleti :math:`\cal S`.
    hafi þann eiginleika að ofanvarp hans á :math:`xy`-planið sé eintækt
    eða með öðrum orðum hægt er að lýsa fletinum sem grafi
    :math:`z=f(x,y)`. Ef :math:`\mbox{${\bf n}$}` er þvervigur á flötinn
-   og :math:`\gamma` er hornið sem þvervigurinn :math:`\mbox{${\bf n}$}`
+   og :math:`\gamma` er hornið sem :hover:`þvervigurinn,þvervigur` :math:`\mbox{${\bf n}$}`
    myndar við jákvæða hluta :math:`z`-ássins þá er
 
    .. math:: \displaystyle
@@ -616,18 +641,21 @@ yfir flötinn :math:`\cal S` með tilliti til flatarmáls er
        \mbox{${\bf r}$}}{\partial u} 
    \times\frac{\partial \mbox{${\bf r}$}}{\partial v}}\big|\,dudv.
 
+.. index::
+  einingarþvervigrasvið
+   
 Einingarþvervigrasvið
 ---------------------
 
 Skilgreining 
 ~~~~~~~~~~~~~
 
-Látum :math:`\cal S` vera flöt í :math:`{\mathbb  R}^3` sem hefur snertiplan í punkti :math:`P`.
+Látum :math:`\cal S` vera flöt í :math:`{\mathbb  R}^3` sem hefur :hover:`snertiplan,snertislétta` í punkti :math:`P`.
 *Einingarþvervigur* :math:`\mbox{${\bf n}$}` á flötinn :math:`\cal S` í
-punktinum :math:`P` er einingarvigur hornréttur á snertiplan við flötinn
+punktinum :math:`P` er :hover:`einingarvigur` hornréttur á snertiplan við flötinn
 í punktinum :math:`P`.
 
-*Einingarþvervigrasvið* á :math:`\cal S` er samfellt vigursvið
+*Einingarþvervigrasvið* á :math:`\cal S` er samfellt :hover:`vigursvið`
 :math:`\mbox{${\bf N}$}` sem er skilgreint í öllum punktum
 :math:`\cal S` þannig að fyrir :math:`(x,y,z)\in{\cal S}` er vigurinn
 :math:`\mbox{${\bf n}$}(x,y,z)` einingarvigur sem er hornréttur á
@@ -637,16 +665,20 @@ snertiplan við flötinn í punktinum :math:`(x,y,z)`.
    :width: 50%
    :align: center
 
+.. index::
+  flötur;áttanlegur
+  áttun
+   
 Áttanlegir fletir
 -----------------
 
 Skilgreining 
 ~~~~~~~~~~~~~
 
-Flöturinn :math:`\cal S` er sagður *áttanlegur* ef til er
+Flöturinn :math:`\cal S` er sagður :hover:`áttanlegur` ef til er
 einingarþvervigrasvið :math:`\mbox{${\bf N}$}` á :math:`\cal S`.
 
-Áttun á áttanlegum fleti felst í því að velja annað af tveimur mögulegum
+:hover:`Áttun` á áttanlegum fleti felst í því að velja annað af tveimur mögulegum
 einingaþvervigrasviðum.
 
 .. image:: mobius.png
@@ -676,7 +708,7 @@ jaðrarnir hafi andstæða stefnu á samskeytunum.
 Setning 
 ~~~~~~~~
 
-Gerum ráð fyrir að :math:`\cal S` sé áttanlegur flötur og
+Gerum ráð fyrir að :math:`\cal S` sé :hover:`áttanlegur` flötur og
 :math:`\mbox{${\bf r}$}:D\subseteq{\mathbb  R}^2\rightarrow {\mathbb  R}^3`
 sé regluleg stikun á :math:`\cal S` (það er,
 :math:`\frac{\partial \mbox{${\bf r}$}}{\partial u}` og
@@ -696,13 +728,16 @@ af :math:`u` og :math:`v` og vigrarnir
 
 einingarþvervigrasvið á :math:`\cal S`.
 
+.. index::
+  flæði
+
 Heildi vigursviðs yfir flöt - Flæði
 -----------------------------------
 
 Skilgreining og ritháttur 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Látum :math:`\cal S` vera áttanlegan flöt stikaðan af reglulegum
+Látum :math:`\cal S` vera :hover:`áttanlegan,áttanlegur` flöt stikaðan af reglulegum
 stikaferli
 :math:`\mbox{${\bf r}$}:D\subseteq{\mathbb  R}^2\rightarrow {\mathbb  R}^3`
 með samfelldar hlutafleiður. Látum :math:`\mbox{${\bf N}$}` tákna
@@ -720,8 +755,8 @@ einingarþvervigrasviðið sem gefið er í Setningu 5.13.3. Heildi vigursviðs
      v}\bigg)\,
    du\,dv.
 
-Slík heildi eru oft nefnd *flæði vigursviðsins* :math:`\mbox{${\bf F}$}`
-*gegnum flötinn* :math:`\cal S`.
+Slík heildi eru oft nefnd :hover:`flæði` vigursviðsins :math:`\mbox{${\bf F}$}`
+gegnum flötinn :math:`\cal S`.
 
 Ritum :math:`d\mbox{${\bf S}$}=\mbox{${\bf N}$}\,dS`. Þá er
 
@@ -757,7 +792,7 @@ Samantekt
       d\mbox{${\bf S}$}=\pm\frac{\nabla G(x,y,z)}{|\nabla G(x,y,z)|}\,dS=
       \pm\frac{\nabla G(x,y,z)}{G_3(x,y,z)}\,dx\,dy.
 
-Val á áttun felst í því að velja :math:`+` eða :math:`-` í formúlunum
+Val á :hover:`áttun` felst í því að velja :math:`+` eða :math:`-` í formúlunum
 hér að ofan.
 
 Túlkun 

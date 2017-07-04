@@ -1,0 +1,1279 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>4. Margföld heildi &mdash; Stærðfræðigreining II (STÆ205G) 2015</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon_2.ico"/>
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+	<script src="http://sagecell.sagemath.org/static/jquery.min.js"></script>
+	<script src="http://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+    
+    <script> 
+    // the buttonText string says what will be written on the 
+    // sage cell evaluation button.
+    // It can be changed here.
+    var buttonText = "Keyra"
+    </script>
+    
+	<script>sagecell.makeSagecell({inputLocation: ".sage", evalButtonText:buttonText});</script>
+    
+    <script>sagecell.makeSagecell({inputLocation: ".rsage", languages:["r"], evalButtonText: buttonText });</script>
+
+    <script>sagecell.makeSagecell({inputLocation: ".osage", languages:["octave"], evalButtonText: buttonText});</script>
+
+	<script>sagecell.makeSagecell({inputLocation: ".sageAuto", evalButtonText:buttonText, autoeval: true});</script>
+    
+    <script>sagecell.makeSagecell({inputLocation: ".rsageAuto", languages:["r"], evalButtonText: buttonText, autoeval: true});</script>
+
+    <script>sagecell.makeSagecell({inputLocation: ".osageAuto", languages:["octave"], evalButtonText: buttonText, autoeval: true});</script>
+	
+    <script>sagecell.makeSagecell({inputLocation: ".sageAutoHidden", evalButtonText :buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
+    
+    <script>sagecell.makeSagecell({inputLocation: ".rsageAutoHidden", languages:["r"], evalButtonText: buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
+
+    <script>sagecell.makeSagecell({inputLocation: ".osageAutoHidden", languages:["octave"], evalButtonText:buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
+
+
+	<style type="text/css">
+		.sagecell .CodeMirror-scroll {
+			overflow-y: hidden;
+			overflow-x: auto;
+		}
+		.sagecell .CodeMirror {
+			height: auto;
+		}
+	</style>
+
+    
+    <link rel="top" title="Stærðfræðigreining II (STÆ205G) 2015" href="index.html"/>
+        <link rel="next" title="5. Vigursvið" href="Kafli5.html"/>
+        <link rel="prev" title="3. Útgildisverkefni" href="Kafli3.html"/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../../resizegg.js"></script>
+     
+
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+
+        
+          <a href="index.html" class="icon icon-home"> Stærðfræðigreining II (STÆ205G)
+        
+
+        
+          
+          <img src="_static/hi_horiz_raunvisindadeild.png" class="logo" />
+        
+        </a>
+
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Leit" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+        
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="formali.html">Formáli</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Kafli1.html">1. Ferlar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli1.html#inngangur">1.1. Inngangur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli1.html#stikaferlar">1.2. Stikaferlar</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#skilgreining">1.2.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#rithattur">1.2.2. Ritháttur</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli1.html#ferlar-og-stikanir-a-ferlum">1.3. Ferlar og stikanir á ferlum</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#index-1">1.3.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#daemi-elisfraeileg-tulkun">1.3.2. Dæmi - Eðlisfræðileg túlkun</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#daemi">1.3.3. Dæmi</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli1.html#diffrun-stikaferla">1.4. Diffrun stikaferla</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#index-2">1.4.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#setning">1.4.2. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#index-3">1.4.3. Ritháttur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#id4">1.4.4. Dæmi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#id5">1.4.5. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#index-4">1.4.6. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#index-5">1.4.7. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli1.html#lengd-stikaferils">1.5. Lengd stikaferils</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#regla">1.5.1. Regla</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#skilgreining-og-umraea">1.5.2. Skilgreining og umræða</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli1.html#polhnit">1.6. Pólhnit</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#index-8">1.6.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#id9">1.6.2. Regla</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli1.html#polhnitagraf">1.7. Pólhnitagraf</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#index-9">1.7.1. Skilgreining og umræða</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli1.html#snertill-vi-polhnitagraf">1.8. Snertill við pólhnitagraf</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#id11">1.8.1. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli1.html#flatarmal">1.9. Flatarmál</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#id12">1.9.1. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli1.html#bogalengd">1.10. Bogalengd</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#id13">1.10.1. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli1.html#einingarsnertivigur">1.11. Einingarsnertivigur</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#index-13">1.11.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli1.html#krappi">1.12. Krappi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#index-14">1.12.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli1.html#meginverill">1.13. Meginþverill</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#index-15">1.13.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#umraea">1.13.2. Umræða</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli1.html#hjufurplan">1.14. Hjúfurplan</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#index-16">1.14.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli1.html#tviverill">1.15. Tvíþverill</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#index-17">1.15.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli1.html#vindingur">1.16. Vindingur</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#setning-og-skilgreining">1.16.1. Setning og skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli1.html#frenet-serret-jofnurnar">1.17. Frenet-Serret jöfnurnar</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#jofnur">1.17.1. Jöfnur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli1.html#id19">1.17.2. Setning</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli2.html">2. Hlutafleiður</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#graf-falls">2.1. Graf falls</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#skilgreining">2.1.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#jafnhaearlinur">2.2. Jafnhæðarlínur</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#index-1">2.2.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#fjarlaeg-milli-punkta">2.3. Fjarlægð milli punkta</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#index-2">2.3.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#opnar-kulur">2.4. Opnar kúlur</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#index-3">2.4.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#opin-mengi">2.5. Opin mengi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#index-4">2.5.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#jaarpunktur">2.6. Jaðarpunktur</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#index-5">2.6.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#skilgreiningarmengi">2.7. Skilgreiningarmengi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#index-6">2.7.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#markgildi">2.8. Markgildi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id7">2.8.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#rithattur">2.8.2. Ritháttur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#skilgreining-skilgreining-2-8-1-sett-fram-fyrir-foll-af-tveimur-breytum">2.8.3. Skilgreining (Skilgreining 2.8.1 sett fram fyrir föll af tveimur breytum.)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#reglur-um-markgildi">2.9. Reglur um markgildi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#setning">2.9.1. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#samfelldni">2.10. Samfelldni</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id8">2.10.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#id9">2.11. Hlutafleiður</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#index-9">2.11.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id11">2.11.2. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id12">2.11.3. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id13">2.11.4. Ritháttur</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#snertiplan">2.12. Snertiplan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#hlutafleiur-af-haerra-stigi">2.13. Hlutafleiður af hærra stigi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#index-10">2.13.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id15">2.13.2. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#hugmynd-a-skilgreiningu">2.13.3. Hugmynd að skilgreiningu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#setning-almenn-utgafa-af-setningu-2-13-2">2.13.4. Setning (Almenn útgáfa af Setningu&nbsp;2.13.2)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#daemi">2.13.5. Dæmi:</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#kejuregla">2.14. Keðjuregla</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#setning-kejureglan-i-einni-breytistaer">2.14.1. Setning (Keðjureglan í einni breytistærð.)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id16">2.14.2. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id17">2.14.3. Ritháttur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id18">2.14.4. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id19">2.14.5. Ritháttur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id20">2.14.6. Ritháttur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id21">2.14.7. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id22">2.14.8. Dæmi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id23">2.14.9. Dæmi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id24">2.14.10. Dæmi</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#jakvaett-einsleit-foll">2.15. Jákvætt einsleit föll</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#index-13">2.15.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id26">2.15.2. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#diffranleiki-i-einni-breytistaer">2.16. Diffranleiki í einni breytistærð</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id27">2.16.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#diffranleiki-i-einni-breytistaer-onnur-lysing">2.17. Diffranleiki í einni breytistærð - önnur lýsing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id28">2.17.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#diffranleiki">2.18. Diffranleiki</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#index-15">2.18.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#index-16">2.19. Snertiplan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#id31">2.20. Diffranleiki</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#setning-mealgildissetningin">2.20.1. Setning (Meðalgildissetningin)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id32">2.20.2. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id33">2.20.3. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id34">2.20.4. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id35">2.20.5. Keðjuregla</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#diffur">2.21. Diffur</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#index-18">2.21.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#varpanir">2.22. Varpanir <span class="math">\(\mbox{${\bf R}^n$}\rightarrow\mbox{${\bf R}^m$}\)</span></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#taknmal">2.22.1. Táknmál</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#jacobi-fylki">2.23. Jacobi-fylki</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#index-19">2.23.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#diffranleiki-varpana">2.24. Diffranleiki varpana <span class="math">\(\mbox{${\bf R}^n$}\rightarrow\mbox{${\bf R}^m$}\)</span></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id38">2.24.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#kejureglan">2.25. Keðjureglan</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id39">2.25.1. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#stigull">2.26. Stigull</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id40">2.26.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id41">2.26.2. Ritháttur</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#id42">2.27. Dæmi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id43">2.27.1. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#snertilina-vi-jafnhaearferil">2.28. Snertilína við jafnhæðarferil</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id44">2.28.1. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#stefnuafleia">2.29. Stefnuafleiða</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id45">2.29.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id46">2.29.2. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id47">2.29.3. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id48">2.29.4. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#stigull-aftur">2.30. Stigull (aftur)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id49">2.30.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#snertiplan-vi-jafnhaearflot">2.31. Snertiplan við jafnhæðarflöt</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id50">2.31.1. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli2.html#folgin-foll-og-taylor-nalganir">2.32. Fólgin föll og Taylor-nálganir</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#upprifjun">2.32.1. Upprifjun</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id51">2.32.2. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#index-26">2.32.3. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#setning-upprifjun-a-reglu-cramers">2.32.4. Setning (Upprifjun á reglu Cramers.)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#setning-setningin-um-folgin-foll">2.32.5. Setning (Setningin um fólgin föll)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#setning-setningin-um-stabundna-andhverfu">2.32.6. Setning (Setningin um staðbundna andhverfu)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#upprifjun-taylor-regla-i-einni-breytistaer">2.32.7. Upprifjun (Taylor-regla í einni breytistærð.)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#index-31">2.32.8. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id54">2.32.9. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#skilgreining-og-athugasemd">2.32.10. Skilgreining og athugasemd</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#upprifjun-tviliuregla">2.32.11. Upprifjun (Tvíliðuregla)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#regla">2.32.12. Regla</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id55">2.32.13. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli2.html#id56">2.32.14. Setning</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli3.html">3. Útgildisverkefni</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli3.html#utgildi">3.1. Útgildi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#skilgreining">3.1.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli3.html#stabundi-utgildi">3.2. Staðbundið útgildi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#upprifjun">3.2.1. Upprifjun</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#setning">3.2.2. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#daemi">3.2.3. Dæmi</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli3.html#tilvist-utgilda">3.3. Tilvist útgilda</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#id1">3.3.1. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli3.html#soulpunktur">3.4. Söðulpunktur</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#id2">3.4.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli3.html#id3">3.5. Staðbundið útgildi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#id4">3.5.1. Upprifjun</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli3.html#hesse-fylki">3.6. Hesse-fylki</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#id5">3.6.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli3.html#ferningsform-sja-kafla-10-7-i-adams">3.7. Ferningsform (sjá kafla 10.7 í Adams)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#id6">3.7.1. Upprifjun</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#id7">3.7.2. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#id8">3.7.3. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli3.html#id9">3.8. Staðbundið útgildi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#id10">3.8.1. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#fylgisetning">3.8.2. Fylgisetning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli3.html#ferningsform">3.9. Ferningsform</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#regla">3.9.1. Regla</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli3.html#utgildi-falla-ar-sem-breytur-uppfylla-skorujofnur">3.10. Útgildi falla þar sem breytur uppfylla skorðujöfnur</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#sertaekar-aferir">3.10.1. Sértækar aðferðir</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#id11">3.10.2. Dæmi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#id12">3.10.3. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli3.html#lagrange-margfaldarar">3.11. Lagrange-margfaldarar</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#reikniafer">3.11.1. Reikniaðferð</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#id13">3.11.2. Regla</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli3.html#id14">3.11.3. Reikniaðferð</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">4. Margföld heildi</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#skiptingar">4.1. Skiptingar</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#skilgreining">4.1.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#riemann-summa">4.2. Riemann-summa</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">4.2.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#tvofalt-heildi-yfir-retthyrning">4.3. Tvöfalt heildi yfir rétthyrning</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">4.3.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#tvofalt-heildi-yfir-takmarka-svaei">4.4. Tvöfalt heildi yfir takmarkað svæði</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">4.4.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#setning">4.4.2. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">4.4.3. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">4.4.4. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#setning-fubinis">4.4.5. Setning Fubinis</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#einfold-og-einfold-svaei">4.5. <span class="math">\(x\)</span>-einföld og <span class="math">\(y\)</span>-einföld svæði</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id6">4.5.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#regla">4.5.2. Regla</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#heildi-yfir-einfold-og-einfold-svaei">4.6. Heildi yfir <span class="math">\(x\)</span>-einföld og <span class="math">\(y\)</span>-einföld svæði</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id7">4.6.1. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#oeiginleg-heildi">4.7. Óeiginleg heildi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#umraea">4.7.1. Umræða</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">4.7.2. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id9">4.7.3. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#setning-mealgildissetning-fyrir-tvofold-heildi">4.7.4. Setning (Meðalgildissetning fyrir tvöföld heildi)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#breytuskipti">4.8. Breytuskipti</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#upprifjun">4.8.1. Upprifjun</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id10">4.8.2. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id11">4.8.3. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id12">4.8.4. Upprifjun</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id13">4.8.5. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id14">4.8.6. Regla</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#setning-almenn-breytuskiptaregla-fyrir-tvofold-heildi">4.8.7. Setning (Almenn breytuskiptaregla fyrir tvöföld heildi)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#refold-heildi">4.9. Þreföld heildi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id15">4.9.1. Umræða</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id16">4.9.2. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id17">4.9.3. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#setning-almenn-breytuskiptaformula-fyrir-refold-heildi">4.9.4. Setning (Almenn breytuskiptaformúla fyrir þreföld heildi.)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id18">4.9.5. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#setning-breytuskipti-yfir-i-sivalningshnit">4.9.6. Setning (Breytuskipti yfir í sívalningshnit.)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#kuluhnit">4.10. Kúluhnit</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id19">4.10.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id20">4.10.2. Umræða</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#breytuskipti-i-kuluhnit">4.11. Breytuskipti í kúluhnit</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id21">4.11.1. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#massamija">4.12. Massamiðja</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id22">4.12.1. Regla</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id23">4.12.2. Regla</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#hverfitrega">4.13. Hverfitregða</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id24">4.13.1. Regla</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#yfirborsflatarmal">4.14. Yfirborðsflatarmál</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id25">4.14.1. Regla</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli5.html">5. Vigursvið</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli5.html#id1">5.1. Vigursvið</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#skilgreining">5.1.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli5.html#straumlina">5.2. Straumlína</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id2">5.2.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli5.html#stigulsvi">5.3. Stigulsvið</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id3">5.3.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#setning">5.3.2. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id4">5.3.3. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#reikniafer">5.3.4. Reikniaðferð</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli5.html#heildi-falls-yfir-feril">5.4. Heildi falls yfir feril</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id5">5.4.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id6">5.4.2. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id7">5.4.3. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli5.html#heildi-vigursvis-eftir-ferli">5.5. Heildi vigursviðs eftir ferli</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id8">5.5.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id9">5.5.2. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli5.html#ferilheildi-og-stigulsvi">5.6. Ferilheildi og stigulsvið</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id10">5.6.1. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#fylgisetning">5.6.2. Fylgisetning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id11">5.6.3. Fylgisetning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id12">5.6.4. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id13">5.6.5. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#upprifjun">5.6.6. Upprifjun</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id14">5.6.7. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id15">5.6.8. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli5.html#fletir">5.7. Fletir</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#oformleg-skilgreining">5.7.1. Óformleg skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#lysing">5.7.2. Lýsing</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli5.html#stikafletir">5.8. Stikafletir</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id16">5.8.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli5.html#snertiplon">5.9. Snertiplön</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id17">5.9.1. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id18">5.9.2. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli5.html#flatarheildi">5.10. Flatarheildi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#verkefni">5.10.1. Verkefni</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli5.html#flatarmal-flata">5.11. Flatarmál flata</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id19">5.11.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#formula">5.11.2. Formúla</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id20">5.11.3. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id21">5.11.4. Formúla</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#formulur">5.11.5. Formúlur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id22">5.11.6. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli5.html#einingarvervigrasvi">5.12. Einingarþvervigrasvið</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id23">5.12.1. Skilgreining</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli5.html#attanlegir-fletir">5.13. Áttanlegir fletir</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id24">5.13.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#umraea">5.13.2. Umræða</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#id25">5.13.3. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli5.html#heildi-vigursvis-yfir-flot-flaei">5.14. Heildi vigursviðs yfir flöt - Flæði</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#skilgreining-og-rithattur">5.14.1. Skilgreining og ritháttur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#samantekt">5.14.2. Samantekt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli5.html#tulkun">5.14.3. Túlkun</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kafli6.html">6. Diffur- og heildareikningur vigursviða</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kafli6.html#grad-div-og-curl">6.1. grad, div og curl</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#skilgreining">6.1.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#id1">6.1.2. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#id2">6.1.3. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#reiknireglur">6.1.4. Reiknireglur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#id3">6.1.5. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#setning">6.1.6. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#id4">6.1.7. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#id5">6.1.8. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#id6">6.1.9. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli6.html#sundurleitnisetningin-i">6.2. Sundurleitnisetningin I</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#setning-sundurleitnisetning-i">6.2.1. Setning (Sundurleitnisetning I)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#setning-setning-stokes-i">6.2.2. Setning (Setning Stokes I)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#tulkun">6.2.3. Túlkun</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#id7">6.2.4. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#setning-green">6.2.5. Setning Green</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#fylgisetning">6.2.6. Fylgisetning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#sundurleitnisetningin-i-tveimur-viddum">6.2.7. Sundurleitnisetningin í tveimur víddum</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli6.html#sundurleitnisetningin-ii">6.3. Sundurleitnisetningin II</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#id8">6.3.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#setning-sundurleitnisetningin-setning-gauss">6.3.2. Setning (Sundurleitnisetningin, Setning Gauss)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#id9">6.3.3. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#id10">6.3.4. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli6.html#setning-stokes">6.4. Setning Stokes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#id11">6.4.1. Skilgreining</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#setning-setning-stokes">6.4.2. Setning (Setning Stokes)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#id12">6.4.3. Setning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#id13">6.4.4. Setning</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Kafli6.html#hagnytingar-i-elisfraei">6.5. Hagnýtingar í eðlisfræði</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#vokvaflaei">6.5.1. Vökvaflæði</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#id14">6.5.2. Vökvaflæði</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#rafsvi-logmal-coulombs">6.5.3. Rafsvið - Lögmál Coulombs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#rafsvi-logmal-gauss-fyrsta-jafna-maxwells">6.5.4. Rafsvið - Lögmál Gauss (fyrsta jafna Maxwells)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#rafsvi">6.5.5. Rafsvið</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#segulsvi-logmal-biot-savart">6.5.6. Segulsvið - Lögmál Biot-Savart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#segulsvi-logmal-ampere">6.5.7. Segulsvið - Lögmál Ampére</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kafli6.html#samantekt">6.5.8. Samantekt</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="vidauki.html">Viðauki</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="vidauki.html#kennsluaaetlun">Kennsluáætlun</a></li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">Stærðfræðigreining II (STÆ205G)</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>4. Margföld heildi</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/Kafli4.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="margfold-heildi">
+<h1>4. Margföld heildi<a class="headerlink" href="#margfold-heildi" title="Varanlegur hlekkur á titilinn">¶</a></h1>
+<p><em>A bruise is a lesson... and each lesson makes us better.</em></p>
+<p>- George R.R. Martin, A Game of Thrones</p>
+<div class="section" id="skiptingar">
+<h2>4.1. Skiptingar<a class="headerlink" href="#skiptingar" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="skilgreining">
+<h3>4.1.1. Skilgreining<a class="headerlink" href="#skilgreining" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(R=[a,b]\times[c,d]\)</span> vera rétthyrning í planinu. <em>Skipting</em>
+<span class="math">\(P\)</span> á rétthyrningnum <span class="math">\(R\)</span> felst í því að taka skiptingar</p>
+<div class="math">
+\[\displaystyle\]\[\begin{split}a=x_0&lt;x_1&lt;\cdots&lt;x_m=b\qquad\mbox{og}\qquad
+c=y_0&lt;y_1&lt;\cdots&lt;y_n=d\end{split}\]</div>
+<p>á bilunum <span class="math">\([a,b]\)</span> og <span class="math">\([c,d]\)</span> og nota þær skiptingar til að
+skipta <span class="math">\(R\)</span> upp í rétthyrninga
+<span class="math">\([x_i,x_{i+1}]\times [y_j,y_{j+1}]\)</span>. Ritum
+<span class="math">\(\Delta x_i=x_{i+1}-x_i\)</span> og <span class="math">\(\Delta y_j=y_{j+1}-y_j\)</span>. <em>Norm</em>
+skiptingarinnar <span class="math">\(P\)</span>, táknað með <span class="math">\(\|P\|\)</span>, er skilgreint sem
+lengd lengstu hornalínu í rétthyrningunum
+<span class="math">\([x_i,x_{i+1}]\times [y_j,y_{j+1}]\)</span>.</p>
+<a class="reference internal image-reference" href="_images/skipting.png"><img alt="_images/skipting.png" class="align-center" src="_images/skipting.png" style="width: 50%;" /></a>
+<p><em>Skipting</em> <span class="math">\(P\)</span> <em>á rétthyrningi</em> <span class="math">\(R= [a,b]\times [c,d]\)</span>.</p>
+</div>
+</div>
+<div class="section" id="riemann-summa">
+<h2>4.2. Riemann-summa<a class="headerlink" href="#riemann-summa" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="id1">
+<h3>4.2.1. Skilgreining<a class="headerlink" href="#id1" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(f\)</span> vera fall skilgreint á rétthyrningi
+<span class="math">\(R=[a,b]\times[c,d]\)</span> og látum <span class="math">\(P\)</span> vera skiptingu á
+<span class="math">\(R\)</span>. Veljum úr hverjum rétthyrningi
+<span class="math">\([x_i,x_{i+1}]\times [y_j,y_{j+1}]\)</span> punkt <span class="math">\((x_i^*, y_j^*)\)</span>.
+Skilgreinum <em>Riemann-summuna</em></p>
+<div class="math">
+\[\displaystyle\]\[\mathcal{R}(f,P)=\sum_{i=1}^m\sum_{j=1}^n f(x_i^*, y_j^*)\Delta x_i\Delta
+  y_j.\]</div>
+<a class="reference internal image-reference" href="_images/skipting2.png"><img alt="_images/skipting2.png" class="align-center" src="_images/skipting2.png" style="width: 80%;" /></a>
+<a class="reference internal image-reference" href="_images/double.png"><img alt="_images/double.png" class="align-center" src="_images/double.png" style="width: 75%;" /></a>
+</div>
+</div>
+<div class="section" id="tvofalt-heildi-yfir-retthyrning">
+<h2>4.3. Tvöfalt heildi yfir rétthyrning<a class="headerlink" href="#tvofalt-heildi-yfir-retthyrning" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="id2">
+<h3>4.3.1. Skilgreining<a class="headerlink" href="#id2" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Sagt er að fall <span class="math">\(f\)</span> skilgreint á rétthyrningi
+<span class="math">\(R=[a,b]\times [c,d]\)</span> sé <em>heildanlegt yfir</em> <span class="math">\(R\)</span> með heildi
+<span class="math">\(I\)</span> (hér stendur <span class="math">\(I\)</span> fyrir tölu) ef fyrir sérhvert
+<span class="math">\(\varepsilon&gt;0\)</span> er til tala <span class="math">\(\delta&gt;0\)</span> þannig að
+<span class="math">\(|\mathcal{R}(f,P)-I|&lt;\varepsilon\)</span> fyrir allar skiptingar
+<span class="math">\(P\)</span> með <span class="math">\(\|P\|&lt;\delta\)</span> óháð vali á punktunum
+<span class="math">\((x_i^*, y_j^*)\)</span>.</p>
+<p>Ritum þá</p>
+<div class="math">
+\[\displaystyle \int\!\!\!\int_R f(x,y)dA=I.\]</div>
+</div>
+</div>
+<div class="section" id="tvofalt-heildi-yfir-takmarka-svaei">
+<h2>4.4. Tvöfalt heildi yfir takmarkað svæði<a class="headerlink" href="#tvofalt-heildi-yfir-takmarka-svaei" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="id3">
+<h3>4.4.1. Skilgreining<a class="headerlink" href="#id3" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(D\)</span> vera takmarkað svæði í planinu. Fall <span class="math">\(f\)</span> er sagt
+heildanlegt yfir <span class="math">\(D\)</span> ef til er rétthyrningur <span class="math">\(R\)</span> sem
+inniheldur <span class="math">\(D\)</span> og fallið</p>
+<div class="math">
+\[\displaystyle\]\[\begin{split}\hat{f}(x,y)=\left\{\begin{array}{rcl}
+f(x,y)&amp; &amp; \mbox{ef }(x,y)\in D,\\
+0&amp; &amp; \mbox{ef }(x,y)\in R\setminus D
+\end{array}\right.\end{split}\]</div>
+<p>er heildanlegt yfir <span class="math">\(R\)</span>.</p>
+</div>
+<div class="section" id="setning">
+<h3>4.4.2. Setning<a class="headerlink" href="#setning" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(f\)</span> vera samfellt fall skilgreint á lokuðu og takmörkuðu
+svæði <span class="math">\(D\)</span> í planinu <span class="math">\({\mathbb  R}^2\)</span>. Gerum ráð fyrir að
+jaðar <span class="math">\(D\)</span> samanstandi af endanlega mörgum ferlum sem hafa
+endanlega lengd. Þá er fallið <span class="math">\(f\)</span> heildanlegt yfir <span class="math">\(D\)</span>.</p>
+</div>
+<div class="section" id="id4">
+<h3>4.4.3. Setning<a class="headerlink" href="#id4" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(D\)</span> vera svæði í planinu og <span class="math">\(f\)</span> takmarkað fall
+skilgreint á <span class="math">\(D\)</span> og heildanlegt yfir <span class="math">\(D\)</span>. Þá gildir:</p>
+<ol class="arabic simple">
+<li><span class="math">\(\int\!\!\!\int_D f(x,y)\,dA=0\)</span> ef flatarmál <span class="math">\(D\)</span> er 0.</li>
+<li><span class="math">\(\int\!\!\!\int_D 1\,dA=\)</span> flatarmál <span class="math">\(D\)</span>.</li>
+<li>Ef <span class="math">\(f(x,y)\geq 0\)</span> fyrir alla punkta <span class="math">\((x,y)\)</span> í <span class="math">\(D\)</span>
+þá er <span class="math">\(\int\!\!\!\int_D f(x,y)\,dA\)</span> jafnt rúmmáli rúmskikans
+sem liggur milli <span class="math">\(D\)</span> og grafsins <span class="math">\(z=f(x,y)\)</span>.</li>
+<li>Ef <span class="math">\(f(x,y)\leq 0\)</span> fyrir alla punkta <span class="math">\((x,y)\)</span> í <span class="math">\(D\)</span>
+þá er <span class="math">\(\int\!\!\!\int_D f(x,y)\,dA\)</span> jafnt mínus rúmmáli
+rúmskikans sem liggur milli <span class="math">\(D\)</span> og grafsins <span class="math">\(z=f(x,y)\)</span>.</li>
+</ol>
+</div>
+<div class="section" id="id5">
+<h3>4.4.4. Setning<a class="headerlink" href="#id5" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Ef <span class="math">\(D\)</span> er svæði í planinu og <span class="math">\(f\)</span> og <span class="math">\(g\)</span> heildanleg
+föll yfir <span class="math">\(D\)</span> þá gildir:</p>
+<ol class="arabic">
+<li><p class="first">Ef <span class="math">\(L\)</span> og <span class="math">\(M\)</span> eru fastar þá er</p>
+<div class="math">
+\[\displaystyle\]\[\int\!\!\!\int_D Lf(x,y)+Mg(x,y)\,dA=L\!\int\!\!\!\int_D f(x,y)\,dA+M\!\int\!\!\!\int_D
+g(x,y)\,dA.\]</div>
+</li>
+<li><p class="first">Ef <span class="math">\(f(x,y)\leq g(x,y)\)</span> þá er</p>
+<div class="math">
+\[\displaystyle \int\!\!\!\int_D f(x,y)\,dA\leq \int\!\!\!\int_Dg(x,y)\,dA.\]</div>
+</li>
+<li><p class="first">Þríhyrningsójafna:</p>
+</li>
+</ol>
+<blockquote>
+<div><div class="math">
+\[\bigg|\int\!\!\!\int_D f(x,y)\,dA\bigg|\leq \int\!\!\!\int_D |f(x,y)|\,dA.\]</div>
+</div></blockquote>
+<ol class="arabic">
+<li><p class="first">Ritum <span class="math">\(D\)</span> sem sammengi af svæðum <span class="math">\(D_1,\ldots, D_k\)</span> sem
+skarast ekki nema mögulega í jaðarpunktum þá er</p>
+<div class="math">
+\[\displaystyle \int\!\!\!\int_D f(x,y)\,dA=\sum_{i=1}^k\int\!\!\!\int_{D_i}f(x,y)\,dA.\]</div>
+</li>
+</ol>
+</div>
+<div class="section" id="setning-fubinis">
+<h3>4.4.5. Setning Fubinis<a class="headerlink" href="#setning-fubinis" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(f\)</span> vera fall sem er samfellt á rétthyrningi
+<span class="math">\(R=[a,b]\times
+[c,d]\)</span>. Setjum</p>
+<div class="math">
+\[\displaystyle A(x)=\int_c^d f(x,y)\,dy\qquad\mbox{($x$ hugsað sem fasti þegar heildað)}.\]</div>
+<p>Þá gildir að</p>
+<div class="math">
+\[\displaystyle\]\[\int\!\!\!\int_R f(x,y)\,dA=\int_a^b A(x)\,dx=\int_a^b\!\!\int_c^d
+f(x,y)\,dy\,dx.\]</div>
+<p>Sömuleiðis gildir þegar við setjum</p>
+<div class="math">
+\[\displaystyle A(y)=\int_a^b f(x,y)\,dx\qquad\mbox{($y$ hugsað sem fasti þegar heildað)} \qquad \text{að}\]</div>
+<div class="math">
+\[\displaystyle\]\[\int\!\!\!\int_R f(x,y)\,dA=\int_c^d A(y)\,dy=\int_c^d\!\!\int_a^b
+f(x,y)\,dx\,dy.\]</div>
+<a class="reference internal image-reference" href="_images/ax1.png"><img alt="_images/ax1.png" class="align-center" src="_images/ax1.png" style="width: 50%;" /></a>
+</div>
+</div>
+<div class="section" id="einfold-og-einfold-svaei">
+<h2>4.5. <span class="math">\(x\)</span>-einföld og <span class="math">\(y\)</span>-einföld svæði<a class="headerlink" href="#einfold-og-einfold-svaei" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="id6">
+<h3>4.5.1. Skilgreining<a class="headerlink" href="#id6" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Svæði <span class="math">\(D\)</span> í planinu er sagt vera <span class="math">\(y\)</span><em>-einfalt</em> ef hægt er
+að finna tölur <span class="math">\(a\)</span> og <span class="math">\(b\)</span> og föll <span class="math">\(c(x)\)</span> og
+<span class="math">\(d(x)\)</span> þannig að</p>
+<div class="math">
+\[\displaystyle D=\{(x,y)\mid a\leq x\leq b, c(x)\leq y\leq d(x)\}.\]</div>
+<p>Svæði <span class="math">\(D\)</span> í planinu er sagt vera <span class="math">\(x\)</span><em>-einfalt</em> ef hægt er
+að finna tölur <span class="math">\(c\)</span> og <span class="math">\(d\)</span> og föll <span class="math">\(a(y)\)</span> og
+<span class="math">\(b(y)\)</span> þannig að</p>
+<div class="math">
+\[\displaystyle D=\{(x,y)\mid c\leq y\leq d, a(y)\leq x\leq b(y)\}.\]</div>
+<a class="reference internal image-reference" href="_images/einfalt.png"><img alt="_images/einfalt.png" class="align-center" src="_images/einfalt.png" style="width: 65%;" /></a>
+</div>
+<div class="section" id="regla">
+<h3>4.5.2. Regla<a class="headerlink" href="#regla" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Lokað og takmarkað svæði <span class="math">\(D\)</span> í planinu er <span class="math">\(y\)</span>-einfalt ef og
+aðeins ef sérhver lína af gerðinni <span class="math">\(x=x_0\)</span> sker <span class="math">\(D\)</span> í
+línustriki.</p>
+<p>Lokað og takmarkað svæði <span class="math">\(D\)</span> er <span class="math">\(x\)</span>-einfalt ef og aðeins ef
+sérhver lína af gerðinni <span class="math">\(y=y_0\)</span> sker svæðið í línustriki.</p>
+</div>
+</div>
+<div class="section" id="heildi-yfir-einfold-og-einfold-svaei">
+<h2>4.6. Heildi yfir <span class="math">\(x\)</span>-einföld og <span class="math">\(y\)</span>-einföld svæði<a class="headerlink" href="#heildi-yfir-einfold-og-einfold-svaei" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="id7">
+<h3>4.6.1. Setning<a class="headerlink" href="#id7" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(D=\{(x,y)\mid a\leq x\leq b, c(x)\leq y\leq d(x)\}\)</span> vera
+<span class="math">\(y\)</span>-einfalt svæði og <span class="math">\(f(x,y)\)</span> fall sem er heildanlegt yfir
+<span class="math">\(D\)</span>. Þá er</p>
+<div class="math">
+\[\displaystyle \int\!\!\!\int_D f(x,y)\,dA=\int_a^b\!\!\!\int_{c(x)}^{d(x)}f(x,y)\,dy\, dx.\]</div>
+<p>Látum <span class="math">\(D=\{(x,y)\mid c\leq y\leq d, a(y)\leq x\leq b(y)\}\)</span> vera
+<span class="math">\(x\)</span>-einfalt svæði og <span class="math">\(f(x,y)\)</span> fall sem er heildanlegt yfir
+<span class="math">\(D\)</span>. Þá er</p>
+<div class="math">
+\[\displaystyle \int\!\!\!\int_D f(x,y)\,dA=\int_c^d\!\!\!\int_{a(y)}^{b(y)}f(x,y)\,dx\, dy.\]</div>
+<a class="reference internal image-reference" href="_images/einfalt2.png"><img alt="_images/einfalt2.png" class="align-center" src="_images/einfalt2.png" style="width: 35%;" /></a>
+<p><em>Hér er svæðinu</em> <span class="math">\(D\)</span> <em>skipt í endanlega mörg</em> <span class="math">\(x\)</span>-<em>einföld</em> og <span class="math">\(y\)</span>-<em>einföld svæði sem skarast eingöngu í punktum á jaðrinum.</em></p>
+</div>
+</div>
+<div class="section" id="oeiginleg-heildi">
+<h2>4.7. Óeiginleg heildi<a class="headerlink" href="#oeiginleg-heildi" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="umraea">
+<h3>4.7.1. Umræða<a class="headerlink" href="#umraea" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(f(x,y)\geq 0\)</span> vera jákvætt fall sem er skilgreint á svæði
+<span class="math">\(D\)</span> í sléttunni. Ef</p>
+<ol class="arabic simple">
+<li><span class="math">\(D\)</span> er ótakmarkað svæði eða</li>
+<li><span class="math">\(f(x,y)\)</span> er ótakmarkað á <span class="math">\(D\)</span></li>
+</ol>
+<p>má í sumum tilfellum skilgreina tvöfalda heildið af <span class="math">\(f\)</span> yfir
+<span class="math">\(D\)</span>.</p>
+<p>Það er gert með því að finna fyrst runu af stækkandi lokuðum og
+takmörkuðum mengjum
+<span class="math">\(D_1 \subseteq D_2 \subseteq \cdots \subseteq D\)</span> sem ’stefnir á’
+<span class="math">\(D\)</span>. Ef</p>
+<div class="math">
+\[\displaystyle \int\!\!\!\int_{D_n} f(x,y)\,dA\]</div>
+<p>er vel skilgreint fyrir öll <span class="math">\(n\)</span> og hefur markgildi þegar
+<span class="math">\(n\to \infty\)</span> (fyrir allar ólíkar runur <span class="math">\((D_n)_{n\geq 1}\)</span>)
+þá skilgreinum við <em>óeiginlega heildið</em></p>
+<div class="math">
+\[\displaystyle \int\!\!\!\int_{D} f(x,y)\,dA := \lim_{n\to \infty} \int\!\!\!\int_{D_n} f(x,y)\,dA .\]</div>
+</div>
+<div class="section" id="id8">
+<h3>4.7.2. Skilgreining<a class="headerlink" href="#id8" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(f\)</span> vera fall sem er heildanlegt yfir svæði <span class="math">\(D\)</span> í
+<span class="math">\({\mathbb  R}^2\)</span>. <em>Meðalgildi</em> fallsins <span class="math">\(f\)</span> á <span class="math">\(D\)</span> er
+skilgreint sem talan</p>
+<div class="math">
+\[\displaystyle \bar{f}=\frac{1}{\mbox{flatarmál }D}\int\!\!\!\int_D f(x,y)\,dA.\]</div>
+</div>
+<div class="section" id="id9">
+<h3>4.7.3. Skilgreining<a class="headerlink" href="#id9" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Segjum að mengi <span class="math">\(D\subseteq {\mathbb  R}^2\)</span> sé
+<em>ferilsamanhangandi</em> (e. path-connected) ef fyrir sérhverja
+tvo punkta <span class="math">\(P, Q\in D\)</span> gildir að til er stikaferill
+<span class="math">\(\mbox{${\bf r}$}:[0,1]\rightarrow D\)</span> þannig að
+<span class="math">\(\mbox{${\bf r}$}(0)=P\)</span> og <span class="math">\(\mbox{${\bf r}$}(1)=Q\)</span>.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Aðvörun</p>
+<p class="last">Í bók er orðið <em>connected</em> notað fyrir hugtakið <em>ferilsamanhangandi</em>. Venjulega er orðið <em>connected</em> notað yfir annað hugtak, skylt en samt ólíkt.</p>
+</div>
+</div>
+<div class="section" id="setning-mealgildissetning-fyrir-tvofold-heildi">
+<h3>4.7.4. Setning (Meðalgildissetning fyrir tvöföld heildi)<a class="headerlink" href="#setning-mealgildissetning-fyrir-tvofold-heildi" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að <span class="math">\(f\)</span>
+sé samfellt fall sem er skilgreint á lokuðu, takmörkuðu og ferilsamanhangandi
+svæði <span class="math">\(D\)</span> í <span class="math">\({\mathbb  R}^2\)</span>. Þá er til punktur
+<span class="math">\((x_0,y_0)\)</span> í <span class="math">\(D\)</span> þannig að</p>
+<div class="math">
+\[\displaystyle \frac{1}{\mbox{flatarmál }D}\int\!\!\!\int_D f(x,y)\,dA=f(x_0,y_0).\]</div>
+</div>
+</div>
+<div class="section" id="breytuskipti">
+<h2>4.8. Breytuskipti<a class="headerlink" href="#breytuskipti" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="upprifjun">
+<h3>4.8.1. Upprifjun<a class="headerlink" href="#upprifjun" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(P=(x,y)\neq \mbox{${\bf 0}$}\)</span> vera punkt í plani. <em>Pólhnit</em>
+<span class="math">\(P\)</span> er talnapar <span class="math">\([r,\theta]\)</span> þannig að <span class="math">\(r\)</span> er fjarlægð
+<span class="math">\(P\)</span> frá <span class="math">\(O=(0,0)\)</span> og <span class="math">\(\theta\)</span> er hornið á milli
+striksins <span class="math">\(\overline{OP}\)</span> og <span class="math">\(x\)</span>-ássins. (Hornið er mælt
+þannig að rangsælis stefna telst jákvæð, og leggja má við <span class="math">\(\theta\)</span>
+heil margfeldi af <span class="math">\(2\pi\)</span>.)</p>
+</div>
+<div class="section" id="id10">
+<h3>4.8.2. Skilgreining<a class="headerlink" href="#id10" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p><em>Pólhnitarétthyrningur</em> í <span class="math">\(xy\)</span>-planinu er svæði sem afmarkast af
+tveimur hringbogum <span class="math">\(x^2+y^2=a^2\)</span> og <span class="math">\(x^2+y^2=b^2\)</span> og tveimur
+hálflínum sem byrja í <span class="math">\((0,0)\)</span> og mynda hornin <span class="math">\(\alpha\)</span> og
+<span class="math">\(\beta\)</span> við <span class="math">\(x\)</span>-ásinn (Hornin eru mæld þannig að rangsælis
+stefna telst jákvæð.)</p>
+<a class="reference internal image-reference" href="_images/polarrett.png"><img alt="_images/polarrett.png" class="align-center" src="_images/polarrett.png" style="width: 40%;" /></a>
+<p>Gerum ráð fyrir að <span class="math">\(0\leq a\leq b\)</span> og að
+<span class="math">\(0\leq\beta-\alpha\leq
+2\pi\)</span>. Þá má lýsa pólhnitarétthyrningnum með því að nota pólhnit þannig
+að</p>
+<div class="math">
+\[\displaystyle D=\{[r,\theta]\mid 0\leq a\leq r\leq b, \alpha\leq \theta\leq\beta\}.\]</div>
+</div>
+<div class="section" id="id11">
+<h3>4.8.3. Setning<a class="headerlink" href="#id11" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Ef <span class="math">\(f\)</span> er fall sem er heildanlegt yfir pólhnitarétthyrning
+<span class="math">\(D=\{[r,\theta]\mid 0\leq a\leq r\leq b, \alpha\leq \theta\leq\beta\}\)</span>
+þá er</p>
+<div class="math">
+\[\displaystyle\]\[\int\!\!\!\int_D f(x,y)\,dA=\int_\alpha^\beta\!\!\!\int_{a}^{b}
+f(r\cos\theta,r\sin\theta)\,r\,dr\, d\theta.\]</div>
+<a class="reference internal image-reference" href="_images/polarelement.png"><img alt="_images/polarelement.png" class="align-center" src="_images/polarelement.png" style="width: 90%;" /></a>
+</div>
+<div class="section" id="id12">
+<h3>4.8.4. Upprifjun<a class="headerlink" href="#id12" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(f\)</span> vera fall skilgreint á bili <span class="math">\([\alpha,\beta]\)</span>.
+Jafnan <span class="math">\(r=f(\theta)\)</span> lýsir mengi allra punkta í planinu sem hafa
+pólhnit á forminu <span class="math">\([f(\theta),\theta]\)</span> þar sem
+<span class="math">\(\alpha\leq\theta\leq\beta\)</span>. Þetta mengi kallast <em>pólhnitagraf</em>
+fallsins <span class="math">\(f\)</span>.</p>
+</div>
+<div class="section" id="id13">
+<h3>4.8.5. Setning<a class="headerlink" href="#id13" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(D\)</span> vera svæði í <span class="math">\(xy\)</span>-plani sem afmarkast af
+pólhnitalínum <span class="math">\(\theta=\alpha\)</span> og <span class="math">\(\theta=\beta\)</span> og tveimur
+pólhnitagröfum <span class="math">\(r=a(\theta)\)</span> og <span class="math">\(r=b(\theta)\)</span>. Gerum ráð
+fyrir að <span class="math">\(0\leq a(\theta)\leq
+r\leq b(\theta)\)</span> og <span class="math">\(0\leq \beta-\alpha\leq 2\pi\)</span>. Ef <span class="math">\(f\)</span> er
+heildanlegt fall yfir <span class="math">\(D\)</span> þá er</p>
+<div class="math">
+\[\displaystyle\]\[\int\!\!\!\int_D\,f(x,y)\,dA=\int_\alpha^\beta\!\!\!\int_{a(\theta)}^{b(\theta)}
+f(r\cos\theta,r\sin\theta)\,r\,dr\, d\theta.\]</div>
+<a class="reference internal image-reference" href="_images/polarsvaedi.png"><img alt="_images/polarsvaedi.png" class="align-center" src="_images/polarsvaedi.png" style="width: 45%;" /></a>
+</div>
+<div class="section" id="id14">
+<h3>4.8.6. Regla<a class="headerlink" href="#id14" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Hugsum okkur að <span class="math">\(f(x,y)\)</span> sé fall og hægt sé að rita
+<span class="math">\(f(x,y)=g(x)h(y)\)</span>. Látum <span class="math">\(R=[a,b]\times [c,d]\)</span>. Þá er</p>
+<div class="math">
+\[\displaystyle\]\[\begin{split}\begin{aligned}
+\int\!\!\!\int_R f(x,y)\,dA&amp;=\int_a^b\!\!\!\int_{c}^{d}g(x)h(y)\,dy\, dx\\
+&amp;=\bigg(\int_a^b g(x)\,dx\bigg)\bigg(\int_c^d h(y)\,dy\bigg).\end{aligned}\end{split}\]</div>
+</div>
+<div class="section" id="setning-almenn-breytuskiptaregla-fyrir-tvofold-heildi">
+<h3>4.8.7. Setning (Almenn breytuskiptaregla fyrir tvöföld heildi)<a class="headerlink" href="#setning-almenn-breytuskiptaregla-fyrir-tvofold-heildi" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(x=x(u,v)\)</span>, <span class="math">\(y=y(u,v)\)</span> vera gagntæka vörpun milli
+svæðis <span class="math">\(S\)</span> í <span class="math">\(uv\)</span>-plani og svæðis <span class="math">\(D\)</span> í
+<span class="math">\(xy\)</span>-plani. Gerum ráð fyrir að föllin <span class="math">\(x(u,v)\)</span>,
+<span class="math">\(y(u,v)\)</span> hafi samfelldar fyrsta stigs hlutafleiður á <span class="math">\(S\)</span>. Ef
+<span class="math">\(f\)</span> er heildanlegt fall yfir <span class="math">\(D\)</span>, þá er fallið
+<span class="math">\(g(u,v)=f(x(u,v), y(u,v))\)</span> heildanlegt yfir <span class="math">\(S\)</span> og</p>
+<div class="math">
+\[\displaystyle\]\[\int\!\!\!\int_D f(x,y)\,dx\,dy=\int\!\!\!\int_S g(u,v)
+\bigg|\frac{\partial(x,y)}{\partial(u,v)}\bigg|\,du\,dv.\]</div>
+<a class="reference internal image-reference" href="_images/changevar.png"><img alt="_images/changevar.png" class="align-center" src="_images/changevar.png" style="width: 90%;" /></a>
+</div>
+</div>
+<div class="section" id="refold-heildi">
+<h2>4.9. Þreföld heildi<a class="headerlink" href="#refold-heildi" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="id15">
+<h3>4.9.1. Umræða<a class="headerlink" href="#id15" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Heildi falls <span class="math">\(f(x,y,z)\)</span> yfir kassa
+<span class="math">\(K=[a,b]\times[c,d]\times[u,v]\)</span> í <span class="math">\({\mathbb  R}^3\)</span> er
+skilgreint á sambærilegan hátt og tvöfalt heildi er skilgreint.</p>
+<p>Á sama hátt og fyrir tvöföld heildi má svo skilgreina heildi fyrir
+almennari rúmskika í <span class="math">\({\mathbb  R}^3\)</span>.</p>
+<p>Heildi falls <span class="math">\(f(x,y,z)\)</span> yfir rúmskika <span class="math">\(R\)</span> er táknað með</p>
+<div class="math">
+\[\displaystyle \int\!\!\!\int\!\!\!\int_R f(x,y,z)\,dV.\]</div>
+<p>(<span class="math">\(dV\)</span> stendur fyrir að heildað er með tilliti til rúmmáls.)</p>
+</div>
+<div class="section" id="id16">
+<h3>4.9.2. Setning<a class="headerlink" href="#id16" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(f(x,y,z)\)</span> vera fall sem er heildanlegt yfir kassa
+<span class="math">\(K=[a,b]\times[c,d]\times[u,v]\)</span> í <span class="math">\({\mathbb  R}^3\)</span>. Þá er</p>
+<div class="math">
+\[\displaystyle\]\[\int\!\!\!\int\!\!\!\int_K f(x,y,z)\,dV=
+\int_a^b\!\int_c^d\!\int_u^v f(x,y,z)\,dz\,dy\,dx.\]</div>
+<p>Breyta má röð heilda að vild, t.d.&nbsp;er</p>
+<div class="math">
+\[\displaystyle\]\[\int\!\!\!\int\!\!\!\int_K f(x,y,z)\,dV=
+\int_u^v\!\int_c^d\!\int_a^b f(x,y,z)\,dx\,dy\,dz.\]</div>
+</div>
+<div class="section" id="id17">
+<h3>4.9.3. Setning<a class="headerlink" href="#id17" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(f(x,y,z)\)</span> vera fall sem er heildanlegt yfir rúmskika
+<span class="math">\(R\)</span> og gerum ráð fyrir að <span class="math">\(R\)</span> hafi lýsingu á forminu</p>
+<div class="math">
+\[\displaystyle R=\{(x,y,z)\mid a\leq x\leq b,\ c(x)\leq y\leq d(x),\ u(x,y)\leq z\leq v(x,y)\}.\]</div>
+<p>Þá er</p>
+<div class="math">
+\[\displaystyle\]\[\int\!\!\!\int\!\!\!\int_R f(x,y,z)\,dV=
+\int_a^b\!\int_{c(x)}^{d(x)}\!\int_{u(x,y)}^{v(x,y)} f(x,y,z)\,dz\,dy\,dx.\]</div>
+<p>Breyturnar <span class="math">\(x, y, z\)</span> geta svo skipt um hlutverk.</p>
+</div>
+<div class="section" id="setning-almenn-breytuskiptaformula-fyrir-refold-heildi">
+<h3>4.9.4. Setning (Almenn breytuskiptaformúla fyrir þreföld heildi.)<a class="headerlink" href="#setning-almenn-breytuskiptaformula-fyrir-refold-heildi" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum</p>
+<div class="math">
+\[\displaystyle (u,v,w)\mapsto (x(u,v,w), y(u,v,w), z(u,v,w))\]</div>
+<p>vera gagntæka vörpun milli rúmskika <span class="math">\(R\)</span> í <span class="math">\(xyz\)</span>-rúmi og
+rúmskika <span class="math">\(S\)</span> í <span class="math">\(uvw\)</span>-rúmi. Gerum ráð fyrir að föllin
+<span class="math">\(x(u,v,w), y(u,v,w), z(u,v,w)\)</span> hafi öll samfelldar fyrsta stigs
+hlutafleiður. Ef <span class="math">\(f(x,y,z)\)</span> er fall sem er heildanlegt yfir
+<span class="math">\(R\)</span> þá er</p>
+<div class="math">
+\[\displaystyle\]\[\begin{split}\begin{aligned}
+\int\!\!\!\int\!\!\!\int_R&amp; f(x,y,z)\,dV \\&amp;=\int\!\!\!\int\!\!\!\int_S f(x(u,v,w), y(u,v,w), z(u,v,w))
+\bigg|\frac{\partial(x,y,z)}{\partial(u,v,w)}\bigg|\,du\,dv\,dw.\end{aligned}\end{split}\]</div>
+</div>
+<div class="section" id="id18">
+<h3>4.9.5. Skilgreining<a class="headerlink" href="#id18" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\((x,y,z)\)</span> vera punkt í <span class="math">\({\mathbb  R}^3\)</span>.
+<em>Sívalningshnit</em> <span class="math">\((x,y,z)\)</span> eru þrennd talna <span class="math">\(r, \theta, z\)</span>
+þannig að</p>
+<div class="math">
+\[\displaystyle x=r\cos\theta\qquad\qquad y=r\sin\theta\qquad\qquad z=z.\]</div>
+<div class="admonition note">
+<p class="first admonition-title">Athugasemd</p>
+<p class="last">Athugið að <span class="math">\([r,\theta]\)</span> eru pólhnit punktsins <span class="math">\((x,y)\)</span>.</p>
+</div>
+</div>
+<div class="section" id="setning-breytuskipti-yfir-i-sivalningshnit">
+<h3>4.9.6. Setning (Breytuskipti yfir í sívalningshnit.)<a class="headerlink" href="#setning-breytuskipti-yfir-i-sivalningshnit" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(R\)</span> vera rúmskika í <span class="math">\({\mathbb  R}^3\)</span> og látum
+<span class="math">\(f(x,y,z)\)</span> vera heildanlegt fall yfir <span class="math">\(R\)</span>. Gerum ráð fyrir
+að <span class="math">\(R\)</span> megi lýsa með eftirfarandi skorðum á sívalningshnit
+punktanna sem eru í <span class="math">\(R\)</span></p>
+<div class="math">
+\[\displaystyle \alpha\leq \theta\leq \beta,\ a(\theta)\leq r\leq  b(\theta), u(r,\theta)\leq z\leq v(r,\theta),\]</div>
+<p>þar sem <span class="math">\(0\leq \beta-\alpha\leq 2\pi\)</span>. Þá er</p>
+<div class="math">
+\[\displaystyle\]\[\int\!\!\!\int\!\!\!\int_R f(x,y,z)\,dV=
+\int_\alpha^\beta
+\!\int_{a(\theta)}^{b(\theta)}\int_{u(r,\theta)}^{v(r,\theta)}
+f(r\cos\theta,r\sin\theta,z)r\,dz\,dr\,d\theta.\]</div>
+</div>
+</div>
+<div class="section" id="kuluhnit">
+<h2>4.10. Kúluhnit<a class="headerlink" href="#kuluhnit" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="id19">
+<h3>4.10.1. Skilgreining<a class="headerlink" href="#id19" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\((x,y,z)\)</span> vera punkt í <span class="math">\({\mathbb  R}^3\)</span>. <em>Kúluhnit</em>
+<span class="math">\((x,y,z)\)</span> eru þrennd talna <span class="math">\(\rho, \varphi, \theta\)</span> þannig að</p>
+<div class="math">
+\[\displaystyle x=\rho\sin\varphi\cos\theta\qquad\qquad y=\rho\sin\varphi\sin\theta\qquad\qquad z=\rho\cos\varphi.\]</div>
+<p>Punktur sem hefur kúluhnit <span class="math">\(\rho, \varphi, \theta\)</span> er táknaður með
+<span class="math">\([\rho, \varphi, \theta]\)</span>.</p>
+<a class="reference internal image-reference" href="_images/sphere.png"><img alt="_images/sphere.png" class="align-center" src="_images/sphere.png" style="width: 80%;" /></a>
+</div>
+<div class="section" id="id20">
+<h3>4.10.2. Umræða<a class="headerlink" href="#id20" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Eftirfarandi jöfnur gefa aðferð til að finna kúluhnit:</p>
+<ul>
+<li><p class="first"><span class="math">\(\rho\)</span> er fjarlægðin frá <span class="math">\((0,0,0)\)</span> til <span class="math">\((x,y,z)\)</span>, það er að
+segja</p>
+<div class="math">
+\[\displaystyle \rho=\sqrt{x^2+y^2+z^2}.\]</div>
+</li>
+<li><p class="first"><span class="math">\(\varphi\)</span> er hornið á milli jákvæða hluta <span class="math">\(z\)</span>-ássins og línustriksins frá
+<span class="math">\((0,0,0)\)</span> til <span class="math">\((x,y,z)\)</span>. Hornið <span class="math">\(\varphi\)</span> má
+ákvarða út frá jöfnunni</p>
+<div class="math">
+\[\displaystyle \tan\varphi=\frac{\sqrt{x^2+y^2}}{z}.\]</div>
+</li>
+<li><p class="first"><span class="math">\(\theta\)</span> er hornið sem jákvæði hluti <span class="math">\(x\)</span>-ásins myndar við línustrikið
+frá <span class="math">\((0,0,0)\)</span> til <span class="math">\((x,y,0)\)</span> (sama horn og notað í
+sívalningshnitum (og pólhnitum)). Hornið <span class="math">\(\theta\)</span> má finna út
+frá jöfnunni</p>
+<div class="math">
+\[\displaystyle \tan\theta=\frac{y}{x}.\]</div>
+</li>
+</ul>
+<p>Um kúluhnit <span class="math">\([\rho, \varphi, \theta]\)</span> fyrir punkt <span class="math">\((x,y,z)\)</span>
+gildir að velja má <span class="math">\(\rho, \varphi, \theta\)</span> þannig að
+<span class="math">\(0\leq \rho\)</span>, <span class="math">\(0\leq\varphi\leq \pi\)</span> og
+<span class="math">\(0\leq\theta\leq 2\pi\)</span>.</p>
+</div>
+</div>
+<div class="section" id="breytuskipti-i-kuluhnit">
+<h2>4.11. Breytuskipti í kúluhnit<a class="headerlink" href="#breytuskipti-i-kuluhnit" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="id21">
+<h3>4.11.1. Setning<a class="headerlink" href="#id21" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(R\)</span> vera rúmskika þannig að þegar notuð eru kúluhnit þá fæst
+eftirfarandi lýsing</p>
+<div class="math">
+\[\displaystyle\]\[R=\{[\rho,\varphi,\theta]\mid \alpha\leq\theta\leq\beta,
+c\leq\varphi\leq d, a\leq \rho\leq b\}.\]</div>
+<p>Ef <span class="math">\(f\)</span> er fall sem er heildanlegt yfir <span class="math">\(R\)</span> þá er</p>
+<div class="math">
+\[\displaystyle\]\[\begin{split}\begin{aligned}
+&amp;\int\!\!\!\int\!\!\!\int_R f(x,y,z)\,dV=\\ &amp;\int_\alpha^\beta\!\int_c^d\!\int_a^b f(\rho\sin\varphi\cos\theta, \rho\sin\varphi\sin\theta,\rho\cos\varphi)
+\,\rho^2\sin\varphi\,d\rho\,d\varphi\,d\theta.\end{aligned}\end{split}\]</div>
+</div>
+</div>
+<div class="section" id="massamija">
+<h2>4.12. Massamiðja<a class="headerlink" href="#massamija" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="id22">
+<h3>4.12.1. Regla<a class="headerlink" href="#id22" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(D\)</span> tákna svæði í plani. Hugsum <span class="math">\(D\)</span> sem plötu þ.a.&nbsp;í
+punkti <span class="math">\((x,y)\)</span> er efnisþéttleikinn gefinn með falli
+<span class="math">\(\delta(x,y)\)</span>. Massi plötunnar er</p>
+<div class="math">
+\[\displaystyle m=\int\!\!\!\int_D \delta(x,y)\,dA.\]</div>
+<p><em>Vægi</em> plötunnar um línuna <span class="math">\(x=0\)</span> (þ.e.&nbsp;<span class="math">\(y\)</span>-ás) og um línuna
+<span class="math">\(y=0\)</span> (þ.e.&nbsp;<span class="math">\(x\)</span>-ás) eru gefin með</p>
+<div class="math">
+\[\displaystyle M_{x=0}=\int\!\!\!\int_D x\delta(x,y)\,dA \quad \text{og} \quad M_{y=0}=\int\!\!\!\int_D y\delta(x,y)\,dA.\]</div>
+<p>Hnit <em>massamiðju</em> plötunnar eru <span class="math">\((\overline{x}, \overline{y})\)</span> þar
+sem</p>
+<div class="math">
+\[\displaystyle \overline{x}=\frac{M_{x=0}}{m} \quad \text{og}\quad \overline{y}=\frac{M_{y=0}}{m}.\]</div>
+</div>
+<div class="section" id="id23">
+<h3>4.12.2. Regla<a class="headerlink" href="#id23" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(R\)</span> tákna rúmskika. Hugsum <span class="math">\(R\)</span> sem hlut þannig að í
+punkti <span class="math">\((x,y,z)\)</span> er efnisþéttleikinn gefinn með falli
+<span class="math">\(\delta(x,y,z)\)</span>. Massi hlutarins er</p>
+<div class="math">
+\[\displaystyle m=\int\!\!\!\int\!\!\!\int_R \delta(x,y,z)\,dV.\]</div>
+<p><em>Vægi</em> hlutarins um planið <span class="math">\(x=0\)</span> (þ.e.&nbsp;<span class="math">\(yz\)</span>-planið) er</p>
+<div class="math">
+\[\displaystyle M_{x=0}=\int\!\!\!\int\!\!\!\int_R x\delta(x,y,z)\,dV.\]</div>
+<p>Svipað skilgreinum við</p>
+<div class="math">
+\[\displaystyle M_{y=0}=\int\!\!\!\int\!\!\!\int_R y\delta(x,y,z)\,dV \quad \text{og}\quad M_{z=0}=\int\!\!\!\int\!\!\!\int_R z\delta(x,y,z)\,dV.\]</div>
+<p>Hnit <em>massamiðju</em> hlutarins eru
+<span class="math">\((\overline{x}, \overline{y}, \overline{z})\)</span> þar sem</p>
+<div class="math">
+\[\displaystyle\]\[\overline{x}=\frac{M_{x=0}}{m}
+\qquad\mbox{og}\qquad
+\overline{y}=\frac{M_{y=0}}{m}
+\qquad\mbox{og}\qquad
+\overline{z}=\frac{M_{z=0}}{m}.\]</div>
+</div>
+</div>
+<div class="section" id="hverfitrega">
+<h2>4.13. Hverfitregða<a class="headerlink" href="#hverfitrega" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="id24">
+<h3>4.13.1. Regla<a class="headerlink" href="#id24" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(R\)</span> tákna rúmskika. Hugsum <span class="math">\(R\)</span> sem hlut þannig að í
+punkti <span class="math">\((x,y,z)\)</span> er efnisþéttleikinn gefinn með falli
+<span class="math">\(\delta(x,y,z)\)</span>. Látum <span class="math">\(L\)</span> tákna línu (snúningsás) í rúminu.
+<em>Hverfitregða</em> hlutarins um <span class="math">\(L\)</span> er</p>
+<div class="math">
+\[\displaystyle I=\int\!\!\!\int\!\!\!\int_R D^2 \,\delta\,dV\]</div>
+<p>þar sem <span class="math">\(\delta=\delta(x,y,z)\)</span> og <span class="math">\(D=D(x,y,z)\)</span> er fjarlægð
+punktsins <span class="math">\((x,y,z)\)</span> frá <span class="math">\(L\)</span>.</p>
+</div>
+</div>
+<div class="section" id="yfirborsflatarmal">
+<h2>4.14. Yfirborðsflatarmál<a class="headerlink" href="#yfirborsflatarmal" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="id25">
+<h3>4.14.1. Regla<a class="headerlink" href="#id25" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(D\)</span> vera svæði í plani og <span class="math">\(f(x,y)\)</span> diffranlegt fall
+skilgreint á <span class="math">\(D\)</span>. Flatarmál grafsins <span class="math">\(z=f(x,y)\)</span> þar sem
+<span class="math">\((x,y)\in D\)</span> er gefið með formúlunni</p>
+<div class="math">
+\[\displaystyle S=\int\!\!\!\int_D \sqrt{1+f_1(x,y)^2+f_2(x,y)^2}\,dA.\]</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="Kafli5.html" class="btn btn-neutral float-right" title="5. Vigursvið" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="Kafli3.html" class="btn btn-neutral" title="3. Útgildisverkefni" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+    </p>
+  </div>
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'2015',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

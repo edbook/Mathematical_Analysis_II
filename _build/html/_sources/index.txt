@@ -7,6 +7,10 @@ Stærðfræðigreining II (STÆ205G), Háskóli Íslands, vor 2016
 ===================================================================
 
 .. toctree::
+	formali
+	umnamskeidid
+	
+.. toctree::
    :maxdepth: 2
    :numbered:
    :glob:
@@ -15,6 +19,7 @@ Stærðfræðigreining II (STÆ205G), Háskóli Íslands, vor 2016
 
 .. toctree::
 	vidauki
-
+	ordaskra
+	
 * :ref:`genindex`
 

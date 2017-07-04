@@ -1,0 +1,19 @@
+Formáli
+=======
+
+Þetta kennsluefni er ætlað til að styðja við kennslu í áfanganum 
+Stærðfræðigreining II við Háskóla Íslands. Það er bæði aðgengilegt sem 
+vefsíða, http://notendur.hi.is/sigurdur/stae205, og sem `pdf-skjal 
+<https://notendur.hi.is/sigurdur/stae205/stae205.pdf>`_ sem hentar 
+til útprentunar. Efnið byggir upprunalega á glærupakka sem `Rögnvaldur 
+Möller <http://starfsfolk.hi.is/simaskra/1198>`_ útbjó fyrir sambærilegan áfanga. Efnið er skrifað í 
+Markup-tungumáli í kerfinu Sphinx sem upphaflega var hannað fyrir 
+hjálpina í forritunarmálinu Python. `Benedikt Steinar Magnússon 
+<http://notendur.hi.is/bsm>`_ aðlagaði kerfið þannig að það hentar til 
+að útbúa kennsluefni og naut við það aðstoðar Sólrúnar Höllu 
+Einarsdóttur. Kerfið er opið og allar viðbætur við það eru 
+aðgengilegar á http://github.com/edbook. Arnbjörn Soffía Árnadóttir og 
+Þorsteinn Hjörtur Jónsson sáu um uppsetningu á efninu í 
+Stærðfræðigreiningu II og kann ég þeim bestu þakkir fyrir.
+
+**Janúar 2016, Sigurður Örn Stefánsson**
