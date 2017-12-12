@@ -77,6 +77,7 @@ sambærilegan hátt.
   Ferill í plani/rúmi er **ekki** það sama og stikaferill. Fyrir gefinn
   feril eru til (óendanlega) margar ólíkar stikanir.
 
+  
 Dæmi - Eðlisfræðileg túlkun
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -294,6 +295,37 @@ muninum á :math:`t_2` og :math:`t_1`.) Stikun með bogalengd má líka
 gildi á :math:`t`.
 
 
+.. begin-toggle::
+  :label: Sýnidæmi
+Stikum gormferilinn :math:`{\bf r} = a \cos(t) {\bf i} + a \sin(t) {\bf j} + b t {\bf k}` með bogalengd frá punkti :math:`(a,0,0)` í stefnu vaxandi :math:`t`.
+
+*Lausn:* Reiknum
+
+.. math:: \begin {aligned}
+	  \mathbf{v}(t) &= -a \sin(t)\mathbf{i} + a \cos(t) \mathbf{j} \quad \text{og} \\
+	  |\mathbf{v}(t)| &= \sqrt{a^2(\sin^2(t)+\cos^2(t))+b^2}= \sqrt{a^2+b^2}.
+	  \end{aligned}
+
+Þá er lengd ferilsins frá :math:`0` til :math:`t` gefin með
+
+.. math:: s(t) = \int_0^t \sqrt{a^2+b^2} d\tau = \sqrt{a^2+b^2}t
+
+og ef við leysum fyrir :math:`t` sem fall af :math:`s` fæst
+
+.. math:: t = \frac{s}{\sqrt{a^2+b^2}}.
+
+Þá er stikun með bogalengd, köllum hana :math:`\mathbf{r}_b`, gefin með
+
+.. math:: \mathbf{r}_b(s) = \mathbf{r}(t(s)) = a \cos\left(\frac{s}{\sqrt{a^2+b^2}}\right)\mathbf{i} + a \sin\left(\frac{s}{\sqrt{a^2+b^2}}\right)\mathbf{j} + \frac{bs}{\sqrt{a^2+b^2}}\mathbf{k}.
+
+.. image:: gormur.png
+     :width: 60 %
+     :align: center
+*Gormferillinn fyrir gildin* :math:`a=b=1` *og* :math:`\theta \in [0,4\pi]`.
+     
+.. end-toggle::
+
+
 Pólhnit
 -------
 
@@ -371,6 +403,21 @@ með formúlu
 .. index::
   pólhnitagraf;snertill
    
+.. begin-toggle::
+  :label: Sýnidæmi
+  
+Finnum skurðpunkta *hjartaferilsins* :math:`r = 1-\sin\theta` og hringsins :math:`r=\sin\theta`.
+  
+*Lausn:* Athugum fyrst hvort ferlarnir skerist fyrir sama gildi á :math:`r>0` og :math:`\theta`. Leysum þá jöfnuna :math:`1-\sin\theta = \sin\theta` og fáum :math:`\sin\theta = \frac{1}{2}`. Hjartaferillinn er með lotu :math:`2\pi` en hringurinn lotu :math:`\pi` svo nóg er að skoða lausnir fyrir :math:`\theta \in [0,2\pi]`. Fáum lausnir :math:`\theta = \pi/6` og :math:`\theta = 5\pi/6` og skurðpunktarnir eru því :math:`[1/2,\pi/6]` og :math:`[1/2,5\pi/6]`.
+
+Athugið að við þurfum einnig að athuga hvort ferlarnir skerist þegar :math:`r=0` en þá gætu þeir skorist fyrir ólík gildi á :math:`\theta`. Hjartaferillinn sker punktinn :math:`(0,0)` þegar :math:`\theta = \pi/2` og hringurinn sker :math:`(0,0)` fyrir :math:`\theta=0` og því er :math:`(0,0)` einnig skurðpunktur.
+
+.. image:: skurdur.png
+     :width: 60 %
+     :align: center
+
+*Hringurinn og hjartaferillinn saman á mynd. Á myndinni má sjá skurðpunktana þrjá sem reiknaðir voru að ofan.*    
+
 Snertill við pólhnitagraf
 -------------------------
 
@@ -411,6 +458,21 @@ Setning
    =\frac{1}{2}\int_\alpha^\beta f(\theta)^2\,d\theta.
 
    
+.. begin-toggle::
+  :label: Sýnidæmi
+Finnum flatarmál svæðisins sem afmarkast af spíralnum :math:`r=\theta` og geislunum :math:`\theta = 0` og :math:`\theta = 2\pi`.
+
+*Lausn:* Köllum flatarmálið :math:`A`. Reiknum
+
+.. math:: A = \frac{1}{2} \int_0^{2\pi} \theta^2 d\theta = \frac{1}{2}\frac{1}{3}(2\pi)^3 = \frac{4\pi^3}{3}.
+
+.. image:: flatgormur.png
+     :width: 60 %
+     :align: center
+
+*Mynd af spíralnum (í bláu) og geislunum (í rauðu). Svæðið afmarkast af bláu og rauðu ferlunum.*
+  
+.. end-toggle::
 
 .. index::
   pólhnitagraf;bogalengd   
@@ -426,6 +488,23 @@ pólhnitagrafsins :math:`r=f(\theta)`, þegar
 :math:`\alpha\leq\theta\leq\beta`, er gefin með formúlunni
 
 .. math:: \displaystyle s=\int_\alpha^\beta \sqrt{f'(\theta)^2+f(\theta)^2}\,d\theta.
+
+
+.. begin-toggle::
+  :label: Sýnidæmi
+
+Finnum bogalengd spíralsins sem skilgreindur er með pólhnitagrafinu :math:`r=\theta` fyrir :math:`\theta \in [0,2\pi]`.
+
+*Lausn:* Köllum bogalengdina :math:`s` og reiknum
+
+.. math::  \begin {aligned}
+  s &=\int_0^{2\pi} \sqrt{1+\theta^2} d\theta \qquad \text{notum innsetningu } \theta = \sinh(x) \\
+  &=\int_0^{\sinh^{-1}(2\pi)} \sqrt{1+\sinh^2(x)} \cosh(x) dx = \int_0^{\sinh^{-1}(2\pi)} \cosh^2(x) dx \\
+  &= \int_0^{\sinh^{-1}(2\pi)} \frac{1+\cosh(2x)}{2}dx = \frac{1}{2}\left(\sinh^{-1}(2\pi) + \frac{1}{2} \sinh\left(2\sinh^{-1}(2\pi)\right)\right).
+  \end{aligned}
+  
+.. end-toggle::
+
 
 Einingarsnertivigur
 -------------------
@@ -614,4 +693,29 @@ einnig er
    \kappa=\frac{|\mbox{${\bf v}$}\times\mbox{${\bf a}$}|}{|\mbox{${\bf v}$}|^3},\qquad\qquad
    \tau=\frac{(\mbox{${\bf v}$}\times\mbox{${\bf a}$})\cdot \frac{d}{dt}\mbox{${\bf a}$}}{|\mbox{${\bf v}$}\times\mbox{${\bf a}$}|^2}.
 
+.. begin-toggle::
+  :label: Sýnidæmi
 
+Gerum ráð fyrir að :math:`f` sé tvisvar sinnum diffranlegt. Finnum krappa ferilsins :math:`y=f(x)` í punktinum :math:`(x,f(x))`.
+
+*Lausn:* Stikum ferilinn með :math:`\mathbf{r}(x) = x \mathbf{i} + f(x) \mathbf{j}`. Þá eru hraðinn :math:`\mathbf{v}` og hröðunin :math:`\mathbf{a}` gefin með
+
+.. math:: \begin {aligned}
+  \mathbf{v}(x) &= \mathbf{i} + f'(x) \mathbf{j} \\
+  \mathbf{a}(x) &= f''(x) \mathbf{j}. 
+  \end{aligned}
+
+Reiknum svo krossfeldið
+
+.. math:: \mathbf{v}(x) \times \mathbf{a}(x) = \begin{vmatrix}
+  \mathbf{i} & \mathbf{j} & \mathbf{k} \\
+  1 & f'(x) & 0 \\
+  0 &f''(x) & 0 
+  \end{vmatrix} = f''(x) \mathbf{k}.
+
+Þá er krappinn gefinn með 
+
+.. math:: \kappa(x) = \frac{|\mathbf{v}(x)\times \mathbf{a}(x)|}{|\mathbf{v}(x)|^3} = \frac{|f''(x)|}{(1+(f'(x))^2)^{3/2}}.
+
+  
+.. end-toggle::

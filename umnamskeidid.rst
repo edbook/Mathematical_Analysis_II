@@ -19,7 +19,8 @@ námskeiðs.
 Notuð er sama kennslubók og í Stærðfræðigreiningu I, 8. útgáfa af
 Calculus eftir Adams. Í námskeiðinu verður farið yfir mest allt efni kafla 8, 11,
 12, 13, 14, 15 og 16 (sjá `áætlun um fyrirlestra <https://notendur.hi.is/sigurdur/stae205/vidauki.html#kennsluaaetlun>`_). 
-  
+Nemendur í Stærðfræðigreiningu IIE sækja tíma 1-19 og tíma 28 að tíma 9 undanskildum. 
+
 Fyrirlestrar
 ------------
 
@@ -47,23 +48,25 @@ Dæmablöð og lausnir skiladæma verða settar á skráasvæðið í UGLU.
 Skiladæmi og próftökuréttur
 ---------------------------
 
-Á misserinu verða 11 sinnum lögð fyrir
-skiladæmi. Fyrstu skiladæmi verða föstudaginn 13. janúar.
+Á misserinu verða 11 sinnum (IIE: 9 sinnum) lögð fyrir
+skiladæmi. Fyrstu skiladæmi verða föstudaginn 12. janúar.
 
 
 .. important::
 
-  Til að öðlast próftökurétt þarf að skila að minnsta kosti **7 af 11** heimadæmum. Skil teljast ekki gild nema þið hafi náð 50% árangri í   
+  Til að öðlast próftökurétt þarf að skila að minnsta kosti **7 af 11** (IIE: **5 af 9**) heimadæmum. Skil teljast ekki gild nema þið hafi náð 50% árangri í   
   glímunni við dæmin. Þið berið sjálf ábyrgð á að fylgjast með að skil séu rétt skráð í Uglunni. Yfirfarin heimadæmi undirrituð af           
   aðstoðarkennara gilda sem kvittun fyrir skilum. Haldið þeim því til haga!                                                                  
 
+
+  
 
 Dæmum á að skila fyrir 13:00 á föstudögum í **hólf merkt Sigurður Örn Stefánsson** í anddyri VRII.  Vinsamlegast merkið lausnir ykkar með **fullu nafni** ykkar og hvaða grein þið eruð í (t.d. rafmagnsverkfræði, efnafræði...)  **efst á fremstu síðunni**.  Ef lausnir ykkar eru á tveimur eða fleiri blöðum þá þurfið þið að hefta þau saman. Yfirfarnar úrlausnir má nálgast í rekkunum við stigann á jarðhæð í VRII á miðvikudagsmorgni vikuna eftir skil.
 
 Próf
 ----
 
-Á misserinu verða tvö stutt próf sem hvort um sig gildir 15% til lokaeinkunnar en þó eingöngu til hækkunar.   Ég stefni að því að hafa fyrra prófið í tíma 22. febrúar.  Þá verður prófað úr lesnu efni, skilgreiningum og setningum.  Seinna prófið verður væntanlega í tíma 22. mars.  Á því prófi verða dæmi og atriði sem hafa komið fyrir í skiladæmum.  Engin skiladæmi eru lögð fyrir þær vikur sem prófin eru haldin.    
+Á misserinu verða tvö stutt próf sem hvort um sig gildir 15% til lokaeinkunnar en þó eingöngu til hækkunar.   Ég stefni að því að hafa fyrra prófið í tíma 21. febrúar.  Þá verður prófað úr lesnu efni, skilgreiningum og setningum.  Seinna prófið verður væntanlega í tíma 21. mars.  Á því prófi verða dæmi og atriði sem hafa komið fyrir í skiladæmum.  Engin skiladæmi eru lögð fyrir þær vikur sem prófin eru haldin.    
 
 Í lok námskeiðsins er þriggja tíma skriflegt próf sem gildir 70%.  Nauðsynlegt og nægjanlegt er að fá a.m.k. 5 í lokaprófinu til að standast námskeiðið. Engin hjálpargögn eru heimil í prófinu, nema formúlublöð sem fylgja prófverkefni. Vasareiknar eru ekki leyfðir í prófinu. Á prófinu verða dæmi úr öllum hlutum námsefnisins.  Dæmin munu bæði reyna á reiknifærni og grundvallarskilning á hugtökum.
 

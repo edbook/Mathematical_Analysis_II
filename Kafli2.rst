@@ -715,30 +715,6 @@ Látum :math:`z` vera fall af fall af :math:`u`, :math:`v` og :math:`r`,
    \displaystyle\frac{\partial z}{\partial x} = \frac{\partial z}{\partial u} \frac{\partial u}{\partial x} +\frac{\partial z}{\partial u} \frac{\partial u}{\partial r} \frac{\partial r}{\partial x} 
    + \frac{\partial z}{\partial v} \frac{\partial v}{\partial x} + \frac{\partial z}{\partial v} \frac{\partial v}{\partial r} \frac{\partial r}{\partial x} +\frac{\partial z}{\partial r} \frac{\partial r}{\partial x}.
 
-Jákvætt einsleit föll
----------------------
-
-.. index::
-  fall;jákvætt einsleitt fall
-  jákvætt einsleitt fall
-  
-Skilgreining 
-~~~~~~~~~~~~~
-
-Fall :math:`f(x_1, x_2, \ldots, x_n)` er sagt vera *jákvætt einsleitt af
-stigi* :math:`k` (e. positively homogeneous of degree :math:`k`) ef
-fyrir sérhvern punkt :math:`(x_1, x_2, \ldots, x_n)` og sérhverja tölu
-:math:`t>0` gildir að
-
-.. math:: \displaystyle f(tx_1, tx_2, \ldots, tx_n)=t^kf(x_1, x_2, \ldots, x_n).
-
-Setning 
-~~~~~~~~
-
-Ef fall :math:`f(x_1, x_2, \ldots, x_n)` hefur samfelldar fyrsta stigs
-hlutafleiður og er jákvætt einsleitt af stigi :math:`k` þá er
-
-.. math:: \displaystyle \sum_{i=1}^n x_if_i(x_1, x_2, \ldots, x_n)=kf(x_1, x_2, \ldots, x_n).
 
 Diffranleiki í einni breytistærð
 --------------------------------
