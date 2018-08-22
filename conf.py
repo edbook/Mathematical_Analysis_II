@@ -89,7 +89,7 @@ sage_path = 'http://sagecell.sagemath.org/static/embedded_sagecell.js'
 custom_sage_path = 'custom_sage.js'
 
 # Google Analytics ID, enable_custom_scrolldepth default value is False if not set
-ga_id = 'UA-78633732-5'
+ga_id = 'UA-78633732-6'
 enable_custom_scrolldepth = True
 
 # -- Build options ----------------------------------------------------
