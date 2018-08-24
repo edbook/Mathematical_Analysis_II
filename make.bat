@@ -8,6 +8,12 @@ if "%SPHINXBUILD%" == "" (
 set BUILDDIR=_build
 set ALLSPHINXOPTS=-d %BUILDDIR%/doctrees %SPHINXOPTS% .
 set I18NSPHINXOPTS=%SPHINXOPTS% .
+
+
+set EXTENSIONNAMES=
+for /F "delims=" %%i in (extension_names) do set EXTENSIONNAMES=%%i
+
+
 if NOT "%PAPER%" == "" (
 	set ALLSPHINXOPTS=-D latex_paper_size=%PAPER% %ALLSPHINXOPTS%
 	set I18NSPHINXOPTS=-D latex_paper_size=%PAPER% %I18NSPHINXOPTS%
@@ -257,6 +263,23 @@ if "%1" == "pseudoxml" (
 	if errorlevel 1 exit /b 1
 	echo.
 	echo.Build finished. The pseudo-XML files are in %BUILDDIR%/pseudoxml.
+	goto end
+)
+
+if "%1" == "extensioninstall" (
+	if not [%2]==[] (
+		cd "%2"
+		python setup.py build
+		python setup.py install
+		cd..
+		goto end
+	)
+	for %%i in (%EXTENSIONNAMES%) do (
+		cd %%i
+		python setup.py build
+		python setup.py install
+		cd..
+	)
 	goto end
 )
 
