@@ -11,7 +11,7 @@ Diffur- og heildareikningur vigursviða
 grad, div og curl
 -----------------
 
-.. item::
+.. index::
   nabla-virkinn
 
 Skilgreining 
@@ -21,7 +21,7 @@ Skilgreinum *nabla*-virkjann sem diffurvirkja
 
 .. math:: \displaystyle \nabla=\mbox{${\bf i}$}\,\frac{\partial}{\partial x}+\mbox{${\bf j}$}\,\frac{\partial}{\partial y}+\mbox{${\bf k}$}\,\frac{\partial}{\partial z}.
 
-.. item::
+.. index::
   sundurleitni
   rót
 

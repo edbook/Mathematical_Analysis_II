@@ -88,7 +88,9 @@ Skilgreining
 :math:`\mbox{${\bf y}$}=(y_1,y_2, \ldots,y_n)` í
 :math:`\mbox{${\bf R}^n$}` er skilgreind sem talan
 
-.. math:: \displaystyle |\mbox{${\bf x}$}-\mbox{${\bf y}$}|=\sqrt{(x_1-y_1)^2+(x_2-y_2)^2+\cdots+(x_n-y_n)^2}.
+.. math:: 
+   \displaystyle 
+   |\mbox{${\bf x}$}-\mbox{${\bf y}$}|=\sqrt{(x_1-y_1)^2+(x_2-y_2)^2+\cdots+(x_n-y_n)^2}.
 
 Opnar kúlur
 -----------
@@ -187,7 +189,7 @@ Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`\delta>0`
 
 .. math:: \displaystyle
 
-  |(x_1,x_2,\ldots,x_n)-(p_1,p_2,\ldots,p_n)|<\delta 
+  0<|(x_1,x_2,\ldots,x_n)-(p_1,p_2,\ldots,p_n)|<\delta 
 
 þá er 
 
@@ -207,7 +209,14 @@ er ritað
    f(x_1,x_2,\ldots,x_n)=L.
 
 og :math:`L` kallast :hover:`markgildi,markgildi` fallsins :math:`f` í punktinum :math:`(x_1,x_2,\ldots,x_n)`.
-   
+
+Ef við skrifum :math:`\mathbf x = (x_1,x_2,\ldots,x_n)` og 
+:math:`\mathbf p = (p_1,p_2,\ldots,p_n)` þá getum við skrifað þetta svona
+
+.. math:: \displaystyle 
+
+   \lim_{\mathbf x \to \mathbf p} f(\mathbf x) = L.
+
 ..
   XXX reference
    
@@ -227,7 +236,7 @@ Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`\delta>0`
 
 .. math:: \displaystyle
 
-  \delta > |(x,y)-(a,b)| = \sqrt{(x-a)^2+(y-b)^2}
+  \delta > |(x,y)-(a,b)| = \sqrt{(x-a)^2+(y-b)^2} > 0
 
 þá er 
 
@@ -437,6 +446,14 @@ Ef :math:`f(x,y)` er ’nógu nálægt’ (skilgreint nánar síðar) planinu
 kallast :math:`S` :hover:`snertiplan,snertislétta` við grafið :math:`z=f(x,y)` í punktinum
 :math:`(a,b,f(a,b))`.
 
+.. ggb:: Tvv6bpU3
+  :width: 700
+  :height: 600
+  :img: polarggb.png
+  :imgwidth: 4cm
+  :zoom_drag: true 
+
+
 
 Hlutafleiður af hærra stigi
 ---------------------------
@@ -541,8 +558,8 @@ ef skilyrðin í setningunni eru uppfyllt.
 .. index::
   keðjuregla
 
-:hover:`Keðjuregla`	
--------------------
+Keðjuregla
+-----------
 
 .. index::
   keðjuregla;í einni breytistærð
@@ -550,7 +567,7 @@ ef skilyrðin í setningunni eru uppfyllt.
 Setning (Keðjureglan í einni breytistærð.)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Gerum ráð fyrir að fallið :math:`f(u)` sé diffranlegt í punktinum
+Við munum nú skoða nokkrar útgáfur af :hover:`keðjureglu,keðjuregla` fyrir föll af mörgum breytistærðum. Gerum ráð fyrir að fallið :math:`f(u)` sé diffranlegt í punktinum
 :math:`u=g(x)` og að fallið :math:`g(x)` sé diffranlegt í punktinum
 :math:`x`. Þá er fallið :math:`(f\circ g)(x)=f(g(x))` diffranlegt í
 :math:`x` og
@@ -834,8 +851,8 @@ Setning
 Gerum ráð fyrir að :math:`f(x,y)` sé fall sem er diffranlegt í punktinum
 :math:`(a,b)`. Þá er :math:`f` samfellt í :math:`(a,b)`.
 
-:hover:`Keðjuregla`
-~~~~~~~~~~~~~~~~~~~
+Keðjuregla
+~~~~~~~~~~~
 
 Ritum :math:`z=f(x,y)` þar sem :math:`x=x(s,t)` og :math:`y=y(s,t)`.
 Gerum ráð fyrir að
@@ -906,6 +923,7 @@ hvert :math:`f_i` er fall
 :math:`\mbox{${\bf x}$}=(x_1,x_2,\ldots,x_n)`. Síðan ritum við
 :math:`\mbox{${\bf y}$}=\mbox{${\bf f}$}(\mbox{${\bf x}$})` þar sem
 :math:`\mbox{${\bf y}$}=(y_1,y_2,\ldots,y_m)` og
+:math:`\mathbf f(\mathbf x) = (f_1(x_1,\ldots,x_n),\ldots,f_m(x_1,\ldots,x_n))`.
 
 Jacobi-fylki
 ------------
@@ -966,8 +984,8 @@ Vörpunin :math:`f` er ’nálægt’ línulegu vörpuninni
 Línulega vörpunin :math:`D\mbox{${\bf f}$}` kallast afleiða
 :math:`\mbox{${\bf f}$}`.
 
-:hover:`Keðjuregla`
--------------------
+`Keðjuregla`
+-------------
 
 Setning 
 ~~~~~~~~
@@ -1453,7 +1471,7 @@ til hvorrar breytu.
   tvíliðuregla
 
 Upprifjun (:hover:`Tvíliðuregla,tvíliðusetning`)
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Skilgreinum
 

@@ -329,7 +329,7 @@ Ef :math:`A` er samhverft :math:`n \times n` fylki með tölu
    :math:`\{1,2,\ldots,n\}` þá er :math:`A` :hover:`neikvætt ákvarðað,neikvætt ákveðinn`.
 
 #. Ef :math:`\det(A) = D_n \neq 0` en hvorki :math:`1` né :math:`2`
-   gilda þá er :math:`A` :hover:~óákvarðað,.
+   gilda þá er :math:`A` :hover:`óákvarðað`.
 
 #. Ef :math:`\det(A) = 0` þá er :math:`A` hvorki jákvætt né neikvætt
    ákvarðað en getur verið :hover:`óákvarðað,óákvarðaður`.

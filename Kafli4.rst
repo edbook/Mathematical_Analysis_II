@@ -325,7 +325,7 @@ tvo punkta :math:`P, Q\in D` gildir að til er stikaferill
   meðalgildissetning
    
 Setning (:hover:`Meðalgildissetning` fyrir tvöföld heildi)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Gerum ráð fyrir að :math:`f`
 sé samfellt fall sem er skilgreint á lokuðu, takmörkuðu og ferilsamanhangandi

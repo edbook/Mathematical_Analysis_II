@@ -38,7 +38,8 @@ Vörpun :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}`
 *vigurgild vörpun*. Slík vörpun er sögð samfelld ef föllin
 :math:`r_1, \ldots, r_n` eru öll samfelld. Samfelld vörpun
 :math:`\mbox{${\bf r}$}:  [a,b]\rightarrow \mbox{${\bf R}^n$}` er oft
-kölluð :hover:`stikaferill,stikaður ferill`.
+kölluð :hover:`stikaferill,stikaður ferill` og föllin :math:`r_1,\ldots,r_n` 
+kallast *hnitaföll* eða *hnit* :math:`{\bf r}`.
 
 Ritháttur 
 ~~~~~~~~~~
@@ -67,7 +68,7 @@ Skilgreining
 
 :hover:`Ferill í plani,ferill` er mengi punkta :math:`(x,y)` í planinu þannig að
 skrifa má :math:`x=f(t)` og :math:`y=g(t)` fyrir :math:`t` á bili
-:math:`I` þar sem :math:`f` og :math:`g` eru samfelld föll á :math:`I`.
+:math:`I` þar sem :math:`f` og :math:`g` eru samfelld föll á :math:`I`. Auk þess liggur :math:`(f(t),g(t))` í punktamenginu fyrir öll :math:`t\in I`.
 Bilið :math:`I` ásamt föllunum :math:`(f,g)` kallast *s*\ tikun á
 ferlinum. Ferill í rúmi og :hover:`stikun` á ferli í rúmi eru skilgreind á
 sambærilegan hátt.
@@ -158,7 +159,7 @@ og talað um :math:`\mbox{${\bf a}$}(t)` sem :hover:`hröðun` eða
   :width: 700
   :height: 364
   :img: stikaferill.png
-  :imgwidth: 4cm
+  :imgwidth: 8cm
   :zoom_drag: true 
 
 
@@ -196,7 +197,8 @@ stikaferlarnir
 og :math:`\mbox{${\bf u}$}(\lambda(t))` diffranlegir, og ef :math:`n=3`
 þá er stikaferillinn
 :math:`\mbox{${\bf u}$}(t)\times \mbox{${\bf v}$}(t)` líka diffranlegur.
-Fallið :math:`\mbox{${\bf u}$}(t)\cdot\mbox{${\bf v}$}(t)` er líka
+Fallið :math:`\mbox{${\bf u}$}(t)\cdot\mbox{${\bf v}$}(t)` sem innfeldi 
+:math:`{\bf u}` og :math:`{\bf v}` gefur er líka
 diffranlegt. Eftirfarandi listi sýnir formúlur fyrir afleiðunum:
 
 **(a)**
@@ -297,12 +299,13 @@ gildi á :math:`t`.
 
 .. begin-toggle::
   :label: Sýnidæmi
+
 Stikum gormferilinn :math:`{\bf r} = a \cos(t) {\bf i} + a \sin(t) {\bf j} + b t {\bf k}` með bogalengd frá punkti :math:`(a,0,0)` í stefnu vaxandi :math:`t`.
 
 *Lausn:* Reiknum
 
 .. math:: \begin {aligned}
-	  \mathbf{v}(t) &= -a \sin(t)\mathbf{i} + a \cos(t) \mathbf{j} \quad \text{og} \\
+	  \mathbf{v}(t) &= -a \sin(t)\mathbf{i} + a \cos(t) \mathbf{j} + b \mathbf{k}  \quad \text{og} \\
 	  |\mathbf{v}(t)| &= \sqrt{a^2(\sin^2(t)+\cos^2(t))+b^2}= \sqrt{a^2+b^2}.
 	  \end{aligned}
 
@@ -321,6 +324,7 @@ og ef við leysum fyrir :math:`t` sem fall af :math:`s` fæst
 .. image:: gormur.png
      :width: 60 %
      :align: center
+
 *Gormferillinn fyrir gildin* :math:`a=b=1` *og* :math:`\theta \in [0,4\pi]`.
      
 .. end-toggle::
@@ -374,6 +378,17 @@ er tekin lausn á milli :math:`-\frac{\pi}{2}` og :math:`\frac{\pi}{2}`
 ef :math:`x>0` en á milli :math:`\frac{\pi}{2}` og
 :math:`\frac{3\pi}{2}` ef :math:`x<0`.)
 
+Ef :math:`(x,y)` er ekki á neikvæða :math:`x`-ásnum þá má einnig nota 
+eftirfarandi formúlu til að finna horn punktsins,
+
+.. math:: 
+   \theta = 2\arctan\left(\frac y{x+r}\right) = 2\arctan \left( \frac
+   y{x+\sqrt{x^2+y^2}}\right).
+
+Athugið að :math:`arctan` skilar gildum á bilinu frá :math:`-\pi/2` til 
+:math:`\pi/2` þannig að þessi formúla skilar horni á bilinu frá 
+:math:`-\pi` til :math:`\pi`.
+
 Pólhnitagraf
 ------------
 
@@ -389,6 +404,8 @@ mengi allra punkta í planinu sem hafa pólhnit á forminu
 :math:`[f(\theta),\theta]` þar sem :math:`\alpha\leq\theta\leq\beta`.
 Þetta mengi kallast *pólhnitagraf* fallsins :math:`f`.
 
+
+
 Pólhnitagraf er ferill í planinu sem má stika með stikaferlinum
 
 .. math:: \displaystyle \mbox{${\bf r}$}:[\alpha,\beta]\rightarrow{\mathbb  R}^2
@@ -400,9 +417,16 @@ með formúlu
    \mbox{${\bf r}$}(\theta)=[f(\theta),\theta]=
    (f(\theta)\cos\theta, f(\theta)\sin\theta).
 
-.. index::
-  pólhnitagraf;snertill
-   
+.. ggb:: Eg2qmKT6
+  :width: 700
+  :height: 500
+  :img: polarggb.png
+  :imgwidth: 8cm
+  :zoom_drag: true 
+
+
+
+
 .. begin-toggle::
   :label: Sýnidæmi
   
@@ -418,14 +442,16 @@ Athugið að við þurfum einnig að athuga hvort ferlarnir skerist þegar :math
 
 *Hringurinn og hjartaferillinn saman á mynd. Á myndinni má sjá skurðpunktana þrjá sem reiknaðir voru að ofan.*    
 
+.. index::
+  pólhnitagraf;snertill
+
+
+
 Snertill við pólhnitagraf
 -------------------------
 
 Setning 
 ~~~~~~~~
-
-..
-  XXX reference
 
 
 Látum :math:`r=f(\theta)` vera pólhnitagraf fallsins :math:`f` og gerum
@@ -460,6 +486,7 @@ Setning
    
 .. begin-toggle::
   :label: Sýnidæmi
+
 Finnum flatarmál svæðisins sem afmarkast af spíralnum :math:`r=\theta` og geislunum :math:`\theta = 0` og :math:`\theta = 2\pi`.
 
 *Lausn:* Köllum flatarmálið :math:`A`. Reiknum

@@ -22,3 +22,13 @@ Stærðfræðigreiningu II og kann ég þeim bestu þakkir fyrir.
 Sumarið 2016 var þýðingu lykilorða bætt við kerfið. Símon Böðvarsson sá um forritunarvinnuna. Þýðingar eru sóttar úr `Orðaskrá Íslenska stærðfræðafélagsins <http://stæ.is/os>`_. Þegar músabendill svífur yfir lykilorði birtist fyrsta þýðing þess samkvæmt orðaskránni. Í sumum tilfellum eru margar mögulegar þýðingar sem eiga misvel við en þá er hægt að smella á orðið til að sjá alla möguleika. 
 
 **Janúar 2017, Sigurður Örn Stefánsson**
+
+
+Sem nýr kennari í námskeiðinu hef ég gert smávægilegar breytingar á námsefninu. Þær er allar minniháttar og vonandi til bóta.
+
+**Janúar 2019, Benedikt Steinar Magnússon**
+
+
+Litlar breytingar hafa orðið á námsefninu aðrar en þær að allar hagnýtar upplýsingar hafa verið fluttar yfir í Canvas síðu námskeiðsins.
+
+**Janúar 2020, Benedikt Steinar Magnússon og Sigurður Örn Stefánsson**

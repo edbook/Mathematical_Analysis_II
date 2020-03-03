@@ -34,11 +34,11 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
-    #'sphinx.ext.mathjax',
+    'sphinx.ext.mathjax',
 
     # Katex is a substitute for mathjax, renders math much faster
     # Note: katex extension must come before sagecell to work properly
-    'katex.katex',
+#    'katex.katex',
 
     # hieroglyph is used to generate html slides, needs to be installed for use,
     # see https://github.com/nyergler/hieroglyph
@@ -52,33 +52,32 @@ extensions = [
     'toggleblock.toggleBlock',
 
     # Extension for embedding sage cells (https://sagecell.sagemath.org/).
-    # See README.txt in sagecell-extension folder. 
+    # See README.txt in sagecell-extension folder.
     # Note: sagecell must not be listed before katex.katex
-    'sagecell.sagecell',
+#    'sagecell.sagecell',
 
     # Extension for providing Icelandic to English translation of mathematical terms
     # on mouse-over. See README in hoverrole folder.
     'hoverrole.hoverrole',
 
     # Extension for embedding tracking code from google-analytics and custom scroll depth measurement
-    'analytics.analytics',
+#    'analytics.analytics',
+#    'scrolldepth.scrolldepth',
 
     # Extension for embedding datacamp-light which enables constructing simple programming exercises
     # in R and python, with much greater package support than sagecell in R
-    'datacamp.datacamp',
+#    'datacamp.datacamp',
 
     # Extension that allows embedding panopto videos from rec.hi.is
-    'panoptoextension.panopto'
+#    'panoptoextension.panopto'
 ]
 
 # -- Custom extension options and paths --------------------------------------
 
-#mathjax_path = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-
-katex_path = 'https://cdn.jsdelivr.net/npm/katex@0.10.0-rc/dist/katex.min.js'
-katex_render = 'https://cdn.jsdelivr.net/npm/katex@0.10.0-rc/dist/contrib/auto-render.min.js'
+katex_path = 'https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js'
+katex_render = 'https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js'
 render_math = 'rendermath.js'
-katex_css = 'https://cdn.jsdelivr.net/npm/katex@0.10.0-rc/dist/katex.min.css'
+katex_css = 'https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css'
 
 # Path for latest datacamp javascript file
 datacamp_path = 'https://cdn.datacamp.com/datacamp-light-latest.min.js'
@@ -128,10 +127,10 @@ release = '2019'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-# LANGUAGE SET TO ICELANDIC, CAN BE CHANGED: 
+# LANGUAGE SET TO ICELANDIC, CAN BE CHANGED:
 # (http://sphinx-doc.org/config.html#confval-language)
 language = 'is'
-locale_dirs = ['locale/'] 
+locale_dirs = ['locale/']
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:

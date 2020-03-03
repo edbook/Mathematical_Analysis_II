@@ -384,7 +384,7 @@ Fletir
 Óformleg skilgreining 
 ~~~~~~~~~~~~~~~~~~~~~~
 
-:hover:`Flötur` :math:`\cal S` í :math:`{\mathbb  R}^3` er ,,tvívítt hlutmengi í
+:hover:`Flötur` :math:`\cal S` í :math:`{\mathbb  R}^3` er ,,tvívítt" hlutmengi í
 :math:`{\mathbb  R}^3`.
 
 Lýsing 
