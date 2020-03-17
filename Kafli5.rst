@@ -540,18 +540,6 @@ Verkefni
 Flatarmál flata
 ---------------
 
-Skilgreining 
-~~~~~~~~~~~~~
-
-Látum :math:`\mbox{${\bf r}$}:D\rightarrow {\mathbb  R}^2` vera
-reglulegan stikaflöt sem stikar flöt :math:`\cal S`. Flatarmál
-:math:`\cal S` er
-
-.. math:: \displaystyle
-
-   A=\int\!\!\!\int_D\,dS=\int\!\!\!\int_D \big|{\textstyle\frac{\partial \mbox{${\bf r}$}}{\partial u}
-   \times\frac{\partial \mbox{${\bf r}$}}{\partial v}}\big|\,dudv.
-
 Formúla 
 ~~~~~~~~
 
@@ -577,19 +565,6 @@ reglulegan stikaflöt sem stikar flöt :math:`\cal S`. Flatarmál
 
    A=\int\!\!\!\int_D\,dS=\int\!\!\!\int_D \big|{\textstyle\frac{\partial \mbox{${\bf r}$}}{\partial u}
    \times\frac{\partial \mbox{${\bf r}$}}{\partial v}}\big|\,dudv.
-
-Formúla 
-~~~~~~~~
-
-Látum :math:`f(x,y)` vera diffranlegt fall skilgreint á mengi :math:`D`
-í :math:`{\mathbb  R}^2`. Flatarmál grafsins :math:`z=f(x,y)` er gefið
-með formúlunni
-
-.. math:: \displaystyle
-
-   A=\int\!\!\!\int_D dS=\int\!\!\!\int_D {\textstyle\sqrt{1+
-   \big(\frac{\partial f}{\partial x}\big)^2+
-   \big(\frac{\partial f}{\partial y}\big)^2}}\,\,dx\,dy.
 
 Formúlur 
 ~~~~~~~~~
