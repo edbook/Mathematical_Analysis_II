@@ -1,5 +1,9 @@
 # Instructions
 
+THIS REPOSITORY HAS BEEN ARCHIVED!
+
+THE NEWEST VERSION OF THESE NOTES IS UNDER https://github.com/edbook/haskoli-islands 
+
 This is a template for a web-based textbook/lecture notes for the University of Iceland's mathematics department, using sphinx (see sphinx-doc.org).
 
 For ubuntu based distors run the following commands in the terminal:
